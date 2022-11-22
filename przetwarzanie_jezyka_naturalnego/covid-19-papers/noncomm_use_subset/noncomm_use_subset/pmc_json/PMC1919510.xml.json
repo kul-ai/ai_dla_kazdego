@@ -1,0 +1,2884 @@
+{
+    "paper_id": "PMC1919510",
+    "metadata": {
+        "title": "s-RT-MELT for rapid mutation scanning using enzymatic selection and real time DNA-melting: new potential for multiplex genetic analysis",
+        "authors": [
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Ross",
+                "middle": [],
+                "last": "Berbeco",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Robert",
+                "middle": [
+                    "J."
+                ],
+                "last": "Distel",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Pasi",
+                "middle": [
+                    "A."
+                ],
+                "last": "J\u00e4nne",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Lilin",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "G.",
+                "middle": [
+                    "Mike"
+                ],
+                "last": "Makrigiorgos",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Screening for genetic changes to unveil molecular attributes of human specimens is important for a variety of medical applications, including genotyping for inherited disorders, prediction of the pathologic behavior of malignancies, identification of cancer biomarkers and can affect treatment decisions for individual patients (1\u20133). For example, mutations in genes like EGFR can profoundly influence chemotherapeutic response in lung cancer (2\u20135) and the response is modulated by mutations in other genes of the same signaling pathway [e.g. K-ras, HER2, ErbB-3 (1,6)]. Therefore there is a need for efficient and high-throughput mutation screening of multiple genes along identified signal transduction pathways in tumor samples. Because a large portion of cancer-causing genetic changes remains unknown and can occur in numerous positions along tumor suppressor genes (e.g. p53, ATM, PTEN) mutation scanning rather than detection of specific mutations is frequently required for molecular cancer profiling.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "mention": "1\u20133",
+                    "ref_id": null
+                },
+                {
+                    "start": 444,
+                    "end": 447,
+                    "mention": "2\u20135",
+                    "ref_id": null
+                },
+                {
+                    "start": 564,
+                    "end": 565,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 566,
+                    "end": 567,
+                    "mention": "6",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequencing is often considered the gold standard for comprehensive mutation analysis. Multi-capillary electrophoresis, re-sequencing arrays or pyrosequencing provide platforms for highly parallel genetic analysis (7\u201313). However, the expense associated with these techniques is currently high both for instrumentation and for running-costs. Since somatic mutations for most genes are relatively rare events it can be inefficient to scan for mutations using expensive approaches that in several cases provide unnecessary data (14,15). Another issue with direct sequencing or re-sequencing arrays is the difficulty in detecting a small fraction of mutated alleles in the presence of a high excess normal alleles, which is frequently the case with clinical cancer samples (16). As a less expensive alternative, rapid pre-screening methods such as SSCP, DGGE, dHPLC, CCM, CDCE or HR-melting are widely utilized to identify DNA fragments that contain mutations prior to performing full sequencing (14,16\u201320). Enzymatic mutation detection based on mismatch scanning enzymes like MutY, TDG or T4 endonuclease VII for mutation pre-screening has also been employed (21\u201325), albeit with modest success since these enzymes cannot detect all possible mutations and deletions (22) and some of them have substantial activity on homoduplex DNA (16). Recently an enzymatic mutation scanning method based on the Surveyor\u2122 (CELI/II) nuclease (26,27) combined with dHPLC or gel electrophoresis detection was introduced that shows satisfactory selectivity and reliability (1% mutant to wild-type alleles is detectable) while it also identifies all base substitutions and small deletions that are important to cancer (17,28) or to biotechnology and plant genetic applications [TILLING method (29\u201334)]. While reliable, the use of dHPLC for examining Surveyor\u2122-generated DNA fragments is a slow endpoint detection method restricted to examining a single DNA fragment at a time and the resulting DNA fragments cannot be sequenced. This limits analysis of cancer specimens when numerous samples or genetic regions need to be screened.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "mention": "7\u201313",
+                    "ref_id": null
+                },
+                {
+                    "start": 526,
+                    "end": 528,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 529,
+                    "end": 531,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 770,
+                    "end": 772,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 993,
+                    "end": 995,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 996,
+                    "end": 1001,
+                    "mention": "16\u201320",
+                    "ref_id": null
+                },
+                {
+                    "start": 1157,
+                    "end": 1162,
+                    "mention": "21\u201325",
+                    "ref_id": null
+                },
+                {
+                    "start": 1264,
+                    "end": 1266,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1330,
+                    "end": 1332,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1425,
+                    "end": 1427,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1428,
+                    "end": 1430,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1697,
+                    "end": 1699,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1700,
+                    "end": 1702,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1772,
+                    "end": 1777,
+                    "mention": "29\u201334",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "We introduce a new approach that enables Surveyor\u2122 to scan for mutations over one or several PCR products simultaneously and selectively amplify and isolate the mutation-containing DNA fragment(s) via linker-mediated PCR. By selectively amplifying mutation-containing DNA from wild-type fragments, the present approach de-couples enzymatic mutation scanning from the endpoint detection step. As a result, following enzymatic action on mismatches any chosen DNA detection method (real-time PCR, gel/capillary electrophoresis, microarray-based detection) can potentially be used to identify the mutated DNA fragments in a simplex or multiplex fashion. Here we utilize real-time PCR coupled with melting curve analysis (Surveyor\u2122-mediated Real Time Melting, s-RT-MELT) to validate the new technology. We demonstrate that this approach increases the mutation scanning throughput by 1\u20132 orders of magnitude when several (>100) samples are to be pre-scanned for mutations, enables mutation scanning over several PCR fragments simultaneously and mutation-positive samples can be directly sequenced when somatic mutations are at a low-level (\u223c1\u201310% mutant-to-wild-type ratio) in surgical cancer specimens.",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Genomic DNA from cell lines with defined mutations in p53 exons, DU145 (exon 6), SW480 (exons 8 and 9), DLD1 (exon 7) and BT483 (exon 7) was extracted from cell lines purchased from the American Type Culture Collection (ATCC), or purchased as purified DNA when available. Surgical colon and lung cancer tumor samples were obtained from the Massachusetts General Hospital Tumor Bank following Internal Review Board approval. DNA from the EGFR mutation-positive cell lines A549, HCC827, H1975 and LU011 and from formalin-fixed-paraffin-embedded lung cancer samples were obtained from the Lowe Center for Thoracic Oncology, Dana Farber Cancer Institute following Internal Review Board approval. We isolated genomic DNA using DNeasy\u2122 Tissue Kit (Qiagen).",
+            "cite_spans": [],
+            "section": "Samples and controls ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequences for the 5\u2032M13 and GC-clamp portion of the primers, as well as the gene-specific portion of the primers used in this investigation are listed in Supplementary Table 1. The M13f and GC-clamp sequence was added to the 5\u2032 end of forward and reverse gene-specific primers respectively, or vice versa. Twenty microliter PCR reactions were performed from genomic DNA with final concentrations of reagents as follows: 1X JumpStart\u2122 buffer (Sigma), 0.2 mM each dNTP, 0.2 \u03bcM forward and reverse primer, 1X JumpStart\u2122 Taq polymerase (Sigma). PCR cycling was done on a Perkin Elmer 9600 PCR machine. The cycling conditions were: 94\u00b0C, 90 s; (94\u00b0C, 20 s/65\u00b0C, 20 s/68\u00b0C, 1 min) \u00d7 10 cycles, with annealing temperature decreasing 1\u00b0C/cycle, touch-down PCR; (94\u00b0C, 20 s/55\u00b0C, 20 s/68\u00b0C, 1 min) \u00d7 30 cycles; 68\u00b0C, 5 min. This PCR program was linked to a program for denaturation and re-annealing of the PCR product over 10 min.",
+            "cite_spans": [],
+            "section": "PCR with primers containing 5\u2032-GC-clamp and 5\u2032-M13 ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Five-microliter PCR product (300\u2013500 ng) was mixed with 0.5 \u03bcl Enhancer\u2122 and 0.5 \u03bcl Surveyor\u2122 (Transgenomic) and incubated at 42\u00b0C for 20 min followed by adding 0.5 \u03bcl Stop-solution, as per manufacturer's protocol. The inactivated Surveyor\u2122-digested product was purified with PCR QiaQuick\u2122 purification kit (Qiagen) and eluted in 35 \u03bcl water. In some experiments, the PCR product was mixed with an approximately equal amount of PCR product from wild-type DNA prior to forming cross-hybridized sequences, to facilitate detection of homozygous mutations.",
+            "cite_spans": [],
+            "section": "Treatment of cross-hybridized sequences with the Surveyor\u2122 endonuclease ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Following purification of the Surveyor\u2122-treated sample, Poly-adenine \u2018tail\u2019 was added to the 3\u2032-ends of DNA fragments. For each reaction, we added 5 \u03bcl purified surveyor-digested PCR product to a final volume of 20 \u03bcl with final concentration of 1X reaction buffer-4, 1X CoCL2, 0.2 mM dATP, 4 U Terminal Transferase (New England Biolabs). The reaction was incubated at 37\u00b0C for 10 min and inactivated by heating at 75\u00b0C for 10 min.",
+            "cite_spans": [],
+            "section": "Addition of polyA-tail on the 3\u2032-end ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The real-time PCR amplification was performed using Titanium-Taq\u2122 polymerase (BD-Biosciences - Clontech) in a Smart Cycler (Cepheid) real-time PCR machine. For each reaction, we added 0.5 \u03bcl polyA-tailed DNA to a final volume of 20 \u03bcl with final concentration of 1X Titanium buffer, 0.2 mM each dNTP, 0.1 \u00d7 LCGreen (Idaho Technologies), 0.2 \u03bcM m13f primer, 0.2 \u03bcM oligodT-anchor mix GACCACGCGTATCGATGTCGACTTTTTTTTTTTTTTTTV",
+            "cite_spans": [],
+            "section": "Real-time PCR, melting curve analysis and dHPLC ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "[V represents A, C and G each oligodT-anchor concentration is 0.067 \u03bcM, as per RACE protocol (35)], 1 \u00d7 Titanium\u2122 polymerase (Clontech\u2014 BD Biosciences). The thermocycling program was as following: 1 cycle of 94\u00b0C for 2 min, 25 cycles of 94\u00b0C for 15 s, 55\u00b0C for 20 s and 68\u00b0C for 30 s for reading fluorescence. Temperature titration was performed using different denaturation temperatures, 94\u201382\u00b0C to experimentally determine conditions that selectively enable mutation-containing fragments to amplify.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 96,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "section": "Real-time PCR, melting curve analysis and dHPLC ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The real-time PCR step was immediately followed by real-time differential melting curve analysis using the SmartCycler\u2122 machine. DNA melting was performed immediately following PCR on the Smart Cycler I machine. Samples were heated from 70\u00b0C to 95\u00b0C at 0.1\u00b0C/s. Differential fluorescent intensity curves (\u2212dF/dT) were smoothed and used for identification of melting peak (s).",
+            "cite_spans": [],
+            "section": "Real-time PCR, melting curve analysis and dHPLC ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Altenatively, real-time PCR products were examined via dHPLC chromatography on a WAVE\u2122 system (Transgenomic). Mutation-positive PCR products were purified via PCR purification kit (Qiagen) and sequenced using the M13f primer. All experiments were repeated at least three times in independent runs from genomic DNA.",
+            "cite_spans": [],
+            "section": "Real-time PCR, melting curve analysis and dHPLC ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The OpenArray\u2122 high-throughput, massively parallel real-time PCR platform (36) (BioTrove) was tested for compatibility with s-RT-MELT. Forty-eight samples of p53 exon 8 PCR products were generated from 48 different lung adenocarcinoma samples and mutation-containing cell lines and processed via the hybridization and enzymatic steps of s-RT-MELT. Real-time PCR in the OpenArray\u2122 platform was performed with the LightCycler FastStart\u2122 DNA Master SYBR Green\u2122 I (Roche) using 0.2 \u03bcM M13f and 0.2 \u03bcM oligodT-anchor-mix as primers pre-positioned on the array through-holes (36) and polyA-tailed DNA as template. The cycling conditions were as follows: 1 cycle at 94\u00b0C for 2 min, 25 cycles of 90\u00b0C for 15 s, 55\u00b0C for 20 s and 68\u00b0C for 30 s for reading fluorescence using a high sensitivity imaging camera (36). The real-time PCR step was immediately followed by real-time differential melting curve analysis. Raw data were exported in Excel software for further analysis. The OpenArray\u2122 experiment was repeated twice at the company's headquarters.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 77,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 570,
+                    "end": 572,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 801,
+                    "end": 803,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "Real-time PCR and melting using the OpenArray\u2122 platform ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "To estimate Tm,min, the PCR denaturation temperature below which PCR is not efficient it was assumed, as an initial approximation, that >95% hypochromicity must be present for PCR to work (i.e. any given sequence must be completely denatured, otherwise it re-forms immediately when temperature is lowered in the reaction and inhibits primer binding). The percent melting (hypochromicity)-versus-temperature relations for GC-clamp-containing PCR products and Surveyor\u2122 activity-generated products were estimated using the POLAND algorithm (37), and the thermodynamic parameters determined by Blake and Delcourt for 75 mM NaCl in the solution (38) were used. In order to force agreement at a single point, predicted and observed values for a p53 exon 8 sequence containing a short GC-clamp were normalized at 88\u00b0C. This shift accounts for the influence on Tm,min of NaCl and Mg++ content in the reaction, the presence of the SYBR-GREEN/LC-GREEN dyes and the proprietary composition of PCR buffers. The Tm,min of all other PCR products was then estimated using these semi-empirically determined parameters.",
+            "cite_spans": [
+                {
+                    "start": 539,
+                    "end": 541,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Prediction of melting temperatures ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The \u2018enriched PCR\u2019 method by Behn et al. (39) was used to sequence codon 273 mutation of p53 exon 8 from sample CT20 and wild-type samples. In addition, a second method [Amplification via Primer-Ligation At The Mutation (40,41)] was used to distinguish mutant and wild-type samples by virtue of the de novo Nla-III site generated in the mutant sample by the p53 codon 273 G > A mutation.",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 44,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 221,
+                    "end": 223,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 224,
+                    "end": 226,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "section": "RFLP-based verification of low-level mutation detected in codon 273, p53 exon 8 ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The s-RT-MELT assay converts PCR fragments generated at positions of mutations by the Surveyor\u2122 enzyme to fully amplifiable sequences that enable selective PCR amplification in a subsequent quantitative PCR detection method. Following denaturation and re-annealing of PCR products that leads to formation of cross-hybridized sequences at the positions of mutations (Figure 1A) the sample is exposed to Surveyor\u2122 endonuclease that recognizes base pair mismatches or small loops with high specificity (28) and generates a break on both DNA strands 3\u2032 to the mismatch. The resulting DNA fragments participate in a terminal transferase (TdT) reaction that leads to polynucleotide \u2018tailing\u2019 (sequential addition of adenine, poly-A-tail) at the 3\u2032-ends. A real-time PCR reaction is subsequently performed using adjusted conditions that enable selective amplification of the mutant-only fragments, followed by real-time melting curve analysis for identification of mutations in the presence of SYBR-GREEN\u2122 or LC-GREEN\u2122 DNA dye.\n",
+            "cite_spans": [
+                {
+                    "start": 500,
+                    "end": 502,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Overview of the s-RT-MELT assay ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 366,
+                    "end": 374,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "To enable selective amplification of the mutation-containing fragments in the real-time PCR step, modified primers are employed for the original amplification from genomic DNA (Figure 1B). The forward primer contains a region specific to the target gene and a high melting domain (GC-clamp), while the reverse primer contains a region specific to the target gene and an M13 tail (or vice versa). Following the TdT tailing reaction, the M13 primer is used for real-time PCR in conjunction with a primer that binds to the poly-A tail. The denaturation temperature of the real-time PCR reaction is lowered to enable PCR amplification only for fragments that do not contain GC-clamps. Because the PCR products that escape digestion by Surveyor\u2122 contain GC-clamps (Figure 1B), these fragments do not amplify efficiently during PCR, thereby enabling selective amplification of Surveyor\u2122-selected fragments, i.e. an effective \u2018purification\u2019 of mutation-containing fragments. The subsequent closed-tube melting curve analysis enables clear separation of true mutant sequences from PCR dimers or other artifacts.",
+            "cite_spans": [],
+            "section": "Overview of the s-RT-MELT assay ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 185,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 760,
+                    "end": 768,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Because s-RT-MELT does not require size-separation for identification of enzymatically generated fragments, more than one sequence can be scanned in parallel for unknown mutations in a single-tube reaction of Surveyor\u2122. This simple procedure enables the specificity of the Surveyor\u2122 enzyme to be combined with the throughput and convenience of real-time PCR for rapid mutation scanning. Finally, because the amplified mutated sequences contain defined primers at their ends, direct sequencing of enzymatically selected PCR products is readily possible following the real-time melting step, enabling sequencing of low-level mutations identified by Surveyor\u2122.",
+            "cite_spans": [],
+            "section": "Overview of the s-RT-MELT assay ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "To provide initial proof of principle for unknown mutation scanning using s-RT-MELT we utilized cell lines and tumor samples containing sequencing-identified mutations at several positions of p53 exon 8. Figure 2A depicts dHPLC chromatograms of the products obtained using a sample containing a p53 exon 8 G > A mutation or a wild-type sample. The standard Surveyor\u2122-dHPLC approach (28) was first employed to identify the mutation following PCR amplification of exon 8 from genomic DNA. The resulting dHPLC traces contain a single product for the wild-type and two products for the mutation-containing sequences (Figure 2A, curves 1 and 2, respectively). Next, s-RT-MELT was used to screen the same p53 exon 8 sequence. Following PCR amplification with GC/M13-modified primers we cross-hybridized PCR products and exposed them to Surveyor\u2122 and TdT tailing. The subsequent real-time PCR was run at different denaturation temperatures and the products were examined either via dHPLC or via real-time melting-curve analysis. At the standard denaturation temperature of 94\u00b0C the mutation-containing sample contains two peaks, corresponding to the anticipated amplification of both Surveyor\u2122-digested and un-digested fragments (Figure 2A, curve 3). However, when the PCR denaturation temperature is lowered (e.g. 86\u201388\u00b0C) a single PCR product is generated for the mutant sample, while the wild-type sample demonstrates no product (Figure 2A, curves 4\u20137). In Figure 2B, real-time differential melting curves for the PCR reaction run at 88\u00b0C are depicted. A peak corresponding to the PCR product from the mutant sample is again clearly evident, which is absent in the wild-type sample. Finally, Figure 2C depicts sequencing of the s-RT-MELT-generated PCR fragment, as well as the direct sequencing from genomic DNA. The G > A mutation is evident in both samples. In the s-RT-MELT product the anticipated addition of the poly-A tail at the 3\u2032-position next to the mutation is illustrated.\n",
+            "cite_spans": [
+                {
+                    "start": 383,
+                    "end": 385,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Detection of p53 exon 8 mutations using s-RT-MELT ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 204,
+                    "end": 212,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 613,
+                    "end": 621,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1223,
+                    "end": 1231,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1426,
+                    "end": 1434,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1453,
+                    "end": 1461,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1688,
+                    "end": 1696,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "To examine the selectivity of s-RT-MELT, dilutions of mutant to wild-type DNA were performed using DNA from SW-480 cells that harbor a p53 exon 8 14487G > A homozygous mutation. The real-time PCR reaction was again performed at 88\u00b0C and mutant-to wild-type ratios of \u223c1\u201310% were distinguished from the wild-type using either dHPLC (Figure 2D) or melting curve analysis (Figure 2E). In these samples, direct di-deoxy-sequencing could not identify a mutation if the ratio of mutant-to-wild-type was <\u223c30\u201340% (data not shown). On the other hand, sequencing of s-RT-MELT products was possible including the lower dilutions (Figure 2F). sRT-MELT sequencing generated traces with poly-A tails depicting the presence and the position of the mutation, although the exact nucleotide change was less clear than the one in exon 5 (i.e. the position \u00b11 base from the mutation might also be confused to be a mutation). The reason for this \u00b11 base ambiguity of the exact position of the mutation can be probably understood. The PCR performed following poly-A tail addition contains an equimolar mixture of three reverse primers (3\u2032 ending in V = G, A or C). Depending on the exact nucleotide at the mutation, the correct primer should in theory be preferred, while the other two primers should not allow efficient polymerase extension due to the mismatched 3\u2032-end. However, in practice this \u2018allele-specific PCR\u2019 step occasionally allows 3\u2032-mismatched primer extension, enabling more than one version of the primer to amplify over the position of the mutation, or alternatively the incorporation of the poly-A tail may occur \u00b11 base from the exact position of the mutation. We conclude that in certain cases sRT-MELT indicates the position of the mutation to within 1 base, while in others (e.g. p53 exon 5) it indicates the position \u2018and\u2019 the actual nucleotide change.",
+            "cite_spans": [],
+            "section": "Detection of p53 exon 8 mutations using s-RT-MELT ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 332,
+                    "end": 340,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 370,
+                    "end": 378,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 620,
+                    "end": 628,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Next, p53 exon 8 was amplified using DNA from a group of 48 surgical lung adenocarcinoma samples and s-RT-MELT was used for the screening of unknown mutations via melting curve analysis. Mutations at different positions along exon 8 were present in several of these clinical samples, as indicated by the shift in melting profiles obtained (Figure 2H) and subsequently verified via sequencing. In this set of samples, sRT-MELT-sequencing detected a low-level mutation on a colon cancer specimen (CT20) that direct sequencing failed to identify (Figure 2I). As with Figure 2F, sequencing of sample CT20 indicated the position of poly-A tail addition to within one base, but the actual nucleotide change was difficult to identify. To exclude the possibility for a false positive, two independent RFLP-based methods were used to verify the presence of the mutation. Thus, since the position of poly-A tail addition was known (Figure 2I, codon 273 of p53 exon 8) the mismatched primer approach by Behn et al. (42) was used to introduce an MluI restriction site for the wild-type p53 sample but not for the codon 273 mutants. Subsequent restriction with MluI enzyme followed by PCR generated a product with a 14487G > A mutation for the CT20 sample but not for the wild-type sample (Supplementary Figure 1, Frame A). As an additional verification for the low-level CT20 mutation, we observed that G > A mutation generates a de-novo Nla-III site at the position of the mutation. Accordingly, we applied \u2018Amplification via Primer-Ligation At The Mutation\u2019, a method that we described previously (40,41) to ligate a primer at the Nla-III-digested site, and preferentially amplified the mutant fragment in a second PCR. The sequenced PCR product identified again the 14487G > A mutation (Supplementary Figure 1, Frame B). In conclusion, sRT-MELT identified correctly a p53 codon 273 low-level mutation on CT20 that was missed by regular sequencing. This is very significant as p53 exon 8 mutations at codon 273 have been associated with bad prognosis in cancer (43,44).",
+            "cite_spans": [
+                {
+                    "start": 1005,
+                    "end": 1007,
+                    "mention": "42",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1588,
+                    "end": 1590,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1591,
+                    "end": 1593,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 2052,
+                    "end": 2054,
+                    "mention": "43",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 2055,
+                    "end": 2057,
+                    "mention": "44",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "section": "Detection of p53 exon 8 mutations using s-RT-MELT ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 348,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 544,
+                    "end": 552,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 564,
+                    "end": 572,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 922,
+                    "end": 930,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Table 2 of Supplementary Data depicts a good agreement between standard Surveyor screening, s-RT-MELT screening and di-deoxy-sequencing, except for the low-level mutation discovered on sample CT20 via s-RT-MELT. s-RT-MELT-sequencing traces for two samples with p53 exons 6 and 7 mutations are also depicted.",
+            "cite_spans": [],
+            "section": "Detection of p53 exon 8 mutations using s-RT-MELT ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "The data in Figures 2A\u2013D and H indicate a lack of substantial PCR amplification at denaturation temperatures \u2a7d88\u00b0C for fragments containing the GC-clamp and a selective amplification of the mutation-containing fragments for several different mutation positions on p53 exon 8. To estimate the influence of the GC-clamp length on PCR efficiency versus temperature and the PCR amplification of fragments generated for mutations lying at different positions along the sequence, a calculation based on the POLAND algorithm (37) was performed. The predicted minimum temperatures for substantial PCR amplification were then plotted versus the experimentally observed values. Three possibilities were simulated, no GC-clamp, 26 nucleotides (nt) GC-clamp and 117-nt GC-clamp. DNA fragments corresponding to mutations at several positions along exon 8 were also simulated and compared to the experimentally observed minimum temperatures for generating a PCR product for three samples that contained mutations at different positions along p53 exon 8 (SW480, CT5 and TL50). The results (Figure 2G) indicate agreement to within \u223c1.0\u00b0C between theoretical prediction and experimental observation. For denaturation temperatures in the region 85\u201388\u00b0C in combination with a 26-nt GC-clamp all the available mutations on p53 exon 8 are predicted to result in selective amplification of the mutation-containing fragment and inhibition of the GC-clamp-containing fragment. This prediction is consistent with the experimental results obtained from PCR temperature-titration experiments (Figure 2G). The developed calculation algorithm can thus be used to predict the appropriate PCR denaturation temperature for additional PCR fragment/GC-clamp combinations.",
+            "cite_spans": [
+                {
+                    "start": 519,
+                    "end": 521,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Detection of p53 exon 8 mutations using s-RT-MELT ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 12,
+                    "end": 21,
+                    "mention": "Figures 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1075,
+                    "end": 1083,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1566,
+                    "end": 1574,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "As a further validation for s-RT-MELT, we utilized the method to identify mutations in additional p53 exons. Figure 3A depicts the chromatographs obtained when a 1:1 mixture of DNA from SW-480 cells (homozygous mutation at p53 14686 C > T exon 9) and from wild-type cells was screened. The real-time PCR reaction was performed at different denaturation temperatures and the products were examined both via dHPLC and via melting curve analysis for comparison. As also observed for p53 exon 8, at 94\u00b0C denaturation temperature both the Surveyor\u2122-digested and the undigested PCR products are amplified during real-time PCR (Figure 3A, curves 1 and 2, mutant and wild-type, respectively). By lowering denaturation temperature to 85\u00b0C or 84\u00b0C, a single PCR product is obtained from the mutant while no product, other than primer dimer, is obtained by the wild-type sample (Figure 3A, curves 3\u20136). Figure 3B depicts the melting curves obtained following real-time PCR at 85\u00b0C denaturation temperature for the mutant and wild-type samples. s-RT-MELT was subsequently applied in the same manner to screen for p53 mutations in exons 5\u20137 from cell lines and surgical colon samples harboring sequencing-identified mutations including a single-base frameshift mutation in exon 7 (listed in Supplementary Table 2). The melting curves from mutant and wild-type samples in p53 exons 5\u20137 are depicted in Figure 3C\u2013E. The data indicate that results similar to those obtained for p53 exon 8 are also obtained for p53 exons 5, 6, 7 and 9.\n",
+            "cite_spans": [],
+            "section": "Detection of p53 exons 5\u20139 mutations and EGFR mutations in clinical samples ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 109,
+                    "end": 117,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 621,
+                    "end": 629,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 868,
+                    "end": 876,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 892,
+                    "end": 900,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1388,
+                    "end": 1396,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Detection of mutations in EGFR exons 18\u201321 is of particular clinical interest as these alterations can modulate response to EGFR inhibitors in lung adenocarcinoma patients (2,3). Figures 3F, G and H depict the application of s-RT-MELT for screening DNA from lung cancer cell lines that harbor dHPLC-identified alterations in EGFR exons 19\u201321, including a two-codon deletion (del L747-E749, exon 19). The ability of s-RT-MELT for detecting low-level EGFR mutations was evaluated by performing DNA dilutions of a heterozygous EGFR exon 20 into a homozygous sample. A 1\u201310% mutant-to-wild-type ratio was detectable in this dilution experiment (Figure 3F). Finally, the application of s-RT-MELT in detecting mutations in DNA from formalin-fixed paraffin-embedded (FFPE) samples was examined by screening four clinical FFPE lung adenocarcinoma specimens. Two of these samples were known to harbor EGFR exon 21 mutations (L858R), while the other two were negative for mutations when independently evaluated via dHPLC (28). Figure 3I demonstrates the identification of the mutational status of these samples via s-PCR-MELT.",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 174,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 175,
+                    "end": 176,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1012,
+                    "end": 1014,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Detection of p53 exons 5\u20139 mutations and EGFR mutations in clinical samples ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 188,
+                    "mention": "Figures 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 641,
+                    "end": 649,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1017,
+                    "end": 1025,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "A significant potential advantage of enzymatic mutation scanning is the ability to screen several sequences simultaneously for mutations. To demonstrate that s-RT-MELT can be used for parallel scanning of mutations in several PCR products, we mixed equimolar amounts of PCR products from p53 exons 5\u20139 containing mutations either in exon 8 or in exon 9. We then formed \u2018cross-hybridized sequences\u2019 and screened the mixture for mutations in p53 exons 5\u20139 in a single tube using s-RT-MELT, as depicted in Figure 1A. Following real-time PCR and melting curve analysis, the exon 8 or exon 9 mutants were clearly distinguished from the wild-type sample (Figure 4A, curves 1\u20133). Next, the mutant exon 8 DNA sample was first diluted 10-fold into wild-type exon 8 and the equimolar mixture of p53 exons 5\u20139 was prepared and screened again in a single tube via s-RT-MELT. The exon 8 mutation was again distinguished from the wild-type mixture of exons (Figure 4B, curves 1\u20133). Since >80% of p53 mutations in human tumors are encountered in exons 5\u20139 (45), the multiplex single-tube s-RT-MELT reaction could be used to identify most p53 mutations encountered in clinical tumor samples. Combined with multiplex PCR directly from genomic DNA, this approach could result to a convenient, high-throughput method for mutation scanning.\n",
+            "cite_spans": [
+                {
+                    "start": 1042,
+                    "end": 1044,
+                    "mention": "45",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "Multiplex s-RT-MELT or OpenArray\u2122-based s-RT-MELT increases the throughput of mutation scanning ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 503,
+                    "end": 511,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 649,
+                    "end": 657,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 944,
+                    "end": 952,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "By adopting a real-time PCR platform as endpoint detection for s-RT-MELT, the throughput for mutation scanning increases drastically over other mutation pre-screening approaches that utilize dHPLC, or capillary and gel electrophoresis. To demonstrate better this point, a highly parallel nano-technology platform was adopted for the real-time PCR step of s-RT-MELT that enables an array of 3072 nl volume real-time PCR reactions (OpenArray\u2122 system) to be carried-out simultaneously followed by differential melting curve analysis (36). As a proof of principle of the compatibility of s-RT-MELT with OpenArray\u2122, p53 exon 8 PCR products were generated from 48 different lung adenocarcinoma samples and mutation-containing cell lines and processed via the hybridization and enzymatic steps of s-RT-MELT. The 48 samples were each dispensed in 10 replicate nano-liter volume reactions on OpenArray\u2122 plates pre-fabricated to contain the appropriate primers and amplified in 3072 real-time PCR reactions using a denaturation temperature of 90\u00b0C in the presence of SYBR-GREEN I dye. Melting curves were subsequently obtained using the OpenArray\u2122 melting curve analysis mode. The PCR growth curves and smoothed differential melting curves obtained distinguish clearly the mutation-containing samples from wild-type samples (Figure 4C and D, representative results from 3072 reactions). Furthermore, identification of mutation-containing samples is in good agreement between the conventional and the nano-technology platforms (Figure 4D versus Figure 2H). These data indicate that s-RT-MELT is compatible with high-throughput nano-technology detection formats and reiterates the advantage of de-coupling enzymatic selection from the detection step. Comparison of the throughput using conventional pre-screening method (dHPLC or dHPLC/Surveyor\u2122) to s-RT-MELT (Table 1) indicates that s-RT-MELT is 1\u20132 orders of magnitude faster when a large number of samples (>100) are screened for mutations. If the multiplex s-RT-MELT format is adopted, the throughput can increase further.\n",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 533,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "Multiplex s-RT-MELT or OpenArray\u2122-based s-RT-MELT increases the throughput of mutation scanning ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 1315,
+                    "end": 1323,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1517,
+                    "end": 1525,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1534,
+                    "end": 1542,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1849,
+                    "end": 1856,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The intrinsic potential of enzymatic mutation scanning for parallel identification of mutations can, in principle, be very high since the enzyme operates on numerous distinct mismatch-containing sequences on a molecule-to-molecule basis thus providing highly parallel mutation scanning. However, in the past the selectivity of the enzymes used and the endpoint detection method has limited the realization of this potential. Here we enabled Surveyor\u2122, an endonuclease that recognizes selectively mismatches formed by mutations and small deletions following \u2018cross-hybridized sequence\u2019 formation, to generate mutation-specific DNA fragments that are amplified and screened via differential melting curve analysis. The replacement of size-separation methods (capillary/gel electrophoresis, dHPLC) by real-time PCR technology as the endpoint detection platforms and the ability to scan more than one sequences in parallel result in a highly increased throughput for s-RT-MELT while retaining the ability to detect diverse mutations at low-levels.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Cel I/II endonucleases have also been known to have exonuclease activity on 5\u2032 DNA-ends (26,27). For this reason, s-RT-MELT was designed to attach an oligonucleotide linker to the 3\u2032-DNA ends via terminal transferase (TdT) instead of using the 5\u2032-DNA ends. The exonuclease activity also tends to degrade the attached 5\u2032-GC-clamps in s-RT-MELT, thereby eliminating their influence in reducing amplification of un-digested fragments. We found that if exposure of DNA \u2018cross-hybridized sequences\u2019 to Surveyor\u2122 is limited to 15\u201320 min, the substantial degradation of 5\u2032-GC-clamps is avoided. For multiplexing mutation detection using several PCR products simultaneously, the size of the GC-clamp on each PCR amplicon may need to be individually adjusted to ensure that mutations along all sequence positions of the PCR products included in the mixture can be screened at a single real-time PCR temperature and that undigested fragments do not amplify. The calculational tools developed in this work can be used to guide the individual design of GC-clamps. s-RT-MELT detects heterozygous SNPs as well as mutations. As with other mutation pre-screening techniques, the presence of a SNP concurrently with a mutation might be difficult to identify without performing sequencing. Because SNPs occur at fixed positions, melting peaks originating from SNPs have a reproducible pattern and melting temperatures (46,47) thus in many cases they should be distinguishable from mutations. Finally, it is noteworthy that s-RT-MELT is a general methodology that may also be applied to isolate mutations using mismatch-cutting enzymes other than Surveyor\u2122 when enzymes with satisfactory properties for mutation detection become available. Detection platforms other than real-time PCR/melting (e.g. DNA microarray-based) may also be envisioned following enzymatic mutation selection.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 91,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 92,
+                    "end": 94,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1401,
+                    "end": 1403,
+                    "mention": "46",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1404,
+                    "end": 1406,
+                    "mention": "47",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "In summary, we developed a new method for rapid mutation scanning, s-RT-MELT that utilizes the Cel I/II (Surveyor\u2122) and terminal deoxy-nucleotide transferase (TdT) enzymes to isolate and amplify mutation-containing DNA fragments without the requirement of DNA size-dependent techniques. Besides enabling highly increased throughput, multiplexed mutation screening and direct sequencing of the identified mutant DNA fragments, s-RT-MELT also retains the advantages of the Surveyor endonuclease over alternative pre-screening methods, such as reliability and identification of genetic alterations present at low (1\u201310%) fractions in the sample. s-RT-MELT provides a significant advancement in unknown mutation scanning in cancer research and diagnostics as well as for general medical, biological and biotechnology applications.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1.: Comparison of throughput in mutation scanninga. Plus the ability to sequence and identify low-level somatic mutations\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1.: s-RT-MELT for rapid mutation scanning using enzymatic selection and real-time DNA-melting. (A) General outline of the approach. The dotted line contains the new steps involved in s-RT-MELT relative to previous approaches, i.e. the addition of a 3\u2032-polynucleotide tail followed by real-time PCR that enables selective amplification of the Surveyor\u2122-cut sequences and real time melting curve analysis. (B) Detailed outline of the procedure used to selectively amplify the mutation-containing fragments in s-RT-MELT.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: Detection of p53 exon 8 mutations using s-RT-MELT. (A) dHPLC chromatograms of the products obtained using the standard Surveyor\u2122-dHPLC approach (28), versus the new technology on a sample containing a p53 exon 8 14522G > A mutation or a wild-type sample. Curves 1 and 2: Standard Surveyor\u2122-dHPLC on wild- type and mutant samples, respectively. Curves 3\u20137: s-RT-MELT products when real-time PCR is performed at different denaturation temperatures. (B) Real-time differential melting curves for a PCR denaturation temperature of 88\u00b0C. (C) Sequencing of the s-RT-MELT-generated PCR fragment for a PCR denaturation temperature of 88\u00b0C. Direct sequencing of the same PCR product from genomic DNA is also depicted. D. dHPLC chromatograms of s-RT-MELT products obtained using serial dilution of DNA from SW480 cells in wild-type DNA. Real-time PCR was performed at 88\u00b0C denaturation temperature. (E) Melting curve analysis of the s-RT-MELT products obtained using serial dilution of SW480 in wild-type DNA at 88\u00b0C denaturation temperature. (F) s-RT-MELT-sequencing of s-RT-MELT products obtained using serial dilution of SW480 in wild-type DNA. (G) Predicted-versus-observed minimum denaturation temperatures for generation of s-RT-MELT products following real-time PCR. The influence of the GC-clamp length (no GC-clamp; 26-nt GC-clamp; or 117-nt GC-clamp), and the position of the mutation along the sequence are depicted. (H) s-RT-MELT screening of unknown p53 exon 8 mutations of 48 colon and lung tumor DNA: representative results from mutation-positive samples and wild-type sample are depicted. (I) Sequencing of low-level p53 exon 8 mutation (colon tumor sample CT20) by direct sequencing and by s-RT-MELT sequencing.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3.: Detection of p53 exons 5\u20139 mutations and EGFR mutations in clinical samples and cell lines. (A) dHPLC chromatograms of the s-RT-MELT p53 exon 9 products obtained using DNA from wild type cells, or a 1:1 mixture of SW480 and wild-type cells, at various real-time PCR denaturation temperatures. Curves 1 and 2: mutant and wild- type s-RT-MELT products, respectively, at 94\u00b0C; Curves 3 and 4: mutant and wild-type s-RT-MELT products, respectively, at 85\u00b0C; Curves 5 and 6: mutant and wild-type s-RT-MELT products, respectively, at 84\u00b0C. (B) Melting curves obtained following s-RT-MELT of p53 exon 9 at 85\u00b0C denaturation temperature for wild-type DNA, or a 1:1 mixture of SW480 and wild-type DNA. (C) Melting curves obtained following s-RT-MELT of p53 exon 5 for colon cancer surgical samples CT9, CT13 and wild-type samples, curves 2, 3 and 1, respectively. (D) Melting curves obtained following s-RT-MELT of p53 exon 6 using DNA from cell line DU145 and wild-type samples. (E) Melting curves obtained following s-RT-MELT of p53 exon 7 using DNA from mutant cell lines DLD1, BT483 and wild-type samples. (F) Melting curves obtained following s-RT-MELT of EGFR exon 20 for serial dilution of a DNA sample containing a heterozygous single nucleotide polymorphism (SNP) into a homozygous DNA sample. (G) Melting curves obtained following s-RT-MELT of EGFR exon 21 for lung tumor cell line H1975 (L858R mutation) and wild-type samples. (H) Melting curves obtained following s-RT-MELT of EGFR exon 19 for lung tumor cell line LU011 (L747-E749 deletion) and from wild-type samples. (I) Melting curves obtained following s-RT-MELT of EGFR exon 21 for FFPE lung tumor samples #2, #21, #6 and #10, curves 3, 1, 2 and 4, respectively.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4.: Multiplex s-RT-MELT or OpenArray\u2122-based s-RT-MELT. (A) Melting curves obtained following multiplex s-RT-MELT for mixture of p53 exons 5\u20139 (exon 8 mutation, curve 2) or exon 9 mutation (curve 3) or wild-type (curve 1). (B) Melting curves obtained following multiplex s-RT-MELT for mixture of p53 exons 5\u20139 (exon 8 mutation, curve 3) or 10-fold diluted into wild-type exon 8 mutation (curve 2) and wild-type (curve 1). (C) OpenArray\u2122 based s-RT-MELT PCR growth curves for p53 exon 8 using DNA from lung and colon surgical specimens and cell lines. (D). Melting curves obtained following OpenArray\u2122 based s-RT-MELT of p53 exon 8 using DNA from lung and colon surgical specimens and cell lines.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Targeting tyrosine kinases in cancer: the second wave",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Baselga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "312",
+            "issn": "",
+            "pages": "1175-1178",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Tracking the evolution of the SARS coronavirus using high-throughput, high-density resequencing arrays",
+            "authors": [
+                {
+                    "first": "CW",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Albert",
+                    "suffix": ""
+                },
+                {
+                    "first": "VB",
+                    "middle": [],
+                    "last": "Vega",
+                    "suffix": ""
+                },
+                {
+                    "first": "JE",
+                    "middle": [],
+                    "last": "Norton",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Cutler",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Richmond",
+                    "suffix": ""
+                },
+                {
+                    "first": "LW",
+                    "middle": [],
+                    "last": "Stanton",
+                    "suffix": ""
+                },
+                {
+                    "first": "ET",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "LD",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Genome Res",
+            "volume": "14",
+            "issn": "",
+            "pages": "398-405",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Pyrosequencing: history, biochemistry and future",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmadian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ehn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hober",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin. Chim. Acta",
+            "volume": "363",
+            "issn": "",
+            "pages": "83-94",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Sensitive mutation detection in heterogeneous cancer specimens by massively parallel picoliter reactor sequencing",
+            "authors": [
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nickerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Simons",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Janne",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tengs",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuza",
+                    "suffix": ""
+                },
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Garraway",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Laframboise",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nat. Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "852-855",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Genome sequencing in microfabricated high-density picolitre reactors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Margulies",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Egholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "WE",
+                    "middle": [],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Attiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "JS",
+                    "middle": [],
+                    "last": "Bader",
+                    "suffix": ""
+                },
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Bemben",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Berka",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Braverman",
+                    "suffix": ""
+                },
+                {
+                    "first": "YJ",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "437",
+            "issn": "",
+            "pages": "376-380",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Recent developments in high-throughput mutation screening",
+            "authors": [
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Larsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Christiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vuust",
+                    "suffix": ""
+                },
+                {
+                    "first": "PS",
+                    "middle": [],
+                    "last": "Andersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Pharmacogenomics",
+            "volume": "2",
+            "issn": "",
+            "pages": "387-399",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Somatic mutations of the protein kinase gene family in human lung cancer",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stephens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Greenman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bignell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Teague",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Edkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Cancer Res",
+            "volume": "65",
+            "issn": "",
+            "pages": "7591-7595",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Methods for detection of point mutations: performance and quality assessment. IFCC Scientific Division, Committee on Molecular Biology Techniques",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nollau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Clin. Chem",
+            "volume": "43",
+            "issn": "",
+            "pages": "1114-1128",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Enzymatic mutation detection technologies",
+            "authors": [
+                {
+                    "first": "AT",
+                    "middle": [],
+                    "last": "Yeung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hattangadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blakesley",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nicolas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biotechniques",
+            "volume": "38",
+            "issn": "",
+            "pages": "749-758",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Reactivity of cytosine and thymine in single base pair mismatches with hydroxylamine and osmium tetroxide and its application to the study of mutations",
+            "authors": [
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cotton",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "83",
+            "issn": "",
+            "pages": "4397-4401",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "High resolution analysis of point mutations by constant denaturant capillary electrophoresis (CDCE)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khrapko",
+                    "suffix": ""
+                },
+                {
+                    "first": "HA",
+                    "middle": [],
+                    "last": "Coller",
+                    "suffix": ""
+                },
+                {
+                    "first": "XC",
+                    "middle": [],
+                    "last": "Li-Sucholeiki",
+                    "suffix": ""
+                },
+                {
+                    "first": "PC",
+                    "middle": [],
+                    "last": "Andre",
+                    "suffix": ""
+                },
+                {
+                    "first": "WG",
+                    "middle": [],
+                    "last": "Thilly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Methods Mol. Biol",
+            "volume": "163",
+            "issn": "",
+            "pages": "57-72",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "EGFR Mutations in Lung Cancer: Correlation with Clinical Response to Gefitinib Therapy",
+            "authors": [
+                {
+                    "first": "JG",
+                    "middle": [],
+                    "last": "Paez",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Janne",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tracy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Greulich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gabriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Herman",
+                    "suffix": ""
+                },
+                {
+                    "first": "FJ",
+                    "middle": [],
+                    "last": "Kaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lindeman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "304",
+            "issn": "",
+            "pages": "1497-1500",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "A comparison of high-resolution melting analysis with denaturing high-performance liquid chromatography for mutation scanning: cystic fibrosis transmembrane conductance regulator gene as a model",
+            "authors": [
+                {
+                    "first": "LS",
+                    "middle": [],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "CT",
+                    "middle": [],
+                    "last": "Wittwer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Am. J. Clin. Pathol",
+            "volume": "124",
+            "issn": "",
+            "pages": "330-338",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Novel non-isotopic detection of MutY enzyme-recognized mismatches in DNA via ultrasensitive detection of aldehydes",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Maulik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Botchway",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chakrabarti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tetradis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Makrigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nucleic Acids Res",
+            "volume": "27",
+            "issn": "",
+            "pages": "1316-1322",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "An amplification and ligation-based method to scan for unknown mutations in DNA",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "BD",
+                    "middle": [],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tetradis",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Makrigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Hum. Mutat",
+            "volume": "20",
+            "issn": "",
+            "pages": "139-147",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "PCR-based detection of minority point mutations",
+            "authors": [
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Makrigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Hum. Mutat",
+            "volume": "23",
+            "issn": "",
+            "pages": "406-412",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Screening for mutations by enzyme mismatch cleavage with T4 endonuclease VII",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Youil",
+                    "suffix": ""
+                },
+                {
+                    "first": "BW",
+                    "middle": [],
+                    "last": "Kemper",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cotton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "92",
+            "issn": "",
+            "pages": "87-91",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Genetic mapping of thymine DNA glycosylase (Tdg) gene and of one pseudogene in the mouse",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "De Gregorio",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gallinari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gariboldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Manenti",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Pierotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jiricny",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Dragani",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Mamm. Genome",
+            "volume": "7",
+            "issn": "",
+            "pages": "909-910",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "Purification, cloning, and characterization of the CEL I nuclease",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "NS",
+                    "middle": [],
+                    "last": "Kodali",
+                    "suffix": ""
+                },
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Oleykowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "CG",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kulinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Besack",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Yeung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kowalski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biochemistry",
+            "volume": "39",
+            "issn": "",
+            "pages": "3533-3541",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "Mutation detection using a novel plant endonuclease",
+            "authors": [
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Oleykowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Bronson Mullins",
+                    "suffix": ""
+                },
+                {
+                    "first": "AK",
+                    "middle": [],
+                    "last": "Godwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "AT",
+                    "middle": [],
+                    "last": "Yeung",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res",
+            "volume": "26",
+            "issn": "",
+            "pages": "4597-4602",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "A rapid and sensitive enzymatic method for epidermal growth factor receptor mutation screening",
+            "authors": [
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Janne",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Borras",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "VA",
+                    "middle": [],
+                    "last": "Joshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liyanage",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lindeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Halmos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin. Cancer Res",
+            "volume": "12",
+            "issn": "",
+            "pages": "751-758",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "Large-scale discovery of induced point mutations with high-throughput TILLING",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Till",
+                    "suffix": ""
+                },
+                {
+                    "first": "SH",
+                    "middle": [],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "EA",
+                    "middle": [],
+                    "last": "Greene",
+                    "suffix": ""
+                },
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Codomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "LC",
+                    "middle": [],
+                    "last": "Enns",
+                    "suffix": ""
+                },
+                {
+                    "first": "JE",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burtner",
+                    "suffix": ""
+                },
+                {
+                    "first": "AR",
+                    "middle": [],
+                    "last": "Odden",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Genome Res",
+            "volume": "13",
+            "issn": "",
+            "pages": "524-530",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "EGFR mutation and resistance of non-small-cell lung cancer to gefitinib",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Boggon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dayaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Janne",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kocher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meyerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "BE",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Eck",
+                    "suffix": ""
+                },
+                {
+                    "first": "DG",
+                    "middle": [],
+                    "last": "Tenen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "N. Engl. J. Med",
+            "volume": "352",
+            "issn": "",
+            "pages": "786-792",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "Mismatch cleavage by single-strand specific nucleases",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Till",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burtner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Comai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Henikoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "issn": "",
+            "pages": "2632-2641",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "A TILLING reverse genetics tool and a web-accessible collection of mutants of the legume Lotus japonicus",
+            "authors": [
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "TL",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Welham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Pike",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Parniske",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Plant Physiol",
+            "volume": "131",
+            "issn": "",
+            "pages": "866-871",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "The Wnt/beta-catenin pathway regulates cardiac valve formation",
+            "authors": [
+                {
+                    "first": "AF",
+                    "middle": [],
+                    "last": "Hurlstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "AP",
+                    "middle": [],
+                    "last": "Haramis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wienholds",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Begthel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Korving",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Van Eeden",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cuppen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zivkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "RH",
+                    "middle": [],
+                    "last": "Plasterk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "425",
+            "issn": "",
+            "pages": "633-637",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "High-throughput discovery of rare human nucleotide polymorphisms by Ecotilling",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Till",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bowers",
+                    "suffix": ""
+                },
+                {
+                    "first": "EA",
+                    "middle": [],
+                    "last": "Greene",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Comai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Henikoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res",
+            "volume": "34",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "TILLING is an effective reverse genetics technique for Caenorhabditis elegans",
+            "authors": [
+                {
+                    "first": "EJ",
+                    "middle": [],
+                    "last": "Gilchrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "NJ",
+                    "middle": [],
+                    "last": "O\u2019Neil",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "MC",
+                    "middle": [],
+                    "last": "Zetka",
+                    "suffix": ""
+                },
+                {
+                    "first": "GW",
+                    "middle": [],
+                    "last": "Haughn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "BMC Genomics",
+            "volume": "7",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "Rapid amplification of 5\u2032 complementary DNA ends (5\u2032 RACE)",
+            "authors": [],
+            "year": 2005,
+            "venue": "Nat. Methods",
+            "volume": "2",
+            "issn": "",
+            "pages": "629-630",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "Nanoliter high throughput quantitative PCR",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kanigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "SED",
+                    "middle": [],
+                    "last": "Ilyin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res",
+            "volume": "34",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "Thermal denaturation of double-stranded nucleic acids: prediction of temperatures critical for gradient gel electrophoresis and polymerase chain reaction",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Steger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Nucleic Acids Res",
+            "volume": "22",
+            "issn": "",
+            "pages": "2760-2768",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Thermal stability of DNA",
+            "authors": [
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Blake",
+                    "suffix": ""
+                },
+                {
+                    "first": "SG",
+                    "middle": [],
+                    "last": "Delcourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res",
+            "volume": "26",
+            "issn": "",
+            "pages": "3323-3332",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "Frequent detection of ras and p53 mutations in brush cytology samples from lung cancer patients by a restriction fragment length polymorphism- based \u201cenriched PCR\u201d technique",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pankow",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Havemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schuermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Clin. Cancer Res",
+            "volume": "4",
+            "issn": "",
+            "pages": "361-371",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib",
+            "authors": [
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sordella",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gurubhagavatula",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Okimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "BW",
+                    "middle": [],
+                    "last": "Brannigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Haserlat",
+                    "suffix": ""
+                },
+                {
+                    "first": "JG",
+                    "middle": [],
+                    "last": "Supko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "N. Engl. J. Med",
+            "volume": "350",
+            "issn": "",
+            "pages": "2129-2139",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "Ligation of a primer at a mutation: a method to detect low level mutations in DNA",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "WH",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tetradis",
+                    "suffix": ""
+                },
+                {
+                    "first": "BD",
+                    "middle": [],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Makrigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Mutagenesis",
+            "volume": "17",
+            "issn": "",
+            "pages": "365-374",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "Detection of hotspot mutations and polymorphisms using an enhanced PCR-RFLP approach",
+            "authors": [
+                {
+                    "first": "WH",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Makrigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Hum. Mutat",
+            "volume": "21",
+            "issn": "",
+            "pages": "535-541",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "Frequent detection of ras and p53 mutations in brush cytology samples from lung cancer patients by a restriction fragment length polymorphism-based \u201cenriched PCR\u201d technique",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pankow",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Havemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schuermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Clin. Cancer Res",
+            "volume": "4",
+            "issn": "",
+            "pages": "361-371",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "Mutations in exon 7 and 8 of p53 as poor prognostic factors in patients with non-small cell lung cancer",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Taki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Adachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Konishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Higashiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miyake",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Oncogene",
+            "volume": "16",
+            "issn": "",
+            "pages": "2469-2477",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "Mutations of p53 and K-ras genes as prognostic factors for non-small cell lung cancer",
+            "authors": [
+                {
+                    "first": "CL",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Taki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Adachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Konishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Higashiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hadama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miyake",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Int. J. Oncol",
+            "volume": "12",
+            "issn": "",
+            "pages": "553-563",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "Thermal denaturation of double-stranded nucleic acids: prediction of temperatures critical for gradient gel electrophoresis and polymerase chain reaction",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Steger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Nucleic Acids Res",
+            "volume": "22",
+            "issn": "",
+            "pages": "2760-2768",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "IARC p53 mutation database: a relational database to compile and analyze p53 mutations in human tumors and cell lines. International Agency for Research on Cancer",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hernandez-Boussard",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rodriguez-Tome",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Montesano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hainaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Hum. Mutat",
+            "volume": "14",
+            "issn": "",
+            "pages": "1-8",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "DNA melting analysis for detection of single nucleotide polymorphisms",
+            "authors": [
+                {
+                    "first": "RH",
+                    "middle": [],
+                    "last": "Lipsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Mazzanti",
+                    "suffix": ""
+                },
+                {
+                    "first": "JG",
+                    "middle": [],
+                    "last": "Rudolph",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vyas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bozak",
+                    "suffix": ""
+                },
+                {
+                    "first": "MQ",
+                    "middle": [],
+                    "last": "Radel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Goldman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Clin. Chem",
+            "volume": "47",
+            "issn": "",
+            "pages": "635-644",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "Genotyping of single-nucleotide polymorphisms by high-resolution melting of small amplicons",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liew",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pryor",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Palais",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Meadows",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Erali",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wittwer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin. Chem",
+            "volume": "50",
+            "issn": "",
+            "pages": "1156-1164",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "EGF receptor gene mutations are common in lung cancers from \u201cnever smokers\u201d and are associated with sensitivity of tumors to gefitinib and erlotinib",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pao",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zakowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Doherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Politi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sarkaria",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Heelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rusch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "101",
+            "issn": "",
+            "pages": "13306-13311",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "Somatic mutations of epidermal growth factor receptor signaling pathway in lung cancers",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shigematsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "AF",
+                    "middle": [],
+                    "last": "Gazdar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Int. J. Cancer",
+            "volume": "118",
+            "issn": "",
+            "pages": "257-262",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "Capillary array electrophoresis DNA sequencing",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kheterpal",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Mathies",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Anal. Chem",
+            "volume": "71",
+            "issn": "",
+            "pages": "31A-37A",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "The application of capillary electrophoresis for DNA polymorphism analysis",
+            "authors": [
+                {
+                    "first": "KR",
+                    "middle": [],
+                    "last": "Mitchelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Methods Mol. Biol",
+            "volume": "162",
+            "issn": "",
+            "pages": "3-26",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "Resequencing and mutational analysis using oligonucleotide microarrays",
+            "authors": [
+                {
+                    "first": "JG",
+                    "middle": [],
+                    "last": "Hacia",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nat. Genet",
+            "volume": "21",
+            "issn": "",
+            "pages": "42-47",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

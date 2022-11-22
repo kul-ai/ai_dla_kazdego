@@ -1,0 +1,2577 @@
+{
+    "paper_id": "PMC1994780",
+    "metadata": {
+        "title": "Electrospray ionisation-cleavable tandem nucleic acid mass tag\u2013peptide nucleic acid conjugates: synthesis and applications to quantitative genomic analysis using electrospray ionisation-MS/MS",
+        "authors": [
+            {
+                "first": "Andrew",
+                "middle": [],
+                "last": "Thompson",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Prescott",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Noorhan",
+                "middle": [],
+                "last": "Chelebi",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Smith",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Tom",
+                "middle": [],
+                "last": "Brown",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "G\u00fcnter",
+                "middle": [],
+                "last": "Schmidt",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Mass spectrometry has much to offer the field of genomic analysis, particularly in terms of multiplexed analysis and accurate quantification. To date, many mass spectrometry-based approaches for genomic analysis have been based on direct detection of nucleic acids particularly using matrix assisted laser desorption ionisation time-of-flight (MALDI TOF) MS analysis. MALDI TOF is well suited to this approach due to the high mass range achievable by TOF analysis, however, MALDI TOF instrumentation is relatively expensive and sample preparation can be quite laborious. In addition, direct analysis of nucleic acids by mass spectrometry suffers from problems such as depurination leading to fragmentation (1) or cation adduct formation (2,3). These issues notwithstanding, MALDI TOF analysis of nucleic acids has been applied to DNA sequencing (4,5), RNA sequencing (6,7), analysis of DNA tandem repeats (8). In particular, PNA probes, with and without non-cleavable mass modifiers, have been used for characterization of genomic DNA libraries (9), detection of DNA methylation (10) and detection of single nucleotide polymorphisms (SNPs) (11,12) by MALDI TOF mass spectrometry.",
+            "cite_spans": [
+                {
+                    "start": 707,
+                    "end": 708,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 738,
+                    "end": 739,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 740,
+                    "end": 741,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 846,
+                    "end": 847,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 848,
+                    "end": 849,
+                    "mention": "5",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 868,
+                    "end": 869,
+                    "mention": "6",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 870,
+                    "end": 871,
+                    "mention": "7",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 906,
+                    "end": 907,
+                    "mention": "8",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1046,
+                    "end": 1047,
+                    "mention": "9",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1080,
+                    "end": 1082,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1141,
+                    "end": 1143,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1144,
+                    "end": 1146,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Electrospray ionisation (ESI) mass spectrometry has also been used for direct detection of nucleic acids (13\u201315). ESI-MS has some advantages over MALDI TOF MS particularly the availability of lower cost instrumentation. Moreover, sample handling can be simpler since most molecular biology assays are carried out in solution and such liquid samples are injected directly into the instrument. Furthermore, very high molecular weight species can be analysed due to the propensity for large molecules, such as PCR products, to form multiply charged ions that have relatively low overall mass-to-charge ratios under electrospray ionisation conditions. However, direct analysis of nucleic acids by ESI-MS still suffers from the same problems as MALDI TOF MS such as cation adduct formation (14). In addition, the multiply charged ion spectra that are generated for large nucleic acid fragments can be very complicated reducing sensitivity and making multiplexing difficult (16).",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 111,
+                    "mention": "13\u201315",
+                    "ref_id": null
+                },
+                {
+                    "start": 786,
+                    "end": 788,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 969,
+                    "end": 971,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "As an alternative to direct analysis of nucleic acids, mass spectrometry can also be used to detect nucleic acids indirectly through the use of cleavable mass tags, which avoids many of the limitations of direct analysis of nucleic acids while also offering numerous advantages such as ease of multiplexing, more robust detection of tag species and higher sensitivity and less demanding workup and sample preparation for analysis. Mass spectrometric analysis of mass tags, by ESI or MALDI also offers the possibility of accurate quantification through the use of isotopic tags. This capability of mass spectrometry has not really been exploited in genomic analysis but has been quite widely used in proteomic analysis (17\u201319) and is a key advantage of the mass spectrometric approach.",
+            "cite_spans": [
+                {
+                    "start": 719,
+                    "end": 724,
+                    "mention": "17\u201319",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Again MALDI TOF analysis of nucleic acids with cleavable mass tags has been demonstrated by various groups (20\u201324) but it would be advantageous to be able to take advantage of lower cost ESI-MS/MS instruments and to avoid the laborious sample workup requirements of most MALDI approaches. A matrix-free laser desorption approach, which has reduced workup requirements has been demonstrated (21,25) but this still requires that the sample be spotted onto a MALDI target or hybridized to an array. To our knowledge, only one mass tagging approach employing ESI-MS analysis has been demonstrated (26). In this approach, mass tags are photo-cleavably linked to oligonucleotides and tag detection requires a photo-cleavage step and a tag isolation step outside of the mass spectrometer prior to tag detection, i.e. the workup is not much simpler than that required for MALDI TOF analysis.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 113,
+                    "mention": "20\u201324",
+                    "ref_id": null
+                },
+                {
+                    "start": 391,
+                    "end": 393,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 394,
+                    "end": 396,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 594,
+                    "end": 596,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Here, we describe the synthesis of novel ESI-cleavable Tandem Nucleic acid mass Tag\u2013peptide nucleic acid conjugates and their analysis by ESI-MS/MS. We demonstrate a novel mass tag cleavage method in which source voltages in the electrospray ionisation source are used to cleave an ESI-cleavable linker, by a collision-based process, releasing the mass tag from the oligonucleotide during ionization. This method allows for direct analysis of assay solutions without requiring complex workups to cleave and isolate tags. In principle, this cleavage method would also allow in-line separation, by capillary electrophoresis for example, of labelled nucleic acids with direct spraying of the separated material into the ion source where tag cleavage would take place automatically.",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "In addition, we demonstrate a novel MS/MS-based tandem nucleic acid mass tag (TNT) design and detection process that allows highly specific detection of TNTs in a complex background. The Tandem Nucleic acid mass Tag design also allows easy synthesis of large sets of isotopic tags supporting the development of multiplexed and quantitative assays. We demonstrate the quantitative nature of the TNT approach. Furthermore, we evaluate ESI-cleavable TNT\u2013PNA conjugates as hybridization probes for the detection of target DNA sequences via the use of ESI-MS/MS.",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The TNTs described here are constructed using FMOC peptide synthesis chemistry. Synthesis of peptide nucleic acid\u2013TNT peptide conjugates is relatively straightforward as PNA synthesis can be achieved using the same FMOC protection groups that are used in peptide synthesis (27). This means that peptide TNT\u2013PNA conjugates can be synthesized on the same resin in a continuous process. PNA is a useful analogue of DNA and is advantageous for this application due to its high specificity and its neutral backbone, which means that it does not require high concentrations of salt to hybridize making it highly compatible with mass-spectrometry-based detection methods (28\u201330).",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 276,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 665,
+                    "end": 670,
+                    "mention": "28\u201330",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The outline of the general approach for the detection of DNA sequences via ESI-cleavable TNT\u2013PNA conjugates is presented in Figure 1. The ESI-cleavable TNT\u2013PNA conjugates consist of a PNA probe portion, which interacts with the immobilized target sequence (DNA or RNA) and a peptide tandem nucleic acid mass tag portion, which is ultimately detected. Note that the TNT shown is merely a representation of the tag and not a real structure (Figure 2). An ESI-cleavable linker connects the PNA probe portion of the conjugate to the tandem nucleic acid mass tag peptide. The complete TNT \u2018Parent Tag\u2019 comprises the red \u2018Tag Fragment\u2019 portion and the blue \u2018Mass Normalizer\u2019 portion shown in Figure 1. The TNT marker is designed to have a unique combination of parent tag mass and tag fragment mass, released during collision induced dissociation (CID), and it is this pair of masses that serves as the sequence identifier. In a typical scenario (Figure 1), a set of PNA hybridization probes labelled with different TNTs is first hybridized to the captured target nucleic acids of interest (step (1)). After stringent washes to remove the non-hybridized probes (step (2)), the probes are denatured from the target (step (3)) and injected into an ESI-MS/MS instrument for detection (step (4)). In the mass spectrometer, the TNTs cleave from the PNAs during electrospray ionization (step (5)). The TNT parent tag ions are then selected from the background, fragmented by CID and finally, daughter, tag fragment ions from the fragmentation are detected (step (6)), confirming that the signals are indeed due to the presence of tagged probes, thereby detecting the presence of the target sequences.\n\n",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 124,
+                    "end": 132,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 439,
+                    "end": 447,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 686,
+                    "end": 694,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 941,
+                    "end": 949,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "The use of this MS/MS-based approach offers high specificity allowing TNT labels to be detected in a background of fragmentation noise. In addition, the MS/MS detection means that tags can share the same mass as long their tag fragment ions are distinguishable from each other. This means that many TNTs can be detected in a compressed mass range. This feature combined with the relatively low overall mass required for TNTs, means that TNT technology will be able to exploit lower cost compact and portable ESI-MS/MS instrumentation that is currently under development (31\u201336).",
+            "cite_spans": [
+                {
+                    "start": 571,
+                    "end": 576,
+                    "mention": "31\u201336",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "FMOC-protected peptides were custom synthesized by PepSyn Ltd (Liverpool, UK) using commercially available FMOC-protected amino acids on a Beckman synthesizer. 4-FMOC-piperazin-1-ylacetic acid was obtained from Fluka (Sigma Aldrich, Dorset, UK). The amino acid isotope 13C3, 15N-FMOC-l-alanine was obtained from Cambridge Isotope Laboratories, Inc (Andover, MA). The sequences of the TNT peptides used for the preparation of ESI-cleavable TNT-PNA probes are shown in Table 1.\n",
+            "cite_spans": [],
+            "section": "Synthesis of TNT-PNA probes ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 467,
+                    "end": 474,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "Peptide nucleic acid oligonucleotide syntheses were carried out using a 2-\u00b5mol cycle on an Expedite 8900 synthesizer (Applied Biosystems, Foster City, CA). For the preparation of peptide\u2013PNA conjugates, the FMOC-protected peptide TNT sequence was synthesized and left on the resin by PepSyn Ltd with the N-terminal FMOC left intact. The resin was extracted from the peptide synthesizer column and was then loaded into the Expedite synthesizer column (2 \u00b5mol per column). PNA synthesis was carried out as normal on the preloaded resin. The yield of each purified conjugate was in the range 4.3\u201332 OD260, which corresponds to a 1.5\u201321% yield based on the 2-\u00b5mol synthesis scale. The sequences and yields of the TNT-PNA probes are shown in Table 2.\n",
+            "cite_spans": [],
+            "section": "Synthesis of TNT-PNA probes ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 737,
+                    "end": 744,
+                    "mention": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "Biotinylated, fully complementary target 50-mer oligodeoxyribonucleotides for the hybridization experiments were synthesized by Yorkshire Bioscience (York, UK) on a 1-\u00b5mol scale. Target sequences are shown in Table 3.\n",
+            "cite_spans": [],
+            "section": "Synthesis of TNT-PNA probes ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 209,
+                    "end": 216,
+                    "mention": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ]
+        },
+        {
+            "text": "TNT-PNA stock solutions were made up at a concentration of 20 pmol/\u00b5l in water. Biotinylated target sequences were made up in stock solutions of 50 pmol/\u00b5l in water.",
+            "cite_spans": [],
+            "section": "Synthesis of TNT-PNA probes ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Six aliquots of 20 \u00b5l of stock solution of the first TNT-PNA probe was mixed with 20, 10, 4, 2, 1 and 0.5 \u00b5l of the second TNT-PNA, respectively. To these, water was added to make up the solution to a total of 40 \u00b5l. The aliquots were then made up to 80 \u00b5l with methanol and formic acid to give a final solution of the TNT-PNA probes in 50:50 water:methanol with 1% formic acid. These samples were then analysed by direct injection ESI-MS/MS.",
+            "cite_spans": [],
+            "section": "Pre-hybridization ratio experiments ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Five aliquots of 50 \u00b5l of MyOne Streptavidin C1 Dynabeads (10 mg/ml suspension) were separated from their storage buffer and washed with twice with 50:50 methanol:water to remove potential mass spec contaminants. The beads were then washed with 1 \u00d7 Bind & Wash (B&W) buffer. B&W buffer for Dynabead incubation was made up according to the manufacturer's instructions: 20 mM Tris, pH 8.0, 2 mM EDTA, 2 M NaCl. Six aliquots of 20 \u00b5l (1 nmol) of stock solution of one biotinylated target was incubated with the Dynabeads. These aliquots were all made up to 40 \u00b5l with the addition of 20 \u00b5l of 2 \u00d7 B&W buffer. The biotinylated targets were then incubated at room temperature with the streptavidin beads for 1 h according to the manufacturer's instructions to immobilize the targets on the beads. The target solution was then removed from the beads and the beads were washed twice with hybridization buffer (20 mM Tris, pH 7.5, 10 mM MgCl2, 25 mM NaCl). A sixth aliquot of 100 \u00b5l of MyOne Streptavidin C1 Dynabeads was made up in the same way but this aliquot was incubated with 40 \u00b5l (2 nmol) of stock solution of the same biotinylated target and 40 \u00b5l of 2 \u00d7 B&W buffer.",
+            "cite_spans": [],
+            "section": "Quantification by external calibration experiments ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Each aliquot of the first five aliquots of bead-captured target was then incubated with 50 \u00b5l of a TNT-PNA probe solution comprising 1 nmol of the TNT-PNA probe complementary to the target on the beads. Similarly, the sixth aliquot was then incubated with 100 \u00b5l of a second TNT-PNA probe solution comprising 2 nmol of the TNT-PNA probe complementary to the target but with the alternative TNT tag on the probe. Hybridization of all the aliquots was carried out at room temperature for two hours. After hybridization, the probe solution was removed from the beads and the beads were washed three times with ice-cold 70 mM aqueous ammonium citrate solution. After the wash step, the sixth aliquot was resuspended in 100 \u00b5l of ammonium citrate. Aliquots of the sixth aliquot were then pipetted into the first six aliquots: 20, 10, 4, 2, and 1 \u00b5l, respectively. The mixtures were then mixed thoroughly. The hybridized TNT-PNA probes were then denatured from their captured target by incubating the beads at 85\u00b0C for 20 min in 50:50 water:methanol with 1% formic acid. The elution solutions were then analysed by direct injection ESI-MS/MS.",
+            "cite_spans": [],
+            "section": "Quantification by external calibration experiments ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Six aliquots of 125 \u00b5l of MyOne Streptavidin C1 Dynabeads (10 mg/ml suspension) were separated from their storage buffer and washed with twice with 50:50 methanol:water to remove potential MS contaminants. The beads were then washed with 1 \u00d7 B&W buffer. Six aliquots of 20 \u00b5l (1 nmol) of stock solution of one biotinylated target was mixed with 20, 10, 4, 2, 1 and 0.5 \u00b5l, respectively of the other biotinylated target. To these, water was added to make up the solution to a total of 40 \u00b5l. The aliquots were then made up to a volume of 80 \u00b5l by addition of 40 \u00b5l of 2 \u00d7 B&W buffer. These aliquots were then added to the aliquots of washed beads. The biotinylated targets were then incubated at room temperature with the streptavidin beads for 1 h according to the manufacturer's instructions to immobilize the targets on the beads. The target solution was then removed from the beads and the beads were washed twice with hybridization buffer.",
+            "cite_spans": [],
+            "section": "Quantification by internal calibration experiments ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Each aliquot of captured target was then incubated with 100 \u00b5l of TNT-PNA probe solution comprising 1 nmol of each of two TNT-PNA probes of the same length in hybridization buffer, i.e. 1 nmol of ANTHRAX-12 would be mixed with 1 nmol MOMP-12. Hybridization was carried out at room temperature for two hours. After hybridization, the probe solution was removed from the beads and the beads were washed three times with ice-cold 70 mM aqueous ammonium citrate solution. The hybridized TNT-PNA probes were then denatured from their captured target by incubating the beads at 85\u00b0C for 20 min in 50:50 water:methanol with 1% formic acid. The elution solutions were then analysed by direct injection ESI-MS/MS.",
+            "cite_spans": [],
+            "section": "Quantification by internal calibration experiments ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "ESI-MS/MS spectra were obtained on a Micromass Q-TOF Micro mass spectrometer (Micromass (Waters), Wythenshaw, UK). The TNT-PNA oligonucleotides were denatured from the Dynabeads into 50:50 Methanol:Water with 1% formic acid. Mass spectra were externally calibrated using the manufacturer's standards and calibration protocols.",
+            "cite_spans": [],
+            "section": "Mass spectrometric analyses ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Two pairs of example TNT-PNA oligonucleotide probes are shown in part (i) of Figure 2a and b. The TNTs are peptides comprising two parts, the tag fragment portion, which carries a charge due to the presence of a tertiary amino-functionality and the mass normalization portion, which remains essentially uncharged. These two portions of the tag are linked by a cleavage enhancement group, a piperazine ring, which also carries the charge of the tag fragment on its tertiary amino-group. The two tag portions both comprise a mass modifier component, which are isotopes of alanine in this tag although a large number of different mass modifiers could be used. It can be seen from Figure 2 that the two tags shown employ the same mass modifier components but the order differs between the tags. Thus, the overall masses of the tags are the same but the tag fragments have different masses, which are equalized by the mass of the mass normalization portion. These tags are designed so that on analysis by collision-induced dissociation (CID), the tag fragment is released to give rise to a uniquely resolvable ion. Thus, this pair of tags allows a pair of PNA probes to be distinguished by MS/MS analysis. Each tag is linked to a PNA oligonucleotide probe by a second linker, comprising aspartic acid and proline that is easily cleaved by CID (37). As shown in Figure 2, the aspartic acid/proline linker is used to cleave the tags from their oligonucleotides during electrospray ionization of the tagged oligonucleotides. The expected structures and mass-to-charge ratios of the cleaved parent tag ions generated by dissociation of the aspartic acid/proline linkage are shown in part (ii) of figure 2a and b (37). Similarly, the expected structures and mass-to-charge ratios of the tag fragment ions and the structures of the neutral mass normalizer fragments, based on the predictions of the \u2018mobile proton\u2019 model of peptide fragmentation (38,39), are shown in part (iii) of Figure 2a and b.",
+            "cite_spans": [
+                {
+                    "start": 1339,
+                    "end": 1341,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1704,
+                    "end": 1706,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1936,
+                    "end": 1938,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1939,
+                    "end": 1941,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "section": "Tandem nucleic acid mass tag-PNA oligonucleotide probe design and synthesis ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 77,
+                    "end": 85,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 677,
+                    "end": 685,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1356,
+                    "end": 1364,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1687,
+                    "end": 1695,
+                    "mention": "figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1971,
+                    "end": 1979,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "The use of FMOC peptide synthesis chemistry to synthesize the TNTs combined with FMOC PNA chemistry to synthesize the oligonucleotide probe sequence means the same resin can be used to synthesize both portions of the tagged probe in a single total synthesis approach. For the probes discussed here, the TNT portion of the probe was synthesized in a commercial peptide synthesizer using standard peptide synthesis resin cartridges. The cartridge was then opened and the resin within was loaded into a cartridge suitable for a commercial oligonucleotide synthesizer that supports PNA synthesis (Expedite DNA/PNA synthesizer), allowing the completion of the synthesis of the probe. The completed probe was then cleaved from the resin and deprotected in one step (TFA/cresol) and then purified. With this approach, only one purification step is required resulting in better yields of finished probe than multi-stage processes.",
+            "cite_spans": [],
+            "section": "Tandem nucleic acid mass tag-PNA oligonucleotide probe design and synthesis ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "Figure 3 illustrates the ease with which a substantial number of tags can be synthesized from a small set of mass modifier components: nine tags, shown in Figure 3b can be made from three mass modifiers, which are the three commercially available isotopes of alanine shown in Figure 3a. In fact, the number of tags that can be synthesized increases as the square of the number of mass modifier components, e.g. there are at least five isotopes of alanine with different masses that are commercially available which would actually allow the synthesis of 25 tags using the design presented here.\n",
+            "cite_spans": [],
+            "section": "Tandem nucleic acid mass tag-PNA oligonucleotide probe design and synthesis ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 0,
+                    "end": 8,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 155,
+                    "end": 163,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 276,
+                    "end": 284,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "One issue that emerged from the experiments presented here was a loss of 13C isotope from the carboxylic acid of alanine when the alanine isotope was present at the C-terminus of the peptide TNT, i.e. in TNT2 shown in Table 1. This loss is consistent across every TNT-PNA synthesized with TNT2 and may be an effect of the resin used, which relied on a 4-HydroxyMethyl-Phenoxy Acetic acid (HMPA) linker to the carboxylic acid group of the first amino acid to allow the peptide to be cleaved from the resin at the end of the synthesis. Other resins will be tested in future to avoid the loss of isotope. This has meant that the TNTs synthesized were not completely isobaric as shown in Figure 2. The mass of the singly charged parent tag ion of TNT1 is 388.2 while that of TNT2 is 387.2. For the MS/MS analysis of these tags, both tags could still be selected simultaneously by the first quadrupole of the Q-TOF instrument, as the mass range that is gated is actually about 3 daltons for the default setting of the instrument. It was found that setting the nominal selection mass to 388 daltons facilitated transmission of both ions without significantly favouring the selection of either tag.",
+            "cite_spans": [],
+            "section": "Tandem nucleic acid mass tag-PNA oligonucleotide probe design and synthesis ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 684,
+                    "end": 692,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 218,
+                    "end": 225,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The TNT approach is similar in principle to other mass tagging techniques and enjoys the same features as other approaches, such as ease of multiplexing and the ability to design tag masses to suit applications, with some additional advantages. TNT tags can be made chemically identical, even sharing the same mass as long as the tag fragments are different, so they can act as more precise reciprocal internal standards, which leads to more accurate quantification and the same behaviour in analytical separations, hybridizations and labelling reactions thus avoiding \u2018dye effects\u2019 that plague fluorescent methods (40,41). The use of an MS/MS-based detection method allows TNTs to be selected from background noise thus improving signal to noise ratios. This allows untagged material to be ignored, greatly improving data quality.",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 618,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 619,
+                    "end": 621,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "section": "Tandem nucleic acid mass tag-PNA oligonucleotide probe design and synthesis ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "To confirm that the TNT\u2013PNA oligonucleotide conjugates cleave as they are expected to (see expected fragment structures and mass-to-charge ratios in Figure 2), the TNT-PNA oligonucleotides were analysed by ESI-MS/MS on a micromass quadrupole-time-of-flight (Q-TOF) mass spectrometer. The complete TNT-PNA probe molecules were initially ionized with the cone voltage (an accelerating voltage in the ESI source that can be varied on the micromass instrument to control the levels of collision induced dissociation) set to minimize fragmentation of the whole TNT-PNA probe conjugate ions. The whole molecular ions were selected using the first quadrupole of the instrument and were then subjected to collision induced dissociation at different collision energies. Fragmentation of the complete TNT\u2013PNA conjugate ions was carried out as it allows both the cleavage of the TNT parent tag from the PNA and the cleavage of the tag fragment from the parent tag to be seen simultaneously in the TOF analyser of the Q-TOF instrument thus demonstrating both cleavage processes and their relative efficiencies. Typical results are shown in Figure 4, in which it can be seen that, as the collision energy is increased, the whole TNT-PNA probe ion fragments to release the parent tag ion as the predominant fragmentation product. As the fragmentation energy is increased further, the parent tag ion undergoes subsequent consecutive fragmentation to give the desired daughter fragment ion. As the collision energy increases further, the intensity of the parent tag ion increases. Similarly, the ratio of the daughter ion to parent ion increases more. These results show that the TNT-PNA probe molecules fragment as anticipated with the aspartic acid/proline linkage cleaving more easily than the piperazine linkage. The higher collision energy spectra are quite noisy as these also contain other products from the fragmentation of the TNT-PNA probe molecule, which would not normally be present when the TNT parent tag ions are analysed by themselves.\n",
+            "cite_spans": [],
+            "section": "Confirmation of cleavage mechanism ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 149,
+                    "end": 157,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1128,
+                    "end": 1136,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "The normal mode of analysis is shown in Figure 5. Here the cone voltage in the electrospray ion source is increased to 25 V increasing the level of fragmentation during ionization thus releasing the parent tag ion from the TNT\u2013PNA conjugate. The parent tag ion is then selected from background by the first quadrupole in the Q-TOF instrument. The parent tag ion is subsequently subjected to CID in the second quadrupole of the Q-TOF instrument. A collision energy of 25 V was used for CID. MS/MS spectra showing the detected tag fragment ions are shown in Figure 5. These spectra show ratios of two tags and demonstrate the accuracy of quantification of the TNT technology, which is discussed in the next section.\n",
+            "cite_spans": [],
+            "section": "Confirmation of cleavage mechanism ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 40,
+                    "end": 48,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 556,
+                    "end": 564,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "A brief experiment to determine whether there were any obvious size dependent effects on the efficiency of the cleavage of the TNT from the TNT\u2013PNA conjugate during electrospray ionisation was carried out. In this experiment, pairs of TNT-PNA oligonucleotides of different lengths were mixed together in 1:1 concentrations. It might be expected that the larger TNT-PNA probes would fragment somewhat less easily due to their greater size and the consequent ability to dissipate kinetic energy from collisions over many more different modes of vibration. This would mean that the larger probes should be detected with less sensitivity. It turned out that the larger sequences gave slightly more sensitivity with the 16-mer being almost twice as sensitive as the 8-mer in this experiment. This result may reflect the mechanisms of cleavage and detection, which are dependent on protonation of the aspartic acid and the piperazine groups in the tags. The larger probes tend to adopt higher charge states (not shown), i.e. they are more heavily protonated and the availability of more free protons on the larger probe ions may facilitate the cleavage of the tags, masking steric effects. However, only three different size molecules were evaluated, and this will be explored more fully in future.",
+            "cite_spans": [],
+            "section": "Confirmation of cleavage mechanism ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "A key feature of the Tandem Nucleic acid mass Tag design is the ease with which large numbers of chemically identical, isotopomeric tags can be made (Figure 3). Sets of TNT isotopes should have almost identical behaviour in analytical separations (17) and during the ionization process. This means that it should be possible to use these tags to accurately quantify their associated oligonucleotide sequences as the ratios of the intensities of the TNT isotopomer fragments should reflect the ratios of the concentrations of the probes in solution or hybridized on their targets (Figure 5). To demonstrate this feature of the TNT design, various experiments were conducted. In these experiments, pairs of TNT\u2013PNA conjugates are analysed by ESI-MS/MS, where the parent tag ions are cleaved from their probes in the ESI ion source using a cone voltage of 25 V. The cleaved parent tag ions are subsequently selected from background by gating both 387.3 and 388.3 ions with the first quadrupole of the Q-TOF instrument. The gated parent tag ions are then subjected to CID in the second quadrupole of the Q-TOF instrument using a collision energy of 25 V followed by mass separation and detection in the TOF analyser to determine the ratios of the tag pairs. In the first set of experiments, pairs of TNT-PNA oligonucleotide probes of the same length and sequence, but with different tags were mixed in a predefined ratio and diluted to determine how well the ratios are conserved as the concentration of probes is decreased. Results are shown in Figure 6. It can be seen that the ratios of the isotopic TNT-PNA probes are conserved over the range of concentrations investigated.\n",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 250,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Accuracy of quantification, sensitivity and dynamic range ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 150,
+                    "end": 158,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 580,
+                    "end": 588,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1542,
+                    "end": 1550,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "In a second experiment, pairs of TNT-PNA probes of the same length were mixed in various different ratios. The correlation between the expected and measured quantities of these different TNT-PNA ratios is shown in Figure 7. It can be seen that there are simple linear correlations between the expected and measured ratios. The blue crosses in Figure 7 indicate the results of experiments where the two TNT-PNA probes with the same sequences but with different isotopomeric tags were mixed, i.e. the whole TNT-PNA probes were isotopes of each other. The measured ratios for these probes closely match the expected ratios.\n",
+            "cite_spans": [],
+            "section": "Accuracy of quantification, sensitivity and dynamic range ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 214,
+                    "end": 222,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 343,
+                    "end": 351,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                }
+            ]
+        },
+        {
+            "text": "The red squares in Figure 7 indicate the results of experiments where the two different probe sequences of the same length were mixed, i.e. although their TNT labels were different isotopes of each other, the complete TNT-PNA probes were not isotopes of each other. The red line represents a linear regression through these data points. Although the predicted and expected ratios do not match exactly, there is a good correlation between the results indicating that the measurements are quantitative. Since the TNT-PNA probes were actually different in these experiments, it is pleasing to see that there is correlation between the measured and expected quantities and the result suggests that, in future use, the measurements of the quantity of different targets in a sample could be calibrated against an internal control such as a housekeeping gene or, preferably, a known quantity of a spiked target sequence.",
+            "cite_spans": [],
+            "section": "Accuracy of quantification, sensitivity and dynamic range ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 27,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                }
+            ]
+        },
+        {
+            "text": "Quantification of hybridized probes was also evaluated. In the first experiment, external calibration of the quantities of hybridized probes was assessed, i.e. the amount of target in one sample was probed with a TNT-PNA whose abundance was then determined by comparison with a second reference sample comprising a predefined quantity of the duplex of the same target sequence and PNA probe sequence, but with a different TNT isotope conjugated to the probe, after the hybridization. In these studies, aliquots of a synthetic biotinylated 50-mer DNA oligonucleotide target was captured onto avidinated magnetic beads and hybridized with TNT-PNA probes with identical probe sequences but different tags. The hybridized beads were then mixed in different ratios. The target, arbitrarily selected, was a fragment of a sequence from the MOMP gene from Chlamydia pneumoniae. A fixed quantity of one TNT-PNA probe complementary to one of the targets was hybridized to the captured target sequences. The aliquots of beads were then washed extensively to remove probe that had not hybridized. The captured TNT-PNA probe mixture was then eluted into 50:50 water:methanol with 1% formic acid (a solvent suitable for ESI-MS/MS analysis) by thermal denaturation. The eluted TNT-PNA and the spike were then injected directly into the Q-TOF instrument for MS/MS analysis. The ratios of the intensities of the two tags derived from the TNT-PNAs should allow the amount of the target sequences in the pooled samples to be determined. Figure 8 shows the actual correlation between the expected and measured quantities of the target sequences. The results are very similar to the experiments where TNT-PNA probes with the same sequence but different tags are simply mixed together: the measured ratio matches very closely the expected ratio. Negative controls in which the target was absent do not show significant binding of TNT\u2013PNA conjugates to the beads so the probe binding is sequence specific. This gives a clear indication that the probes behave quantitatively in hybridization assays and that TNT-PNA probes can be used for accurate quantification.\n",
+            "cite_spans": [],
+            "section": "External calibration to quantify hybridized probes ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 1518,
+                    "end": 1526,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                }
+            ]
+        },
+        {
+            "text": "A further evaluation of the quantification of the TNT\u2013PNA conjugates was carried out to determine whether accurate relative quantification can be derived from TNT-PNA pairs with different PNA sequences, i.e. can a reference sequence in a sample probed with one TNT-PNA be used to quantify a second sequence with a different PNA probe as long as the TNTs used in the probe pair are isotopes of each other. This would enable quantification by internal calibration using spiked sequences, housekeeping genes or similar controls in quantitative expression profiling or diagnostic assays. In these experiments, a pair of biotinylated 50-mer target oligonucleotides was used (MOMP-50 again and a sequence from B. anthracis, ANTHRAX-50; see Table 3). These were captured onto streptavidin-coated magnetic beads. The quantity of one target was fixed while the relative quantity of the second was varied. The captured targets were then hybridized at room temperature with a probe solution comprising equal quantities of MOMP-12-TNT1 and Anthrax-12-TNT2 probes (see Table 2). Probes of the same length were used together. After the hybridization, the magnetic beads were washed as before and the hybridized TNT-PNAs were eluted from their targets on the beads into 50:50 methanol:water with 1% formic acid and analysed as described earlier. Typical results are shown in Figure 8. As observed in the simple mixture experiments, the measured TNT ratios show a linear relationship with the expected ratios but the measured quantities do not exactly match the expected ratios when the TNT-PNA probes being compared are not true isotopes but the linear relationship does mean that the measurements are quantitative. These data suggest that with appropriate choice of reference sequences, quantitative internal calibration should be achievable, which would be very useful in situations where suitable reference samples are not available for external calibration.",
+            "cite_spans": [],
+            "section": "Internal calibration to quantify hybridized probes ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 1360,
+                    "end": 1368,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 734,
+                    "end": 741,
+                    "mention": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1056,
+                    "end": 1063,
+                    "mention": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "In this article the synthesis, characterization and application of ESI-cleavable TNT peptide\u2013PNA conjugates to the quantitative detection of target DNA sequences by ESI-MS/MS has been described. The conjugates were prepared by first synthesizing the TNT tag peptide sequence in a peptide synthesizer, after which the peptide synthesis resin was transferred to a column compatible with a DNA synthesizer in which PNA can be prepared. The PNA sequence was extended directly from the peptide TNT. The use of PNA has several advantages for this application: (i) the oligonucleotide and the peptide TNT are generated in a single synthesis on the same resin, which means only a single purification step is required after the synthesis is completed; (ii) PNA is approximately 15% lower in mass than a corresponding DNA sequence, which enhances mass spectrometric sensitivity; (iii) PNA has enhanced binding affinity for its target compared with a corresponding DNA sequence, so a shorter probe can be used to achieve a corresponding level of specificity; (iv) PNA can hybridize under low salt conditions, which is more favourable for ESI analysis of samples as ESI-MS is susceptible to signal suppression by high salt concentrations.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "We have shown that these TNT-PNA probes hybridize quantitatively and specifically to their targets and that the probes perform reliably over a wide dynamic range providing a new platform for multiplexed and quantitative genomic analysis.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "The ESI-cleavable TNT mass markers described in this article have several properties that make them very useful for quantitative, multiplex assays, including the following: (i) The TNT portion can be elaborated into very large arrays of tags using only small numbers of starting components. The 20 standard amino acids as well as the large number of isotopic variants of these amino acids that are available provide the possibility of synthesis of numerous marker molecules that are easily resolved by the unique combination of parent and daughter ion mass-to-charge ratios; (ii) The ESI-cleavability allows direct analysis of solution phase assays without complex workup of the samples unlike MALDI, which requires that samples are spotted onto targets; (iii) The ESI-cleavable linker connecting the DNA and the TNT components cleaves virtually instantaneously during electrospray ionisation that will allow separations such as capillary electrophoresis to be performed in-line with the MS/MS analysis; (iv) In-line separation allows for a further level of multiplexing over and above the large numbers of available tags since the probes can be identified by their elution time as well as by their tag and in future work, we will explore the use of this feature to enable in-line coupling of analytical separations such as capillary electrophoresis; (v) sets of isotopic TNTs can be synthesized that behave identically during separations, hybridizations and labelling reactions enabling accurate measurements of quantities of target nucleic acids without \u2018dye effects\u2019 widening the range of applications for which mass tags can be employed.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "The use of TNT\u2013PNA oligonucleotide conjugates offer many of the advantages of fluorescent detection such as high specificity, ease and safety of handling and high sensitivity with the additional unmatched advantages that result from being able to generate large numbers of tags with predefined masses and from being able to construct these sets of tags with stable isotopes generating chemically identical entities that will behave the same in labelling reactions and in separation steps. This means that multiplexed analyses with accurate quantification are now enabled in a user-friendly format. Future experiments will be directed towards evaluation of the TNT-PNA probes for post-PCR amplicon detection. In addition, the development of TNT\u2013DNA oligonucleotide conjugates and evaluation of these probes as primers for multiplexed PCR amplification and subsequent detection of PCR amplicons will also be pursued. The ability to employ in-line capillary electrophoresis with immediate cleavage and detection of tags will be of particular interest as many genomics assays, such as restriction fragment length polymorphisms, satellite marker analysis and multiplexed PCR employ size separations and the ability to perform such analyses with the higher levels of multiplexing enabled by this technology will be of great advantage.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1.: Sequences of TNT peptides\n",
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table 2.: Sequences of TNT\u2013PNA conjugates\n",
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Table 3.: Target sequences\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1.: Schematic for the detection of target DNA/RNA sequences using ESI-cleavable TNT-PNA probes. (1) TNT-PNA probes are incubated with captured targets; (2) unbound TNT-PNA probes are washed away; (3) correctly hybridized probes are then denatured off their target; (4) eluted TNT-PNA probes are injected into an electrospray ion source; (5) TNTs are then cleaved from the PNA during electrospray ionization; (6) TNT parent tag ions are selected from background and subjected to collision induced dissociation followed by detection of the tag fragment ions.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: The structures of two examples of PNA-TNT oligonucleotide probes are shown in part (i) of Figure 2a and b. The TNT tags, outlined by the red broken line, are modular comprising different functional components that correspond to individual synthetic components in the automated synthesis of these reagents. Each TNT is composed of two parts. The first part is a tag fragment, drawn in red, that comprises a charge-carrying group, the piperazine moiety outlined by the black broken box, and an alanine mass modifier group, outlined by the green broken box. The tag fragment is linked to the second part of the tag, which is a mass normalization group, drawn in blue, that ensures that each tag in a pair of tags shares the same overall mass and atomic composition. Note that the tags shown above are not strictly isobaric due to an issue with the synthesis discussed in the text. The mass normalization group is essentially uncharged and comprises a second alanine mass modifier group to adjust the overall mass of the tag and a proline group that is part of the electrospray cleavable linker. The ESI-cleavable linker is outlined by another black broken box and comprises an aspartic acid proline linkage. Part (ii) of Figure 2a and b show the expected structures of the products generated by cleavage in the electrospray ion source. Similarly, the expected structures of the cleavage products generated by CID of the TNT parent ions are shown in part (iii) of Figure 2a and b. The sequences of all of the TNT labels and the PNA probes evaluated in this article are shown in Tables 1 and 2.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3.: The structures in Figure b illustrate the combinatorial nature of the tandem mass tag design. Different combinations of the three commercially available isotopes of Alanine shown in Figure a have been used to produce nine uniquely resolvable tandem mass tags that are all chemically identical and which fall into five groups of different masses. TNTs in each mass group are isobaric.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4.: The spectra above show the effect of increasing the collision energy on the release of the TNT from the TNT\u2013PNA conjugate. In this experiment, a mixture of two 12-mer TNT\u2013PNA conjugates comprising the same sequence but different tags (MOMP-12-TNT1 and MOMP-12-TNT2) have been analysed. It can be seen that as the collision energy is increased, the intensity of the TNT parent tag ions at m/z 387.3 and 388.3 also increases. The tag fragment ion at m/z 216.1 and 219.2 is also released (only the 216.1 ion is annotated although the 219.2 is present at similar quantities if the spectra are zoomed\u2014not shown). The tag fragment intensity are lower than those for the parent tag ions at 25 and 30 V as they cleave less easily, but the relative intensity of the tag fragment ions increases as the CID energy increases to 35 V and consecutive fragmentation of the parent tag ion reduces the intensity of the parent tag ion.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5.: Analysis of a pair of TNT\u2013PNA conjugates in 20:1 ratio by ESI-MS/MS. The TNTs are cleaved from their conjugates in the ESI ion source using a cone voltage of 25 V followed by subsequent selection of the parent tag ions from background by simultaneously gating both the 387.2 and 388.2 ions with the first quadrupole of the Q-TOF instrument. These parent tag ions are subjected to CID in the second quadrupole of the Q-TOF instrument followed by mass separation and detection in the TOF analyser. It can be seen that there is very little noise in the region of the spectrum where the tag fragment ions are detected and that the ratios reflect the relative abundance of the TNT\u2013PNA conjugates.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6.: The deviation of the observed ratio from the expected ratio of various concentrations of a mixture of TNT-PNAs in a 2:1 ratio is shown. The deviations are a mean of four replicates at each concentration. Data was accumulated for 3 min for each replicate. The concentration of the probe with the higher concentration ranged from approximately 6.6 pmol/\u00b5l to 66 fmol/\u00b5l. The expected ratios are conserved reasonably accurately over the dilution series, within a margin of about 10%.",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 7.: The relationship between the expected and the measured quantities of tag fragments cleaved from predefined mixtures of pairs of TNT-PNA probes. The red boxes and red regression line represents an experiment to measure the accuracy of TNT quantification when the paired TNTs are on different PNA sequences.",
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 8.: The relationship between the expected and measured ratio of mixtures of captured target sequences probed with 12-mer TNT-PNA probes. Experiments to quantify targets by external calibration where the PNA probes had identical sequences but different TNTs are shown with blue crosses and the blue regression line while experiments to quantify targets by internal calibration, i.e. using one sequence as a reference to quantify a different sequence are shown as red squares and the red regression line.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "2\u2032-Fluoro modified nucleic acids: polymerase-directed synthesis, properties and stability to analysis by matrix-assisted laser desorption/ionization mass spectrometry",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ono",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "4581-4588",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Novel method for high throughput DNA methylation marker evaluation using PNA-probe library hybridization and MALDI-TOF detection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schatz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Distler",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Berlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schuster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res",
+            "volume": "34",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Discrimination of single-nucleotide polymorphisms in human DNA using peptide nucleic acid probes detected by MALDI-TOF mass spectrometry",
+            "authors": [
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Belgrader",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Anal. Chem",
+            "volume": "69",
+            "issn": "",
+            "pages": "4197-4202",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Genetic analysis by peptide nucleic acid affinity MALDI-TOF mass spectrometry",
+            "authors": [
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nat. Biotechnol",
+            "volume": "15",
+            "issn": "",
+            "pages": "1368-1372",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Rapid identification and strain-typing of respiratory pathogens for epidemic surveillance",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Ecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sampath",
+                    "suffix": ""
+                },
+                {
+                    "first": "LB",
+                    "middle": [],
+                    "last": "Blyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "MW",
+                    "middle": [],
+                    "last": "Eshoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ivy",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Ecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Libby",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Samant",
+                    "suffix": ""
+                },
+                {
+                    "first": "KA",
+                    "middle": [],
+                    "last": "Sannes-Lowery",
+                    "suffix": ""
+                },
+                {
+                    "first": "RE",
+                    "middle": [],
+                    "last": "Melton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "102",
+            "issn": "",
+            "pages": "8012-8017",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "A highly efficient and automated method of purifying and desalting PCR products for analysis by electrospray ionization mass spectrometry",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Hofstadler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Anal. Biochem",
+            "volume": "316",
+            "issn": "",
+            "pages": "50-57",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Rapid identification of emerging pathogens: coronavirus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sampath",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Hofstadler",
+                    "suffix": ""
+                },
+                {
+                    "first": "LB",
+                    "middle": [],
+                    "last": "Blyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "MW",
+                    "middle": [],
+                    "last": "Eshoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Massire",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Levene",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Hannis",
+                    "suffix": ""
+                },
+                {
+                    "first": "PM",
+                    "middle": [],
+                    "last": "Harrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Neuman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "11",
+            "issn": "",
+            "pages": "373-379",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Charge-state reduction with improved signal intensity of oligonucleotides in electrospray ionization mass spectrometry",
+            "authors": [
+                {
+                    "first": "DC",
+                    "middle": [],
+                    "last": "Muddiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "HR",
+                    "middle": [],
+                    "last": "Udseth",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Am. Soc. Mass Spectrom",
+            "volume": "7",
+            "issn": "",
+            "pages": "697-706",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Tandem Nucleic acid mass Tag: a novel quantification strategy for comparative analysis of complex protein mixtures by MS/MS",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schafer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kienle",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Neumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hamon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Anal. Chem",
+            "volume": "75",
+            "issn": "",
+            "pages": "1895-1904",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Quantitative analysis of complex protein mixtures using isotope-coded affinity tags",
+            "authors": [
+                {
+                    "first": "SP",
+                    "middle": [],
+                    "last": "Gygi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rist",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Turecek",
+                    "suffix": ""
+                },
+                {
+                    "first": "MH",
+                    "middle": [],
+                    "last": "Gelb",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aebersold",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nat. Biotechnol",
+            "volume": "17",
+            "issn": "",
+            "pages": "994-999",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Stable isotope labelling in vivo as an aid to protein identification in peptide mass fingerprinting",
+            "authors": [
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Pratt",
+                    "suffix": ""
+                },
+                {
+                    "first": "DH",
+                    "middle": [],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Gaskell",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Riba-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Hubbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sidhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "SG",
+                    "middle": [],
+                    "last": "Oliver",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hayes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Petty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proteomics",
+            "volume": "2",
+            "issn": "",
+            "pages": "157-163",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Matrix-assisted laser desorption/ionization mass spectrometry of immobilized duplex DNA probes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Cotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Cantor",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Koster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Nucleic Acids Res",
+            "volume": "23",
+            "issn": "",
+            "pages": "3126-3131",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Photocleavable peptide-DNA conjugates: synthesis and applications to DNA analysis using MALDI-MS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Olejnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "HC",
+                    "middle": [],
+                    "last": "Ludemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Krzymanska-Olejnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Berkenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hillenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "KJ",
+                    "middle": [],
+                    "last": "Rothschild",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nucleic Acids Res",
+            "volume": "27",
+            "issn": "",
+            "pages": "4626-4631",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Trityl mass-tags for encoding in combinatorial oligonucleotide synthesis",
+            "authors": [
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Shchepinov",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chalk",
+                    "suffix": ""
+                },
+                {
+                    "first": "EM",
+                    "middle": [],
+                    "last": "Southern",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nucleic Acids Symp. Ser",
+            "volume": "42",
+            "issn": "",
+            "pages": "107-108",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Electrophoresis and detection of tin-labeled DNAs on open-faced gels",
+            "authors": [
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Doktycz",
+                    "suffix": ""
+                },
+                {
+                    "first": "HF",
+                    "middle": [],
+                    "last": "Arlinghaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "RC",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "KB",
+                    "middle": [],
+                    "last": "Jacobson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Electrophoresis",
+            "volume": "13",
+            "issn": "",
+            "pages": "521-528",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Use of resonance ionization spectroscopy to detect DNA bands on ultrathin spin-coated gels",
+            "authors": [
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Doktycz",
+                    "suffix": ""
+                },
+                {
+                    "first": "WA",
+                    "middle": [],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "HF",
+                    "middle": [],
+                    "last": "Arlinghaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "RC",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "KB",
+                    "middle": [],
+                    "last": "Jacobson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Appl. Theor. Electrophor",
+            "volume": "3",
+            "issn": "",
+            "pages": "157-162",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Electrophore mass tag dideoxy DNA sequencing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abdel-Baky",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pillai",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Magiera",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Murugaiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "RW",
+                    "middle": [],
+                    "last": "Giese",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "O\u2019Keeffe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Anal. Chem",
+            "volume": "69",
+            "issn": "",
+            "pages": "3595-3602",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "S(O)-pixyl protecting group as efficient mass-tag",
+            "authors": [
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Bernad",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "VA",
+                    "middle": [],
+                    "last": "Korshun",
+                    "suffix": ""
+                },
+                {
+                    "first": "EM",
+                    "middle": [],
+                    "last": "Southern",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Shchepinov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Chem. Commun. (Camb.)",
+            "volume": "27",
+            "issn": "",
+            "pages": "3466-3468",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "High-throughput SNP genotyping with the Masscode system",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kokoris",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dix",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Moynihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mathis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Erwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Grass",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hines",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Duesterhoeft",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Mol. Diagn",
+            "volume": "5",
+            "issn": "",
+            "pages": "329-340",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "FMOC mediated synthesis of peptide nucleic acid",
+            "authors": [
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Thomson",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Josey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cadilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "MD",
+                    "middle": [],
+                    "last": "Gaul",
+                    "suffix": ""
+                },
+                {
+                    "first": "CF",
+                    "middle": [],
+                    "last": "Hassman",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Luzzio",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Pipe",
+                    "suffix": ""
+                },
+                {
+                    "first": "KL",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Ricca",
+                    "suffix": ""
+                },
+                {
+                    "first": "RW",
+                    "middle": [],
+                    "last": "Wiethe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Tetrahedron",
+            "volume": "51",
+            "issn": "",
+            "pages": "6179-6194",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Peptide nucleic acids (PNA): synthesis, properties and potential applications",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hyrup",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Bioorg. Med. Chem",
+            "volume": "4",
+            "issn": "",
+            "pages": "5-23",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "Peptide nucleic acid (PNA). A DNA mimic with a peptide backbone",
+            "authors": [
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Egholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Buchardt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Bioconjug. Chem",
+            "volume": "5",
+            "issn": "",
+            "pages": "3-7",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "Multiplex genotyping of PCR products with MassTag-labeled primers",
+            "authors": [
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Haff",
+                    "suffix": ""
+                },
+                {
+                    "first": "IP",
+                    "middle": [],
+                    "last": "Smirnov",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "3749-3750",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "Applications of peptide nucleic acids",
+            "authors": [
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Curr. Opin. Biotechnol",
+            "volume": "10",
+            "issn": "",
+            "pages": "71-75",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "Atmospheric pressure ionization in a miniature mass spectrometer",
+            "authors": [
+                {
+                    "first": "BC",
+                    "middle": [],
+                    "last": "Laughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "CC",
+                    "middle": [],
+                    "last": "Mulligan",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Anal. Chem",
+            "volume": "77",
+            "issn": "",
+            "pages": "2928-2939",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "Rectilinear ion trap: concepts, calculations, and analytical performance of a new mass analyzer",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "WR",
+                    "middle": [],
+                    "last": "Plass",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Anal. Chem",
+            "volume": "76",
+            "issn": "",
+            "pages": "4595-4605",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "Miniature cylindrical ion trap mass spectrometer",
+            "authors": [
+                {
+                    "first": "GE",
+                    "middle": [],
+                    "last": "Patterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Guymon",
+                    "suffix": ""
+                },
+                {
+                    "first": "LS",
+                    "middle": [],
+                    "last": "Riter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Everly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Griep-Raming",
+                    "suffix": ""
+                },
+                {
+                    "first": "BC",
+                    "middle": [],
+                    "last": "Laughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Anal. Chem",
+            "volume": "74",
+            "issn": "",
+            "pages": "6145-6153",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "Analytical performance of a miniature cylindrical ion trap mass spectrometer",
+            "authors": [
+                {
+                    "first": "LS",
+                    "middle": [],
+                    "last": "Riter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Noll",
+                    "suffix": ""
+                },
+                {
+                    "first": "GE",
+                    "middle": [],
+                    "last": "Patterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aggerholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Anal. Chem",
+            "volume": "74",
+            "issn": "",
+            "pages": "6154-6162",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "Rectilinear ion trap mass spectrometer with atmospheric pressure interface and electrospray ionization source",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kothari",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Senko",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "Amy",
+                    "suffix": ""
+                },
+                {
+                    "first": "GC",
+                    "middle": [],
+                    "last": "Stafford",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Anal. Chem",
+            "volume": "78",
+            "issn": "",
+            "pages": "718-725",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "Novel linear ion trap mass analyzer composed of four planar electrodes",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "RG",
+                    "middle": [],
+                    "last": "Cooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "WR",
+                    "middle": [],
+                    "last": "Plass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Am. Soc. Mass. Spectrom",
+            "volume": "17",
+            "issn": "",
+            "pages": "631-639",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "Five-membered ring formation in unimolecular reactions of peptides: a key structural element controlling low-energy collision-induced dissociation of peptides",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schlosser",
+                    "suffix": ""
+                },
+                {
+                    "first": "WD",
+                    "middle": [],
+                    "last": "Lehmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Mass. Spectrom",
+            "volume": "35",
+            "issn": "",
+            "pages": "1382-1390",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Mobile and localized protons: a framework for understanding peptide dissociation",
+            "authors": [
+                {
+                    "first": "VH",
+                    "middle": [],
+                    "last": "Wysocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tsaprailis",
+                    "suffix": ""
+                },
+                {
+                    "first": "LL",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Breci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Mass. Spectrom",
+            "volume": "35",
+            "issn": "",
+            "pages": "1399-1406",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Arnott",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kottmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yates",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shabanowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hunt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "A strategy for rapid and efficient DNA sequencing by mass spectrometry",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Koster",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "van den Boom",
+                    "suffix": ""
+                },
+                {
+                    "first": "CL",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Cotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Cantor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Nat. Biotechnol",
+            "volume": "14",
+            "issn": "",
+            "pages": "1123-1128",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "Diffusion, mixing, and associated dye effects in DNA-microarray hybridizations",
+            "authors": [
+                {
+                    "first": "JR",
+                    "middle": [],
+                    "last": "Borden",
+                    "suffix": ""
+                },
+                {
+                    "first": "CJ",
+                    "middle": [],
+                    "last": "Paredes",
+                    "suffix": ""
+                },
+                {
+                    "first": "ET",
+                    "middle": [],
+                    "last": "Papoutsakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biophys. J",
+            "volume": "89",
+            "issn": "",
+            "pages": "3277-3284",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "Characterizing dye bias in microarray experiments",
+            "authors": [
+                {
+                    "first": "KK",
+                    "middle": [],
+                    "last": "Dobbin",
+                    "suffix": ""
+                },
+                {
+                    "first": "ES",
+                    "middle": [],
+                    "last": "Kawasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Petersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "RM",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Bioinformatics",
+            "volume": "21",
+            "issn": "",
+            "pages": "2430-2437",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "Sequencing exons 5 to 8 of the p53 gene by MALDI-TOF mass spectrometry",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Reuter",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Darnhofer-Demar",
+                    "suffix": ""
+                },
+                {
+                    "first": "DP",
+                    "middle": [],
+                    "last": "Little",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "O\u2019Donnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Cantor",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Koster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nat. Biotechnol",
+            "volume": "16",
+            "issn": "",
+            "pages": "381-384",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "Matrix-assisted laser desorption/ionization mass spectrometry (MALDI) of endonuclease digests of RNA",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hahner",
+                    "suffix": ""
+                },
+                {
+                    "first": "HC",
+                    "middle": [],
+                    "last": "Ludemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kirpekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nordhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Roepstorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "HJ",
+                    "middle": [],
+                    "last": "Galla",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hillenkamp",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "1957-1964",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "A sequencing method for RNA oligonucleotides based on mass spectrometry",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Faulstich",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Worner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Brill",
+                    "suffix": ""
+                },
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "Engels",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Anal. Chem",
+            "volume": "69",
+            "issn": "",
+            "pages": "4349-4353",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "Analysis of short tandem repeat polymorphisms in human DNA by matrix-assisted laser desorption/ionization mass spectrometry",
+            "authors": [
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Belgrader",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Anal. Chem",
+            "volume": "69",
+            "issn": "",
+            "pages": "3966-3972",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "Multiplexed hybridizations of positively charge-tagged peptide nucleic acids detected by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Guerasimova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thamm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Steinfath",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Herwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Janitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lehrach",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Radelof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Rapid Commun. Mass Spectrom",
+            "volume": "18",
+            "issn": "",
+            "pages": "1821-1829",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

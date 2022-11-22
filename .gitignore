@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+.DS_Store
+*.snm
+*.aux
+*.out
+*.nav
+*.toc
+*.gz
+*.log
+*.vrb
+*.bbl

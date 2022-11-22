@@ -1,0 +1,2425 @@
+{
+    "paper_id": "PMC1669763",
+    "metadata": {
+        "title": "PATRIC: The VBI PathoSystems Resource Integration Center",
+        "authors": [
+            {
+                "first": "E.",
+                "middle": [
+                    "E."
+                ],
+                "last": "Snyder",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "N.",
+                "middle": [],
+                "last": "Kampanya",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "E.",
+                "middle": [
+                    "K."
+                ],
+                "last": "Nordberg",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "H.",
+                "middle": [
+                    "R."
+                ],
+                "last": "Karur",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "M.",
+                "middle": [],
+                "last": "Shukla",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Soneja",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Y.",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "T.",
+                "middle": [],
+                "last": "Xue",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "H.",
+                "middle": [],
+                "last": "Yoo",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "F.",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "C.",
+                "middle": [],
+                "last": "Dharmanolla",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "N.",
+                "middle": [
+                    "V."
+                ],
+                "last": "Dongre",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [
+                    "J."
+                ],
+                "last": "Gillespie",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Hamelius",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "M.",
+                "middle": [],
+                "last": "Hance",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "K.",
+                "middle": [
+                    "I."
+                ],
+                "last": "Huntington",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "D.",
+                "middle": [],
+                "last": "Jukneliene",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Koziski",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "L.",
+                "middle": [],
+                "last": "Mackasmiel",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "S.",
+                "middle": [
+                    "P."
+                ],
+                "last": "Mane",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "V.",
+                "middle": [],
+                "last": "Nguyen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "A.",
+                "middle": [],
+                "last": "Purkayastha",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Shallom",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "G.",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Y.",
+                "middle": [],
+                "last": "Guo",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Gabbard",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "D.",
+                "middle": [],
+                "last": "Hix",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "A.",
+                "middle": [
+                    "F."
+                ],
+                "last": "Azad",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "S.",
+                "middle": [
+                    "C."
+                ],
+                "last": "Baker",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "S.",
+                "middle": [
+                    "M."
+                ],
+                "last": "Boyle",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Y.",
+                "middle": [],
+                "last": "Khudyakov",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "X.",
+                "middle": [
+                    "J."
+                ],
+                "last": "Meng",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "C.",
+                "middle": [],
+                "last": "Rupprecht",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [],
+                "last": "Vinje",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "O.",
+                "middle": [
+                    "R."
+                ],
+                "last": "Crasta",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "M.",
+                "middle": [
+                    "J."
+                ],
+                "last": "Czar",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "A.",
+                "middle": [],
+                "last": "Dickerman",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [
+                    "D."
+                ],
+                "last": "Eckart",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "R.",
+                "middle": [],
+                "last": "Kenyon",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "R.",
+                "middle": [],
+                "last": "Will",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [
+                    "C."
+                ],
+                "last": "Setubal",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "B.",
+                "middle": [
+                    "W.",
+                    "S."
+                ],
+                "last": "Sobral",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Bioterrorism became an important national security issue (1) following the deliberate release of anthrax spores into the US postal system in October 2001 (2). Meanwhile, emerging and reemerging infectious diseases (3) have had profound effects on public health in many parts of the world. Recognizing the pathogens responsible for these diseases as threats to homeland security, the National Institute of Allergy and Infectious Diseases (NIAID) of the US National Institutes of Health has embarked upon a series of initiatives aimed at developing a comprehensive understanding of the organisms identified as NIAID category A, B and C priority pathogens (for a complete list, see ). The Virginia Bioinformatics Institute's PathoSystems Resource Integration Center (PATRIC) is one of eight Bioinformatics Resource Centers (BRCs) established to study the NIAID priority pathogens and develop these information resources for the research community. While database resources for bacterial ((4) and those cited in (5)) and viral (6,7) genomics have been available for number of years, this project seeks to integrate genomics with comparative genomics and pathway analysis and ultimately proteomics, transcriptomics, immune epitope mapping, host-response and other downstream technologies. The goal is to help researchers and clinicians better detect and respond to biothreat agents (and infectious diseases in general) by facilitating the development of diagnostics, vaccines and therapeutics. This requires access to comprehensive information on the molecular biology, physiology and pathogenicity of these organisms.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 59,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 155,
+                    "end": 156,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 215,
+                    "end": 216,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 986,
+                    "end": 987,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1009,
+                    "end": 1010,
+                    "mention": "5",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1024,
+                    "end": 1025,
+                    "mention": "6",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1026,
+                    "end": 1027,
+                    "mention": "7",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "PATRIC is responsible for the eight organism categories listed in Table 1. The three genera of proteobacteria are all intracellular pathogens that are known or potential biowarfare agents. In the 1950s, Brucella suis was the first infectious agent developed for use as a biowarfare agent by the United States. Brucellosis, caused by Brucella sp., is an important agricultural disease infecting cattle, sheep, goats and swine as well as humans. It is highly contagious and readily dispersed as an aerosol (8). Coxiella burnetii, the causative agent of Q fever, is a highly infectious agent of relatively low lethality. Its interest as a biowarfare agent stems from its high infectivity, stability to heat and desiccation and potential for aerosol dispersal. The genus Rickettsia contains the organisms responsible for numerous types of typhus and arthropod-borne spotted fevers (9,10). Rickettsia prowazekii was developed as a bioweapon by the USSR in the 1930s and was used by the Japanese in Manchuria during World War II (11).",
+            "cite_spans": [
+                {
+                    "start": 505,
+                    "end": 506,
+                    "mention": "8",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 878,
+                    "end": 879,
+                    "mention": "9",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 880,
+                    "end": 882,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1024,
+                    "end": 1026,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "THE PATHOSYSTEMS RESOURCE INTEGRATION CENTER",
+            "ref_spans": [
+                {
+                    "start": 66,
+                    "end": 73,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The five categories of viruses studied by PATRIC are all positive-strand ssRNA viruses, with the exception of Lyssaviruses, which have negative-strand ssRNA genomes. While there are no reports of any of these viruses being weaponized, they represent the causative agents for a number of emerging and reemerging diseases including Severe Acute Respiratory Syndrome (SARS), rabies and transmissible gastroenteritis. Recombinant vaccines for these viruses are either still in development or unavailable in areas where these infections are endemic or epidemic, compounding the public health risk.",
+            "cite_spans": [],
+            "section": "THE PATHOSYSTEMS RESOURCE INTEGRATION CENTER",
+            "ref_spans": []
+        },
+        {
+            "text": "The pace of research on these organisms has increased significantly since the turn of the millennium, with outbreaks, such as that of SARS in 2003 (12,13), spawning a flurry of scientific activity. The widespread use of automated DNA sequencing, microarray gene expression analysis and other high-throughput laboratory technologies has increased the volume of data produced, but not necessarily its accessibility. Currently, significant genomics and bioinformatics expertise is required to extract, process and interpret this wealth of data.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 150,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 151,
+                    "end": 153,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "THE PATHOSYSTEMS RESOURCE INTEGRATION CENTER",
+            "ref_spans": []
+        },
+        {
+            "text": "To address these problems, PATRIC has created an interdisciplinary team of bioinformaticians, software engineers, computational biologists and organism experts to build a publicly accessible resource aimed at providing high quality, analyzed and curated data to the infectious disease community working on these pathogens. To date, we have achieved the following objectives:\ncollection and organization of existing genomic data for the eight pathosystems under a single, unified frameworkgenome annotation and curation following standardized proceduresvisualization of raw data from analytical programs, as well as curated datacreation of orthologous gene groups within each organism category allowing comparative analysis of gene contentprediction and visualization of bacterial metabolic pathways to complement functional analysis of proteinsintegration of online literature reviews from PathInfo (14) for selected organisms.",
+            "cite_spans": [
+                {
+                    "start": 900,
+                    "end": 902,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "THE PATHOSYSTEMS RESOURCE INTEGRATION CENTER",
+            "ref_spans": []
+        },
+        {
+            "text": "Longer-term goals include integration of data from gene expression and proteomics experiments (including host-response), predicted protein and RNA secondary and tertiary structures, and well-cataloged literature compilations. Ultimately, we hope our website will become an essential tool for researchers working on these pathogens and provide networking opportunities within the pathogen research communities.",
+            "cite_spans": [],
+            "section": "THE PATHOSYSTEMS RESOURCE INTEGRATION CENTER",
+            "ref_spans": []
+        },
+        {
+            "text": "PATRIC is implemented on Oracle 9i RDBMS using the Genomics Unified Schema (GUS) version 3.5, developed at the Computational Biology and Informatics Laboratory at the University of Pennsylvania (see ). GUS is used to store all sequence data and associated annotation with the exception of metabolic pathway data, which is stored in a separate schema developed for use with the Pathway Tools software (15) (see section 4.3). To minimize modifications to GUS and ensure compatibility with future releases, the Curation/Annotation Schema was developed to support PATRIC-specific curation activities.",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 403,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "DATABASE DESCRIPTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The database is populated with all known full-length or nearly full-length genomic sequences for the eight organism categories listed in Table 1. Automated scripts query GenBank (16) daily to identify new or updated records. The corresponding sequences, annotation and associated literature are retrieved from NCBI and loaded following curatorial review to remove redundancies and assign unique names to each genome. RefSeq (17) records are used when available to take advantage of their more thorough and consistent annotation. Draft genome sequences from Joint Genome Institute (JGI)/Los Alamos National Labs (LANL) and the NIAID-funded Microbial Sequencing Centers will also be part of the PATRIC dataset. In addition to genome sequences and primary annotation from the original GenBank or RefSeq entry, the database stores the results of all automated and manual analyses described in the following section.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 181,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 425,
+                    "end": 427,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "DATABASE DESCRIPTION",
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 144,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "Due to the large number of closely related genomes in each organism category, we have adopted an annotation strategy in which automated methods are applied to all genomes while detailed manual curation is applied to a limited number of reference genomes. The species B.suis 1330, C.burnetii RSA 493 and R.prowazekii str. Madrid E were chosen as reference genomes for their respective categories. Each viral category has (or will have) multiple reference genomes, representing phylogenetically diverse strains.",
+            "cite_spans": [],
+            "section": "Genome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "Automated nucleic acid and protein sequence annotation is accomplished using a Java-based genome annotation pipeline (unpublished), which reads an XML script containing the names and parameters of the analytical applications. The bacterial pipeline executes the gene prediction programs Glimmer (20) and GeneMark (21,22) followed by start site correction programs RBSfinder (23) and TICO (24). BLASTX (25) searches the non-redundant protein database, complementing the ab initio gene prediction methods. RNA genes are identified by tRNAscan-SE (26) and BLASTN searching against a ribosomal RNA database (27,28). The annotation protocol containing the full list of applications and parameters is available online at  under \u2018standard operating procedures\u2019.",
+            "cite_spans": [
+                {
+                    "start": 296,
+                    "end": 298,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 314,
+                    "end": 316,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 317,
+                    "end": 319,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 375,
+                    "end": 377,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 389,
+                    "end": 391,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 402,
+                    "end": 404,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 545,
+                    "end": 547,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 604,
+                    "end": 606,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 607,
+                    "end": 609,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Genome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "Results of the genome analysis pipeline are merged with original GenBank or RefSeq features for automated interpretation. A decision tree is used to classify genes into categories based on the level of agreement between the various prediction methods. Genes that are unambiguously predicted by multiple methods are automatically \u2018finalized\u2019, creating new \u2018gene\u2019, \u2018CDS\u2019 and/or \u2018[t/r]RNA\u2019 features. The remaining genes are marked for manual curation. For viral genomes, an abbreviated pipeline is executed that emphasizes sequence alignment for gene identification and employs GeneMarkHMM optimized for mammalian (host) genomes.",
+            "cite_spans": [],
+            "section": "Genome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "After curatorial review, finalized protein-coding (CDS) features are translated and subjected to another pipeline executing InterProScan and structure prediction methods such as MEMSAT 2 (29). Currently, each protein is associated with GO terms (30), TIGRroles, Enzyme Commission numbers (31) based on Pfam (32) and TIGRfam alignments (for a description of TIGRfam and TIGRroles, see: ). The protocol for automated proteome annotation is also available online. Manually curated protein sequences will be available in early 2007.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 190,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 246,
+                    "end": 248,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 289,
+                    "end": 291,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 308,
+                    "end": 310,
+                    "mention": "32",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "Proteome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "Once protein sequences are inferred from each genome in an organism category, putative ortholog groups are generated using BLASTP for all pairwise genome combinations and applying the conventional bidirectional-best-hit (BBH) criterion (33). While putative ortholog groups within the bacterial categories are generally well defined, many viral proteins cannot be readily clustered using the stringent BBH criterion. This is an active area of curation. Using the ortholog groups as a starting point, a reference protein list is created for each bacterial category consisting of the proteins of the reference genome (each representing one ortholog group) plus a representative protein from each ortholog group identified in the associated genomes. A gene occurring in only a single genome constitutes a \u2018group\u2019 of one and would be included in the reference list. The reference protein lists will be manually curated and include, whenever possible, detailed functional descriptions, gene symbols, GO terms and EC numbers. Thus, every protein in the database will either be manually curated or be linked to an ortholog group member that has been manually curated.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 239,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "section": "Proteome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The ortholog groups are further processed to create multiple sequence alignments (MSAs) using MUSCLE (34) with default parameters. Phylogenetic estimations using the neighbor-joining method (35) were created based on trimmed alignments using PHYLIP (36). Trees were validated by bootstrapping (37) using a minimum of 100 replicates.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 104,
+                    "mention": "34",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 191,
+                    "end": 193,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 250,
+                    "end": 252,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 294,
+                    "end": 296,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Proteome curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "To help users understand the function of the bacterial proteins in context, we have adopted the Pathway Tools system (15) to derive pathways from genome annotation and to fill potential gaps in annotation known as pathway holes. The system takes a list of protein names, descriptions and EC numbers as input. Proteins with EC numbers can be assigned roles directly; the roles of other proteins are suggested by lexicographic analysis of descriptive information and/or analysis of gene order from homologous regions of related genomes and confirmed or rejected by the curation staff. The output is a database with integrated web server that allows users to browse and query the organism's metabolic pathways. This system has been integrated with the PATRIC web site, allowing users to access pathway information for all bacterial reference genomes. The current analysis was based on preexisting RefSeq or GenBank annotations; later releases will incorporate data curated in house, unifying the genomic and pathway versions of the data. The analysis of pathways can facilitate the identification of metabolic choke points, critical enzymes that could be targeted by drugs that may have valuable antimicrobial properties. Pathway analysis can also yield clues to pathogenesis by comparing virulent and avirulent strains and examining the roles of genes not present in both strains.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 120,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "Metabolic pathway curation ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The PATRIC website is hosted on a Sun Microsystems v20z server running SuSE Linux using the Apache web server. Applications are written in PHP and Perl, accessing data from an Oracle 9i server hosted on a Sun Microsystems E15000 running Sun OS.",
+            "cite_spans": [],
+            "section": "Website ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The conceptual organization of the website is described in Figure 1. The website's home page contains news, a navigation bar and the list of PATRIC organisms. Users can select their organism of interest from the list to access the corresponding organism category page. This page contains a table of genomes currently in our database with links to the three principal representations of individual genomes: the genome summary, genome browser and gene table. These pages allow users to view a summary of genome sequencing information and to identify specific genes and link to their corresponding gene, protein and pathway information pages. The gene information page displays the output of sequence analysis software run by the annotation pipeline, as well as curated data. Similarly, the protein information page displays InterProScan and TIGRfam alignments and associated information such as GO terms and EC numbers. For bacterial genomes, the pathway information page illustrates the protein's position in the organism's metabolic network and links to a wealth of information provided by PathwayTools.",
+            "cite_spans": [],
+            "section": "Website ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": [
+                {
+                    "start": 59,
+                    "end": 67,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "The organism category page also contains links to a pathogen summary, ortholog group table and a phylogenetic tree based on 16S rRNAs for bacteria or a selected protein family for viruses. For bacterial genomes, detailed pathosystem information is available, provided by the VBI PathInfo documents (14). The ortholog group table shows the presence or absence of reference gene list proteins for each organism in the organism category and provides links to an MSA and tree viewer and the Base-By-Base MSA editor (38) for every ortholog group. Base-By-Base allows users to add sequences to the MSA, recalculate it using Clustal (39), T-Coffee (40) or MUSCLE and generate the corresponding tree using neighbor-joining or a number of clustering algorithms.",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 301,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 627,
+                    "end": 629,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "section": "Website ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The PATRIC website also supports analytical and query tools. A database search page allows user-supplied sequences to be BLASTed against reference and curated sequences from PATRIC organisms. The page also supports MUMMER (41) comparisons between genomes in the database or with a user-supplied sequence. A query tool is available throughout the site by which users can retrieve genes by name, ID, description, as well as GO and EC identifiers and descriptions. Questions, comments and suggestions concerning the website and its contents may be submitted via the \u2018feedback\u2019 page, accessible from the menu bar.",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 225,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "section": "Website ::: DATA ANALYSIS AND CURATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The PATRIC database is hosted at the Virginia Bioinformatics Institute at Virginia Tech and can be accessed via web browser at . Sequences and annotation in GFF3 format (see ) can be downloaded by following the \u2018downloads\u2019 link on the main menu bar. GFF3 files are also available through BRC-Central at: .",
+            "cite_spans": [],
+            "section": "AVAILABILITY",
+            "ref_spans": []
+        },
+        {
+            "text": "This paper presents the first detailed description of the PATRIC website. Future development will advance on several fronts. Genome and proteome curation will continue, complemented by improved tools for query, analysis and visualization. For viruses, we will transition to the more widely accepted ICTV taxonomy (42). The website's user interface is being enhanced to integrate organism-, tool/task- and data-centric approaches to data access, allowing users more efficient and effective access to PATRIC resources. This will be followed up by prioritized curation targeted at potential drug and vaccine targets, virulence factors and genes with differential representation or polymorphisms associated with clinically significant phenotypes. Leveraging another NIAID-funded VBI project, the Administrative Resource for Biodefense Proteomics Research (), we plan to integrate expression profiling and proteomics data from pathogen and host to better understand the pathosystem's biology and help the community identify targets for counter-measures. The integration of these disparate data types into a single, easy-to-use system is a goal that we anticipate will enable pathogen researchers to make full use of available data to develop diagnostics, vaccines and therapeutics.",
+            "cite_spans": [],
+            "section": "FUTURE DIRECTIONS",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: PATRIC organisms\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: Conceptual map of PATRIC website. Arrows show the relationship between the principal datatype on a page and related data on neighboring pages. Solid arrows represent \u2018drilling down\u2019 to more specific information (e.g. from genome to gene). Dashed arrows represent links between different views of conceptually similar data (e.g. between ortholog group and phylogenetic tree). This figure represents only a subset of the pages and links on the actual website.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Biodefence on the research agenda",
+            "authors": [
+                {
+                    "first": "A.S.",
+                    "middle": [],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "421",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Rickettsial pathogens and their arthropod vectors",
+            "authors": [
+                {
+                    "first": "A.F.",
+                    "middle": [],
+                    "last": "Azad",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.B.",
+                    "middle": [],
+                    "last": "Beard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Emerg. Infect. Dis.",
+            "volume": "4",
+            "issn": "",
+            "pages": "179-186",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Principles of the malicious use of infectious agents to create terror: reasons for concern for organisms of the genus Rickettsia",
+            "authors": [
+                {
+                    "first": "D.H.",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Ann. N Y Acad Sci.",
+            "volume": "990",
+            "issn": "",
+            "pages": "739-742",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Outbreak of severe acute respiratory syndrome\u2014worldwide, 2003",
+            "authors": [],
+            "year": 2003,
+            "venue": "MMWR Morb. Mortal. Wkly Rep.",
+            "volume": "52",
+            "issn": "",
+            "pages": "226-228",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Aetiology: Koch's postulates fulfilled for SARS virus",
+            "authors": [
+                {
+                    "first": "R.A.",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Schutten",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "van Amerongen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.J.",
+                    "middle": [],
+                    "last": "van Doornum",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.G.",
+                    "middle": [],
+                    "last": "van den Hoogen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Stohr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.D.",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "423",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "PIML: the Pathogen Information Markup Language",
+            "authors": [
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.R.",
+                    "middle": [],
+                    "last": "Vines",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.R.",
+                    "middle": [],
+                    "last": "Wattam",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.V.",
+                    "middle": [],
+                    "last": "Abramochkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.W.",
+                    "middle": [],
+                    "last": "Dickerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Eckart",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.W.",
+                    "middle": [],
+                    "last": "Sobral",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Bioinformatics",
+            "volume": "21",
+            "issn": "",
+            "pages": "116-121",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "The Pathway Tools software",
+            "authors": [
+                {
+                    "first": "P.D.",
+                    "middle": [],
+                    "last": "Karp",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Paley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Romero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Bioinformatics",
+            "volume": "18",
+            "issn": "Suppl. 1",
+            "pages": "S225-S232",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "GenBank",
+            "authors": [
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Karsch-Mizrachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Ostell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.L.",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "D16-D20",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "NCBI Reference Sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins",
+            "authors": [
+                {
+                    "first": "K.D.",
+                    "middle": [],
+                    "last": "Pruitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Tatusova",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Maglott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res.",
+            "volume": "33",
+            "issn": "",
+            "pages": "D501-D504",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "The past, present and future of genome-wide re-annotation",
+            "authors": [
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Ouzounis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.D.",
+                    "middle": [],
+                    "last": "Karp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Genome Biol.",
+            "volume": "3",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "The Universal Protein Resource (UniProt): an expanding universe of protein information",
+            "authors": [
+                {
+                    "first": "C.H.",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Apweiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Bairoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Natale",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.C.",
+                    "middle": [],
+                    "last": "Barker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Boeckmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Ferro",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Gasteiger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "D187-D191",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Investigation of bioterrorism-related anthrax, United States, 2001: epidemiologic findings",
+            "authors": [
+                {
+                    "first": "D.B.",
+                    "middle": [],
+                    "last": "Jernigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.L.",
+                    "middle": [],
+                    "last": "Raghunathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.P.",
+                    "middle": [],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Brechner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.A.",
+                    "middle": [],
+                    "last": "Bresnitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.C.",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Cetron",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Doyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Emerg. Infect. Dis.",
+            "volume": "8",
+            "issn": "",
+            "pages": "1019-1028",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Improved microbial gene identification with GLIMMER",
+            "authors": [
+                {
+                    "first": "A.L.",
+                    "middle": [],
+                    "last": "Delcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Harmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Kasif",
+                    "suffix": ""
+                },
+                {
+                    "first": "O.",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.L.",
+                    "middle": [],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nucleic Acids Res.",
+            "volume": "27",
+            "issn": "",
+            "pages": "4636-4641",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "GeneMark.hmm: new solutions for gene finding",
+            "authors": [
+                {
+                    "first": "A.V.",
+                    "middle": [],
+                    "last": "Lukashin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Borodovsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res.",
+            "volume": "26",
+            "issn": "",
+            "pages": "1107-1115",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "GenMark: parallel gene recognition for both DNA strands",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Borodovsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "McIninch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Comput. Chem.",
+            "volume": "17",
+            "issn": "",
+            "pages": "123-133",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "A probabilistic method for identifying start codons in bacterial genomes",
+            "authors": [
+                {
+                    "first": "B.E.",
+                    "middle": [],
+                    "last": "Suzek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.D.",
+                    "middle": [],
+                    "last": "Ermolaeva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Schreiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.L.",
+                    "middle": [],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Bioinformatics",
+            "volume": "17",
+            "issn": "",
+            "pages": "1123-1130",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "TICO: a tool for improving predictions of prokaryotic translation initiation sites",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Tech",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Pfeifer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Morgenstern",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Meinicke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Bioinformatics",
+            "volume": "21",
+            "issn": "",
+            "pages": "3568-3569",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+            "authors": [
+                {
+                    "first": "S.F.",
+                    "middle": [],
+                    "last": "Altschul",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.L.",
+                    "middle": [],
+                    "last": "Madden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.A.",
+                    "middle": [],
+                    "last": "Schaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res.",
+            "volume": "25",
+            "issn": "",
+            "pages": "3389-3402",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence",
+            "authors": [
+                {
+                    "first": "T.M.",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.R.",
+                    "middle": [],
+                    "last": "Eddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res.",
+            "volume": "25",
+            "issn": "",
+            "pages": "955-964",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "The European ribosomal RNA database",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Wuyts",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Perriere",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Van De Peer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "D101-D103",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs",
+            "authors": [
+                {
+                    "first": "J.J.",
+                    "middle": [],
+                    "last": "Cannone",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Subramanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.N.",
+                    "middle": [],
+                    "last": "Schnare",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.R.",
+                    "middle": [],
+                    "last": "Collett",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.M.",
+                    "middle": [],
+                    "last": "D'Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.V.",
+                    "middle": [],
+                    "last": "Madabusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "BMC Bioinformatics",
+            "volume": "3",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "A model recognition approach to the prediction of all-helical membrane protein structure and topology",
+            "authors": [
+                {
+                    "first": "D.T.",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.R.",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.M.",
+                    "middle": [],
+                    "last": "Thornton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Biochemistry",
+            "volume": "33",
+            "issn": "",
+            "pages": "3038-3049",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "The challenge of emerging and re-emerging infectious diseases",
+            "authors": [
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.K.",
+                    "middle": [],
+                    "last": "Folkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.S.",
+                    "middle": [],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "430",
+            "issn": "",
+            "pages": "242-249",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "The Gene Ontology (GO) database and informatics resource",
+            "authors": [
+                {
+                    "first": "M.A.",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Ireland",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Lomax",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Ashburner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Foulger",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Eilbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Mungall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "D258-D261",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "The ENZYME database in 2000",
+            "authors": [
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Bairoch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nucleic Acids Res.",
+            "volume": "28",
+            "issn": "",
+            "pages": "304-305",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "The Pfam protein families database",
+            "authors": [
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Bateman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Birney",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Cerruti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Durbin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Etwiller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.R.",
+                    "middle": [],
+                    "last": "Eddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Griffiths-Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.L.",
+                    "middle": [],
+                    "last": "Howe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.L.",
+                    "middle": [],
+                    "last": "Sonnhammer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res.",
+            "volume": "30",
+            "issn": "",
+            "pages": "276-280",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "A genomic perspective on protein families",
+            "authors": [
+                {
+                    "first": "R.L.",
+                    "middle": [],
+                    "last": "Tatusov",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.V.",
+                    "middle": [],
+                    "last": "Koonin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "278",
+            "issn": "",
+            "pages": "631-637",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "MUSCLE: a multiple sequence alignment method with reduced time and space complexity",
+            "authors": [
+                {
+                    "first": "R.C.",
+                    "middle": [],
+                    "last": "Edgar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMC Bioinformatics",
+            "volume": "5",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "The neighbor-joining method: a new method for reconstructing phylogenetic trees",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Saitou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Nei",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Mol. Biol. Evol.",
+            "volume": "4",
+            "issn": "",
+            "pages": "406-425",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "Phylogenetic analysis using PHYLIP",
+            "authors": [
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Retief",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Methods Mol. Biol.",
+            "volume": "132",
+            "issn": "",
+            "pages": "243-258",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "Confidence limits on phylogenies: an approach using the bootstrap",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Felsenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Evolution",
+            "volume": "39",
+            "issn": "",
+            "pages": "783-791",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Base-By-Base: single nucleotide-level analysis of whole viral genome alignments",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Brodie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.J.",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.L.",
+                    "middle": [],
+                    "last": "Roper",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Tcherepanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Upton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMC Bioinformatics",
+            "volume": "5",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "Multiple sequence alignment with the Clustal series of programs",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Chenna",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Sugawara",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Koike",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.J.",
+                    "middle": [],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.G.",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nucleic Acids Res",
+            "volume": "31",
+            "issn": "",
+            "pages": "3497-3500",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "The comprehensive microbial resource",
+            "authors": [
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.A.",
+                    "middle": [],
+                    "last": "Umayam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Dickinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.K.",
+                    "middle": [],
+                    "last": "Hickey",
+                    "suffix": ""
+                },
+                {
+                    "first": "O.",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nucleic Acids Res.",
+            "volume": "29",
+            "issn": "",
+            "pages": "123-125",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "T-Coffee: A novel method for fast and accurate multiple sequence alignment",
+            "authors": [
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Notredame",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.G.",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Heringa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Mol. Biol.",
+            "volume": "302",
+            "issn": "",
+            "pages": "205-217",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "Versatile and open software for comparing large genomes",
+            "authors": [
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Kurtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Phillippy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.L.",
+                    "middle": [],
+                    "last": "Delcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Smoot",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Shumway",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Antonescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.L.",
+                    "middle": [],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Genome Biol.",
+            "volume": "5",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "International Committee on Taxonomy of Viruses and the 3,142 unassigned species",
+            "authors": [
+                {
+                    "first": "C.M.",
+                    "middle": [],
+                    "last": "Fauquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Fargette",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virol. J.",
+            "volume": "2",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "xBASE, a collection of online databases for bacterial comparative genomics",
+            "authors": [
+                {
+                    "first": "R.R.",
+                    "middle": [],
+                    "last": "Chaudhuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.J.",
+                    "middle": [],
+                    "last": "Pallen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "D335-D337",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "New bioinformatics tools for viral genome analyses at Viral Bioinformatics\u2014Canada",
+            "authors": [
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Esteban",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Upton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Pharmacogenomics",
+            "volume": "6",
+            "issn": "",
+            "pages": "271-280",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "VirGen: a comprehensive viral genome resource",
+            "authors": [
+                {
+                    "first": "U.",
+                    "middle": [],
+                    "last": "Kulkarni-Kale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Bhosle",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.S.",
+                    "middle": [],
+                    "last": "Manjari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.S.",
+                    "middle": [],
+                    "last": "Kolaskar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "D289-D292",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "Bichat guidelines for the clinical management of brucellosis and bioterrorism-related brucellosis",
+            "authors": [
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Bossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Tegnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Baka",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Van Loock",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Hendriks",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Werner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Maidhof",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Gouvras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Euro Surveill",
+            "volume": "9",
+            "issn": "",
+            "pages": "E15-E16",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "The past and present threat of rickettsial diseases to military medicine and international public health",
+            "authors": [
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.L.",
+                    "middle": [],
+                    "last": "Richards",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Temenak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Strickman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.A.",
+                    "middle": [],
+                    "last": "Dasch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Clin. Infect. Dis.",
+            "volume": "34",
+            "issn": "",
+            "pages": "S145-S169",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

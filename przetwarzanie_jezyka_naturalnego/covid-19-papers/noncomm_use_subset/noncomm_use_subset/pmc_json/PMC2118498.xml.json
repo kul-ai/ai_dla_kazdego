@@ -1,0 +1,1144 @@
+{
+    "paper_id": "PMC2118498",
+    "metadata": {
+        "title": "A novel subset of putative stem/progenitor CD34+Oct-4+ cells is the major target for SARS coronavirus in human lung",
+        "authors": [
+            {
+                "first": "Yongxiong",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Vera",
+                "middle": [
+                    "Sau-Fong"
+                ],
+                "last": "Chan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Bojian",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Kelvin",
+                "middle": [
+                    "Yuen-Kwong"
+                ],
+                "last": "Chan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Xiaoning",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Leo",
+                "middle": [
+                    "Yuk-Fai"
+                ],
+                "last": "To",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Fang-Ping",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Ui-Soon",
+                "middle": [],
+                "last": "Khoo",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Chen-Lung",
+                "middle": [
+                    "Steve"
+                ],
+                "last": "Lin",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "To characterize the phenotype of SARS+ cells, autopsy lung samples from nine SARS patients were subjected to triple-color sequential immunohistochemistry (IHC) and immunofluorescence staining on the same section. We found that the SARS antigen could be detected in six patients who died within 11 d after illness onset, but not in the other three patients who died 21, 24, or 27 d after disease onset (Table I), which is consistent with a recent report showing that SARS antigen or RNA could not be detected in patients who died >2 wk after disease onset (11). In samples where SARS antigen was detected, as many as 42 SARS+ cells in a microscopic field (400\u00d7) were identified (Table I). By location, SARS+ cells were found in the alveoli (Fig. 1, a and b, and d and e, red) and the bronchiolar lining layer (Fig. 1, j and k, red). By morphology, SARS+ cells were round or oval in shape and rich in cytoplasm (Fig. 1, b, d, e, j, and k). Furthermore, SARS+ cells did not express surfactant A, a type II pneumocyte marker (Fig. 1, a, b, d, and j, brown), or cytokeratin (Fig. 1, e and k, green). SARS+ cells did not express surfactant C (also a type II pneumocyte marker) or T1\u03b1 (a type I pneumocyte marker) either (Fig. S2, available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). Because bronchial/bronchiolar lining layers are composed of multiple cell types that are compactly arranged, some SARS+ cells were \u201coverlapping\u201d with adjacent cytokeratin+ cells (e.g., one indicated by a circle, Fig. 1 k and Fig. S3), which could be mistakenly interpreted as \u201ccolocalized\u201d on two-dimensional images. However, they could be carefully distinguished by adjusting the focus under the microscope.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 558,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "SARS+ cells in alveoli and terminal bronchioles do not express cytokeratin or surfactant ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 740,
+                    "end": 768,
+                    "mention": "Fig. 1, a and b, and d and e",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 809,
+                    "end": 824,
+                    "mention": "Fig. 1, j and k",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 910,
+                    "end": 935,
+                    "mention": "Fig. 1, b, d, e, j, and k",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1022,
+                    "end": 1044,
+                    "mention": "Fig. 1, a, b, d, and j",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1070,
+                    "end": 1085,
+                    "mention": "Fig. 1, e and k",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1504,
+                    "end": 1512,
+                    "mention": "Fig. 1 k",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Our findings indicate that SARS-infected cells are unlikely to be pneumocytes (either type 1 or type 2) or cytokeratin+ epithelial cells. This observation is supported by a recent report that SARS-CoV cannot infect or replicate in the fully differentiated mouse type 1 or type 2 pneumocytes (14). Our result does contradict some data in the literature that suggest that cytokeratin+, surfactant+, or the epithelial membrane antigen\u2013expressing pneumocytes are targeted by SARS-CoV (6\u201312). Upon reviewing the literature, however, we noticed that in some of previous reports the identity of the SARS+ cells was judged by morphology or location alone without colocalization with specific markers to confirm the phenotype (6, 7, 10). In addition, these reports used avidin\u2013biotin complex for SARS-CoV or cytokeratin staining (6, 7, 10). Biotin is widely dispersed in mammalian tissues (15\u201317), and the presence of endogenous biotin is likely to result in false-positive readings, even after blocking procedures before immunodetection (18). Experiences with this problem have also been encountered in our lab (Fig. S4, available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). In other reports, the double-color results for colocalization either could not be clearly differentiated from single-color staining (8, 9) or were interfered by autofluorescence (11, 12) or by hematoxylin counterstaining (9). It is also a concern that none of these reports demonstrates the colocalization of ACE2 expression with the SARS+ cells. Interpretation of these reports thus requires reappraisal.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 294,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 481,
+                    "end": 482,
+                    "mention": "6",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 483,
+                    "end": 485,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 718,
+                    "end": 719,
+                    "mention": "6",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 721,
+                    "end": 722,
+                    "mention": "7",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 724,
+                    "end": 726,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 821,
+                    "end": 822,
+                    "mention": "6",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 824,
+                    "end": 825,
+                    "mention": "7",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 827,
+                    "end": 829,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 881,
+                    "end": 883,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 884,
+                    "end": 886,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1030,
+                    "end": 1032,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1314,
+                    "end": 1315,
+                    "mention": "8",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1317,
+                    "end": 1318,
+                    "mention": "9",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1360,
+                    "end": 1362,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1364,
+                    "end": 1366,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1403,
+                    "end": 1404,
+                    "mention": "9",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "section": "SARS+ cells in alveoli and terminal bronchioles do not express cytokeratin or surfactant ::: RESULTS AND DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Because SARS+ cells did not express cytokeratin or surfactant A (Fig. 1), we investigated if the SARS+ cells might be leukocytes infiltrating in the lung. Results showed that the SARS+ cells did not express tryptase, defensins 1/2/3, CD15, CD68, CD57, CD45RO, CD3, and CD20, indicating that they were not mast cells, neutrophils, macrophages/monocytes, NK, T, or B cells (Fig. S5, available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). We next examined the markers for other cell types. CD34 is expressed by hematopoietic progenitors in the circulation (19) and also by bone marrow stromal cell precursors (20). By a four-color sequential IHC and simultaneous fluorescence in situ hybridization (FISH) and ISH study, we demonstrated that SARS+ cells (Fig. 2 a, red) were distinct from cells expressing the macrophage/monocyte-specific marker CD68 (Fig. 2 a, brown), and the SARS+ cells expressed the only known functional receptor ACE2 (Fig. 2 b, green) as well as the stem/progenitor cell marker CD34 (Fig. 2 c, purple). Similar observations were made in the bronchioles, i.e., SARS+ cells expressed both ACE2 and CD34 (Fig. S6). In a separate sequential IHC/FISH/ISH study, SARS+ cells (Fig. 2 i, red) expressed CD34 (Fig. 2 j, green) and another stem/progenitor cell marker, Oct-4 (Fig. 2 k, purple). Oct-4 is a transcription factor, and its activity is essential for maintaining pluripotency of the mammalian embryonic cells (21, 22). Such observations were made in all lung samples from patients recruited for this study who died within 11 d after illness onset (Table I). We thus conclude that the majority of SARS+ cells in the SARS lung were a subset of putative stem/progenitor cells expressing CD34, Oct-4, and ACE2.",
+            "cite_spans": [
+                {
+                    "start": 567,
+                    "end": 569,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 620,
+                    "end": 622,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1443,
+                    "end": 1445,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1447,
+                    "end": 1449,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "SARS+ cells express the functional receptor ACE2 and markers for stem/progenitor cells ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 65,
+                    "end": 71,
+                    "mention": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 764,
+                    "end": 772,
+                    "mention": "Fig. 2 a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 861,
+                    "end": 869,
+                    "mention": "Fig. 2 a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 950,
+                    "end": 958,
+                    "mention": "Fig. 2 b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1016,
+                    "end": 1024,
+                    "mention": "Fig. 2 c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1202,
+                    "end": 1210,
+                    "mention": "Fig. 2 i",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1233,
+                    "end": 1241,
+                    "mention": "Fig. 2 j",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1298,
+                    "end": 1306,
+                    "mention": "Fig. 2 k",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "It is noteworthy although SARS antigen could not be detected in most CD68+ cells (Fig. 2 a and Fig. S5), SARS+CD68+ cells were occasionally found in selected sections of a patient (Table I and Fig. S7, available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). However, in contrast to the diffusely intra-cytoplasmic staining in SARS+CD34+ cells, the viral staining in CD68+ cells was usually granular (Fig. 2 a vs. Fig. S7), suggesting that the mechanism(s) by which SARS antigen enters CD34+ and CD68+ cells may be different. Because CD68+ cells did not express the functional receptor ACE2 (Fig. 2), we regard that the presence of viral antigen in CD68+ cells is most likely due to phagocytosis.",
+            "cite_spans": [],
+            "section": "SARS+ cells express the functional receptor ACE2 and markers for stem/progenitor cells ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 82,
+                    "end": 90,
+                    "mention": "Fig. 2 a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 412,
+                    "end": 420,
+                    "mention": "Fig. 2 a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 603,
+                    "end": 609,
+                    "mention": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "To determine if ACE2+CD34+Oct4+ cells could be found in non-SARS lung, lung tissues from 14 lung cancer patients who had no SARS infection (Table II) were examined. Eight of these patients were retrieved from our archive. The other six were additionally enrolled to obtain fresh lung tissues, part of which was immediately fixed, embedded, and sectioned for IHC-FISH-ISH study upon collection, and the other part was used for ex vivo infection experiments (described below). Results showed that ACE2 signals were detectable in samples from 8 of 14 lung cancer patients, but not in the others (Table II). In these eight patients, we found that consistent with our findings in the SARS lung, ACE2 (Fig. 3 A, b, f, and n, green) was not expressed by surfactant A+ cells (Fig. 3 A, a, e, i, and m, brown; each row represents results from a patient) but was expressed by CD34+ cells (Fig. 3 A, c and j, purple or green). For better differentiation between alveolar and vascular lumens, an endothelial cell marker, CD31, was used to depict blood vessels (Fig. 3 A, a\u2013c, red). We showed that cytokeratin+ cells (Fig. 3 A, e, f, m, and n, red) did not express ACE2 either (Fig. 3 A, f and n, green). Furthermore, CD34 expression (Fig. 3 A, j, green) was colocalized with Oct-4 (Fig. 3 A, k, purple). Interestingly, these ACE2+CD34+Oct4+ cells did not express CD15 (i.e., SSEA-1), another marker for stem/progenitor cells (Fig. 3 A, i, j, and k, red). We also found that in line with our previous report (13), ACE2+ cells (Fig. 3 A, n, green) also expressed L-SIGN (Fig. 3 A, p, purple), a binding receptor for SARS-CoV. In the lung samples from these eight patients, the number of CD34+ cells was identified from 2 to 72 per microscopic field (400\u00d7) (Table II). Therefore, ACE2+CD34+Oct4+L-SIGN+ cells are also present in the lung of some non-SARS individuals. Together with our previous findings (reference 13 and Fig. S1), we also conclude that the binding receptor L-SIGN is expressed by at least two cell types in the non-SARS lung: cytokeratin+ACE2\u2212 bronchial/bronchiolar epithelial cells and CD34+Oct4+ cells that express ACE2 but not cytokeratin; however, only the latter contain SARS-CoV antigen in the SARS lung. We also note that the frequency of CD34+ cells in the non-SARS lung appears to be higher than that of SARS+ cells in the SARS samples. However, these numbers cannot be directly compared because the non-SARS lung samples were from lung cancer patients, which may not represent the situations in healthy individuals who have no lung pathology. Furthermore, it is still unclear how the frequency of these putative stem/progenitor cells is regulated, for example, in cancers.",
+            "cite_spans": [
+                {
+                    "start": 1496,
+                    "end": 1498,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1900,
+                    "end": 1902,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 696,
+                    "end": 717,
+                    "mention": "Fig. 3 A, b, f, and n",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 768,
+                    "end": 792,
+                    "mention": "Fig. 3 A, a, e, i, and m",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 879,
+                    "end": 896,
+                    "mention": "Fig. 3 A, c and j",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1049,
+                    "end": 1062,
+                    "mention": "Fig. 3 A, a\u2013c",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1105,
+                    "end": 1129,
+                    "mention": "Fig. 3 A, e, f, m, and n",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1165,
+                    "end": 1182,
+                    "mention": "Fig. 3 A, f and n",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1222,
+                    "end": 1233,
+                    "mention": "Fig. 3 A, j",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1270,
+                    "end": 1281,
+                    "mention": "Fig. 3 A, k",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1414,
+                    "end": 1435,
+                    "mention": "Fig. 3 A, i, j, and k",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1514,
+                    "end": 1525,
+                    "mention": "Fig. 3 A, n",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1557,
+                    "end": 1568,
+                    "mention": "Fig. 3 A, p",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "To further investigate if CD34+ cells in the non-SARS lung could be infected by SARS-CoV, part of the fresh lung tissue collected from six lung cancer patients (Table II) was cut into small blocks (2\u20133 mm3) and directly exposed to live virus as similarly described by others (23). After 16 h, the ex vivo\u2013infected tissue blocks were fixed and embedded for IHC-FISH-ISH study. Results showed that though few in number, SARS+ cells were identified in samples from four patients (Fig. 3 B, b and c, red, and Figs. S8 and S9, which are available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). Consistently, these four patients also had detectable CD34+Oct-4+ cells in the fresh samples studied immediately upon collection (Table II). Furthermore, in line with observations in the SARS-infected lung, the SARS antigen (Fig. 3 B, b and c, red, and Fig. S8) was not colocalized with surfactant A (Fig. 3 B, b, brown, and Fig. S8). SARS+ cells could be clearly visualized under a fluorescence microscope before FISH study (Fig. 3 B, c). After FISH/ISH study, SARS+ cells indeed expressed both CD34 and Oct-4 (Fig. 3 B, d and e, green and purple, respectively, and Fig. S8). In separate sections, triple-color staining confirmed that no cytokeratin or surfactant expression was colocalized with SARS antigen (Fig. S9).",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 278,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 477,
+                    "end": 494,
+                    "mention": "Fig. 3 B, b and c",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 825,
+                    "end": 842,
+                    "mention": "Fig. 3 B, b and c",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 901,
+                    "end": 912,
+                    "mention": "Fig. 3 B, b",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1026,
+                    "end": 1034,
+                    "mention": "Fig. 3 B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1112,
+                    "end": 1129,
+                    "mention": "Fig. 3 B, d and e",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "In the ex vivo\u2013infected samples where SARS+ cells were detected, an average of about two to three SARS+ cells per tissue section could be identified. The reason for few cells being infected in this model is unclear. One possibility is that, unlike the in vivo situation where the virus can reside and replicate in the lung for days to weeks, fresh lung tissues in the form of blocks were exposed to live virus for 16 h only. Thus, the virus may not be able to \u201csee\u201d all of these target cells. It is also possible and remains to be investigated if these putative stem/progenitor cells represent a heterogeneous population that is still differentiating and only cells at a certain differentiation stage are susceptible to the viral infection.",
+            "cite_spans": [],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Collectively, we conclude that the major target for SARS-CoV in the SARS-infected lung is a novel subset of putative lung stem/progenitor CD34+Oct4+ cells (Fig. 2), which is also the only cell subset in the fresh non-SARS samples being infected after ex vivo infection (Fig. 3 B). Interestingly, not all of our enrolled non-SARS individuals had detectable putative stem/progenitor cells in the lung. A recent report has shown that approximately one third of SARS-infected patients had self-limited symptoms with no clinical or radiological evidence of progression to pneumonitis, whereas the remaining had progressive deterioration with impaired lung function (24). Whether or not our findings may contribute to the above clinical observation deserves further study. It also remains to be investigated if these putative stem/progenitor cells also exist in nasopharynx, throat, or trachea. The presence of these cells in the upper airway may also allow viral replication upon initial exposure.",
+            "cite_spans": [
+                {
+                    "start": 661,
+                    "end": 663,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 156,
+                    "end": 162,
+                    "mention": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 270,
+                    "end": 278,
+                    "mention": "Fig. 3 B",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Our current understanding about human lung stem/progenitor cells is limited. Recently, a subset of pulmonary Oct-4+ stem/progenitor cells that could differentiate into pneumocytes has been isolated from neonatal mouse lung (14). Of significance, these mouse stem/progenitor cells express ACE2 and are susceptible to SARS-CoV infection and replication in vitro (14), which at least in part supports our findings. In the adult mouse lung, CD34+ bronchioalveolar stem cells (BASCs) that can differentiate into alveolar epithelia have also been isolated (25). The phenotype of the novel cell subset we identified in the human lung, however, is not entirely compatible to those known mouse lung stem/progenitor cells. For example, the Oct-4+ stem/progenitor cells isolated from the neonatal mouse lung express cytokeratin and CD15 (i.e., SSEA-1) (14), whereas our cells do not (Fig. 3). The BASCs identified in the adult mouse lung express surfactant (25), which is undetectable in our cells. In addition, instead of being at the bronchioalveolar duct junction where the BASCs are located (25), our cells are scattered in the lung stroma (Fig. 3 A) and in the bronchiolar lining layer (Fig. S6). Nevertheless, we notice that some CD34+Oct4+ cells in the non-SARS lung are actually juxtaposed to the cytokeratin+ or surfactant+ cells (Fig. 3 A). Therefore, the possibility that these putative stem/progenitor cells in the human lung may differentiate into mature respiratory epithelia or pneumocytes, as in the case in mice, cannot be excluded.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 226,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 361,
+                    "end": 363,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 551,
+                    "end": 553,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 842,
+                    "end": 844,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 947,
+                    "end": 949,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1085,
+                    "end": 1087,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 873,
+                    "end": 879,
+                    "mention": "Fig. 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1134,
+                    "end": 1142,
+                    "mention": "Fig. 3 A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1329,
+                    "end": 1337,
+                    "mention": "Fig. 3 A",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "The origin of this novel putative human lung stem/progenitor cell is yet to be determined. In our study, some uninfected CD34+Oct4+ cells were identified in the alveoli and bronchiolar lining layer of the SARS lung (Fig. 2 and Fig. S6). Furthermore, not all the enrolled non-SARS individuals had these cells in the lung. It is thus likely that these CD34+Oct-4+ cells might be blood-borne and recruited into the lung under regulation. This postulation can be supported at least in part by reports that circulation- or bone marrow\u2013derived cells may differentiate into mature respiratory epithelia in animals (26\u201328), and that preexisting injury may increase recruitment of adult bone marrow\u2013derived cells to the lung, which subsequently give rise to differentiated cells (29). Because CD34+Oct4+ cells can be found in the non-SARS lung (Fig. 3 A) and can be infected by SARS-CoV ex vivo (Fig. 3 B and Figs. S8 and S9), we regard it unlikely that the presence of these cells in the lung is merely a response to SARS infection. For the same reason, it is also unlikely that these cells are recruited into the lung only as part of an attempt for viral clearance or are the only remaining cells bearing viral antigen by the time of death.",
+            "cite_spans": [
+                {
+                    "start": 608,
+                    "end": 610,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 611,
+                    "end": 613,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 771,
+                    "end": 773,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 216,
+                    "end": 222,
+                    "mention": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 836,
+                    "end": 844,
+                    "mention": "Fig. 3 A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 887,
+                    "end": 895,
+                    "mention": "Fig. 3 B",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Whether or not these CD34+ cells are also the major target for SARS-CoV in the early phase of infection remains to be investigated. Our ex vivo infection model in part can be a complement to actual early infection. However, in vivo confirmation of the identity of virus-targeted cells in the early phase is difficult because of unavailability of samples from patients who died within 3 d after illness onset or even before the onset. Extrapolation of animal studies to humans for early infection also requires much caution because iatrogenic inoculation with large-volume viral droplets into animals is different from infection in a more natural aerosol form in human settings (30). Moreover, the value and reproducibility of the nonhuman primate model for SARS infection are also highly disputable (31, 32).",
+            "cite_spans": [
+                {
+                    "start": 678,
+                    "end": 680,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 800,
+                    "end": 802,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 804,
+                    "end": 806,
+                    "mention": "32",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Admittedly, the pathogenesis of SARS is still unclear and no satisfactory explanation for a complete picture has been provided by reports in the literature or by this study. Nevertheless, we present clear evidence that putative stem/progenitor CD34+Oct4+ cells are the major target for SARS-CoV infection in the human lung. With our findings, we postulate that although L-SIGN\u2013mediated viral entry into cytokeratin+ respiratory epithelia leads to viral degradation (13), infection of CD34+Oct4+ cells may result in cell death (cytopathy) and the production of proinflammatory cytokines or other soluble mediators. The death of the stem/progenitor cells and the resulting local immuno-dysregulation (e.g., cytokine storm from infiltrating immune cells [Fig. S5], including macrophages, and/or from the infected CD34+Oct4+ cells) may together contribute to alveolar cell damage, loss of repair capacity, and respiratory insufficiency as clinically observed. Isolation and purification of these CD34+Oct4+ cells are underway to further examine their role in the pathogenesis.",
+            "cite_spans": [
+                {
+                    "start": 466,
+                    "end": 468,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "ACE2+CD34+Oct-4+ cells are present in non-SARS lung and express L-SIGN, and can be infected by SARS-CoV ex vivo ::: RESULTS AND DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Lung autopsy from nine patients fatally infected with SARS were retrieved for the study. Non-SARS lung samples were obtained from 14 adults having lobectomy for lung cancers with approval by the Institutional Review Board of the University of Hong Kong. Mouse anti-SARS CoV nucleocapsid antibody was produced as described previously (13). Other primary antibodies used were listed in Table S1 (available at http://www.jem.org/cgi/content/full/jem.20070462/DC1). Antisense and sense of cRNA probes for FISH and ISH were generated as described previously (13). CD34 cRNA probe corresponding to nucleotides 590\u20131034 (GenBank accession no. S53910) and Oct-4 cRNA probe corresponding to nucleotides 454\u20131046 (GenBank accession no. NM002701) were used. ACE2 and L-SIGN (CD209L) probes were described previously (13).",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 336,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 554,
+                    "end": 556,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 806,
+                    "end": 808,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Lung samples, antibodies, and cRNA probes. ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequential immunostaining was performed on 5-\u03bcm paraffin sections of formalin-fixed lung samples. Samples were de-paraffinized and rehydrated. After blocking endogenous peroxidase with 0.3% H2O2, 0.03% NaN3 for 30 min at room temperature, mouse anti\u2013surfactant A antibody was added at 4\u00b0C overnight. Sections were then incubated with peroxidase-conjugated EnVision plus reagent (anti\u2013mouse, ready to use; DakoCytomation) for 1 h at room temperature and developed with diaminobenzidine chromogen substrate (DakoCytomation). Sections were subjected to microwave heating to block endogenous alkaline phosphatase as well as to inactivate the antibody from the first staining. Mouse anti-SARS CoV nucleocapsid antibody was applied at 4\u00b0C overnight, followed by anti\u2013mouse universal immuno-alkaline-phosphatase polymer (ready to use; Nichirei Corporation) for 2 h at room temperature. The color was subsequently developed with a fast red substrate system (Sigma-Aldrich). After immunohistochemical staining, sections were again microwaved to inactivate the antibody from the second staining, followed by incubation with mouse anti-cytokeratin AE1/AE3 at 4\u00b0C overnight. Sections were incubated with FITC-conjugated goat anti\u2013mouse IgG (1:400; Sigma-Aldrich) at room temperature for 2 h. Sections were mounted with medium for fluorescence with DAPI (Vector Laboratories). Electronic images of the immunohistochemical and immunofluorescence staining, visualized under a fluorescence microscope (eclipse E600; Nikon), were captured and saved to a computer using the software ACT-1 (Nikon).",
+            "cite_spans": [],
+            "section": "Sequential triple immunostaining on paraffin sections. ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequential IHC was performed similarly as described above. After immunostaining, sections were treated with 0.2 N HCl for 30 min at room temperature to block alkaline phosphatase activity from the previous staining. Sections were then digested with 10 \u03bcg/ml proteinase K at 37\u00b0C for 15 min. Subsequent FISH and ISH were performed on the same section as described previously (13). The same field as in the IHC, FISH, and ISH images were selected and visualized under the same microscope and saved as electronic images for comparison and analysis of colocalization.",
+            "cite_spans": [
+                {
+                    "start": 375,
+                    "end": 377,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "IHC, FISH, and ISH on paraffin sections. ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Lung tissues were excised from lung cancer patients for ex vivo infection with the approval by the Institutional Review Board of the University of Hong Kong. Fresh lung tissues were cut into small tissue blocks (2\u20133 mm3), followed by SARS-CoV (strain GZ50) (33) infection at 5 \u00d7 106 TCID50 in 1 ml of serum-free RPMI medium at 37\u00b0C for 1 h. The culture was then supplemented with 10% fetal bovine serum and further incubated at 37\u00b0C for 16 h. Tissue blocks were fixed and processed for subsequent IHC, FISH, and ISH analysis as described above.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 260,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "section": "SARS-CoV infection of fresh human lung tissues. ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Fig. S1 shows that L-SIGN is expressed in cytokeratin+ cells. Fig. S2 shows that SARS+ cells do not express surfactant C or T1\u03b1. Fig. S3 shows that SARS+ cells do not express cytokeratin or surfactant A. Fig. S4 shows that IHC using an avidin\u2013biotin complex method can result in a false-positive reading for cytokeratin expression in the alveoli. Fig. S5 shows that SARS+ cells do not express most of the common leukocyte markers. Fig. S6 shows that SARS+ cells in bronchioles express both ACE2 and CD34. Fig. S7 shows that SARS-CoV antigen can be found in CD68+ cells. Fig. S8 shows that CD34+Oct-4+ cells in non-SARS lung tissues can be infected by SARS-CoV ex vivo. Fig. S9 shows that SARS-CoV does not infect cytokeratin+ or surfactant A+ cells in fresh lung tissue blocks. Table S1 shows the list of antibodies used. The online supplemental material is available at http://www.jem.org/cgi/content/full/jem.20070462/DC1.",
+            "cite_spans": [],
+            "section": "Online supplemental material. ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table I.: Number of SARS+ cells in fatally infected SARS lung\n",
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table II.: Numbers of CD34+ cells in lung samples from lung cancer patients\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1.: \nSARS+ cells do not express cytokeratin or surfactant in alveoli (a\u2013f) and terminal bronchioles (j\u2013L). SARS lung autopsy samples studied by IHC for surfactant A (brown labeling in a, b, d, and j; some indicated by yellow arrows), for SARS-CoV nucleocapsid antigen (red labeling; some indicated by red arrows in a, b, d, and j; also visible in e and k), and immunofluorescence for cytokeratin (green labeling in e and k; some indicated by white arrows). The black circle in d indicates where cytokeratin+ cells are visualized in e. The yellow circle in e indicates where surfactant+ cells are visualized in d. DAPI counterstaining showing the cellular nuclei is in the right column. Isotype antibody control for IHC and immunofluorescence is in g and h, respectively. Some SARS+ cells were actually \u201coverlapping\u201d with adjacent cytokeratin+ cells (one indicated by a circle in k), which might be mistakenly regarded \u201ccolocalized\u201d on two-dimensional photos. Panels of each row represent results of the same section from a patient. Results are representative of six SARS patients who died within 11 d after disease onset. Bar, 20 \u03bcm.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: \nSARS+ cells in the alveoli express ACE2, CD34, and Oct-4. (a\u2013c) IHC on SARS autopsy lung for CD68 (brown labeling, some indicated by dark blue arrows in a) and for SARS-CoV antigen (red labeling, some indicated by red arrows in a; also visible in b and c), followed by FISH for ACE2 (green labeling in b, some indicated by green arrows and a circle) and ISH for CD34 (purple labeling in c, some indicated by light blue arrows and a circle). Circles in a, b, and c indicate uninfected ACE2+CD34+ cells. (e\u2013g) Isotype antibody control for IHC, ACE2 sense control for FISH, and CD34 sense control for ISH, respectively. (i\u2013k) IHC for SARS-CoV antigen (red labeling, some indicated by red arrows in i; also visible in j and k), followed by FISH for CD34 (green labeling in j, some indicated by light blue arrows and circles), and ISH for Oct-4 (purple labeling in k, some indicated by purple arrows and circles). Circles in j and k indicate uninfected CD34+Oct-4+ cells. Isotype antibody control for IHC, CD34 sense control for FISH, and Oct-4 sense control for ISH are similar to e, f, and g, respectively (not depicted). DAPI counterstaining is in the right column. Panels of each row represent results on the same section of a patient. Results are representative of six SARS patients. Bar, 20 \u03bcm.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3.: \nACE2+CD34+Oct-4+L-SIGN+ cells are present in non-SARS lung and can be infected by SARS CoV ex vivo. (A, a\u2013d) IHC on non-SARS lung samples for surfactant A (brown labeling, some indicated by yellow arrows in a; also visible in c), CD31 (red labeling in a; also visible in b and c), followed by FISH for ACE2 (green labeling in b, some indicated by green arrows) and ISH for CD34 (purple labeling in c, some indicated by light blue arrows). DAPI counterstaining is in d. Circle in b indicates autofluorescence from red blood cells. (e\u2013h) IHC for surfactant A (brown labeling, one indicated by a yellow arrow in e; also visible in g) and for cytokeratin (red labeling, one indicated by a white arrow in e; also visible in f and g), followed by FISH for ACE2 (green labeling in f, some indicated by green arrows) and ISH for CD34 (purple labeling in g, some indicated by light blue arrows). DAPI counterstaining is in h. (i\u2013L) IHC for surfactant A (brown labeling in i, one indicated by a yellow arrow; also visible in k) and for CD15 (red labeling, one indicated by a dark green arrow in i; also visible in j and k), followed by FISH for CD34 (green labeling in j, some indicated by light blue arrows) and ISH for Oct-4 (purple labeling in k, some indicated by purple arrows). DAPI counterstaining is in L. One of the CD34+Oct-4+ cells is juxtaposed to a surfactant+ cell (the yellow arrow in i vs. the lower light blue arrow in j and the lower purple arrow in k). (m\u2013q) IHC for surfactant A (brown labeling, one indicated by a yellow arrow in m; also visible in p) and for cytokeratin (red labeling, one indicated by a white arrow in m; also visible in n and p), followed by FISH for ACE2 (green labeling, some indicated by green arrows in n) and ISH for L-SIGN (purple labeling, some indicated by pink arrows in p). DAPI counterstaining is in q. Some of the ACE2+CD34+Oct4+L-SIGN+ cells are close to surfactant A+ cells (g and k) or cytokeratin+ cells (p). Panels of each row represent results on the same section of a patient. Results are representative of eight patients with lung cancer. Bar, 20 \u03bcm. (B) Fresh lung tissues resected from cancer patients were cut into small blocks, exposed to SARS-CoV for 16 h, and studied by IHC for surfactant A (brown labeling in a and b, one indicated by a yellow arrow in b; also visible in e), for SARS antigen (red labeling, indicated by a red arrow in b; also visible in c), followed by FISH for CD34 (green labeling, one indicated by a light blue arrow in d) and ISH for Oct-4 (purple labeling, one indicated by a purple arrow in e). T, tumor. DAPI counterstaining is in f. Results are representative in four of six individuals enrolled. No CD34+ cells could be detected in samples from the other two individuals. Bars: a, 100 \u03bcm; b\u2013f, 20 \u03bcm.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Lancet.",
+            "volume": "361",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": 2005,
+            "venue": "Nat. Med.",
+            "volume": "11",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "PLoS Med.",
+            "volume": "3",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": 2004,
+            "venue": "J. Pathol.",
+            "volume": "202",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "Nat. Genet.",
+            "volume": "38",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "Proc. Natl. Acad. Sci. USA.",
+            "volume": "103",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": 1997,
+            "venue": "Histopathology.",
+            "volume": "31",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": 2002,
+            "venue": "Histochem. J.",
+            "volume": "34",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": 2001,
+            "venue": "Curr. Diagn. Pathol.",
+            "volume": "7",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": 1986,
+            "venue": "Blood.",
+            "volume": "67",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "N. Engl. J. Med.",
+            "volume": "348",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": 1991,
+            "venue": "Blood.",
+            "volume": "78",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": 1998,
+            "venue": "Cell.",
+            "volume": "95",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": 1990,
+            "venue": "EMBO J.",
+            "volume": "9",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "Nature.",
+            "volume": "440",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Emerg. Infect. Dis.",
+            "volume": "9",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": 2005,
+            "venue": "Cell.",
+            "volume": "121",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": 2001,
+            "venue": "Development.",
+            "volume": "128",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": 2004,
+            "venue": "Am. J. Respir. Crit. Care Med.",
+            "volume": "170",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": 2001,
+            "venue": "Cell.",
+            "volume": "105",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "Proc. Am. Thorac. Soc.",
+            "volume": "3",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "N. Engl. J. Med.",
+            "volume": "348",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": 2005,
+            "venue": "J. Biomech. Eng.",
+            "volume": "127",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": 2004,
+            "venue": "Virology.",
+            "volume": "330",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Lancet.",
+            "volume": "362",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Nature.",
+            "volume": "426",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Lancet.",
+            "volume": "361",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "Lancet.",
+            "volume": "362",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": 2004,
+            "venue": "Nat. Med.",
+            "volume": "10",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": 2005,
+            "venue": "J. Exp. Med.",
+            "volume": "202",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": 2005,
+            "venue": "Hum. Pathol.",
+            "volume": "36",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

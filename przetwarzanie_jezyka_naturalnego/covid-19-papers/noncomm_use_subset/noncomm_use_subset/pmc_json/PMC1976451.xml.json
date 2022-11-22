@@ -1,0 +1,1736 @@
+{
+    "paper_id": "PMC1976451",
+    "metadata": {
+        "title": "Cell-penetrating peptides as transporters for morpholino oligomers: effects of amino acid composition on intracellular delivery and cytotoxicity",
+        "authors": [
+            {
+                "first": "Rebecca",
+                "middle": [
+                    "P."
+                ],
+                "last": "Wu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Derek",
+                "middle": [
+                    "S."
+                ],
+                "last": "Youngblood",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jed",
+                "middle": [
+                    "N."
+                ],
+                "last": "Hassinger",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Candace",
+                "middle": [
+                    "E."
+                ],
+                "last": "Lovejoy",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Michelle",
+                "middle": [
+                    "H."
+                ],
+                "last": "Nelson",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Patrick",
+                "middle": [
+                    "L."
+                ],
+                "last": "Iversen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Hong",
+                "middle": [
+                    "M."
+                ],
+                "last": "Moulton",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Steric-blocking antisense oligonucleotides (AOs) are considered potential therapeutics for genetic diseases such as Duchenne muscular dystrophy (DMD) and \u03b2-thalassemia. For their potential to be realized, however, the AOs must be effectively delivered to cell nuclei. Cationic lipoplex- or PEI-based transfection methods used to deliver charged AOs are not suitable for the delivery of uncharged AOs such as phosphorodiamidate morpholino oligomers (PMO, Figure 1) (1) and peptide nucleic acids (PNAs) (2). Conjugation of PMO to short CPPs is a good method to enhance the cytoplasmic and nuclear delivery of PMO because the conjugates are simple to use and because the short peptides and their AO conjugates can be easily manufactured and characterized in a quality-controlled manner. Examples of well-studied CPP\u2212PMO conjugates include those with Tat and oligoarginine peptides (3,4)\n",
+            "cite_spans": [
+                {
+                    "start": 465,
+                    "end": 466,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 502,
+                    "end": 503,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 879,
+                    "end": 880,
+                    "mention": "3",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 881,
+                    "end": 882,
+                    "mention": "4",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 454,
+                    "end": 462,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Important considerations in the design of effective CPPs include the ability to deliver AO efficiently, stability in living systems and toxicity. We have reported that Tat and oligoarginine peptides are not stable in human serum (5), and are therefore ill-suited for in vivo applications. Oligoarginine peptides incorporating non-\u03b1 amino acids have been proven superior to oligoarginine alone. CPPs containing 6-aminohexanoic acid (X) and \u03b2-alanine (B) were more stable in human serum than Tat or oligoarginine peptides (5). A CPP\u2212PMO conjugate, (RXR)4\u2212PMO, has been shown to be more efficient in the correction of pre-mRNA mis-splicing (6) and in inhibition of the replication of mouse hepatitis virus in vivo (7) than an oligoarginine peptide. In addition, (RXR)4\u2212PMO conjugates have been shown to cause effective exon skipping in muscle cells from DMD dogs (8), in human muscle explants (9) and in mdx mice (10), as well as inhibiting the replication of various viruses in cell cultures (7,11\u201313) and in mice (7,13).",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 231,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 521,
+                    "end": 522,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 638,
+                    "end": 639,
+                    "mention": "6",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 712,
+                    "end": 713,
+                    "mention": "7",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 861,
+                    "end": 862,
+                    "mention": "8",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 891,
+                    "end": 892,
+                    "mention": "9",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 991,
+                    "end": 992,
+                    "mention": "7",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 993,
+                    "end": 998,
+                    "mention": "11\u201313",
+                    "ref_id": null
+                },
+                {
+                    "start": 1013,
+                    "end": 1014,
+                    "mention": "7",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1015,
+                    "end": 1017,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The above studies have helped make it clear that unnatural amino acids can confer enhanced stability and activity, and therefore improve the potential of CPPs to deliver therapeutic PMO. In pursuit of CPPs with improved characteristics, we have carried out a structure\u2013activity relationship study to investigate the effects of unnatural amino acid insertions in oligoarginine peptides on cellular delivery, nuclear antisense activity, toxicity and serum-binding characteristics of the resulting CPP\u2212PMO conjugates. The unnatural amino acids studied here are X, B and D-arginine (r). We chose to study the X amino acid based on the successes of the (RXR)4 CPP in several studies as shown in the previous paragraph. B and r amino acids were chosen because they have good enzymatic stability (5). The CPPs are (i) the oligoarginine sequences, R8 and R9, (ii) sequences with RXR, RX and RB repeats, as well as various combinations thereof, and (iii) sequences containing D-arginine, r8, (rX)8 (rXR)4, (rXr)4 and (rB)8. The CPP\u2212PMO conjugates were evaluated for their relative (a) cellular uptake, as determined by flow cytometry, (b) antisense activity, as determined by a splice correction assay (13) and (c) cellular toxicity, as determined by MTT cell viability, propidium iodide membrane integrity and hemolysis assays, as well as by microscopic imaging.",
+            "cite_spans": [
+                {
+                    "start": 790,
+                    "end": 791,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1194,
+                    "end": 1196,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "CPP nomenclature and sequences are listed in Table 1. Chemical structures of PMO and (RX)8\u2212PMO are shown in Figure 1. The antisense PMO (CCT CTT ACC TCA GTT ACA) is designed to target a \u03b2-thalassemic mutant splice site present in the human \u03b2-globin intron 2 of a positive-readout antisense activity assay system (13) as described in the Results section. Synthesis of PMO, described previously (15,16), and the CPPs, using standard Fmoc chemistry (17), were performed at AVI BioPharma, achieving purities of >90% as determined by HPLC and mass spectrometry analysis. Conjugation of a CPP to a PMO through an amide linker, described previously (6), was followed with an additional purification step to remove nonconjugated peptide. Samples were loaded on source 30S resin (Amersham Biosciences, Pittsburgh, PA) in a 2 ml Biorad (Hercules, CA) MT2 column at 2 ml/min with running buffer A (20 mM Na2HPO4, 25% acetonitrile, pH 7.0) and purified into 45-s fractions with 0\u201335% buffer gradient (buffer B: 1.5M NaCl, 20 mM Na2HPO4, 25% acetonitrile, pH 7.0) over 60 min, using a Biorad BioLogic low pressure chromatography system. The desired faction was desalted by a method described previously (6). HPLC and MS analyses revealed that the final product contained >90% CPP conjugated to full-length PMO, with the balance composed of CPP conjugated to incomplete PMO sequence, nonconjugated full-length or incomplete PMO.\n",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 315,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 394,
+                    "end": 396,
+                    "mention": "15",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 397,
+                    "end": 399,
+                    "mention": "16",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 447,
+                    "end": 449,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 643,
+                    "end": 644,
+                    "mention": "6",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1191,
+                    "end": 1192,
+                    "mention": "6",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Synthesis of CPP\u2013PMO conjugates ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 116,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 45,
+                    "end": 52,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The HeLa pLuc705 (pLuc705) (14) cell line was obtained from Gene Tools, LLC (Philomath, OR). Human liver cell line HepG2 was from American Type Culture Collection (ATCC, Manassas, VA). Cells were cultured in RPMI 1640 medium supplemented with 2 mM L-Glutamine, 100 U/ml penicillin and 10% fetal bovine serum (FBS) (HyClone, Ogden, UT) at 37\u00b0C in a humidified atmosphere containing 5% CO2. All treatments were carried out in OptiMEM medium (Gibco, Inc., Carlsbad, CA.) with or without FBS.",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 30,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Cell culture ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "pLuc705 cells were seeded 20 h prior to treatment in 12-well plates at 100 000 cells/well. Cells were treated with 2 \u03bcM fluorescein-tagged CPP\u2212PMO conjugates for 24 h. After treatment, cells were washed with 500 \u03bcl of cold PBS, incubated with 400 \u03bcl of trypsin at 37\u00b0C for 10 min and combined with 500 \u03bcl medium containing 10% FBS. Cells were spun down at 1000g for 3 min, washed with 500 \u03bcl cold PBS twice, resuspended in 200 \u03bcl of PBS containing 1% FBS and analyzed by a FC-500 Beckman Coulter cytometer (Fullerton, CA). Data was processed using FCS Express 2 (De Novo Software, Thornhill, Ontario, Canada).",
+            "cite_spans": [],
+            "section": "Cell uptake assay ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "pLuc705 cells were seeded 20 h before treatment in 48-well plates at 30 000 cells/well. Cells were washed with 200 \u03bcl medium and treated with CPP\u2212PMO conjugates for 24 h. Cells were washed twice with 200 \u03bcl PBS (HyClone, Ogden, UT), and incubated with 100 \u03bcl of cell lysis buffer (Promega, Madison, WI) at 4\u00b0C for 30 min. Cell lysate was separated from the cell debris by centrifugation at 1000g for 10 min at 4\u00b0C. Luciferase levels were determined by mixing 30 \u03bcl of cell lysate and 50 \u03bcl of luciferase assay reagent (Promega) and measuring subsequent light production using a Flx 800 microplate fluorescence/luminescence reader (Bio-tek, Winooski, VM). The relative light units (RLU) per sample were normalized to microgram of sample protein as determined by the bicinchoninic acid method, following the manufacturer's procedure (Pierce, Rockford, IL).",
+            "cite_spans": [],
+            "section": "Nuclear activity assay ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "pLuc705 cells were seeded 20 h before the treatment in 96-well plates at 9000 cell/well and then treated with the conjugates. The microscopic phase images of treated cells were visualized by a Nikon Diaphot inverted microscope (Melville, NY), captured by an Olympus digital camera and processed by the Magnafire software (Optronics, Goleta, CA). After imaging the cells, the cell viability was determined by the methylthiazoletetrazolium assay (MTT, Sigma, St. Louis, MO) assay. MTT solution (5 mg/ml) was added to the treatment medium to a final concentration of 0.5 mg/ml and incubated for 4 h at 37\u00b0C. 85% of the media of each well was then replaced with DMSO containing 0.01M HCl and further incubated for 10 min at 37\u00b0C and the absorbance measured at 540 nm. Percent cell viability was determined by normalizing the absorbance of each treated sample to the mean of untreated samples.",
+            "cite_spans": [],
+            "section": "Cell viability assay and microscopy ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "pLuc705 cells were seeded 20 h before treatment in 12-well plates at 100 000 cells/well. Cells were treated by removing the medium, washing with 500 \u03bcl PBS and incubating with medium containing CPP\u2212PMO conjugates. Treatment medium was collected in tubes and cells were washed with PBS once, and then treated with 400 \u03bcl of 10% trypsin for 10 min at 37\u00b0C. Trypsin was neutralized with 500 \u03bcl of the serum containing medium. Cells were transferred to the tubes containing previously collected treatment medium, pelleted by centrifugation at 1000g for 5 min, washed with PBS once, and re-suspended in 200 \u03bcl of 0.05 \u03bcg/ml propidium iodide (PI) in PBS. Cells were further incubated at 37\u00b0C for 15 min and analyzed by the Beckman Coulter cytometer (30 000 events/sample collected).",
+            "cite_spans": [],
+            "section": "Propidium iodide membrane integrity assay ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The hemolytic activities of the conjugates were determined in fresh rat blood according to a method described elsewhere (18).",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 123,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Hemolysis assay ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Cellular uptake of CPP\u2212PMO conjugates was investigated using the 3\u2032-carboxyfluorescein-tagged PMO (PMOF) and flow cytometry. We chose 2 \u03bcM as the treatment concentration because none of the conjugates caused any detectable cytotoxicity at this concentration, as demonstrated by the MTT and PI uptake assays. After treating with the conjugates, cells were treated with trypsin (19) to remove membrane-bound conjugates. We found that a heparin sulfate washing step prior to trypsin treatment did not remove additional membrane-bound conjugates but caused some cellular toxicity (data not shown); therefore, only the trypsin treatment step was used in this study.",
+            "cite_spans": [
+                {
+                    "start": 377,
+                    "end": 379,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Cellular Uptake ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "To determine the effect of serum on cellular uptake of the various conjugates, uptake evaluation assays were carried out in the medium containing various concentrations of, or in the absence of, serum. Cellular uptake of CPP\u2212PMOF conjugates increased with the number of arginines and decreased with the X and/or B residue insertion (Figure 2A and B). The oligoarginine R9\u2212PMOF had a mean fluorescence (MF) of 662, nearly 3-fold higher than the 234 produced by R8\u2212PMOF, indicating that a difference of a single arginine can make a substantial difference in the biological properties of a CPP. Insertion of an X or B residue in the R8 sequence reduced the MF from 234 of R8\u2212PMO to 42, 70 and 60 of (RX)8\u2212, (RXR)4\u2212 and (RB)8\u2212PMOF, respectively (Figure 2A). The number of RX or RB repeats affected cellular uptake, with conjugates having fewer RX or RB repeats generating lower MF (Figure 2B).\n",
+            "cite_spans": [],
+            "section": "Cellular Uptake ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 333,
+                    "end": 341,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 742,
+                    "end": 750,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 878,
+                    "end": 886,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "While the addition of 10% serum to the medium caused a decrease in the uptake of the R8\u2212 or R9\u2212PMOF conjugates, it increased the uptake of conjugates containing RX, RB or RXR motifs (Figure 2A and C). Serum reduced the MF of R9\u2212 and R8\u2212PMOF from 662 and 234 to 354 and 158, respectively, and increased the MF of (RX)8\u2212, (RXR)4\u2212 and (RB)8\u2212PMOF from 41, 70 and 60 to 92, 92 and 111, respectively. These differences were statistically significant (Figure 2A). However, higher serum concentrations (30 and 60%) decreased the uptake of (RXR)4\u2212PMOF and oligoarginine\u2212PMOF (Figure 2C).",
+            "cite_spans": [],
+            "section": "Cellular Uptake ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 445,
+                    "end": 453,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 567,
+                    "end": 575,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Arginine stereochemistry (D versus L) had little effect on the uptake of CPP\u2212PMOF conjugates. We compared the MF of R8\u2212, (RB)8\u2212 and (RX)8\u2212PMOF with their respective D-isomer conjugates, r8\u2212, (rB)8\u2212 and (rX)8\u2212PMOF and found that there was no significant difference between each pair, as shown in Figure 2D for the (RX)8\u2212 and (rX)8\u2212PMOF pair.",
+            "cite_spans": [],
+            "section": "Cellular Uptake ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 295,
+                    "end": 303,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "The CPP conjugates with the highest nuclear antisense activities were (RXR)4\u2212 and (RX)8\u2212PMO. Figure 3A and B show luciferase activity normalized to protein of cells treated with various conjugates at 1 and 5 \u03bcM for 24 h. At both concentrations, (RX)8\u2212 and (RXR)4\u2212PMO were more effective than the other conjugates tested, with the difference more prominent in serum-containing medium at 1 \u03bcM than at 5 \u03bcM. Cells treated with 1 \u03bcM of either conjugate had luciferase activity 10\u201315-fold over the background while the remaining conjugates yielded about a 2\u20134-fold over the background (Figure 3A). At 5 \u03bcM, all conjugates generated higher luciferase activity than at 1 \u03bcM, with (RX)8\u2212PMO and (RXR)4\u2212PMO again the most effective, followed by (RB)8\u2212PMO (Figure 3B). Figure 3C shows that at 10 \u03bcM, the activity of RX or RB conjugates decreased as the number of RX or RB repeats in the CPP decreased. The peptides with 5 or 3 RX or RB repeats, (RX)5, (RX) 3 (RB)5 or (RB)3, generated much lower luciferase activity than those with 8 and 7 repeats.\n",
+            "cite_spans": [],
+            "section": "Oligoarginine, RX, RXR and RB panels ::: Nuclear antisense activity. ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 93,
+                    "end": 101,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 581,
+                    "end": 589,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 747,
+                    "end": 755,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 759,
+                    "end": 767,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Having shown that (RB)8\u2212PMO had less activity than (RXR)4\u2212PMO or (RX)8\u2212PMO, we further investigated the effect of the number and position of X residues on the activity of conjugates. Eleven CPP\u2212PMO conjugates containing 0, 2, 3, 4, 5 or 8 Xs were compared (Figure 4). Generally, CPPs containing a higher number of Xs had higher activities. At 2 \u03bcM, (RX)8\u2212PMO (8 X residues) had the highest activity followed by (RXR)4\u2212PMO (5 X residues) and the conjugates with fewer Xs had lower activities. At 5 \u03bcM, three conjugates containing 3 (3d), 4 (4c) and 8 ((RX)8) X residues had the highest activities, suggesting that the position of X residues affects activity.\n",
+            "cite_spans": [],
+            "section": "Number and position of X residues ::: Nuclear antisense activity. ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 257,
+                    "end": 265,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "Arginine stereochemistry had little effect on the nuclear activity of the R8\u2212 and (RB)8\u2212PMO conjugates but affected the (RX)8\u2212PMO (Figure 5). Replacement of the eight l-arginine residues in R8\u2212 or (RB)8\u2212PMO with D-arginine residues did not change the luciferase activity generated over the 1\u20135 \u00b5M (Figure 5A and B). However, the replacement did cause a small but statistically significant decrease in the activity for (RX)8\u2212PMO at 1 \u03bcM (P = 0.03) and 2 \u03bcM (P = 0.01) (Figure 5C).\n",
+            "cite_spans": [],
+            "section": "L-Arginine versus D-arginine ::: Nuclear antisense activity. ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 139,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 298,
+                    "end": 306,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 468,
+                    "end": 476,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "The effect of serum on the antisense activity of the conjugates depended on the CPP sequences, as shown in Figure 3A\u2013D. Addition of 10% serum to the medium decreased the activity of oligoarginine\u2212PMO conjugates (R8\u2212PMO and R9\u2212PMO) but increased activity of conjugates containing RXR, RX and RB repeats. The addition of 10% serum nearly doubled the luciferase activity of (RXR)4\u2212, (RX)8\u2212 and (RB)8\u2212PMO at 5 \u03bcM (Figure 3B). We further studied this effect for (RXR)4\u2212PMO up to 60% serum. While the activity almost doubled as the serum concentration increased from 0 to 10%, it gradually decreased as the serum concentration increased to 60%, at which activity was similar to that in 0% serum which was still significantly above the background. This \u2018up and down\u2019 profile was also observed with the 1 \u03bcM (RXR)4\u2212PMO treatment. Unlike (RXR)4\u2212PMO, the luciferase activity of R8\u2212PMO or R9\u2212PMO (data not shown) only decreased as the serum concentration increased, with an approximately 30% reduction in 10% serum and no activity in 60% serum. R8\u2212PMO or R9\u2212PMO did not display any detectable activity at 1 \u03bcM, regardless of the serum concentration (data not shown).",
+            "cite_spans": [],
+            "section": "Serum effect on activity ::: Nuclear antisense activity. ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 115,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 410,
+                    "end": 418,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "pLuc705 cells were treated at concentrations ranging from 2 to 60 \u03bcM for 24 h. As shown in Figure 6, all conjugates, except (RX)8 and (RXR)4, had no toxicity at up to 60 \u03bcM. Up to 10 \u03bcM, (RX)8 and (RXR)4 conjugates exhibited no toxicity, at higher concentrations they reduced cell viability in a concentration-dependent manner, with (RX)8 being more toxic than (RXR)4 (Figure 6C and D). Replacement of L-arginine with D-arginine in R8\u2212, (RB)8\u2212 and (RXR)4\u2212PMO did not change the viability profiles of these conjugates (Figure 6A\u2013C). Surprisingly, the L\u2192D replacement in (RX)8\u2212PMO decreased the toxicity. Cell viability with 60 \u03bcM treatment was 40% for (RX)8\u2212PMO, but 80% for (rX)8\u2212PMO (Figure 6D). The eight conjugates containing fewer than 5 X residues did not inhibit cell proliferation up to 60 \u03bcM (Figure 6E). Monomers of arginine or X, individually or in combination, at 500 \u03bcM each, produced no inhibition of cell proliferation (Figure 6F). The toxicities of the CPP\u2212PMO conjugates, (RXR)4\u2212PMO, 3d\u2212PMO and 4c\u2212PMO, were also evaluated in human liver HepG2 cells. We found that only (RXR)4\u2212PMO caused dose-dependent inhibition of cell proliferation while other two conjugates had no toxicity up to 60 \u03bcM, the highest concentration tested in this study (data not shown).\n",
+            "cite_spans": [],
+            "section": "MTT assay ::: Toxicity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 99,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 369,
+                    "end": 377,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 518,
+                    "end": 526,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 685,
+                    "end": 693,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 801,
+                    "end": 809,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 934,
+                    "end": 942,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "We sought to verify the MTT results by collecting microscopic images of cells treated with 60 \u03bcM of the conjugates. The images correlated well with the cell viability data. Images of (RX)8\u2212, (rX)8\u2212, (RXR)3RBR\u2212 (4c), (RXR)4\u2212PMO and vehicle-treated cells are shown in Figure 7. Cells treated with (RX)8\u2212PMO and (RXR)4\u2212PMO appeared rounded and detached from the culture well, and appeared to have fewer live cells. Interestingly, cells treated with (rX)8\u2212PMO appeared to have normal morphology and cell density. The replacement of one X of (RXR)4\u2212PMO with one B reduced toxicity significantly; (RXR)3RBR\u2212PMO (4c\u2212PMO)- treated cells had similar density and morphology to the vehicle-treated cells.\n",
+            "cite_spans": [],
+            "section": "Microscopic images ::: Toxicity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 266,
+                    "end": 274,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                }
+            ]
+        },
+        {
+            "text": "The effect of the conjugates on integrity of cell membranes was investigated by a propidium iodine (PI) exclusion assay. PI can only permeate unhealthy/damaged membranes, so positive PI fluorescence indicates compromised cell membranes. Only (RXR)4\u2212 and (RX)8\u2212PMO conjugates were found to significantly affect membrane integrity at higher concentrations (up to 60 \u00b5M tested). Figure 8A shows the histograms of pLuc705 cells treated with (RXR)4\u2212PMO at 60 \u00b5M for 0.5, 5 and 24 h. The PI positive (PI+) region was defined by the cells permeabilized with ethanol (positive control) as indicated by the gate in the histogram. The PI histogram shifts from the PI-negative region to PI-positive region in the longer incubations, indicating the conjugate caused membrane leakage in a time-dependent manner. The 0.5- and 5-h-treatments caused a slight shift towards the PI+ region, while the 24-htreatment produced a distinct peak which corresponded to 57% of cells that were in the PI+ region. Figure 8B shows the histograms of cells treated with (RXR)4\u2212PMO at concentrations of 2, 10, 20, 40 and 60 \u00b5M for 24 h. There was no significant PI uptake at concentrations up to 20 \u03bcM. At higher concentrations, the PI+ population appeared and the percentage of PI+ cells increased as the treatment concentration increased, indicating that there were more leaking cells at the higher treatment concentration. Similar concentration- and time-dependent PI uptake profiles were observed for (RX)8\u2212PMO but not for (RB)8\u2212PMO and the remaining conjugates (data not shown). Addition of 10% serum to the treatment medium significantly reduced membrane toxicity for the (RXR)4\u2212 (Figure 8C) and (RX)8 \u2212PMO conjugates (data not shown).\n",
+            "cite_spans": [],
+            "section": "Propidium iodine exclusion assay ::: Toxicity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 376,
+                    "end": 384,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 986,
+                    "end": 994,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1655,
+                    "end": 1663,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                }
+            ]
+        },
+        {
+            "text": "The (RXR)4\u2212 and (RX)8\u2212PMO conjugates were tested in a hemolysis assay and found to be compatible with red blood cells. Fresh rat red blood cells were treated with the conjugates at 60 \u03bcM, PBS (background) or 0.005% TX-100 (positive control). The supernatants of conjugate- and PBS-treated samples had small and similar amounts of free hemoglobin released, far lower than that of the TX-100-treated samples (Figure 8D).",
+            "cite_spans": [],
+            "section": "Hemolysis assay ::: Toxicity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 407,
+                    "end": 415,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                }
+            ]
+        },
+        {
+            "text": "The naturally occurring CPPs such as Tat peptide are not stable in blood and neither are oligolysine/oligoarginine (5), rendering these CPPs unfavorable as transporters for therapeutic AOs. We reasoned that one approach to improve stability would be to use non-\u03b1 amino acids or D-amino acids. In this study, we investigated whether incorporation of 6-aminohexanoic acid (X), \u03b2-alanine (B) and D-arginine (r) amino acids into the CPP would affect cellular delivery, antisense activity, toxicity and serum binding of the resulting CPP\u2212PMO conjugates.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 117,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "We found that CPP\u2212PMOF conjugates containing X/B residues did not enter cells as efficiently as R8\u2212 and R9\u2212PMO conjugates. This is consistent with our previous finding for the (RXR)4 conjugate (6). We have found that cell surface proteoglycans were involved with binding of the Tat\u2212, R9F2\u2212 and (RXR)4\u2212PMO conjugates with the (RXR)4 conjugate having the lowest binding affinity. Insertion of X into an oligoarginine CPP reduces the charge density and may lead to decreased binding affinity for proteoglycans. Despite the lower cellular uptake of X/B-containing CPP\u2013PMO, they generated higher antisense activities in the cell nucleus than oligoarginine\u2212PMO. We have found that endocytosis was the internalization mechanism (at least primarily) for oligoarginine- and (RXR)4\u2212PMO conjugates. Indication of different uptake mechanisms was not found among these conjugates (6). Therefore we hypothesize that X/B-containing conjugates have a greater ability to escape from endosomes/lysosomes than oligoarginine conjugates by a mechanism as yet to be studied.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 195,
+                    "mention": "6",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 868,
+                    "end": 869,
+                    "mention": "6",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "The number of X residues affects both the nuclear antisense activity and the toxicity of conjugates. The CPP\u2212PMO conjugate with 8 X residues [(RX)8\u2212PMO] had the highest activity followed by one with 5 Xs [(RXR)4\u2212PMO] (Figures 1 and 4). However, these conjugates were toxic to cells at higher concentrations, which may be a concern when considering potential applications for in vivo delivery of PMO. Replacement of all 8 Xs with Bs decreased both toxicity and antisense activity. The combination of 3\u20134 Xs with several B residues yielded CPPs with no detectable toxicity, and at some concentrations several of them had similar antisense activity as (RX)8\u2212PMO. We think this type of CPP, having Bs and fewer than 5 Xs, will offer balanced activity and low toxicity as well as the stability, and have considerable potential for delivery of therapeutic AOs. Further investigation into the toxicity and activity versus dosing levels of these CPPs in vivo is warranted.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 218,
+                    "end": 227,
+                    "mention": "Figures 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 232,
+                    "end": 233,
+                    "mention": "4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "Surprisingly, the replacement of L-arginine with D-arginine enhanced neither uptake nor antisense activity for oligoarginine, or X- and B-containing conjugates. In the case of (RX)8\u2212PMO, the replacement actually caused a small but statistically significant decrease in activity. Our observation is different from the results reported by others (20,21) who found that D-CPPs had higher cellular uptake than L-CPPs, although no biological functional cargo was used in their study. The difference between results may be due to the type and size of cargos and the cell lines used for the assays. Whether the use of D-arginine-containing peptides results in superior CPP\u2212PMO functional activity in vivo remains to be tested.",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 347,
+                    "mention": "20",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 348,
+                    "end": 350,
+                    "mention": "21",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "We attempted to understand the nature of (RX)8\u2212 and (RXR)4\u2212PMO toxicity. It is apparent that these two conjugates caused little immediate membrane damage with 0.5 or 5 h treatment at concentrations as high as 60 \u03bcM (Figure 8). However, these two conjugates had dose-dependent toxicity with 24 hr treatment as shown by the leaky cell membranes and fewer cells compared to controls (Figure 6C&D, Figure 8). Interestingly, the replacement of Xs with Bs in (RX)8\u2212PMO abolished the toxicity, and the replacement of L-arginine with D-arginine reduced the toxicity of (RX)8\u2212PMO (Figure 6). We have found that (rX)8\u2212PMO was completely stable and the peptide portion of (RB)8\u2212PMO was only partially degraded, whereas the peptide portion of (RX)8\u2212PMO was completely degraded in cells (5). We wondered whether the difference in toxicity among (RX)8, (RB)8 and (rX)8\u2212PMO conjugates was caused by differences in intracellular stability, resulting in the metabolized products of (RX)8\u2212PMO producing toxicity. The identifiable metabolized products of (RX)8\u2212PMO were XRXB\u2212PMO and XB\u2212PMO (5) but neither product had any detectable toxicity as measured by MTT assay (data not shown). It is possible that the CPP portion was degraded into free amino acids and/or smaller peptide fragments which were toxic. However, our investigation revealed that neither free R nor X, alone or in combination, caused cellular toxicity. Another possibility is that because of the high hydrophobicity of X compared to B, X in combination with positively charged arginine residues leads to toxicity not generated by B residue combinations. However, this explanation does not account for the difference in toxicity observed between (RX)8\u2212PMO and (rX)8\u2212PMO, which have the same hydrophobicity. Perhaps the toxicity of (RXR)4\u2212PMO and (RX)8\u2212PMO was caused by the peptide fragments that we could not identify by mass spectrometry.",
+            "cite_spans": [
+                {
+                    "start": 775,
+                    "end": 776,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1072,
+                    "end": 1073,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 216,
+                    "end": 224,
+                    "mention": "Figure 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 572,
+                    "end": 580,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "Unlike the toxicity difference between (RX)8\u2212 and (rX)8\u2212PMO, the L\u2192D replacement did not change the toxicity of (RXR)4\u2212PMO (Figure 6). Substitution of either one R (rXR) or two R (rXr) from the RXR repeat neither reduced nor increased the toxicity profile of (RXR)4\u2212PMO. At this point, we do not fully understand the mechanisms of (RXR)4\u2212 and (RX)8\u2212PMO conjugate toxicity, but look forward to studying this topic further.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 124,
+                    "end": 132,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "Serum effect on the activity of a CPP\u2212AO conjugates is an important issue when considering potential in vivo applications. X/B-containing conjugates were still active in 60% serum while oligoarginine conjugates were not. The greater stability of the X/B-containing conjugates to serum enzymes is likely a factor contributing to their high activity. The loss of activity in high serum concentrations makes oligoarginine CPPs undesirable as potential therapeutic AO carriers.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "In summary, we have found that the X/B-containing CPP\u2212PMO conjugates are superior to oligoarginine\u2212PMO conjugates for the following reasons: they display higher activity in cell nuclei, are less affected by serum and are more stable in blood (5). The toxicity of the X/B-containing CPPs can be reduced by keeping the number of X residues below 5 while still maintaining a reasonable delivery efficacy and stability. This study provides a basis for further optimization of CPP sequence using R, r, X and B residues in the interest of further reducing toxicity and increasing antisense activity, which will likely lead to more effective AO transporters for potential therapeutic applications.",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 244,
+                    "mention": "5",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1.: Names and sequences of the CPPs\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1.: Structures of PMO and (RX)8\u2212 PMO conjugate.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: Cellular uptake of the CPP\u2212PMOF conjugates. pLuc705 cells were treated with carboxyfluorescein-tagged PMOs conjugated to CPPs in OptiMEM with or without 10% serum for 24 h, followed by flow cytometry analysis. Data are presented as mean fluorescence (MF) \u00b1 SD of six data points from two independent experiments. (A) Cells treated with 2 \u03bcM of R8\u2212, R9\u2212, (RXR)4\u2212, (RX)8\u2212 or (RB)8\u2212PMOF conjugates. (B) Cells treated with 2 \u03bcM of (RX)8\u2212, (RX)7\u2212, (RX)5\u2212, (RB)8\u2212, (RB)7\u2212 or (RB)5\u2212PMOF conjugates in the absence of serum. (C) Cells treated with 2 \u03bcM of (RXR)4\u2212 or R9\u2212PMOF in media containing 0, 10, 30 or 60% serum. (D) Cells treated with (RX)8\u2212 or (rX)8\u2212PMOF in media containing 10% serum.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3.: Nuclear activity of CPP\u2212PMO conjugates: oligoarginine, RXR, RX and RB panels. pluc705 cells were treated with the conjugates in OptiMEM medium with or without 10% serum for 24 h. Nuclear activity of a conjugate is indicated by relative luciferase activity (RLU) per microgram of protein. Data represent a mean \u00b1 SD of 6\u20139 data points from three independent experiments. (A) Cells treated with 1 \u03bcM of R8\u2212, R9\u2212, (RB)8\u2212, (RXR)4\u2212 or (RX)8\u2212PMO. (B) Cells treated with 5 \u03bcM of the same panel of conjugates. (C) Cells treated with 10 \u03bcM of conjugates with 8, 7, 5 or 3 RX or RB repeating units. (D) Cells treated with (RXR)4\u2212 or R8\u2212PMO at 1 or 5 \u03bcM in 0, 10, 30 and 60% serum-containing medium.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4.: Nuclear activity of CPP\u2013PMO conjugates: number and position of X residues. pluc705 cells were treated with the conjugates having 0, 2, 3 (3a, 3b, 3c and 3d), 4 (4a, 4b and 4c), 5 and 8 X residues (see sequences in Table 1) in OptiMEM medium with 10% serum for 24 h. Nuclear activity of a conjugate is indicated by relative luciferase activity (RLU) per microgram of protein. Data represent a mean \u00b1 SD of 9\u201312 data points from four independent experiments.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5.: Nuclear activity of CPP\u2013PMO conjugates: D-arginine versus L-arginine. pluc705 cells were treated with the indicated compounds at 1, 2 and 5 \u03bcM in OptiMEM containing 10% FBS for 24 h. Data represent a mean of 9\u201312 samples from four independent experiments. * Indicates that difference in activity between the (RX)8 and (rX)8\u2212PMO conjugates were statistically significant.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6.: Toxicity of CPP\u2212PMO Conjugates: MTT assay. The cell viability is represented as the percent of viable pLuc 705 cells treated at 0, 2, 10, 20, 40 and 60 \u03bcM of the indicated compounds. (A\u2013E) in OptiMEM containing 10% serum for 24 h. (F) Cells were treated with arginine (500 \u03bcM) and X (500 \u03bcM) monomers independently and in combination (500 \u03bcM R + 500 \u03bcM X). Data are represented as a mean of six data points obtained from two independent experiments.",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 7.: Toxicity of CPP\u2212PMO conjugates: microscopic images. pLuc705 cells were treated with the vehicle (No treatment), (RX)8\u2212PMO, (rX)8\u2212PMO, (RXR)4\u2212PMO or (RXR)3RBR\u2212PMO (4c) at 60 \u03bcM in OptiMEM containing 10% serum for 24 h and then directly visualized in the culture medium under a microscope at \u00d7100 magnification.",
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 8.: Toxicity of CPP\u2013PMO conjugates: PI exclusion and hemolysis assay. All treatments were carried out in OptiMEM in the presence and absence of 10% FBS. (A) Flow cytometry histograms of cell numbers versus PI fluorescence of HeLa cells treated with 60 \u03bcM of (RXR)4\u2212PMO for 0.5, 5, and 24 h in serum-free medium. Ethanol- treated cells are used as the positive control and the PI positive peak is indicated in the histogram. (B) Flow cytometry histograms of cells were treated with (RXR)4\u2212PMO at the concentration of 0, 2, 10, 20, 40 or 60 \u03bcM for 24 h in serum-free medium. (C) Cells were treated with (RXR)4\u2212PMO for 24 h in the absence and presence of 10% FBS and then subjected to PI treatment and the flow analysis. (D) The level of hemoglobin (absorbance at 540 nm) released from fresh rat red blood cells treated with (RXR)4\u2212PMO, (RX)8\u2212PMO, PBS (negative control) or 0.005% of TX-100 (positive control) for 1 h at 37\u00b0C. The data represents a mean \u00b1 SD of four data points from two independent experiments.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Morpholino antisense oligomers: The case for an rnase h-independent structural type",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Summerton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Biochim. Biophys. Acta",
+            "volume": "1489",
+            "issn": "",
+            "pages": "141-158",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Morpholino oligomer mediated exon skipping averts the onset of dystrophic pathology in the mdx mouse",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Honeyman",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Fall",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Johnsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Steinhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "SD",
+                    "middle": [],
+                    "last": "Wilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Molecular Therapy",
+            "volume": "00",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Inhibition of flavivirus infections by antisense oligomers specifically suppressing viral translation and rna replication",
+            "authors": [
+                {
+                    "first": "TS",
+                    "middle": [],
+                    "last": "Deas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Binduga-Gajewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tilgner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "EB",
+                    "middle": [],
+                    "last": "Kauffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "LD",
+                    "middle": [],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "PY",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "4599-4609",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Inhibition of multiple subtypes of influenza a virus in cell cultures with morpholino oligomers",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pastey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kobasa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Puthavathana",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lupfer",
+                    "suffix": ""
+                },
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Bestwick",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Antimicrob. Agents. Chemother",
+            "volume": "50",
+            "issn": "",
+            "pages": "3724-3733",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Inhibition of coxsackievirus b3 in cell cultures and in mice by peptide-conjugated morpholino oligomers targeting the internal ribosome entry site",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Coughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Blouch",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "11510-11519",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Up-regulation of luciferase gene expression with antisense oligonucleotides: Implications and applications in functional assay development",
+            "authors": [
+                {
+                    "first": "SH",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kole",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Biochemistry",
+            "volume": "37",
+            "issn": "",
+            "pages": "6235-6239",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Morpholino antisense oligomers: Design, preparation, and properties",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Summerton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Antisense Nucleic Acid Drug Dev",
+            "volume": "7",
+            "issn": "",
+            "pages": "187-195",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Uncharged morpholino-based polymers having phosphorus containing chiral intersubunit linkage",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Summerton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Patent US-5185444",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Fmoc solid phase peptide synthesis; A Practical Approach",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "In vitro cytotoxicity testing of polycations: Influence of polymer structure on cell viability and hemolysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ahlemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Krieglstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kissel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biomaterials",
+            "volume": "24",
+            "issn": "",
+            "pages": "1121-1131",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Cell-penetrating peptides. A reevaluation of the mechanism of cellular uptake",
+            "authors": [
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Melikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vives",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ramos",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Verbeure",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Gait",
+                    "suffix": ""
+                },
+                {
+                    "first": "LV",
+                    "middle": [],
+                    "last": "Chernomordik",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lebleu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J.Biol. Chem",
+            "volume": "278",
+            "issn": "",
+            "pages": "585-590",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Sequence-selective recognition of DNA by strand displacement with a thymine-substituted polyamide",
+            "authors": [
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Egholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "RH",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Buchardt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Science",
+            "volume": "254",
+            "issn": "",
+            "pages": "1497-1500",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Arginine-rich molecular transporters for drug delivery: Role of backbone spacing in cellular uptake",
+            "authors": [
+                {
+                    "first": "JB",
+                    "middle": [],
+                    "last": "Rothbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kreider",
+                    "suffix": ""
+                },
+                {
+                    "first": "CL",
+                    "middle": [],
+                    "last": "VanDeusen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "BL",
+                    "middle": [],
+                    "last": "Wylie",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Wender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Med. Chem",
+            "volume": "45",
+            "issn": "",
+            "pages": "3612-3618",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "The design, synthesis, and evaluation of molecules that enable or enhance cellular uptake: Peptoid molecular transporters",
+            "authors": [
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Wender",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pattabiraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "ET",
+                    "middle": [],
+                    "last": "Pelkey",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Steinman",
+                    "suffix": ""
+                },
+                {
+                    "first": "JB",
+                    "middle": [],
+                    "last": "Rothbard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "97",
+            "issn": "",
+            "pages": "13003-13008",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Hiv tat peptide enhances cellular delivery of antisense morpholino oligomers",
+            "authors": [
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "MC",
+                    "middle": [],
+                    "last": "Hase",
+                    "suffix": ""
+                },
+                {
+                    "first": "KM",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Antisense Nucleic Acid Drug. Dev",
+            "volume": "13",
+            "issn": "",
+            "pages": "31-43",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Cellular uptake of antisense morpholino oligomers conjugated to arginine-rich peptides",
+            "authors": [
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "MH",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Hatlevig",
+                    "suffix": ""
+                },
+                {
+                    "first": "MT",
+                    "middle": [],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Bioconjug. Chem",
+            "volume": "15",
+            "issn": "",
+            "pages": "290-299",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Stability of cell-penetrating peptide-morpholino oligomer conjugates in human serum and in cells",
+            "authors": [
+                {
+                    "first": "DS",
+                    "middle": [],
+                    "last": "Youngblood",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Hatlevig",
+                    "suffix": ""
+                },
+                {
+                    "first": "JN",
+                    "middle": [],
+                    "last": "Hassinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Bioconjug. Chem",
+            "volume": "18",
+            "issn": "",
+            "pages": "50-60",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Vectorization of morpholino oligomers by the (r-ahx-r)(4) peptide allows efficient splicing correction in the absence of endosomolytic agents",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abes",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Clair",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Prevot",
+                    "suffix": ""
+                },
+                {
+                    "first": "DS",
+                    "middle": [],
+                    "last": "Youngblood",
+                    "suffix": ""
+                },
+                {
+                    "first": "RP",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lebleu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Control Release",
+            "volume": "116",
+            "issn": "",
+            "pages": "304-313",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "Antiviral effects of antisense morpholino oligomers in murine coronavirus infection models",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Burrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "BW",
+                    "middle": [],
+                    "last": "Neuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Ting",
+                    "suffix": ""
+                },
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Buchmeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "5637-5648",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "Antisense oligonucleotide-induced exon skipping restores dystrophin expression in vitro in a canine model of dmd",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "McClorey",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "SD",
+                    "middle": [],
+                    "last": "Wilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Gene. Ther",
+            "volume": "13",
+            "issn": "",
+            "pages": "1373-1381",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Induced dystrophin exon skipping in human muscle explants",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "McClorey",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Fall",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Moulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "PL",
+                    "middle": [],
+                    "last": "Iversen",
+                    "suffix": ""
+                },
+                {
+                    "first": "JE",
+                    "middle": [],
+                    "last": "Rasko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "SD",
+                    "middle": [],
+                    "last": "Wilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Neuromuscul. Disord",
+            "volume": "16",
+            "issn": "",
+            "pages": "583-590",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

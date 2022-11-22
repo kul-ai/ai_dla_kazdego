@@ -1,0 +1,732 @@
+{
+    "paper_id": "PMC1933184",
+    "metadata": {
+        "title": "pknotsRG: RNA pseudoknot folding including near-optimal structures and sliding windows",
+        "authors": [
+            {
+                "first": "Jens",
+                "middle": [],
+                "last": "Reeder",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Peter",
+                "middle": [],
+                "last": "Steffen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Giegerich",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "RNA pseudoknots play an important role in many biological processes. They build the catalytic core of some ribozymes (1,2) and are an important building block of many structural RNAs. Pseudoknots are involved in telomerase activity (3) and they stimulate efficient programmed -1 ribosomal frameshifting (-1 PRF), a mechanism used by a wide range of RNA viruses to encode two proteins within one genomic region. In a recent study (4) over a thousand of potential -1 PRF signals were detected in the yeast genome. The majority of signals however seem to direct the ribosome to premature termination codons. This suggests a mechanism of post-transcriptional gene regulation through the nonsense-mediated mRNA decay pathway. Further genome wide studies have to elucidate this phenomenon. This and many more applications require fast RNA folding algorithms, that are also capable of folding pseudoknots.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 119,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 120,
+                    "end": 121,
+                    "mention": "2",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 233,
+                    "end": 234,
+                    "mention": "3",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 430,
+                    "end": 431,
+                    "mention": "4",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Standard RNA folding programs (5,6) neglect pseudoknots for reasons of efficiency. While the standard methods need time proportional to the cube of the input sequence length, pseudoknot prediction is much more demanding. This issue has attracted a large body of bio-informatics work, where all approaches either abandon the model of free energy minimization, or make restrictions on the class of pseudoknots that can be recognized. The well-known algorithm by Rivas and Eddy (7), which is able to predict a restricted class of pseudoknots, needs O(n6) time and O(n4) memory space, where n is the sequence length. Even more restrictive, but more efficient by two orders of magnitude is the program pknotsRG by Reeder and Giegerich (8), requiring O(n4) time and O(n2) space. The new method presented here re-implements and extends this approach in several significant ways.",
+            "cite_spans": [
+                {
+                    "start": 31,
+                    "end": 32,
+                    "mention": "5",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 33,
+                    "end": 34,
+                    "mention": "6",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 476,
+                    "end": 477,
+                    "mention": "7",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 731,
+                    "end": 732,
+                    "mention": "8",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The pknotsRG Web Server (http://bibiserv.techfak.uni-bielefeld.de/pknotsrg) offers an easy and comfortable way to use the pknotsRG algorithm. Input has to be provided in a FASTA format containing one single RNA sequence. All non-nucleotide characters (i.e not A,C,G,T,U,N in upper or lower case) are removed from the sequence. The nucleotide \u2018T\u2019 is treated as \u2018U\u2019 during the folding routine, \u2018N's are always unpaired. The user selects one of the three basic modes and optionally an energy threshold for suboptimal enumeration. If he wants to use the window mode, at least the window size has to be specified. The default window increment is set to one, unless otherwise specified. Depending on the user selection, there are three different ways how the result is displayed:\nMFE structure only: The computed secondary structure and its energy are displayed in Vienna (Dot-Bracket) Notation. Here, a pair of opening and closing parenthesis denotes a base pair, a dot represents a single stranded nucleotide. A 2D visualization is generated using the PseudoViewer Web service (10). Also, a link to a Connect formatted file, originally used by Michael Zukers mfold (11), is provided. An example output is shown in Figure 1.\nSuboptimal solutions: The list of suboptimal solutions is displayed as an RNAmovie (12). RNAmovies displays the individual suboptimal structures one after another with an adjustable number of intermediate transition steps. This allows for a smooth morphing from one structure to the next. Additionally, all suboptimal structures are displayed as Vienna strings along with their respective energy value at the bottom of the result page.Window mode: For each window, the start and end position is displayed, followed by the result of the window folding. This may be one structure (as Vienna string), or many if the suboptimal mode is also selected. There is currently no vizualization provided, when using the window mode. However, the user can resubmit the sequence of an interesting window on its own. Then, the vizualizations explained in (i) and (ii) are automatically generated.",
+            "cite_spans": [
+                {
+                    "start": 1074,
+                    "end": 1076,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1162,
+                    "end": 1164,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1304,
+                    "end": 1306,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Web server integration ::: TOOL",
+            "ref_spans": [
+                {
+                    "start": 1210,
+                    "end": 1218,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "To ensure proper functionality two restrictions are imposed on the pknotsRG Web Server:\nA maximum of 800 nucleotides is allowed for one submission. This guarantees the computation to finish within a few minutes. Note that smaller requests usually are answered instantly.The suboptimal folding space of an RNA sequence grows exponentially with the energy threshold and sequence length. We prevent the Web service of returning too much data, by limiting the number of returned structures to the first 100, respectively, 1000 lines for the window mode.",
+            "cite_spans": [],
+            "section": "Web server integration ::: TOOL",
+            "ref_spans": []
+        },
+        {
+            "text": "The web interface is a convenient means for manual computation, but not designed for automated folding, i.e. integrated in an Internet-based bio-informatics pipeline. For this purpose, we provide a Web Service interface. This is particularly useful for researchers, who either cannot or do not want to install pknotsRG locally on their machines.",
+            "cite_spans": [],
+            "section": "Web server integration ::: TOOL",
+            "ref_spans": []
+        },
+        {
+            "text": "The interface is accessible from any computer in any programming language implementing the SOAP protocol. The Web Service Description Language (WSDL) file describes the functionality of the Web Service and can be found at (http://bibiserv.techfak.uni-bielefeld.de/wsdl/pknotsRG.wsdl). Several software development environments can automatically generate program code from the WSDL file for the integration of a Web Service into a local application. We provide an example client written in Java on the project homepage.",
+            "cite_spans": [],
+            "section": "Web server integration ::: TOOL",
+            "ref_spans": []
+        },
+        {
+            "text": "The extensions presented here have been integrated into the original pknotsRG program in 2005 and 2006. Our server statistics indicate 1068 online uses and 773 downloads for local installation in 2006.",
+            "cite_spans": [],
+            "section": "Web server integration ::: TOOL",
+            "ref_spans": []
+        },
+        {
+            "text": "Recently, an unusual three-stemmed pseudoknot has been identified that promotes programmed -1 ribosomal frameshifting in the SARS Coronavirus (13). The pseudoknot is thought to pause the ribosome during translation, which then shifts back by one nucleotide on the \u2018slippery site\u2019. This special pseudoknot seems to be conserved in all Coronaviruses, and thus could be a target for anti-viral therapeutics.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 145,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "RESULTS FROM AN APPLICATION EXAMPLE",
+            "ref_spans": []
+        },
+        {
+            "text": "The 3-stem topology is predicted by pknotsRG as the optimal structure with an energy of -31.8 kcal/mol (Figure 1), using either the MFE or the enforced mode.",
+            "cite_spans": [],
+            "section": "RESULTS FROM AN APPLICATION EXAMPLE",
+            "ref_spans": [
+                {
+                    "start": 104,
+                    "end": 112,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "General pseudoknot prediction in energy-based models is a Non-deterministic Polynomial time NP-complete problem (14), and thus requires exponential run time. However, if we impose some restrictions on the helices forming the pseudoknots, we can achieve faster algorithms. The restrictions in pknotsRG are motivated by the observation, that most of the currently known pseudoknots are rather simple ones. They consist of only two helices, interacting in a crosswise fashion, as shown in Figure 2. If we allow the unpaired strands (u,v,w in Figure 2) to build secondary structures internally in an arbitrary way, including multiloops and pseudoknots, we call this class simple recursive pseudoknots.\n",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 115,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "CHARACTERIZATION OF THE RECOGNIZED CLASS OF PSEUDOKNOTS",
+            "ref_spans": [
+                {
+                    "start": 486,
+                    "end": 494,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 539,
+                    "end": 547,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Our model further restricts this class by three canonization rules.\nRule 1: The 5\u2032 and 3\u2032 part of each pseudoknot helix must have the same length and must not have an interruption. This disallows bulges and internal loops inside pseudoknot stems.Rule 2: The pseudoknot helices must have maximal length, i.e. if there is a possible base pair at either end, it must be closed.Rule 3: If due to Rule 2 the helices would overlap, the first helix (a) is prioritized and the second one is shortened.",
+            "cite_spans": [],
+            "section": "CHARACTERIZATION OF THE RECOGNIZED CLASS OF PSEUDOKNOTS",
+            "ref_spans": []
+        },
+        {
+            "text": "We call the resulting class canonical simple recursive pseudoknots (csr-pk). Note that all helices not participating in a pseudoknot are not affected by this canonization. A detailed discussion about the effects of canonization can be found in (8).",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 246,
+                    "mention": "8",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "CHARACTERIZATION OF THE RECOGNIZED CLASS OF PSEUDOKNOTS",
+            "ref_spans": []
+        },
+        {
+            "text": "In an exhaustive analysis of the pseudoknot database PseudoBase (http://biology.leidenuniv.nl/~Batenburg/PKB.html), it was shown, that out of 212 known pseudoknots, 172 are simple recursive (8). Almost 80% of these are even canonical simple recursive pseudoknots. This shows the abundance of the class csr-pk within all validated structures.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 192,
+                    "mention": "8",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "CHARACTERIZATION OF THE RECOGNIZED CLASS OF PSEUDOKNOTS",
+            "ref_spans": []
+        },
+        {
+            "text": "We will briefly sketch the way we implemented these ideas as an extension of the usual dynamic programming (DP) scheme for RNA folding [5,6]. Since only two helices participate in one pseudoknot, we loop over all possible knots in one O(n4) loop and store the result in a two-dimensional matrix. More detailed, for a pseudoknot between bases i and j, the algorithm enumerates all k and l, such that i < k < l < j. The first pseudoknot helix (a in Figure 2) starts at base pair i and l, the second (b) at position k and j. Now, we make use of our canonization: The maximal length of a helix can be pre-computed and stored in a two-dimensional array. Therefore, after choosing position k and l, the algorithm looks up the maximal helix lengths, h for (i, l) and h\u2032 for (k, j) and checks the applicability of Rule 3. Having the stems fixed, the location of the three enclosed pseudoknot loops (u,v,w in\nFigure 2) follows directly: loop u ranges from position i + h + 1 to k\u22121, loop v from k + h\u2032+1 to l\u2212h\u22121, and loop w from l + 1 to j\u2212h\u2032\u22121. The best folding for these smaller subsequences has already been computed earlier in the DP scheme. The energy sum of the two pseudoknot helices and the loop folding energies gives us the total pseudoknot energy. The minimal one over all k and l, is stored is the two-dimensional pseudoknot matrix. This value competes with values of unknotted foldings for the interval (i, j).",
+            "cite_spans": [],
+            "section": "IMPLEMENTATION",
+            "ref_spans": [
+                {
+                    "start": 447,
+                    "end": 455,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 900,
+                    "end": 908,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "During the (suboptimal) backtrace procedure the pseudoknot matrix is handled in the same way as the other matrices. Starting with a user-defined energy threshold thr, all suboptimal structures having an energy not more than thr larger than the optimal structure are backtraced. For each suboptimal structure s, the threshold is reduced by the energy difference to the optimal structure and the backtrace procedure is called recursively on the substructures of s, yet with a smaller threshold. At some point the threshold falls below 0, which means no further suboptimal structure within the user-defined energy band can arise from this backtrace.",
+            "cite_spans": [],
+            "section": "IMPLEMENTATION",
+            "ref_spans": []
+        },
+        {
+            "text": "The program is available for download, both as C source code and precompiled binary executable for most common platforms (Solaris, Linux, Windows and Mac OS X). This version has none of the Web Server restrictions. It folds arbitrary long sequences and reports as many suboptimal solutions as the user requests.",
+            "cite_spans": [],
+            "section": "AVAILABILITY",
+            "ref_spans": []
+        },
+        {
+            "text": "The Windows version contains a basic graphical user interface, the other versions provide a powerful interactive command line tool. All versions are available in the download section of the project home page at http://bibiserv.techfak.uni-bielefeld.de/pknotsrg/.",
+            "cite_spans": [],
+            "section": "AVAILABILITY",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1.: Web Server output for prediction of the SARS-1 programmed ribosomal frameshift signal (GenBank: AY29135).",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: A simple pseudoknot formed by helices a and b. If the loop regions u, v, w fold further internal structures, including pseudoknots of this type, we have a simple recursive pseudoknot.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Crystal structure of a hepatitis delta virus ribozyme",
+            "authors": [
+                {
+                    "first": "AR",
+                    "middle": [],
+                    "last": "Ferr\u00e9-D'Amar\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Doudna",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nature",
+            "volume": "395",
+            "issn": "",
+            "pages": "567-674",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "PseudoViewer: web application and web service for visualizing RNA pseudoknots and secondary structures",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Byun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res",
+            "volume": "34",
+            "issn": "suppl. 2",
+            "pages": "W416-422",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Optimal computer folding of large RNA sequences using thermodynamics and auxiliary informations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zuker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stiegler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Nucleic Acids Res",
+            "volume": "9",
+            "issn": "1",
+            "pages": "133-148",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "RNA movies: Visualizing RNA secondary structure spaces",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Evers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Giegerich",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Bioinformatics",
+            "volume": "15",
+            "issn": "1",
+            "pages": "32-37",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "a three-stemmed mRNA pseudoknot in the SARS coronavirus frameshift signal",
+            "authors": [
+                {
+                    "first": "EP",
+                    "middle": [],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "GC",
+                    "middle": [],
+                    "last": "P\u00e9rez-Alvarado",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mukhopadhyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hennig",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "PLoS Biol",
+            "volume": "3",
+            "issn": "6",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "RNA pseudoknot prediction in energy based models",
+            "authors": [
+                {
+                    "first": "RB",
+                    "middle": [],
+                    "last": "Lyngs\u00f8",
+                    "suffix": ""
+                },
+                {
+                    "first": "CNS",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J. Comp. Biol",
+            "volume": "7",
+            "issn": "",
+            "pages": "409-428",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "The chemical repertoire of natural ribozymes",
+            "authors": [
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Doudna",
+                    "suffix": ""
+                },
+                {
+                    "first": "TR",
+                    "middle": [],
+                    "last": "Cech",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nature",
+            "volume": "418",
+            "issn": "",
+            "pages": "222-228",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Structure of the human telomerase RNA pseudoknot reveals conserved tertiary interactions essential for function",
+            "authors": [
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Theimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Blois",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feigon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Mol. Cell",
+            "volume": "17",
+            "issn": "",
+            "pages": "671-682",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Identification of functional, endogenous programmed -1 ribosomal frameshift signals in the genome of Saccharomyces cerevisiae",
+            "authors": [
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "AT",
+                    "middle": [],
+                    "last": "Belew",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rakauskaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nucleic Acids Res",
+            "volume": "35",
+            "issn": "1",
+            "pages": "165-174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Expanded sequence dependence of thermodynamic parameters improves prediction of RNA secondary structure",
+            "authors": [
+                {
+                    "first": "DH",
+                    "middle": [],
+                    "last": "Mathews",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sabina",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zuker",
+                    "suffix": ""
+                },
+                {
+                    "first": "DH",
+                    "middle": [],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol",
+            "volume": "288",
+            "issn": "",
+            "pages": "911-940",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Fast folding and comparison of RNA secondary structures",
+            "authors": [
+                {
+                    "first": "IL",
+                    "middle": [],
+                    "last": "Hofacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fontana",
+                    "suffix": ""
+                },
+                {
+                    "first": "PF",
+                    "middle": [],
+                    "last": "Stadler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bonhoeffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schuster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Monatshefte f. Chemie",
+            "volume": "125",
+            "issn": "",
+            "pages": "167-188",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "A dynamic programming algorithm for RNA structure prediction including pseudoknots",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rivas",
+                    "suffix": ""
+                },
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Eddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol",
+            "volume": "285",
+            "issn": "",
+            "pages": "2053-2068",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Design, implementation and evaluation of a practical pseudoknot folding algorithm based on thermodynamics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Giegerich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMC Bioinformatics",
+            "volume": "5",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Complete suboptimal folding of RNA and the stability of secondary structures",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wuchty",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fontana",
+                    "suffix": ""
+                },
+                {
+                    "first": "IL",
+                    "middle": [],
+                    "last": "Hofacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schuster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Biopolymers",
+            "volume": "49",
+            "issn": "",
+            "pages": "145-165",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

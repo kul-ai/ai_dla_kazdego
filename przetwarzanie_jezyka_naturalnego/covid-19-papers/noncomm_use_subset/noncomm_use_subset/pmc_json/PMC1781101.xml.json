@@ -1,0 +1,757 @@
+{
+    "paper_id": "PMC1781101",
+    "metadata": {
+        "title": "Genome Information Broker for Viruses (GIB-V): database for comparative analysis of virus genomes",
+        "authors": [
+            {
+                "first": "Masaki",
+                "middle": [],
+                "last": "Hirahata",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Takashi",
+                "middle": [],
+                "last": "Abe",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Naoto",
+                "middle": [],
+                "last": "Tanaka",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Yoshikazu",
+                "middle": [],
+                "last": "Kuwana",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Yasumasa",
+                "middle": [],
+                "last": "Shigemoto",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Satoru",
+                "middle": [],
+                "last": "Miyazaki",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Yoshiyuki",
+                "middle": [],
+                "last": "Suzuki",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Hideaki",
+                "middle": [],
+                "last": "Sugawara",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Virus genome analysis has a long history. In 1977, Frederick Sanger successfully sequenced the entire genome of Phage \u03c6phiv;X174 (1). Since that time, a huge number of virus genomes have been sequenced. Virus genome sequences provide researchers with important information needed to analyze virus evolution, pathogenicity and diversity (2\u20134).",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 131,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 337,
+                    "end": 338,
+                    "mention": "2",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 339,
+                    "end": 340,
+                    "mention": "4",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The International Nucleotide Sequence Database Collaboration (INSDC) makes a substantial amount of genomic data available in a public database. However, these genomic data are stored in the same database as general gene registrations and are not distinguished. In some cases, the specific prefix of the accession number (AE, AL, AP, BS, BX, CP, CR, CT, CU and CY) refers to a registration from a genome project (). However, for many genome data, the prefix is the same as that of general gene registrations, making it difficult to extract genomic data.",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "There are several virus genome databases such as DPVweb (5), HCVDB (6), VIDA (7) and VirGen (8). However, most of these are limited to specific groups of viruses. Thus, to fill the need for a comprehensive virus genome database, weconstructed Genome Information Broker for Viruses (GIB-V), which includes all groups of viruses and is updated regularly with the release of our DNA Data Bank of Japan (DDBJ) data. GIB-V was created with the use of the Genome Information Browser (GIB) (9), an online microbial genome analysis system that we have developed.",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 58,
+                    "mention": "5",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 68,
+                    "end": 69,
+                    "mention": "6",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 78,
+                    "end": 79,
+                    "mention": "7",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 93,
+                    "end": 94,
+                    "mention": "8",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 484,
+                    "end": 485,
+                    "mention": "9",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The primary source of data for GIB-V was entries in the INSDC database. All of the virus genome data included in the virus division and phage division were targeted. In the INSDC database, each virus genome is registered in a single flat file if the virus does not have segments. If the virus genome has two or more segments, each segment is registered in a single flat file. Complete genome/segment data were identified by the description in the definition line of the flat file. We extracted genome records with the words \u2018complete genome\u2019 and without the words \u2018Third Party Annotation (TPA)\u2019 or \u2018nearly complete\u2019 in the definition line of the flat file. Segment records were extracted with a combination of the words \u2018segment\u2019 and \u2018complete sequence\u2019, and without the words \u2018TPA\u2019 or \u2018nearly complete\u2019 in the definition line of the flat file. These records were obtained from the virus division or the phage division of the DDBJ database. We extracted and stored 18 418 complete virus genome/segment data sets from release 66, which was the latest DDBJ data released at the time of the initial development of GIB-V (Table 1). DDBJ releases new data four times per year. GIB-V is updated at the time of each release.",
+            "cite_spans": [],
+            "section": "GIB-V DATA SOURCE",
+            "ref_spans": [
+                {
+                    "start": 1118,
+                    "end": 1125,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The system architecture and the data flow of GIB-V are depicted in Figure 1. The World Wide Web server for GIB-V is Apache () with Hypertext Preprocessor (PHP, ). PHP is a server-side HTML-embedded scripting language and is able to dynamically generate HTML page contents. GIB-V uses PostgreSQL () as its relational database management system and is distributed over multiple PC Linux platforms.",
+            "cite_spans": [],
+            "section": "SYSTEM ARCHITECTURE OF GIB-V",
+            "ref_spans": [
+                {
+                    "start": 67,
+                    "end": 75,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "The genome/segment data are extracted from the DDBJ database and stored in the relational database server. The nucleotide sequence data and the protein sequence data are also extracted from the flat files and stored to the homology search server.",
+            "cite_spans": [],
+            "section": "SYSTEM ARCHITECTURE OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "In the original GIB, Common Object Request Broker Architecture (CORBA) was used for internal communication. However, CORBA was not needed for GIB-V because of remarkable advances in hardware performance that solved the problems associated with managing the large quantity of data.",
+            "cite_spans": [],
+            "section": "SYSTEM ARCHITECTURE OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "The complete list of virus data stored in GIB-V can be viewed by clicking \u2018GENOME LIST\u2019 on the main menu bar. Viruses are displayed at the family level on an initial screen. The list of genera is displayed by clicking on each family name; species are displayed by clicking on genus names, and organisms are displayed by clicking on species names. The accession number of entries in the INSDC database is displayed under the name of the organism, and the \u2018Virus Information Page\u2019 is opened by clicking on the accession number. The \u2018Virus Information Page\u2019 provides access to information about the individual virus genome/segment. When two or more genomes/segments are registered at the same virus name, each genome/segment can be accessed by selecting the related accession number in the pull-down menu. From the \u2018Virus Information Page\u2019, it is possible to move to three kinds of genome/segment information pages: (i) \u2018Feature View,\u2019 which displays a graphic of the specified region; (ii) \u2018Feature List,\u2019 which provides a tabular listing of features included in the genome/segment; and (iii) \u2018Nuc Sequence,\u2019 which indicates the nucleic acid sequence of the genome/segment. In the \u2018Feature View,\u2019 each open reading frame (ORF) is indicated by a white bar in the regional chart displayed with the G+C% graph (GC plot), and it is possible to jump to the \u2018Feature Information\u2019 page by clicking the specified ORF bar. From the \u2018Feature List,\u2019 the user has the option to display the whole region or a specified region of the genome/segment. The name of the species, the start and end points of its location and its product name are included in the \u2018Feature List.\u2019 It is possible to jump to \u2018Feature View\u2019 or \u2018Features Information\u2019 page from the list. The nucleic acid sequence or amino acid sequence of each ORF in the list can be downloaded. The \u2018Nuc Sequence\u2019 page displays the nucleic acid sequence of the whole region or a specified region in a text format. The \u2018Feature Information\u2019 page displays the feature/qualifier information for each ORF. Both the amino acid sequence and nucleic acid sequence are displayed with the feature/qualifier information. The upper or lower stream of the nucleic acid sequence can be displayed.",
+            "cite_spans": [],
+            "section": "Genome list ::: FUNCTIONS OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "For the viroid genomes, a graphical display is not provided because it does not work effectively without the ORF. However, the user can download sequence data from the download page.",
+            "cite_spans": [],
+            "section": "Genome list ::: FUNCTIONS OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "GIB-V can execute a BLAST search (10) for ORF sequences of genomes/segments. The user can select from blastn, blastp, blastx and tblastx search options. This search is executed in two steps. The BLAST search page is opened by clicking on \u2018BLAST\u2019 in the main menu bar, and a virus is selected from the list on the \u2018BLAST Search-Subject selection page.\u2019 A single family or all families can be selected. The Subject can be narrowed down to the genus level of the family when a single family is selected. A BLAST program and other options are then selected, and the query is submitted.",
+            "cite_spans": [
+                {
+                    "start": 34,
+                    "end": 36,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "BLAST search ::: FUNCTIONS OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "The user can select to have BLAST Search results presented as a graphical display (Graphic View) or a list display (Feature List). In the \u2018Graphic View,\u2019 alignment information is displayed both graphically and as text. The position of the hit area in relation to the query is displayed graphically, and the score is displayed by color (Figure 2a). In the \u2018Feature List,\u2019 a summary of the results is displayed as a list (Figure 2b). After a target candidate ORF is selected, it is possible to jump directly from the list to the ClustalW feature of the DDBJ (Figure 2c).",
+            "cite_spans": [],
+            "section": "BLAST search ::: FUNCTIONS OF GIB-V",
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 345,
+                    "mention": "Figure 2a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 420,
+                    "end": 429,
+                    "mention": "Figure 2b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 557,
+                    "end": 566,
+                    "mention": "Figure 2c",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "To perform a keyword search, the user clicks \u2018KEYWORD\u2019 on the main menu bar. The user can find either viruses or ORFs by the combinations of multiple keywords up to 5 terms. INSDC accession number, virus name, country, note, isolate, segment, serotype, specific host and strain are usable for viruses search. These categories are the types of biological information included in genome/segment flat files from the INSDC. The accession number of the target genome/segment can be reached easily from the list of search results. Selected genomes/segments in the list can be downloaded with a FASTA or flat file format in a lump. As to ORFs search, db_xref (pointer to related information in another database), EC number, function, gene name, product name, protein ID, bound moiety (molecule/complex that may bind to the given feature), phenotype, location and other qualifiers defined by INSDC can be specified. Target ORF information can be accessed from the search results. The retrieved ORF can be displayed by nucleic acid or amino acid sequence in a text format.",
+            "cite_spans": [],
+            "section": "Keyword search ::: FUNCTIONS OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "Genome/segment data are downloadable from GIB-V. On the \u2018Genome List\u2019 page, there are checkboxes in front of each taxonomic name lower than the family level. The user clicks the target checkbox and download button to download the specified genome/segment data in flat file form. The download page also can be entered from each \u2018Virus Information\u2019 page. From the download page, four types of data can be downloaded: a whole genome flat file (DDBJ format); whole genome sequence (FASTA format); nucleotide sequences of all features (FASTA format); and amino acid sequences of the cording sequence (CDS) (FASTA format). When two or more genomes/segments are registered for the same virus name, they can be downloaded from the same page.",
+            "cite_spans": [],
+            "section": "Download function ::: FUNCTIONS OF GIB-V",
+            "ref_spans": []
+        },
+        {
+            "text": "We have developed G-InforBIO system, a tool for genome data management and sequence analysis () (11). It is equipped with a variety of software functions and can perform seamless analysis of multiple genomes. It was modified to adapt the GIB-V output data form. We are going to reinforce the cooperation of GIB-V and G-InforBIO to improve the smoothness of data communication between them, and expand the genome comparison environment. We will consider the enrichment of the contents with the improvement of data extraction process and the addition of incidental information.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 99,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "FUTURE PLANS",
+            "ref_spans": []
+        },
+        {
+            "text": "GIB-V can be accessed from . Registration is not necessary, and use of the database is free.",
+            "cite_spans": [],
+            "section": "ACCESS TO THE DATABASE",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: Number of registered genomes/segments in GIB-V\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: Schema of Genome Information Broker for Viruses (GIB-V). This schema shows the system architecture and the data flow of GIB-V. The hardware components of GIB-V are a World Wide Web server, relational database server and homology search server.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Example of BLAST search results. blastp was executed for the \u2018All family\u2019 sequence. The query is an RNA-dependent RNA-polymerase of Human astrovirus. (a) Search result as it appears with \u2018Graphic View\u2019 indicated. The upper part of the page shows the result displayed graphically, and the lower part shows the result in text form. (b) Search result as it appears with \u2018Feature List\u2019 indicated. Clicking the \u2018Set Query\u2019 button activates ClustalW and sends sequence data automatically. (c) The ClustalW page. Data has been submitted from the Feature List.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Nucleotide sequence of bacteriophage phiX174 DNA",
+            "authors": [
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Sanger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.M.",
+                    "middle": [],
+                    "last": "Air",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.G.",
+                    "middle": [],
+                    "last": "Barrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.L.",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.R.",
+                    "middle": [],
+                    "last": "Coulson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Fiddes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Hutchison",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.M.",
+                    "middle": [],
+                    "last": "Slocombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Nature",
+            "volume": "265",
+            "issn": "",
+            "pages": "687-695",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Basic local alignment search tool",
+            "authors": [
+                {
+                    "first": "S.F.",
+                    "middle": [],
+                    "last": "Altschul",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Gish",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.W.",
+                    "middle": [],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Mol. Biol.",
+            "volume": "215",
+            "issn": "",
+            "pages": "403-410",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "G-InforBIO: integrated system for microbial genomics",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Miyazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Sugawara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "BMC bioinformatics",
+            "volume": "7",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Evolutionary history of the closely related group 2 coronaviruses: porcine hemagglutinating encephalomyelitis virus, bovine coronavirus, and human coronavirus OC43",
+            "authors": [
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Vijgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Keyaerts",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Lemey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Maes",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Van Reeth",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Nauwynck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Pensaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Van Ranst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Virol.",
+            "volume": "80",
+            "issn": "",
+            "pages": "7270-7274",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Characterization of a highly pathogenic H5N1 influenza virus derived from bar-headed geese in China",
+            "authors": [
+                {
+                    "first": "J.Y.",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.G.",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.X.",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.Z.",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.C.",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.X.",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Gen. Virol.",
+            "volume": "87",
+            "issn": "",
+            "pages": "1823-1833",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Metagenomic analysis of coastal RNA virus communities",
+            "authors": [
+                {
+                    "first": "A.I.",
+                    "middle": [],
+                    "last": "Culley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.S.",
+                    "middle": [],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Suttle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "312",
+            "issn": "",
+            "pages": "1795-1798",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "DPVweb: a comprehensive database of plant and fungal virus genes and genomes",
+            "authors": [
+                {
+                    "first": "M.J.",
+                    "middle": [],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.F.",
+                    "middle": [],
+                    "last": "Antoniw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "D382-D385",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "HCVDB: hepatitis C virus sequences database",
+            "authors": [
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Combet",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Penin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Geourjon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Deleage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Appl. Bioinformatics",
+            "volume": "3",
+            "issn": "",
+            "pages": "237-240",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "VIDA: a virus database system for the organization of animal virus genome open reading frames",
+            "authors": [
+                {
+                    "first": "M.M.",
+                    "middle": [],
+                    "last": "Alba",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.M.G.",
+                    "middle": [],
+                    "last": "Pearl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.J.",
+                    "middle": [],
+                    "last": "Shepherd",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Orengo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Kellam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nucleic Acids Res.",
+            "volume": "29",
+            "issn": "",
+            "pages": "133-136",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "VirGen: a comprehensive viral genome resource",
+            "authors": [
+                {
+                    "first": "U.",
+                    "middle": [],
+                    "last": "Kulkarni-Kale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Bhosle",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.S.",
+                    "middle": [],
+                    "last": "Manjari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.S.",
+                    "middle": [],
+                    "last": "Kolaskar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "D289-D292",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Genome Information Broker (GIB): data retrieval and comparative analysis system for completed microbial genomes and more",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Fumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Miyazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Sugawara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res.",
+            "volume": "30",
+            "issn": "",
+            "pages": "66-68",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

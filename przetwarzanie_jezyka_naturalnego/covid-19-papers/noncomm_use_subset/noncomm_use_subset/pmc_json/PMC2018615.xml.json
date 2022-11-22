@@ -1,0 +1,3295 @@
+{
+    "paper_id": "PMC2018615",
+    "metadata": {
+        "title": "The three transfer RNAs occupying the A, P and E sites on the ribosome are involved in viral programmed -1 ribosomal frameshift",
+        "authors": [
+            {
+                "first": "M\u00e9lissa",
+                "middle": [],
+                "last": "L\u00e9ger",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Dominic",
+                "middle": [],
+                "last": "Dulude",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Sergey",
+                "middle": [
+                    "V."
+                ],
+                "last": "Steinberg",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "L\u00e9a",
+                "middle": [],
+                "last": "Brakier-Gingras",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "The -1 programmed ribosomal frameshift (PRF) is a non-conventional translation phenomenon that pertains to a particular change in the reading frame of the messenger RNA (mRNA) induced by a stimulatory signal. This strategy is mainly used by viruses to synthesize the precursor of their enzymes and to maintain a specific ratio between structural and enzymatic proteins (1). In addition, -1 PRF is used during the translation of some prokaryotic and eukaryotic mRNAs (2). One of the best-known examples of -1 PRF occurs when ribosomes translate the full-length mRNA of the human immunodeficiency virus type 1 (HIV-1) (3\u20135). A -1 PRF is induced by two cis-elements within the mRNA: a slippery heptanucleotide X XXY YYZ (X is any nucleotide, Y is either A or U and Z is not a G in eukaryotes; spaces indicate the initial reading frame), where the -1 PRF occurs, and a following specific RNA secondary structure, the so-called stimulatory signal. This RNA structure is often a pseudoknot (4) but can also be a stem\u2013loop, as it is the case for HIV-1 (6\u20138), or a three-way stem\u2013loop, as found in bacterial insertion sequences (9,10). The stimulatory signal controls the -1 PRF efficiency by making the ribosome pause over the slippery sequence (11\u201313). However, pausing itself is not sufficient to promote -1 PRF (14), and it was proposed that the stimulatory signal has a specific interaction with the ribosome. Altering the -1 PRF efficiency impairs viral replication (15\u201317) and it has been observed that even a small change in -1 PRF efficiency substantially handicaps the replication capacity of HIV-1 (18). This indicates that the -1 PRF event could serve as a target for the design and development of new antiviral drugs. It is thus important to fully understand the -1 PRF mechanism.",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 371,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 467,
+                    "end": 468,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 617,
+                    "end": 620,
+                    "mention": "3\u20135",
+                    "ref_id": null
+                },
+                {
+                    "start": 985,
+                    "end": 986,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1046,
+                    "end": 1049,
+                    "mention": "6\u20138",
+                    "ref_id": null
+                },
+                {
+                    "start": 1121,
+                    "end": 1122,
+                    "mention": "9",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1123,
+                    "end": 1125,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1239,
+                    "end": 1244,
+                    "mention": "11\u201313",
+                    "ref_id": null
+                },
+                {
+                    "start": 1308,
+                    "end": 1310,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1465,
+                    "end": 1470,
+                    "mention": "15\u201317",
+                    "ref_id": null
+                },
+                {
+                    "start": 1602,
+                    "end": 1604,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Several mechanistic models have been discussed in the literature to account for -1 PRF. Initially, Jacks et al. (19) proposed a model of simultaneous slippage of the peptidyl-tRNA (pept-tRNA) and the aminoacyl-tRNA (aa-tRNA). In this model (Figure 1A), pept-tRNA and aa-tRNA bound respectively to the XXY and YYZ codons in the ribosomal P/P and A/A sites unpair from the mRNA (the first and second letters represent, respectively, binding sites on the small and the large ribosomal subunit). The tRNAs and the ribosome shift towards the 5' direction and re-pair to the mRNA in the new reading frame. The Jacks et al. model has been criticized because it ignores the fact that peptide bond formation, which occurs very rapidly (20\u201322), leaves not much time for the shift to occur after the accommodation of the aa-tRNA in the A/A site. A refinement to the Jacks et al. model had been provided by Plant et al. (23), who suggested that a movement of 9 \u00c5 of the anticodon loop of the aa-tRNA upon occupancy of the A/A site creates a tension on the mRNA because of the resistance to unwinding of the stimulatory signal. This tension would be relieved by the unpairing of the tRNAs, slippage of the mRNA by one base in the 3\u2032 direction and re-pairing of the tRNAs in the new reading frame. However, the proposed 9 \u00c5 displacement of the anticodon loop of the aa-tRNA is not supported by structure analysis and by large-scale molecular dynamics (24,25). A second model was proposed by Weiss et al. (26), where -1 PRF occurs during the translocational step of the elongation cycle. Translocation proceeds in a stepwise manner and requires conformational changes within the ribosome (27\u201331). In a simplified way, after peptide bond formation, the acceptor stem of the newly deacylated-tRNA (deac-tRNA) and of pept-tRNA move, respectively, from the P to E site and from the A to P site of the large ribosomal subunit. The resulting positions of both tRNAs are thus described as the P/E and A/P sites, respectively. In the next step, the anticodon stem\u2013loop of the tRNAs moves to the E and P sites on the small ribosomal subunit, dragging the mRNA by one codon (32,33). Weiss et al. (26) suggested that, when the tRNAs occupy these P/E and A/P sites, they can unpair from the mRNA, move in the 3\u2032 direction with the ribosome and re-pair in the new reading frame. The anticodon stem\u2013loops of the tRNAs then move with the mRNA to the E and P sites of the small ribosomal subunit (Figure 1B). The analysis of an electron cryo-microscopy (cryo-EM) ribosome-mRNA pseudoknot complex stalled in the process of -1 PRF supports the hypothesis that this event occurs during translocation (34), by showing that the elongation factor EF2 (eEF2), the eukaryotic homologue of EF-G, is bound to the stalled complex. However, it was observed that -1 PRF can be affected by mutations in the small subunit rRNA that alter the accommodation of the aa-tRNA in the A/A site (35) as well as by mutations in the elongation factor 1A (eEF1A) (36,37), the eukaryotic homologue of EF-Tu, that contributes to the accommodation process. These observations cannot be explained by any of the two previous models, but they are taken into account by a third model, which was initially proposed by Farabaugh (38) and further supported by experimental data from our group (35). This model proposes that the -1 PRF occurs when aa-tRNA and pept-tRNA are located, respectively, in the A/T entry site and in the P/P site (Figure 1C). Under these conditions, the -1 PRF has more time to take place, compared to the model of Jacks et al. Still, some observations related to -1 PRF cannot be explained by this model. In particular, swapping a fragment of eight nucleotides located immediately 5' from the slippery sequence in the HIV-1 frameshift region with the corresponding fragment in the human T-cell leukaemia virus type 2 (HTLV-2) was found to decrease -1 PRF efficiency (39).\n",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 115,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 727,
+                    "end": 732,
+                    "mention": "20\u201322",
+                    "ref_id": null
+                },
+                {
+                    "start": 909,
+                    "end": 911,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1438,
+                    "end": 1440,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1441,
+                    "end": 1443,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1491,
+                    "end": 1493,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1674,
+                    "end": 1679,
+                    "mention": "27\u201331",
+                    "ref_id": null
+                },
+                {
+                    "start": 2150,
+                    "end": 2152,
+                    "mention": "32",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2153,
+                    "end": 2155,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2172,
+                    "end": 2174,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 2667,
+                    "end": 2669,
+                    "mention": "34",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2942,
+                    "end": 2944,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3007,
+                    "end": 3009,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3010,
+                    "end": 3012,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3264,
+                    "end": 3266,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 3327,
+                    "end": 3329,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3926,
+                    "end": 3928,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 249,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2466,
+                    "end": 2474,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3472,
+                    "end": 3480,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In this study, we reveal additional aspects that are important for -1 PRF, using the HIV-1 frameshift region as a model. In HIV-1, the slippery sequence is U UUU UUA (40) and the stimulatory signal is a two-stem helix, where an internal three-nucleotide bulge separates the lower stem from the upper stem\u2013loop (6\u20138) (Figure 2). This signal is separated from the slippery sequence by one nucleotide. We previously suggested that the lower stem favours a specific interaction between the upper stem\u2013loop and the ribosome, when the stimulatory signal first encounters the ribosome. After this first contact, the ribosome progresses along the mRNA and unwinds the lower stem. Once the slippery sequence occupies the decoding site, the upper stem\u2013loop, which is at a distance of eight nucleotides from this slippery sequence, acts as the effective frameshift stimulatory signal. It allows the -1 PRF to occur, involving the tRNAs interacting with the P- and A-site codons. With use of a dual-luciferase reporter system in which the HIV-1 frameshift region was inserted between the coding sequences for the Renilla (Rluc) and firefly luciferase (Fluc) such that the Fluc expression requires the -1 PRF of HIV-1, we demonstrated that mutations in the E-site codon can alter the -1 PRF efficiency. The same observation was made for other viral slippery sequences. In addition, since we had recently shown that the -1 PRF of HIV-1 can be recapitulated in Escherichia coli and that prokaryotic ribosomes respond in the same manner as eukaryotic ribosomes to mutations in the HIV-1 frameshift stimulatory signal (35), we used a -1 PRF system harboured in E. coli to undertake a random search of mutations in 16S rRNA that affect -1 PRF. We found three mutations of this kind, all located in the platform region of the small ribosomal subunit. This region is positioned close to the binding site of the E-site tRNA (41) and is known to be involved in conformational changes of the ribosome during translocation (27,28,31). Based on these findings, we propose a novel model in which -1 PRF is triggered by an incomplete translocation and requires the slippage of not only the tRNAs interacting with the P- and A-site codons, but also of the tRNA occupying the E site.\n",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 311,
+                    "end": 314,
+                    "mention": "6\u20138",
+                    "ref_id": null
+                },
+                {
+                    "start": 1602,
+                    "end": 1604,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1904,
+                    "end": 1906,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 2000,
+                    "end": 2002,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 2003,
+                    "end": 2005,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 2006,
+                    "end": 2008,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 317,
+                    "end": 325,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "All primers used to generate constructs were purchased from Integrated DNA Technologies Inc. (Coralville, IA, USA). Plasmids used in frameshift assays in mammalian cultured cells are derivatives of pDual-HIV (\u20131) and (0) plasmids described in Dulude et al. (18). The pDual-HIV (\u20131) plasmid contains the HIV-1 group M subtype B frameshift region inserted between the sequences coding for Rluc and Fluc, such that the Fluc coding sequence is in the \u20131 reading frame relative to the Rluc initiator codon. In pDual-HIV (0), Fluc is in frame with the Rluc initiator codon, by addition of an adenine 3\u2032 adjacent to the slippery sequence, which is inactivated by mutagenesis to C UUC CUC. The Rluc expression is used to normalize the Fluc expression. The -1 PRF efficiency of each (\u20131) construct is obtained by dividing the Fluc/Rluc ratio by the corresponding ratio of the (0) frame construct (Figure 2). The M1 to M7 mutants and C1 to C6 constructs were generated by amplification of the mutated DNA from pDual-HIV (\u20131), with use of standard PCR procedures and a primer spanning the KpnI site, 5\u2032-GCAGGGGGTACCTGGAAAGGAAGGACACCAAATGAAAGATTGTTCGAGAGACAG GCNNNNNNNNNNGGGAAGATCTGG-3\u2032, (N corresponds to the mutated nucleotides as shown in Figures 3A, 4A and 5B) and a primer spanning the Pfl23II site, 5\u2032-GCCAACCGA ACGGACATTTCG-3\u2032, for the forward and reverse reactions, respectively. The mutated DNA was subcloned into pDual-HIV (\u20131) previously digested by KpnI and Pfl23II restriction enzymes.\n\n\n",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 260,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Plasmid constructions ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 888,
+                    "end": 896,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1230,
+                    "end": 1239,
+                    "mention": "Figures 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1242,
+                    "end": 1243,
+                    "mention": "4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1249,
+                    "end": 1250,
+                    "mention": "5",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "Mutations in 16S rRNA (\u0394G666, iC739 and G604A) were selected with a specialized bacterial ribosome system (42,43), using the p3RGFP-HIV (\u20131) plasmid, described in details elsewhere. Briefly, p3RGFP-HIV (\u20131) contains the E. coli rrnB operon under the control of the inducible lacUV5 promoter, as well as two reporter genes coding for the red (RFP) and green (GFP) fluorescent proteins. The DsRed T4 plasmid coding for RFP was a generous gift from Dr B.S. Glick, from the University of Chicago (44), and the GFP coding sequence was obtained from the pGFPemd-N1 plasmid, a kind gift from Dr M. Bouvier, from the Universit\u00e9 de Montr\u00e9al. RFP is expressed by conventional translation whereas the HIV-1 frameshift region is inserted in the beginning of the coding sequence of GFP, so that its expression requires a \u20131 PRF. The ribosome-binding sites (RBS) of the reporters are changed to 5\u2032-AUCCC and the messenger-binding site (MBS) of the 16S rRNA is changed to 5\u2032-GGGAU, so that the reporters are exclusively translated by the ribosomes that contain the plasmid-encoded 16S rRNA (GFP/RFP system). Mutations iG666 and \u0394C739 were introduced in the 16S rRNA by amplification of the mutated DNA fragments from p3RGFP-HIV (\u20131) with a two-step PCR approach encompassing restriction sites BlnI and DraIII, using an overlap extension procedure (45). The resultant PCR fragment was subcloned into p3RGFP-HIV (\u20131) previously digested with the same enzymes.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 109,
+                    "mention": "42",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 110,
+                    "end": 112,
+                    "mention": "43",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 493,
+                    "end": 495,
+                    "mention": "44",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1333,
+                    "end": 1335,
+                    "mention": "45",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "Plasmid constructions ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "The specialized bacterial dual-luciferase system was created as follows: the Rluc to Fluc coding sequence encompassing the HIV-1 frameshift region in pDual-HIV (\u20131) and (0) constructs was amplified by PCR, using the primer spanning the NsiI site, 5\u2032-CTAGAGCCACC ATGCATACCAGCAAGG-3\u2032, and the primer spanning the Pfl23II site, 5\u2032-GTTTCATAGCTTCTGCCAACCGAACG-3\u2032, for the forward and reverse reactions, respectively. The resultant PCR fragments were subcloned into the pRNAluc2 plasmid digested with NsiI and Pfl23II, as described in B\u00e9langer et al. (42), generating pDual-HIV/P (0) and (\u20131) plasmids (where P stands for prokaryote plasmids). The pRNAluc2 plasmid contains the E. coli rrnB operon under the control of the inducible lacUV5 promoter and a reporter gene coding for Fluc. As in the GFP/RFP system, the RBS of the dual-luciferase reporter and the MBS of the 16S rRNA were mutated so that the dual-luciferase reporter is exclusively translated by ribosomes that contain plasmid-encoded 16S rRNA. The 16S rRNA mutations in p3RGFP-HIV (\u20131) (\u0394G666, iC739, G604A, iG666 and \u0394C739) were cloned in pDual-HIV/P (0) and (\u20131), using two ApaI restriction sites.",
+            "cite_spans": [
+                {
+                    "start": 546,
+                    "end": 548,
+                    "mention": "42",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "section": "Plasmid constructions ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Random mutations were introduced into the 16S rRNA fragment using a high-copy plasmid (pUC18, Fermentas). A BamHI\u2013SacI fragment encompassing 16S rRNA from p3RGFP-HIV (\u20131) was cloned into pUC18 digested with the same enzymes, generating pUC18/16S. E. coli XL1-Red mutator strain (Stratagene) was used to produce random mutations into 16S rRNA. Escherichia coli XL1-Red competent cells were transformed with pUC18/16S as directed by the manufacturer to obtain randomly mutated plasmids (pUC18/R16S, where R stands for randomized 16S rRNA) (46,47). The procedure was repeated seven times, so that more than 90% of the clones analysed contained a mutation in the 16S rRNA fragment. A second BlnI restriction site located in the beginning of the gene coding for 23S rRNA in p3RGFP-HIV (\u20131) was mutated to an AflII restriction site, using a standard mutagenesis procedure, so as to conserve a unique BlnI restriction site in the 16S rRNA gene. The 16S rRNA random mutant library from pUC18/R16S was cloned into p3RGFP-HIV (\u20131), using BlnI\u2013DraIII restriction sites, which generated p3RGFP-HIV/R16S. Each isolated 16S rRNA mutation was re-introduced into p3RGFP-HIV (\u20131) to verify that the phenotype was conserved.",
+            "cite_spans": [
+                {
+                    "start": 538,
+                    "end": 540,
+                    "mention": "46",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 541,
+                    "end": 543,
+                    "mention": "47",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "section": "Random mutagenesis of 16S rRNA ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Frameshift assays in eukaryotes were monitored by transient transfection of the dual-luciferase plasmids (pDual-HIV derivatives) into human embryonic kidney 293T cells (HEK293T) maintained in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% (v/v) FBS (Wisent), with 2 \u00d7 105 cells/well seeded in 6-well plates. Two \u03bcg of plasmids were diluted in 3% of the initial culture volume in fresh serum-free medium and mixed with an equivalent volume containing 5 \u03bcg of PEI (polyethylenimine, Polysciences Inc.). The mixture was incubated for 15 min at room temperature prior to the addition to cell culture. Cells were cultured for 48 h before being washed twice with 2 ml of PBS, and lysed with 450 \u03bcl of the Cell Passive Lysis Buffer 1X (Promega). Fluc versus Rluc activities of each construct were measured for 10 s as relative light units (RLU) with an EG&G Berthold Lumat LB 9507 luminometer, using a non-commercial dual-luciferase enzyme assay system (48).",
+            "cite_spans": [
+                {
+                    "start": 964,
+                    "end": 966,
+                    "mention": "48",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Frameshift assays in mammalian cultured cells ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Dual-luciferase and GFP/RFP assays in E. coli were conducted as follows: overnight cultures of E. coli Top 10 strain (Invitrogen) were transformed with pDual-HIV/P or p3RGFP-HIV derivatives. Plasmids were grown in LB containing 100 \u03bcg/ml of ampicillin at 37\u00b0C. The cultures were diluted to an absorbance of 0.1 at 600 nm and incubated for 1 h at 37\u00b0C. The plasmid-encoded rRNA expression was induced with 1 mM of isopropyl-\u03b2-d-thiogalactopyra noside (IPTG) for 3 h for dual-luciferase assays, and 6 h for GFP/RFP assays at 37\u00b0C. The dual-luciferase assays were carried as the luciferase assays described in B\u00e9langer et al. (42), except that the cells were lysed with 50 \u03bcl of the Cell Passive Lysis Buffer 1X and incubated for 15 min at room temperature. Fluc and Rluc activities were measured as described above. For GFP/RFP assays, 1 ml of cultured cells was centrifuged. The pellet was washed three times with 500 \u00b5l of PBS and re-suspended in 200 \u00b5l of PBS. Fluorescence was measured with a Fusion Universal Microplate Analyser (Fusion\u2122 \u03b1-FP, Packard) at a 485 nm excitation wavelength (bandpass: 20 nm) for both GFP and RFP and at a 535 nm (bandpass: 25 nm) and 580 nm (bandpass: 15 nm) emission wavelength for GFP and RFP, respectively.",
+            "cite_spans": [
+                {
+                    "start": 624,
+                    "end": 626,
+                    "mention": "42",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "section": "Bacterial frameshift assays ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "As mentioned earlier, mutations within the eight nucleotides immediately preceding the slippery sequence can affect the efficiency of -1 PRF (39). We may expect that the closer a nucleotide of this region is to the slippery heptamer X XXY YYZ, the higher its influence on -1 PRF. In this study, we focused on the three nucleotides positioned immediately upstream of the slippery heptamer, which we name A, B and C. Together with the slippery heptamer, these nucleotides form the decamer A BCX XXY YYZ, which we call the extended slippery sequence. In the last model describing -1 PRF [Figure 1C, (35,38)], the XXY and YYZ codons of the classic slippery sequence (X XXY YYZ) are located in the P and A sites, respectively, when the -1 PRF occurs. The A BC nucleotides that are directly upstream of the slippery sequence are positioned such that the BCX and the ABC codons are located, respectively, in the E site before and after the shift. To investigate whether the identities of nucleotides A BC can affect the -1 PRF, we studied seven mutants of the frameshift region of HIV-1, in which the A BC nucleotide sequence (U\nAAU UUU UUA), was replaced by the corresponding sequence found in other viruses. We used a dual-luciferase reporter system (18) in mammalian cultured cells. In this system, the HIV-1 frameshift region is positioned between Rluc and Fluc coding sequences, such that Fluc expression requires the \u20131 PRF of HIV-1. In Figure 3A, one sees the extended slippery sequences of the wild-type HIV-1 (WT; U AAU UUU UUA) and of seven mutants numbered from M1 to M7. The M1 mutant corresponds to a variant isolated from a protease inhibitor-exposed patient, and M2 is a natural variant of HIV-1 (49). In M3 to M7 mutants, nucleotides A BC are taken from HIV type 2 (HIV-2; M3), the giardia virus (M4), the severe acute respiratory syndrome coronavirus (SARS-CoV; M5), the human T-cell lymphotropic virus type 1 (HTLV-1; M6) and the equine infectious anaemia virus (EIAV; M7). The absolute value of the WT -1 PRF efficiency was 8.0 \u00b1 1.0%. In Figure 3B, a value of 100% is arbitrarily assigned to this efficiency, and the efficiencies of all mutants are shown relative to WT. Among all investigated mutants, M1 is characterized by the lowest level of -1 PRF efficiency, which is only 5% of the WT level. Such a drop of the efficiency can be explained by the fact that M1 is the only variant in which the re-pairing of the pept-tRNA in the new reading frame is not allowed and this variant is most likely very poorly infectious. With M2, M5, M6 and M7 mutants, the -1 PRF efficiency was increased by about 50%. In contrast, with M3, the -1 PRF efficiency decreased slightly to 70% of the wild-type value, while the frameshift level remained unchanged with M4. Although the effects are not dramatic, they are all significant and well-reproducible [with M1, M2, M6 and M7 mutants; P values are 0.0001 (n \u2a7e 4) and with M5 mutant, P-value is 0.001 (n = 4), as determined by Student's t-test]. To verify whether the -1 PRF could be also influenced by mutations upstream the A BC nucleotides, we mutated the GCU codon, which is immediately upstream the BCX codon (GCU was exchanged with AAU, UCU, GGU or CAU, so that the A position remained unchanged). These mutations did not alter the -1 PRF efficiency (data not shown). We can conclude that mutations in positions A BC, immediately upstream of the classic slippery sequence, can noticeably affect the -1 PRF efficiency of HIV-1 and, therefore, that the nucleotides located at positions A BC could be involved in the -1 PRF of HIV-1. This was not the case for the nucleotides upstream of A BC.",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 144,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 597,
+                    "end": 599,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 600,
+                    "end": 602,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1246,
+                    "end": 1248,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1705,
+                    "end": 1707,
+                    "mention": "49",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "section": "Modulating role in -1 PRF of the three nucleotides immediately upstream of the HIV-1 slippery sequence ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 585,
+                    "end": 593,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1436,
+                    "end": 1444,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2051,
+                    "end": 2059,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "We next investigated whether the identity of the A BC nucleotides is also important for -1 PRF with other viral slippery sequences. To test this, we created various constructs in which the extended slippery sequence of HIV-1 (U AAU UUU UUA) was replaced with other extended viral slippery sequences. The two-stem helix of HIV-1 was used as a stimulatory signal with these different slippery sequences, which were assayed in the eukaryotic dual-luciferase system described above and are shown in Figure 4A. The C1, C3 and C5 constructs contain the extended slippery sequences found, respectively, in giardia virus (C AUC CCU UUA), EIAV (U CCA AAA AAC) and in SARS-CoV (G UUU UUA AAC). The -1 PRF efficiencies obtained with these three constructs vary between 4% and 5%, about 40\u201360% of the HIV-1 -1 PRF efficiency (Figure 4B). The nucleotides at positions A BC in each of the C1, C3 and C5 constructs were mutated to UAA, the nucleotides found at positions A BC upstream of the classic slippery sequence of HIV-1, generating the C2, C4 and C6 chimeric constructs. This decreased -1 PRF efficiency by about 50%, compared to the C1, C3 and C5 constructs, which confirms the observations made with HIV-1 slippery sequence concerning the importance of nucleotides A BC for -1 PRF.",
+            "cite_spans": [],
+            "section": "-1 PRF efficiencies with other viral frameshift regions mutated at positions A BC ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 495,
+                    "end": 503,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 814,
+                    "end": 822,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "It was previously demonstrated that exchanging slippery sequences from different frameshift regions alters the -1 PRF efficiency (18,50). However, in these studies, only the heptanucleotide slippery sequence was exchanged. Figure 4B also compares the effect of exchanging either the classic or the extended HIV-1 slippery sequence with other viral slippery sequences on -1 PRF efficiency. When the classic slippery sequence of HIV-1 is replaced with the classic slippery sequence of giardia virus, EIAV or that of SARS-CoV, the -1 PRF efficiency drops to 20\u201330% when compared to HIV-1 -1 PRF efficiency. When the HIV-1 extended slippery sequence is replaced with the extended slippery sequence found in giardia virus, EIAV or in SARS-CoV, the -1 PRF efficiency also decreases, but much less than when the substitution involves only the classic heptamer, being 50\u201360% of HIV-1 -1 PRF efficiency. These results confirm that exchanging slippery sequences alters the -1 PRF efficiency, and, in addition, shows that the extent of the decrease depends upon whether the extended slippery sequence or only the classic slippery sequence is exchanged. These results also confirm the importance of positions A BC for -1 PRF.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 132,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 133,
+                    "end": 135,
+                    "mention": "50",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "section": "-1 PRF efficiencies with other viral frameshift regions mutated at positions A BC ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 223,
+                    "end": 231,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "We also attempted to identify rRNA mutants that could interfere with the -1 PRF of HIV-1. So far, the rRNA mutations that were found to influence -1 PRF perturb the accommodation process (35). Our aim was to select mutations that influence -1 PRF by affecting the E-site tRNA binding, since we had found that mutations in the E-site codon can alter -1 PRF. Our strategy consisted in using the bacterial ribosome and introducing random mutations in 16S rRNA with the high-mutation-rate E. coli XL1-Red mutator strain (see Materials and Methods section for details). A pool of randomly mutated plasmids was obtained, where 90% of the clones analysed contained a mutation in the 16S rRNA. This 16S rRNA random library was then cloned into a plasmid containing reporter genes coding for RFP and GFP, in which RFP is expressed by conventional translation, whereas GFP expression requires the -1 PRF of HIV-1. The RBS of the reporters and the MBS site of the 16S rRNA random library are mutated and remain complementary, so that the reporters are exclusively translated by ribosomes that contain plasmid-encoded 16S rRNA. A small screen was individually performed (about 2000 clones), using the GFP/RFP assay to select clones for which GFP expression was affected but for which conventional translation was only moderately decreased (<50%). Three mutants were selected: mutant \u0394G666 with a guanosine deleted from the stretch of guanosines between positions 666 to 671, mutant iC739 with a cytosine inserted into the stretch of cytosines between positions 735 to 739, and mutant G604A with guanosine 604 replaced by an adenosine. Figure 5A shows the variations in HIV-1 -1 PRF efficiency obtained with each selected mutant relative to wild-type 16S rRNA, which was set arbitrarily at 100%, based on the GFP/RFP assay. \u0394G666 decreased -1 PRF efficiency mildly (to 80%), whereas G604A and iC739 increased -1 PRF efficiency to 130 and 200%, respectively. We also created a bacterial dual-luciferase vector, similar to the one used in mammalian cultured cells, but in which the dual-luciferase reporter is exclusively translated by ribosomes containing the plasmid-encoded 16S rRNA. The 16S rRNA mutants were introduced in this vector and -1 PRF efficiencies were assessed from measurements of luciferase activities. With mutant G604A and iC739, the -1 PRF efficiency was increased to about 170%. However, surprisingly, the -1 PRF efficiency was also increased to 150% with mutant \u0394G666, despite the fact that it decreased in the GFP/RFP assay. This discrepancy between the GFP/RFP and the bacterial dual-luciferase assay could result from the fact that the HIV-1 frameshift region is located at a short distance from the AUG initiator codon of the GFP reporter in the GFP/RFP system, and that the two reporters are translated separately. In the dual-luciferase assay, the HIV-1 frameshift region is inserted between the two reporter genes, so that the Fluc reporter, whose expression requires the -1 PRF of HIV-1, is synthesized as a Rluc-fusion protein. Although entirely hypothetical, one can propose that the changes in the -1 PRF efficiency triggered by the \u0394G666 mutant could cause a drop-off of the short peptide resulting from the -1 PRF, with the GFP/RFP system. This could cause an apparent decrease in -1 PRF efficiency, a situation that does not occur with the dual-luciferase system. Because the \u0394G666 and iC739 mutants are located in either strand of the same 16S rRNA helix, we used a standard PCR procedure to create the inverse mutation: iG666 and \u0394C739. While iG666 had no effect on the -1 PRF efficiency in both GFP/RFP and dual-luciferase assays (data not shown), \u0394C739 increased the -1 PRF efficiency to 160 and 230%, respectively, in both assays. We further investigated whether the 16S rRNA mutations also increase -1 PRF efficiency when combined with other slippery sequences. The iC739 mutation was investigated with the C5 construct that contains the extended slippery sequence found in SARS-CoV and the C6 chimeric construct, where the classic slippery sequence of HIV-1 is replaced with the one found in SARS-CoV, whereas the A BC nucleotides correspond to those found in HIV-1, as described in Figure 4A. As with the HIV-1 frameshift region, the iC739 mutation increased -1 PRF efficiency with the other frameshift regions to about 150% compared to wild-type 16S rRNA. The locations of the mutations that were selected from the random library are shown in the secondary and tertiary structure of the 16S rRNA (Figure 6). \u0394G666, iG666, \u0394C739 and iC739 are located in helix 22 whereas G604A is located in helix 21 of the 16S rRNA. Helices 21 and 22 are part of the central domain of the 16S rRNA, a region that forms the 30S subunit platform and participates in E-tRNA binding (see subsequently).\n",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 190,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "section": "Identification of 16S rRNA mutations that affect HIV-1 -1 PRF efficiency ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 1623,
+                    "end": 1631,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 4212,
+                    "end": 4220,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 4528,
+                    "end": 4536,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "Using a dual-luciferase assay in mammalian cultured cells, we demonstrated that mutating the BCX codon plus the preceding base (A) immediately upstream of HIV-1 classic heptanucleotide slippery sequence affects the -1 PRF efficiency. The BCX and the ABC codons occupy, respectively, the E site before and after the -1 PRF. We found that mutating the ABC nucleotides, located at the same position upstream of other viral slippery sequences also changes the -1 PRF efficiency. Interestingly, from the analysis of 41 eukaryotic virus slippery sequences retrieved from the RECODE database (Table 1) (51), we observed that there is a bias in the identity of the BCX codon located upstream of various slippery sequences: there may be different codons located immediately upstream of a given classic slippery sequence, but they appear to be exclusive for this slippery sequence, e.g. CCU and UUU codons are both found upstream of the slippery sequence U UUA AAC, but are not found upstream of any other viral slippery sequence (Table 1). No such bias is observed with the codon immediately 5' to this upstream codon. This observation is in agreement with our findings that mutating the E-site codon changes the -1 PRF efficiency, which is not the case when changing the codon 5' to the E-site codon.\n",
+            "cite_spans": [
+                {
+                    "start": 596,
+                    "end": 598,
+                    "mention": "51",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 586,
+                    "end": 593,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1021,
+                    "end": 1028,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "Using a specialized bacterial ribosome system, we also showed that mutations located in helices 21 and 22 of the 16S rRNA, in the platform region of the small ribosomal subunit, increase HIV-1 -1 PRF efficiency (Figure 5). From the analysis of the ribosome crystal structure (41,52), it can be inferred that these mutations could influence the structure of a region involved in the binding of the tRNA at the E site (Figure 6). Indeed, the mutations located in helix 22 are close to nucleotides from the 690 and 790 loops that contact the anticodon stem of the tRNA at the E site. These interactions require kink-turn motifs that are maintained by the coaxial helices 21 and 22. Therefore, the mutations that alter the -1 PRF efficiency could be related to the E site. Interestingly, mutations in the small subunit ribosomal proteins S7 and S11, which are located in proximity to the E site, have been found to increase spontaneous frameshift (53), further supporting a relationship between this region and frameshift. When 16S rRNA mutations were assessed with different combinations of classic slippery sequences and upstream triplets (ABC positions), the -1 PRF efficiency increased to the same extent. Moreover, the platform region is involved in conformational changes during translocation (27,28,30,31). The 16S rRNA mutants could alter -1 PRF efficiency, not only by influencing the binding of tRNA at the E site, but also by interfering with translocation. It is worth mentioning that a 23S rRNA C2394G mutation, that affects translocation, increases spontaneous frameshift (54), which also supports a relationship between translocation and frameshift. Also, cycloheximide, a translocation inhibitor (55), was found to increase HIV-1 -1 PRF efficiency by about 2-fold (our unpublished data), which supports the involvement of translocation in -1 PRF.",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 278,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 279,
+                    "end": 281,
+                    "mention": "52",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 944,
+                    "end": 946,
+                    "mention": "53",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1296,
+                    "end": 1298,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1299,
+                    "end": 1301,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1302,
+                    "end": 1304,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1305,
+                    "end": 1307,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1583,
+                    "end": 1585,
+                    "mention": "54",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1709,
+                    "end": 1711,
+                    "mention": "55",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 220,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 417,
+                    "end": 425,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "From previous observations and our own results, we propose a refinement of the last model describing -1 PRF. In this novel model (Figure 7), the sequence of events that lead to -1 PRF starts when the BCX and XXY codons (AAU UUU in HIV-1 frameshift region) occupy, respectively, the P and A sites. After peptide bond formation, the newly deac-tRNA and pept-tRNA in the P and A sites become engaged in the translocation process. Translocation begins after the binding of EF-G (or eEF2) associated to a GTP molecule to the ribosome. After GTP hydrolysis, the acceptor stems of the tRNAs move towards the E and P sites, respectively, on the large subunit (56). The tRNAs occupy hybrid sites, where the acceptor stems of the tRNAs on the large ribosomal subunit are in an intermediate position between the post- and pre-translocational state (P/E* and A/P*, where the star refers to a transition state). Such intermediate was recently identified using single-turnover rapid kinetics assays (57) (Figure 7A). The tRNA anticodon stem\u2013loops then move towards the E and P sites of the small ribosomal subunit, occupying first the intermediate E*/E* and P*/P* sites. The next step is the movement to the E/E and P/P sites, which drags the mRNA a distance of three nucleotides (i.e. one codon), after release of EF-G\u00b7GDP from the ribosome. We propose that, for a fraction of ribosomes, the two tRNAs cannot drag the mRNA by three nucleotides, but only by two, due to the presence of the stimulatory signal that is resistant to unwinding. As a consequence, the two tRNAs are blocked in intermediate E*/E* and P*/P* sites and translocation is incomplete (Figure 7B). This hypothesis mainly relies on the cryo-EM structure from Namy et al. (34), showing that the presence of a frameshift stimulatory signal stalls the ribosome in the translocation process. The next step of translation is the arrival of an incoming aa-tRNA bound to EF-Tu (or eEF1A) associated to a GTP molecule. Because of the incomplete translocation, the incoming aa-tRNA occupies an entry site (A*/T*) that differs from the standard A/T entry site (Figure 7C). Codon\u2013anticodon interactions are dynamic and can break and re-form. We propose that the tRNAs, which are located in intermediate sites and not in their respective standard high-affinity sites on the ribosome, are prone to shift to these standard sites, and, after the shift, re-pair to the mRNA in the -1 reading frame (Figure 7D). The driving force for the change in the reading frame is therefore the tendency of the tRNAs to occupy their standard binding sites. The slippage of the tRNAs would start with the tRNA located in the E*/E* site, followed by the successive slippage of the tRNAs located in the P*/P* and A*/T* sites, towards the E/E, P/P and A/T sites [see ref. (58) for the concept of successive tRNA slippage]. The -1 PRF would be followed by the aa-tRNA accommodation in the A/A site, which is coupled with the E-site tRNA ejection from the ribosome (59,60) (Figure 7E) and conventional translation would resume with unfolding of the frameshift stimulatory signal. In our model, there are two steps where the ribosome pauses: when it is blocked during translocation and when the three tRNAs shift to their standard sites. As mentioned in the \u2018Introduction\u2019 section, Weiss et al. (26) were the first to suggest that -1 PRF was linked to translocation, but in their model, -1 PRF occurs when the XXY and YYZ codons occupy the P and A sites (Figure 1B). We suggest that a translocation anomaly leading to -1 PRF occurs at the preceding elongation cycle, when the BCX and XXY codons occupy the P and A sites, which takes into account the fact that the E-site codon participates in -1 PRF.\n",
+            "cite_spans": [
+                {
+                    "start": 652,
+                    "end": 654,
+                    "mention": "56",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 986,
+                    "end": 988,
+                    "mention": "57",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1727,
+                    "end": 1729,
+                    "mention": "34",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2795,
+                    "end": 2797,
+                    "mention": "58",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 2986,
+                    "end": 2988,
+                    "mention": "59",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 2989,
+                    "end": 2991,
+                    "mention": "60",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 3315,
+                    "end": 3317,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 138,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 991,
+                    "end": 999,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1642,
+                    "end": 1650,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 2106,
+                    "end": 2114,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 2438,
+                    "end": 2446,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 2994,
+                    "end": 3002,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 3474,
+                    "end": 3482,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In our model, three tRNAs participate in -1 PRF. The event is triggered by the blockade of the ribosome at a transition state following an incomplete translocation due to the presence of the stimulatory signal. How can we explain that the identity of the BCX codon influences the -1 PRF? It is well known that mutating the classic X XXY YYZ motif prevents the slippage of the tRNAs located in the P and A/T sites, since, after the shift, the tRNAs cannot re-pair to the mRNA in the new reading frame. However, whether there is a codon\u2013anticodon interaction at the E site is still a matter of debate. From the analysis of crystal structures, no codon\u2013anticodon interaction has been observed between the mRNA and the deac-tRNA in the E site (52,61). In contrast, in vitro translational experiments support a codon\u2013anticodon interaction at the E site (60,62). From our slippery sequences analysis (Table 1), it can be observed that, after -1 PRF, only one standard base-pairing is possible between the tRNA and the ABC nucleotides, in most cases. If there is a codon\u2013anticodon interaction at the E site, it could be suggested that base pairs other than Watson\u2013Crick or G-U wobble pairs are tolerated at the E site. Under these relaxed conditions, a major consequence of mutating the BCX codon plus the preceding base is not likely to alter the -1 PRF efficiency by influencing the codon\u2013anticodon interaction of the E-site tRNA in the shifted frame, although minor effects cannot be excluded. We propose that the main consequence of making these changes is to modify the identity of the E-site tRNA. Our hypothesis is that there is a relationship between the structural peculiarities of this tRNA and its capacity to shift from an intermediate to a classic site, since the movement of this tRNA precedes and thus controls the movement of the two other tRNAs. The group of Rousset (63) had proposed that, in -1 PRF, an E-site tRNA carrying a pseudouridine modification at position 39 was coupled to high -1 PRF efficiency. However, these results could not be reproduced (Rousset J.P. 2006, personal communication). Also, from a search using the tRNA Compilation 2000 database (64), our present results do not support any relationship between the presence of a tRNA modification at position 39 and the -1 PRF efficiency (data not shown).",
+            "cite_spans": [
+                {
+                    "start": 740,
+                    "end": 742,
+                    "mention": "52",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 743,
+                    "end": 745,
+                    "mention": "61",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 849,
+                    "end": 851,
+                    "mention": "60",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 852,
+                    "end": 854,
+                    "mention": "62",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1878,
+                    "end": 1880,
+                    "mention": "63",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 2173,
+                    "end": 2175,
+                    "mention": "64",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "section": "DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 895,
+                    "end": 902,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "In conclusion, we propose a novel model to describe -1 PRF, in which three tRNAs are involved. A detailed understanding of -1 PRF mechanism should contribute to the development of novel anti-frameshift agents that affect the replication capacity of viruses, such as HIV-1.",
+            "cite_spans": [],
+            "section": "DISCUSSION",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1.: Analysis of the slippery sequence from different viral frameshift regions\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1.: Models discussed in the literature to account for -1 PRF. The ribosomal subunits, the stimulatory signal (represented here by a stem\u2013loop), the classic slippery sequence (X XXY YYZ) and the ribosomal sites (E, P and A sites) occupied by the corresponding tRNAs are indicated. The deac-tRNA, pept-tRNA and aa-tRNA are, respectively, shown in green, pink and blue, and coloured circles represent amino acids attached to the 3\u2032 end of tRNAs. Elongation factors were omitted from the figure. (A) The two-tRNA simultaneous slippage model as proposed by Jacks et al. (19) and refined by Plant et al. (23): the -1 PRF occurs when the pept-tRNA and the aa-tRNA occupy, respectively, the P/P and the A/A sites, prior to peptide bond formation. (B) Model proposed by Weiss et al. (26), in which the -1 PRF occurs after peptide bond formation, when the deac-tRNA and the pept-tRNA occupy, respectively, the P/E and A/P sites. It should be noted that the relative position of the subunits is modified (ratchet-like rotation) compared to their position after peptide bond formation (27). (C) Model initially proposed by Farabaugh (38) and experimentally supported by L\u00e9ger et al. (35), in which the -1 PRF occurs before peptide bond formation and occupancy of the A/A site, when the incoming aa-tRNA occupies the A/T entry site. This model is updated so as to include the deac-tRNA in the E site, which is ejected from the ribosome when the aa-tRNA occupies the A/A site (60).",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2.: HIV-1 frameshift region in eukaryotic and prokaryotic dual-luciferase systems. Plasmids contain the HIV-1 frameshift region inserted between the coding sequence of the Rluc (white) and the Fluc (grey) genes, as described in Dulude et al. (18). The HIV-1 slippery sequence is underlined. The HIV-1 two-stem helix frameshift stimulatory signal (6\u20138) and the restriction sites (KpnI and Pfl23II) used in this study are indicated. The insertion of the HIV-1 frameshift region is such that the Fluc coding sequence is in the -1 reading frame relative to the Rluc AUG initiator codon (-1 constructs). For the (0) frame construct, the slippery sequence is inactivated by mutagenesis to C UUC CUC and an A is inserted 3\u2032 to the slippery sequence, such that the Fluc coding sequence is in-frame with the Rluc AUG initiator codon. The Fluc gene is always expressed as a fusion protein with Rluc.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3.: Effect of mutating the three nucleotides upstream of the HIV-1 slippery sequence on the -1 PRF efficiency. (A) The nucleotides forming the wild-type extended HIV-1 slippery sequence are indicated (U AAU UUU UUA, corresponding to A BCX XXY YYZ; the spaces refer to the initial reading frame). (B) -1 PRF efficiencies of the M1 to M7 mutant constructs (shown in light grey) are indicated relative to wild-type (WT, shown in black) set arbitrarily at 100%. -1 PRF efficiencies were obtained from dual-luciferase activities with pDual-HIV derivatives in 293T mammalian cultured cells. The values are the means of at least four independent experiments, with the bars representing the standard error on the means.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4.: -1 PRF efficiencies obtained with various slippery sequences. The HIV-1 slippery sequence is replaced with slippery sequences from other viral frameshift regions. The stimulatory signal of HIV-1 is used in all constructs. (A) The nucleotides forming the extended HIV-1 slippery sequence (U AAU UUU UUA, corresponding to A BCX XXY YYZ; the spaces refer to the initial reading frame) are shown. The C1, C3 and C5 constructs contain the extended slippery sequences found, respectively, in the frameshift region of giardia virus (C AUC CCU UUA), EIAV (U CCA AAA AAC) and SARS-CoV (G UUU UUA AAC). Positions A BC in the C2, C4 and C6 chimeras are mutated to U AA, the nucleotides found at positions A BC in the extended slippery sequence of HIV-1. (B) -1 PRF efficiencies obtained from dual-luciferase activities with pDual-HIV derivatives in 293T mammalian cultured cells. The -1 PRF efficiencies with the C1 to C6 constructs are indicated relative to HIV-1 wild-type frameshift region, which is set arbitrarily at 100%. Constructs containing a C CCU UUA, A AAA AAC and a U UUA AAC heptanucleotide sequence are shown in dark grey, light grey and in white, respectively. The values are the means of at least four independent experiments, with the bars representing the standard error on the means.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5.: 16S rRNA mutations affecting -1 PRF efficiency. (A) -1 PRF efficiencies were measured from GFP/RFP and dual-luciferase assays as described in the text, with HIV-1 extended slippery sequence. -1 PRF efficiencies are expressed as a percent of wild-type (WT) 16S rRNA activity. (B) -1 PRF efficiencies with other slippery sequences: C5 and C6 constructs (see description in Figure 4A). -1 PRF efficiencies were measured from dual-luciferase assays and are expressed as a percent of wild-type (WT) 16S rRNA activity. -1 PRF efficiencies are the means of at least three independent experiments, with the bars representing the standard error on the means.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6.: Localization of the 16S rRNA mutations that alter HIV-1 -1 PRF efficiency. (A) Scheme of E. coli 16S rRNA secondary structure (65). The central domain is enlarged and coloured. Portions of the sequences of helices 21 and 22 are indicated in orange and green, respectively. The 16S rRNA mutations within helices 21 (G604A) and 22 (\u0394G666, iC739 and \u0394C739) that affect -1 PRF are boxed. The 690 and 790 loops interacting with the E-site tRNA are indicated. (B)\nE. coli 16S rRNA tertiary structure [figure made with Pymol (66)] as seen in the crystal structure of the 30S ribosomal subunit [PDB accession code 2AVY, (67)]. The central domain and helices 21 and 22 are coloured as in A. The 16S rRNA mutations are represented in spaced filling and in red.",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 7.: The three tRNA -1 PRF model. The figure elements are as described in the legend to Figure 1. The unfolded lower stem of the HIV-1 stimulatory signal is represented by a wavy line and the stimulatory signal promoting the -1 PRF is the upper stem\u2013loop, as explained in the text. The elongation factor G (EF-G) and Tu (EF-Tu) are represented by a rectangular and an oval shape, respectively, and are either associated to a GTP or to a GDP molecule. (A) After peptide bond formation and after the association of EF-G\u00b7GTP to the ribosome and GTP hydrolysis, the acceptor stem of the deac-tRNA and that of the pept-tRNA move towards the E and P sites, respectively, where they occupy intermediate P/E* and A/P* sites on the ribosome. (B) The anticodon stems of the tRNAs move with the mRNA towards the E and P sites of the small ribosomal subunit. The presence of the stimulatory signal limits the displacement of the mRNA to two bases instead of three, such that the deac-tRNA and the pept-tRNA occupy, respectively, intermediate E*/E* and P*/P* sites. (C) The ribosome selects an incoming aa-tRNA in an A*/T* entry site. (D) The tRNAs in the E*/E*, P*/P* and A*/T* sites unpair from the mRNA, successively shift to the standard E, P and A/T sites and re-pair to the mRNA in the -1 reading frame. Note that whether there is pairing or not for the deac-tRNA occupying the standard E site is controversial (see the text). (E) The deac-tRNA is ejected from the ribosome upon occupancy of the A/A site by the incoming aa-tRNA.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Ribosomal frameshifting viral RNAs",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Gen. Virol",
+            "volume": "76",
+            "issn": "Pt 8",
+            "pages": "1885-1892",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Recoding in bacteriophages and bacterial IS elements",
+            "authors": [
+                {
+                    "first": "PV",
+                    "middle": [],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fayet",
+                    "suffix": ""
+                },
+                {
+                    "first": "RW",
+                    "middle": [],
+                    "last": "Hendrix",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Trends Genet",
+            "volume": "22",
+            "issn": "",
+            "pages": "174-181",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Ribosomal movement impeded at a pseudoknot required for frameshifting",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "TH",
+                    "middle": [],
+                    "last": "Tzeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Bruenn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "89",
+            "issn": "",
+            "pages": "8636-8640",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Ribosomal pausing during translation of an RNA pseudoknot",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Somogyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Jenner",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                },
+                {
+                    "first": "SC",
+                    "middle": [],
+                    "last": "Inglis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Mol. Cell. Biol",
+            "volume": "13",
+            "issn": "",
+            "pages": "6931-6940",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Kinetics of ribosomal pausing during programmed -1 translational frameshifting",
+            "authors": [
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Lopinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Bruenn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Mol. Cell. Biol",
+            "volume": "20",
+            "issn": "",
+            "pages": "1095-1103",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Ribosomal pausing at a frameshifter RNA pseudoknot is sensitive to reading phase but shows little correlation with frameshift efficiency",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kontos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Napthine",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Mol. Cell. Biol",
+            "volume": "21",
+            "issn": "",
+            "pages": "8657-8670",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Overexpression of the gag-pol precursor from human immunodeficiency virus type 1 proviral genomes results in efficient proteolytic processing in the absence of virion production",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "CD",
+                    "middle": [],
+                    "last": "Morrow",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "J. Virol",
+            "volume": "65",
+            "issn": "",
+            "pages": "5111-5117",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Overexpression of the HIV-1 gag-pol polyprotein results in intracellular activation of HIV-1 protease and inhibition of assembly and budding of virus-like particles",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Karacostas",
+                    "suffix": ""
+                },
+                {
+                    "first": "EJ",
+                    "middle": [],
+                    "last": "Wolffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nagashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Gonda",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Virology",
+            "volume": "193",
+            "issn": "",
+            "pages": "661-671",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Maintenance of the Gag/Gag-Pol ratio is important for human immunodeficiency virus type 1 RNA dimerization and viral infectivity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shehu-Xhilaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Crowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J. Virol",
+            "volume": "75",
+            "issn": "",
+            "pages": "1834-1841",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Decreasing the frameshift efficiency translates into an equivalent reduction of the replication of the human immunodeficiency virus type 1",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dulude",
+                    "suffix": ""
+                },
+                {
+                    "first": "YA",
+                    "middle": [],
+                    "last": "Berchiche",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gendron",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Heveker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology",
+            "volume": "345",
+            "issn": "",
+            "pages": "127-136",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Signals for ribosomal frameshifting in the Rous sarcoma virus gag-pol region",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jacks",
+                    "suffix": ""
+                },
+                {
+                    "first": "HD",
+                    "middle": [],
+                    "last": "Madhani",
+                    "suffix": ""
+                },
+                {
+                    "first": "FR",
+                    "middle": [],
+                    "last": "Masiarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "HE",
+                    "middle": [],
+                    "last": "Varmus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Cell",
+            "volume": "55",
+            "issn": "",
+            "pages": "447-458",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Reprogrammed genetic decoding in cellular gene expression",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Namy",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Rousset",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Napthine",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Mol. Cell",
+            "volume": "13",
+            "issn": "",
+            "pages": "157-168",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Complete kinetic mechanism of elongation factor Tu-dependent binding of aminoacyl-tRNA to the A site of the E. coli ribosome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pape",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wintermeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "MV",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "EMBO J",
+            "volume": "17",
+            "issn": "",
+            "pages": "7490-7497",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Fidelity of aminoacyl-tRNA selection on the ribosome: kinetic and structural mechanisms",
+            "authors": [
+                {
+                    "first": "MV",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wintermeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Annu. Rev. Biochem",
+            "volume": "70",
+            "issn": "",
+            "pages": "415-435",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Kinetic determinants of high-fidelity tRNA discrimination on the ribosome",
+            "authors": [
+                {
+                    "first": "KB",
+                    "middle": [],
+                    "last": "Gromadski",
+                    "suffix": ""
+                },
+                {
+                    "first": "MV",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Mol. Cell",
+            "volume": "13",
+            "issn": "",
+            "pages": "191-200",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "The 9-\u00c5 solution: How mRNA pseudoknots promote efficient programmed -1 ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "EP",
+                    "middle": [],
+                    "last": "Plant",
+                    "suffix": ""
+                },
+                {
+                    "first": "KL",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "Harger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meskauskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Baxter",
+                    "suffix": ""
+                },
+                {
+                    "first": "AN",
+                    "middle": [],
+                    "last": "Petrov",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "RNA",
+            "volume": "9",
+            "issn": "",
+            "pages": "168-174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "The role of tRNA as a molecular spring in decoding, accommodation, and peptidyl transfer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zavialov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ehrenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "FEBS Lett",
+            "volume": "579",
+            "issn": "",
+            "pages": "959-962",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Simulating movement of tRNA into the ribosome during decoding",
+            "authors": [
+                {
+                    "first": "KY",
+                    "middle": [],
+                    "last": "Sanbonmatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                },
+                {
+                    "first": "CS",
+                    "middle": [],
+                    "last": "Tung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl Acad. Sci",
+            "volume": "102",
+            "issn": "",
+            "pages": "15854-15859",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "E. coli ribosomes re-phase on retroviral frameshift signals at rates ranging from 2 to 50 percent",
+            "authors": [
+                {
+                    "first": "RB",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shuh",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "RF",
+                    "middle": [],
+                    "last": "Gesteland",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "New Biol",
+            "volume": "1",
+            "issn": "",
+            "pages": "159-169",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "A ratchet-like inter-subunit reorganization of the ribosome during translocation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Agrawal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nature",
+            "volume": "406",
+            "issn": "",
+            "pages": "318-322",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Locking and unlocking of ribosomal motions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zavialov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Rawat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ehrenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Cell",
+            "volume": "114",
+            "issn": "",
+            "pages": "123-134",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "Conformational changes of the small ribosomal subunit during elongation factor G-dependent tRNA-mRNA translocation",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Peske",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Savelsbergh",
+                    "suffix": ""
+                },
+                {
+                    "first": "VI",
+                    "middle": [],
+                    "last": "Katunin",
+                    "suffix": ""
+                },
+                {
+                    "first": "MV",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wintermeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Mol. Biol",
+            "volume": "343",
+            "issn": "",
+            "pages": "1183-1194",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "Overriding standard decoding: implications of recoding for ribosome function and enrichment of gene expression",
+            "authors": [
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "PV",
+                    "middle": [],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fayet",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Herr",
+                    "suffix": ""
+                },
+                {
+                    "first": "MT",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                },
+                {
+                    "first": "IP",
+                    "middle": [],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsufuji",
+                    "suffix": ""
+                },
+                {
+                    "first": "WA",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Cold Spring Harb. Symp. Quant. Biol",
+            "volume": "66",
+            "issn": "",
+            "pages": "217-232",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "Domain movements of elongation factor eEF2 and the eukaryotic 80S ribosome facilitate tRNA translocation",
+            "authors": [
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Spahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "MG",
+                    "middle": [],
+                    "last": "Gomez-Lorenzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Grassucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "GR",
+                    "middle": [],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Beckmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Penczek",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Ballesta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "EMBO J",
+            "volume": "23",
+            "issn": "",
+            "pages": "1008-1019",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "Interactions of translational factor EF-G with the bacterial ribosome before and after mRNA translocation",
+            "authors": [
+                {
+                    "first": "KS",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nechifor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Mol. Biol",
+            "volume": "337",
+            "issn": "",
+            "pages": "15-30",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "Translocation of tRNA during protein synthesis",
+            "authors": [
+                {
+                    "first": "HF",
+                    "middle": [],
+                    "last": "Noller",
+                    "suffix": ""
+                },
+                {
+                    "first": "MM",
+                    "middle": [],
+                    "last": "Yusupov",
+                    "suffix": ""
+                },
+                {
+                    "first": "GZ",
+                    "middle": [],
+                    "last": "Yusupova",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baucom",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Cate",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "FEBS Lett",
+            "volume": "514",
+            "issn": "",
+            "pages": "11-16",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "EF-G-independent reactivity of a pre-translocation-state ribosome complex with the aminoacyl tRNA substrate puromycin supports an intermediate (hybrid) state of tRNA binding",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "DR",
+                    "middle": [],
+                    "last": "Southworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "RNA",
+            "volume": "10",
+            "issn": "",
+            "pages": "102-113",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "A mechanical explanation of RNA pseudoknot function in programmed ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Namy",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Moran",
+                    "suffix": ""
+                },
+                {
+                    "first": "DI",
+                    "middle": [],
+                    "last": "Stuart",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nature",
+            "volume": "441",
+            "issn": "",
+            "pages": "244-247",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "A reassessment of the response of the bacterial ribosome to the frameshift stimulatory signal of the human immunodeficiency virus type 1",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00e9ger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sidani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "RNA",
+            "volume": "10",
+            "issn": "",
+            "pages": "1225-1235",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "Translational misreading: mutations in translation elongation factor 1 alpha differentially affect programmed ribosomal frameshifting and drug sensitivity",
+            "authors": [
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                },
+                {
+                    "first": "TG",
+                    "middle": [],
+                    "last": "Kinzy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "RNA",
+            "volume": "3",
+            "issn": "",
+            "pages": "870-881",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "An \u201cintegrated model\u201d of programmed ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "Harger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meskauskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Dinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Trends Biochem. Sci",
+            "volume": "27",
+            "issn": "",
+            "pages": "448-454",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Programmed Alternative Reading of the Genetic Code. Landes Bioscience, Austin, Texas and Springer, Heidelberg, Germany",
+            "authors": [
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Farabaugh",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "69-102",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "Comparative mutational analysis of cis-acting RNA signals for translational frameshifting in HIV-1 and HTLV-2",
+            "authors": [
+                {
+                    "first": "YG",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nucleic Acids Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "1125-1131",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "Structure and function of the stimulatory RNAs involved in programmed eukaryotic -1 ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pennell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Cold Spring Harb. Symp. Quant. Biol",
+            "volume": "66",
+            "issn": "",
+            "pages": "233-248",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "Characterization of ribosomal frameshifting in HIV-1 gag-pol expression",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jacks",
+                    "suffix": ""
+                },
+                {
+                    "first": "MD",
+                    "middle": [],
+                    "last": "Power",
+                    "suffix": ""
+                },
+                {
+                    "first": "FR",
+                    "middle": [],
+                    "last": "Masiarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Luciw",
+                    "suffix": ""
+                },
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "HE",
+                    "middle": [],
+                    "last": "Varmus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Nature",
+            "volume": "331",
+            "issn": "",
+            "pages": "280-283",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "Crystal structure of the ribosome at 5.5 \u00c5 resolution",
+            "authors": [
+                {
+                    "first": "MM",
+                    "middle": [],
+                    "last": "Yusupov",
+                    "suffix": ""
+                },
+                {
+                    "first": "GZ",
+                    "middle": [],
+                    "last": "Yusupova",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baucom",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lieberman",
+                    "suffix": ""
+                },
+                {
+                    "first": "TN",
+                    "middle": [],
+                    "last": "Earnest",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Cate",
+                    "suffix": ""
+                },
+                {
+                    "first": "HF",
+                    "middle": [],
+                    "last": "Noller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Science",
+            "volume": "292",
+            "issn": "",
+            "pages": "883-896",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "Functional studies of the 900 tetraloop capping helix 27 of 16S ribosomal RNA",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "B\u00e9langer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00e9ger",
+                    "suffix": ""
+                },
+                {
+                    "first": "AA",
+                    "middle": [],
+                    "last": "Saraiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "PR",
+                    "middle": [],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Mol. Biol",
+            "volume": "320",
+            "issn": "",
+            "pages": "979-989",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "Translation mechanisms",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "B\u00e9langer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "O\u2019Connor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "247-263",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "Rapidly maturing variants of the Discosoma red fluorescent protein (DsRed)",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Bevis",
+                    "suffix": ""
+                },
+                {
+                    "first": "BS",
+                    "middle": [],
+                    "last": "Glick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nature biotechnology",
+            "volume": "20",
+            "issn": "",
+            "pages": "83-87",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "Site-directed mutagenesis by overlap extension using the polymerase chain reaction",
+            "authors": [
+                {
+                    "first": "SN",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "HD",
+                    "middle": [],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "RM",
+                    "middle": [],
+                    "last": "Horton",
+                    "suffix": ""
+                },
+                {
+                    "first": "JK",
+                    "middle": [],
+                    "last": "Pullen",
+                    "suffix": ""
+                },
+                {
+                    "first": "LR",
+                    "middle": [],
+                    "last": "Pease",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Gene",
+            "volume": "77",
+            "issn": "",
+            "pages": "51-59",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "A functional relationship between helix 1 and the 900 tetraloop of 16S ribosomal RNA within the bacterial ribosome",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "B\u00e9langer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Th\u00e9berge-Julien",
+                    "suffix": ""
+                },
+                {
+                    "first": "PR",
+                    "middle": [],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "RNA",
+            "volume": "11",
+            "issn": "",
+            "pages": "906-913",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "Deleterious mutations in small subunit ribosomal RNA identify functional sites and potential targets for antibiotics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yassin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fredrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Mankin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl Acad. Sci",
+            "volume": "102",
+            "issn": "",
+            "pages": "16620-16625",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "A noncommercial dual luciferase enzyme assay system for reporter gene analysis",
+            "authors": [
+                {
+                    "first": "BW",
+                    "middle": [],
+                    "last": "Dyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "FA",
+                    "middle": [],
+                    "last": "Ferrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "DK",
+                    "middle": [],
+                    "last": "Klinedinst",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Anal. Biochem",
+            "volume": "282",
+            "issn": "",
+            "pages": "158-161",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "Polymorphism of HIV type 1 Gag p7/p1 and p1/p6 cleavage sites: clinical significance and implications for resistance to protease inhibitors",
+            "authors": [
+                {
+                    "first": "FMR",
+                    "middle": [],
+                    "last": "Bally",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sudre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Telenti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "AIDS Res. Hum. Retrovir",
+            "volume": "16",
+            "issn": "",
+            "pages": "1209-1213",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "Programmed ribosomal frameshifting in HIV-1 and the SARS-CoV",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                },
+                {
+                    "first": "FJ",
+                    "middle": [],
+                    "last": "Dos Ramos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virus Res",
+            "volume": "119",
+            "issn": "",
+            "pages": "29-42",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "The human immunodeficiency virus type 1 ribosomal frameshifting site is an invariant sequence determinant and an important target for antiviral therapy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Biswas",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "AL",
+                    "middle": [],
+                    "last": "Pacchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Dougherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "SW",
+                    "middle": [],
+                    "last": "Peltz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "2082-2087",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "Recode 2003",
+            "authors": [
+                {
+                    "first": "PV",
+                    "middle": [],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "OL",
+                    "middle": [],
+                    "last": "Gurvich",
+                    "suffix": ""
+                },
+                {
+                    "first": "AW",
+                    "middle": [],
+                    "last": "Hammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "RF",
+                    "middle": [],
+                    "last": "Gesteland",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nucleic Acids Res",
+            "volume": "31",
+            "issn": "",
+            "pages": "87-89",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "Crystal structure of a 70S ribosome-tRNA complex reveals functional interactions and rearrangements",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Korostelev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trakhanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Laurberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "HF",
+                    "middle": [],
+                    "last": "Noller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Cell",
+            "volume": "126",
+            "issn": "",
+            "pages": "1065-1077",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "A functional interaction between ribosomal proteins S7 and S11 within the bacterial ribosome",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Robert",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Biol. Chem",
+            "volume": "278",
+            "issn": "",
+            "pages": "44913-44920",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "Function of the ribosomal E-site: a mutagenesis study",
+            "authors": [
+                {
+                    "first": "PV",
+                    "middle": [],
+                    "last": "Sergiev",
+                    "suffix": ""
+                },
+                {
+                    "first": "DV",
+                    "middle": [],
+                    "last": "Lesnyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "SV",
+                    "middle": [],
+                    "last": "Kiparisov",
+                    "suffix": ""
+                },
+                {
+                    "first": "DE",
+                    "middle": [],
+                    "last": "Burakovsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "AA",
+                    "middle": [],
+                    "last": "Leonov",
+                    "suffix": ""
+                },
+                {
+                    "first": "AA",
+                    "middle": [],
+                    "last": "Bogdanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brimacombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "OA",
+                    "middle": [],
+                    "last": "Dontsova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res",
+            "volume": "33",
+            "issn": "",
+            "pages": "6048-6056",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "Inhibitors of protein biosynthesis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vazquez",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Mol. Biol. Biochem. Biophys",
+            "volume": "30",
+            "issn": "",
+            "pages": "1-312",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "Role and timing of GTP binding and hydrolysis during EF-G-dependent tRNA translocation on the ribosome",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wilden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Savelsbergh",
+                    "suffix": ""
+                },
+                {
+                    "first": "MV",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wintermeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc. Natl Acad. Sci",
+            "volume": "103",
+            "issn": "",
+            "pages": "13670-13675",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF52": {
+            "title": "Kinetically competent intermediates in the translocation step of protein synthesis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "SV",
+                    "middle": [],
+                    "last": "Kirillov",
+                    "suffix": ""
+                },
+                {
+                    "first": "BS",
+                    "middle": [],
+                    "last": "Cooperman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Mol. Cell",
+            "volume": "25",
+            "issn": "",
+            "pages": "519-529",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF53": {
+            "title": "P-site tRNA is a crucial initiator of ribosomal frameshifting",
+            "authors": [
+                {
+                    "first": "PV",
+                    "middle": [],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "RF",
+                    "middle": [],
+                    "last": "Gesteland",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "RNA",
+            "volume": "10",
+            "issn": "",
+            "pages": "221-230",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF54": {
+            "title": "Deacylated tRNA is released from the E site upon A site occupation but before GTP is hydrolyzed by EF-Tu",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dinos",
+                    "suffix": ""
+                },
+                {
+                    "first": "DL",
+                    "middle": [],
+                    "last": "Kalpaxis",
+                    "suffix": ""
+                },
+                {
+                    "first": "DN",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "KH",
+                    "middle": [],
+                    "last": "Nierhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res",
+            "volume": "33",
+            "issn": "",
+            "pages": "5291-5296",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF55": {
+            "title": "Characterization of the frameshift stimulatory signal controlling a programmed -1 ribosomal frameshift in the human immunodeficiency virus type 1",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dulude",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baril",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brakier-Gingras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "5094-5102",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF56": {
+            "title": "Decoding errors and the involvement of the E-site",
+            "authors": [
+                {
+                    "first": "KH",
+                    "middle": [],
+                    "last": "Nierhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Biochimie",
+            "volume": "88",
+            "issn": "",
+            "pages": "1013-1019",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF57": {
+            "title": "Structure of the 70S ribosome complexed with mRNA and tRNA",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Selmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Dunham",
+                    "suffix": ""
+                },
+                {
+                    "first": "FVIV",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weixlbaumer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Petry",
+                    "suffix": ""
+                },
+                {
+                    "first": "AC",
+                    "middle": [],
+                    "last": "Kelley",
+                    "suffix": ""
+                },
+                {
+                    "first": "JR",
+                    "middle": [],
+                    "last": "Weir",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "313",
+            "issn": "",
+            "pages": "1935-1942",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF58": {
+            "title": "The E-site story: the importance of maintaining two tRNAs on the ribosome during protein synthesis",
+            "authors": [
+                {
+                    "first": "DN",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "KH",
+                    "middle": [],
+                    "last": "Nierhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Cell. Mol. Life Sci",
+            "volume": "63",
+            "issn": "",
+            "pages": "2725-2737",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF59": {
+            "title": "An extended signal involved in eukaryotic -1 frameshifting operates through modification of the E site tRNA",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bekaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Rousset",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Mol. Cell",
+            "volume": "17",
+            "issn": "",
+            "pages": "61-68",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF60": {
+            "title": "Compilation of tRNA sequences and sequences of tRNA genes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sprinzl",
+                    "suffix": ""
+                },
+                {
+                    "first": "KS",
+                    "middle": [],
+                    "last": "Vassilenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res",
+            "volume": "33",
+            "issn": "",
+            "pages": "D139-D140",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF61": {
+            "title": "The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs",
+            "authors": [
+                {
+                    "first": "JJ",
+                    "middle": [],
+                    "last": "Cannone",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Subramanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "MN",
+                    "middle": [],
+                    "last": "Schnare",
+                    "suffix": ""
+                },
+                {
+                    "first": "JR",
+                    "middle": [],
+                    "last": "Collett",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "D'Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Madabusi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "BioMed. Centr. Bioinformatics",
+            "volume": "3",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF62": {
+            "title": "The PyMOL Molecular Graphics System",
+            "authors": [
+                {
+                    "first": "WL",
+                    "middle": [],
+                    "last": "DeLano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF63": {
+            "title": "Structures of the bacterial ribosome at 3.5 \u00c5 resolution",
+            "authors": [
+                {
+                    "first": "BS",
+                    "middle": [],
+                    "last": "Schuwirth",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Borovinskaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "CW",
+                    "middle": [],
+                    "last": "Hau",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vila-Sanjurjo",
+                    "suffix": ""
+                },
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Holton",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Cate",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "310",
+            "issn": "",
+            "pages": "827-834",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF64": {
+            "title": "Structure of the RNA signal essential for translational frameshifting in HIV-1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaudin",
+                    "suffix": ""
+                },
+                {
+                    "first": "MH",
+                    "middle": [],
+                    "last": "Mazauric",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Traikia",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Guittet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yoshizawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fourmy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Mol. Biol",
+            "volume": "349",
+            "issn": "",
+            "pages": "1024-1035",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF65": {
+            "title": "Solution structure and thermodynamic investigation of the HIV-1 frameshift inducing element",
+            "authors": [
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Staple",
+                    "suffix": ""
+                },
+                {
+                    "first": "SE",
+                    "middle": [],
+                    "last": "Butcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Mol. Biol",
+            "volume": "349",
+            "issn": "",
+            "pages": "1011-1023",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF66": {
+            "title": "A three-way junction and constituent stem-loops as the stimulator for programmed -1 frameshifting in bacterial insertion sequence IS911",
+            "authors": [
+                {
+                    "first": "CC",
+                    "middle": [],
+                    "last": "Rettberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "MF",
+                    "middle": [],
+                    "last": "Prere",
+                    "suffix": ""
+                },
+                {
+                    "first": "RF",
+                    "middle": [],
+                    "last": "Gesteland",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fayet",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol",
+            "volume": "286",
+            "issn": "",
+            "pages": "1365-1378",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

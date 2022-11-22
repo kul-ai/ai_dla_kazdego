@@ -1,0 +1,939 @@
+{
+    "paper_id": "PMC1751549",
+    "metadata": {
+        "title": "MMDB: annotating protein sequences with Entrez's 3D-structure database",
+        "authors": [
+            {
+                "first": "Yanli",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Kenneth",
+                "middle": [
+                    "J."
+                ],
+                "last": "Addess",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jie",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Lewis",
+                "middle": [
+                    "Y."
+                ],
+                "last": "Geer",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jane",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Siqian",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Shennan",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Madej",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Aron",
+                "middle": [],
+                "last": "Marchler-Bauer",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Paul",
+                "middle": [
+                    "A."
+                ],
+                "last": "Thiessen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Naigong",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Stephen",
+                "middle": [
+                    "H."
+                ],
+                "last": "Bryant",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "The molecular modeling database (MMDB) is Entrez's \u2018Structure\u2019 database (1). Querying MMDB with text terms, e.g. one may identify structures of interest based on a protein name. Links between databases provide other search mechanisms. A query of Entrez PubMed database, e.g. will identify articles citing a particular protein name. Links from this set of articles to \u2018Structure\u2019 may identify structures not found by direct query, since PubMed abstracts contain additional descriptive terms. Currently, MMDB and its visualization services handle \u223c25 000 user queries per day.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 74,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "section": "Access ::: CONTENT",
+            "ref_spans": []
+        },
+        {
+            "text": "Experimental three-dimensional (3D) structure data are obtained from the Protein Data Bank (PDB) (2). Author-annotated features provided by PDB are recorded in MMDB. The agreement between atomic coordinate and sequence data is verified, and sequence data are obtained from PDB coordinate records, if necessary, to resolve ambiguities(3). Data are mapped into a computer friendly format and transferred between applications using Abstract Syntax Notation 1 (ASN.1). This validation and encoding supports the interoperable display of sequence, structure and alignment. Uniformly defined secondary-structure and 3D-domain features are added to support structure neighbor calculations. MMDB currently contains \u223c39 000 structure entries, corresponding to \u223c90 000 chains and 170 000 3D domains.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 99,
+                    "mention": "2",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 334,
+                    "end": 335,
+                    "mention": "3",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "Data sources ::: CONTENT",
+            "ref_spans": []
+        },
+        {
+            "text": "The MMDB web server generates structure summary pages, which provide a concise description of an MMDB entry's content and the available annotation (4). Sequences derived from MMDB are entered into Entrez's protein or nucleic acid sequence database, preserving links to the corresponding 3D structures. Links to PubMed are generated by matching citations. Links to Entrez's organism taxonomy database are generated by semi-automatic processing of \u2018source records' and other descriptive text provided by PDB. Ligands and other small molecules are identified and added to the PubChem resource, accessible at , also preserving reciprocal links to 3D structure. Sequence neighbors are identified by BLAST (5), and links to the Conserved Domain Database (CDD) (6) by the RPS-BLAST algorithm (5). Structure neighbors are identified by VAST (7). The 3D structure viewer supported by Entrez, Cn3D (8), provides molecular-graphics visualization.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 149,
+                    "mention": "4",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 701,
+                    "end": 702,
+                    "mention": "5",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 755,
+                    "end": 756,
+                    "mention": "6",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 786,
+                    "end": 787,
+                    "mention": "5",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 834,
+                    "end": 835,
+                    "mention": "7",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 889,
+                    "end": 890,
+                    "mention": "8",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Summary, links, neighbors and visualization ::: CONTENT",
+            "ref_spans": []
+        },
+        {
+            "text": "In the Entrez database system, protein sequences are neighbored to each other by comparing each newly entered sequence to all other database entries. These database scans are run with the BLAST (5) engine, which identifies sequence neighbors with significant similarity, and the resulting sequence identifiers and taxonomy indices are stored, so that Entrez can provide \u2018Related Sequences\u2019 links for all protein records in the collection. The \u2018Related Structure\u2019 service is built on top of this system. Sequence neighbors directly linked to MMDB are identified and alignments are re-computed by employing the \u2018BlastTwoSequences\u2019 tool (9) to restore alignment footprints. The \u2018Related Structure\u2019 web interface provides direct access to this information. Initially this service had been restricted to sequences from microbial genomes (10), but it has now been expanded to cover all proteins in Entrez and is updated daily to provide a comprehensive 3D-structure annotation service. Identification of structure-linked neighbors and the visualization of sequence-structure alignment is also possible using Entrez and the Cn3D alignment viewer/editor, but \u2018Related Structures\u2019 provides a convenient new summary and \u2018one click\u2019 shortcuts to 3D visualization. These 3D views may be used to identify conserved residues and map site-specific features derived from the 3D structure. Currently \u223c48% of non-identical protein sequences in Entrez have been linked to at least one related structure, employing a conservative threshold for alignment length (50 aligned residues or more) and similarity (30% or more identical residues in the aligned footprint); see Figure 1 for details.",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 196,
+                    "mention": "5",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 635,
+                    "end": 636,
+                    "mention": "9",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 833,
+                    "end": 835,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "The \u2018Related Structure\u2019 service ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": [
+                {
+                    "start": 1649,
+                    "end": 1657,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "A search with the term \u2018Angiotensin converting enzyme\u2019 in Entrez's protein database retrieves >400 hits. One may configure the Entrez browser to filter search results by various criteria, and one pre-configured filter selects those protein sequences with \u2018Related Structures\u2019 (configuration of Entrez can be achieved by following links to \u2018My NCBI\u2019, or by clicking on the \u2018toolbox\u2019 icon shown at the top of Entrez document summaries.). In this example, the \u2018Related Structures\u2019 filter shows that >240 of the identified sequence records have links to related structures.",
+            "cite_spans": [],
+            "section": "An example ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": []
+        },
+        {
+            "text": "One such protein sequence is the ACE protein from Rattus norvegicus (accession no. \u2018NP_036676\u2019). On the \u2018Links\u2019 menu for this record, \u2018Related structures\u2019 generates a request to the Related Structure service (). The resulting page indicates with a horizontal bar, the sequence region annotated by each related structure (Figure 2). The display also supports sorting by a variety of alignment parameters such as score or length and selection of sequence-dissimilar \u2018non redundant\u2019 subsets. A \u2018Table\u2019 option switches to a text view, listing descriptions of each structure as well as alignment scores.",
+            "cite_spans": [],
+            "section": "An example ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": [
+                {
+                    "start": 321,
+                    "end": 329,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Using the table view with this example, one may notice that several related structures are complexes of the same protein with different drugs/inhibitors, e.g. structures with PDB codes 1O86 (11), 1UZF (12) and 1UZE (12). Clicking on the graphical alignment footprint of 1O86, a human ACE enzyme in complex with lisinopril, one can see a text representation of the corresponding BLAST alignment, and a Cn3D view of the alignment can be launched by clicking on \u2018Get 3D Structure data\u2019 (Figure 3). One may see that the query protein is highly similar in sequence to the human ACE enzyme, as identical residue pairs are colored red by default. The sequence identity across the aligned region is 82%, and it appears that the core of the structure is mostly formed by residues conserved between the two aligned rows, while non-conserved residues are mainly located on the structure's surface.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 193,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 202,
+                    "end": 204,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 216,
+                    "end": 218,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "An example ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": [
+                {
+                    "start": 484,
+                    "end": 492,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "One may further identify the catalytic center by identifying residues that contact the catalytic Zinc ion. Those sites can then be mapped from the structure to aligned regions in the sequence window using Cn3D's highlighting functionality. One may also examine the sequence-structure alignments with related structures 1UZE and 1UZF, human ACE binding to enalaprilat and captopril, respectively, drugs with chemical structures similar to that of lisinopril. This allows one to identify conserved interactions between the ACE enzyme and this series of antihypertensive drugs. Similarly, by examining the related structure 2AJF (13), one may be able to identify residues critical for cross-species infection by studying the protein\u2013protein interactions between the receptor binding domain from SARS Coronavirus Spike and human versus rat angiotensin-converting enzyme 2.",
+            "cite_spans": [
+                {
+                    "start": 627,
+                    "end": 629,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "An example ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": []
+        },
+        {
+            "text": "The \u2018Related Structure\u2019 service is also integrated with NCBI's protein BLAST service. A \u2018Related Structures\u2019 link is provided when one or more similar proteins with known 3D structures have been identified by BLAST. The NCBI single-nucleotide polymorphism resource (SNP) also links to the \u2018Related Structure\u2019 service, which in this context provides a mapping of both synonymous and non-synonymous coding SNPs onto experimentally determined 3D structures. \u2018Related Structure\u2019 may be expanded further in the future, to provide visualization for other NCBI resources and to support additional filtering and selection among related structures, e.g. to highlight those annotated with conserved domain footprints by the CDD resource or those linked to small molecules in the PubChem database.",
+            "cite_spans": [],
+            "section": "An example ::: ANNOTATING SEQUENCE WITH STRUCTURE",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1: Non-identical protein sequences in Entrez have been classified into groups linked to related structures, at various levels of sequence similarity. Sequence identity is calculated from the BLAST alignments, and here only those neighbor relationships are listed that produce an aligned footprint of 50 residues or more. The analysis also excludes protein sequences which have been directly obtained from MMDB. Forty-eight percent of sequences in Entrez protein have at least one structure neighbor with an extensive alignment footprint and at least 30% identical residues.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: A screen shot of the \u2018Related Structure\u2019 summary along with Entrez's document summary for protein NP_036676. Clicking on the \u2018Related Structure\u2019 option from the \u2018Links\u2019 pull-down menu launches the summary view.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: A Cn3D view of the query sequence from Figure 2 aligned to chain A of the related structure 1O86 (PDB code). Residues in aligned regions are displayed in upper case letters with identical residue pairs rendered in red color. Residues within a 5 A contact radius of the bound drug lisinopril are highlighted in the 3D structure view and automatically mapped onto the aligned residues shown in the sequence alignment window. Side chains of these residues are displayed selectively and rendered as ball-and-stick models.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Database resources of the National Center for Biotechnology Information",
+            "authors": [
+                {
+                    "first": "D.L.",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.L.",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.H.",
+                    "middle": [],
+                    "last": "Bryant",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Canese",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Chetvernin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "Church",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "D173-D180",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Links from genome proteins to known 3D structures",
+            "authors": [
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Bryant",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Tatusov",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Tatusova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Genome Res.",
+            "volume": "10",
+            "issn": "",
+            "pages": "1643-1647",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Crystal structure of the human angiotensin-converting enzyme-lisinopril complex",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Natesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.L.",
+                    "middle": [],
+                    "last": "Schwager",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.D.",
+                    "middle": [],
+                    "last": "Sturrock",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.R.",
+                    "middle": [],
+                    "last": "Acharya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "421",
+            "issn": "",
+            "pages": "551-554",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Structural details on the binding of antihypertensive drugs captopril and enalaprilat to human testicular angiotensin I-converting enzyme",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Natesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.L.",
+                    "middle": [],
+                    "last": "Schwager",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.R.",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.D.",
+                    "middle": [],
+                    "last": "Sturrock",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.R.",
+                    "middle": [],
+                    "last": "Acharya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biochemistry",
+            "volume": "43",
+            "issn": "",
+            "pages": "8718-8724",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Structure of SARS coronavirus spike receptor-binding domain complexed with receptor",
+            "authors": [
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.C.",
+                    "middle": [],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "",
+            "pages": "1822-1823",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "The RCSB Protein Data Bank: a redesigned query system and relational database based on the mmCIF schema",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.J.",
+                    "middle": [],
+                    "last": "Addess",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.F.",
+                    "middle": [],
+                    "last": "Bluhm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.C.",
+                    "middle": [],
+                    "last": "Merino-Ott",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Townsend-Merino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q.",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Knezevich",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res.",
+            "volume": "33",
+            "issn": "",
+            "pages": "D233-D237",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "MMDB: an ASN.1 specification for macromolecular structure",
+            "authors": [
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Ohkawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Ostell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Bryant",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Proc. Int. Conf. Intell. Syst. Mol. Biol.",
+            "volume": "3",
+            "issn": "",
+            "pages": "259-667",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "MMDB: Entrez's 3D-structure database",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.B.",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "DeWeese-Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.D.",
+                    "middle": [],
+                    "last": "Fedorova",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.Y.",
+                    "middle": [],
+                    "last": "Geer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.I.",
+                    "middle": [],
+                    "last": "Hurwitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.R.",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.J.",
+                    "middle": [],
+                    "last": "Lanczycki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nucleic Acids Res.",
+            "volume": "31",
+            "issn": "",
+            "pages": "474-477",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+            "authors": [
+                {
+                    "first": "S.F.",
+                    "middle": [],
+                    "last": "Altschul",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.L.",
+                    "middle": [],
+                    "last": "Madden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.A.",
+                    "middle": [],
+                    "last": "Schaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res.",
+            "volume": "25",
+            "issn": "",
+            "pages": "3389-3402",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "CDD: a Conserved Domain Database for protein classification",
+            "authors": [
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Marchler-Bauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.B.",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Cherukuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "DeWeese-Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.Y.",
+                    "middle": [],
+                    "last": "Geer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Gwadz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.I.",
+                    "middle": [],
+                    "last": "Hurwitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res.",
+            "volume": "33",
+            "issn": "",
+            "pages": "D192-D196",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Surprising similarities in structure comparison",
+            "authors": [
+                {
+                    "first": "J.F.",
+                    "middle": [],
+                    "last": "Gibrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Madej",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.H.",
+                    "middle": [],
+                    "last": "Bryant",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Curr Opin Struct Biol.",
+            "volume": "6",
+            "issn": "",
+            "pages": "377-385",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Cn3D: sequence and structure views for Entrez",
+            "authors": [
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.Y.",
+                    "middle": [],
+                    "last": "Geer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Chappey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Kans",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.H.",
+                    "middle": [],
+                    "last": "Bryant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Trends Biochem Sci.",
+            "volume": "25",
+            "issn": "",
+            "pages": "300-302",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "BLAST 2 Sequences, a new tool for comparing protein and nucleotide sequences",
+            "authors": [
+                {
+                    "first": "T.A.",
+                    "middle": [],
+                    "last": "Tatusova",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.L.",
+                    "middle": [],
+                    "last": "Madden",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "FEMS Microbiol Lett.",
+            "volume": "174",
+            "issn": "",
+            "pages": "247-250",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

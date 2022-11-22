@@ -1,0 +1,4224 @@
+{
+    "paper_id": "PMC1636460",
+    "metadata": {
+        "title": "Molecular dynamics simulations of human tRNAUUULys,3: the role of modified bases in mRNA recognition",
+        "authors": [
+            {
+                "first": "Nina",
+                "middle": [
+                    "E."
+                ],
+                "last": "McCrate",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Mychel",
+                "middle": [
+                    "E."
+                ],
+                "last": "Varner",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Kenneth",
+                "middle": [
+                    "I."
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Maria",
+                "middle": [
+                    "C."
+                ],
+                "last": "Nagan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Nonstandard bases are most prevalently found in tRNA molecules and may involve a variety of modifications from simple methylation to addition of a peptide moiety (1,2). Some tRNA molecules require posttranscriptionally modified nucleic acid bases for proper translation (3,4), recognition by proteins (5,6) and initiation of human immunodeficiency virus reverse transcription (7). Specifically, ribosomal binding (8,9), proper translocation from the aminoacyl site (A) to peptidyl site (P site) (10,11) and translational speed (12) may be dependent upon nonstandard bases, while the lack of modified bases may result in frameshifting errors (13). Most tRNAs contain at least one modified base (14) and modifications often occur at positions 34 and 37 (4). Modified bases are generally thought to increase stability of tRNA structure by providing additional hydrogen-bonding contacts, better base\u2013base stacking interactions (4,15\u201319) and metal ion binding sites (20\u201322). Specifically, base modifications at the 34th and 37th positions of the tRNA are often important for facilitating cognate codon recognition (4). Still, the role specific modifications play in determining RNA structure, stability and function are not well understood.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 164,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 165,
+                    "end": 166,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 271,
+                    "end": 272,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 273,
+                    "end": 274,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 302,
+                    "end": 303,
+                    "mention": "5",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 304,
+                    "end": 305,
+                    "mention": "6",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 377,
+                    "end": 378,
+                    "mention": "7",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 414,
+                    "end": 415,
+                    "mention": "8",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 416,
+                    "end": 417,
+                    "mention": "9",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 496,
+                    "end": 498,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 499,
+                    "end": 501,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 528,
+                    "end": 530,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 694,
+                    "end": 696,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 752,
+                    "end": 753,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 924,
+                    "end": 925,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 926,
+                    "end": 928,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 929,
+                    "end": 931,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 962,
+                    "end": 964,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 965,
+                    "end": 967,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1110,
+                    "end": 1111,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Functional groups in modified nucleosides can dramatically affect the ability of tRNA anticodons to recognize their cognate mRNA codon and therefore participate in accurate translation of the genetic code (15,16). The third human tRNA coding for lysine (tRNALys,3) contains three posttranscriptionally modified bases in the anticodon stem\u2013loop (ASL, Figure 1). Biochemical assays have established that 5-methoxycarbonylmethyl-2-thiouridine at position 34 (mcm3s2U34) and 2-methylthio-N6-threonylcarbamoyl-adenosine at position 37 (ms2t6A37) are required to mimic wild-type human tRNALys,3 binding to programmed ribosomes (9). Pseudouridine (\u03c8) presence at position 39 is not critical to anticodon\u2013codon recognition but has been shown to contribute to helical stability (17). Escherichia coli tRNALys,, analogous to its human counterpart, contains a 5-methylaminomethyluridine-2-thiouridine at position 34 (mnm5s2U34) and N6-threonylcarbamoyl-adenosine at position 37 (t6A37) that are both important for ribosomal A site binding (8,9,23), translocation from the A site (11) and discrimination between AAA and AAG codons (24,25).",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 208,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 209,
+                    "end": 211,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 622,
+                    "end": 623,
+                    "mention": "9",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 770,
+                    "end": 772,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1029,
+                    "end": 1030,
+                    "mention": "8",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 1031,
+                    "end": 1032,
+                    "mention": "9",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1033,
+                    "end": 1035,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1069,
+                    "end": 1071,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1120,
+                    "end": 1122,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1123,
+                    "end": 1125,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 350,
+                    "end": 358,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Several structures of human tRNALys,3 and E.coli tRNALys, variants with variously modified bases in a variety of contexts have been determined by both NMR spectroscopy (18,26\u201329) and X-ray crystallography (19,30). The expensive and often complex synthesis of nonstandard bases further complicates incorporation of all fully modified bases. Structural studies indicate that preservation of a U-turn motif in E.coli anticodon loop is important for recognition of cognate mRNA (28). Systematic, detailed NMR studies of fully modified E.coli and partially modified human tRNALys,3 indicate flexibility in the U36 position (29). In the context of the 30S ribosomal subunit, an anticodon loop containing t6A37 has been found to recognize the cognate mRNA codon (19) in a canonical Fuller\u2013Hodgson tRNA form (31).",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 171,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 172,
+                    "end": 174,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 175,
+                    "end": 177,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 206,
+                    "end": 208,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 209,
+                    "end": 211,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 475,
+                    "end": 477,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 619,
+                    "end": 621,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 756,
+                    "end": 758,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 801,
+                    "end": 803,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "The contributions of each modified base to free tRNA and ribosomally bound tRNA structures remains elusive (4,16,32). Molecular dynamics (MD) studies considering specific contributions of modified bases mcm5s2U34, ms2t6A37, \u03c839 to the structure and function of the human ASLLys,3 are reported. Specifically, the role of modified bases in preserving canonical tRNA anticodon structure is examined.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 109,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 110,
+                    "end": 112,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 113,
+                    "end": 115,
+                    "mention": "32",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Fully refined NMR structures are currently not available for fully modified tRNALys,3; therefore all simulations were begun from X-ray crystal structures. MD simulations of the tRNAUUULys,3 anticodon stem\u2013loop with bases 27\u201343 (ASLLys,3 wild type) derived from the fully modified tRNALys,3 X-ray crystal structure solved to 3.3 \u212b resolution (PDB code 1FIR) (30) were performed with different combinations of mcm5s2U34, ms2t6A37, \u03c839 and unmodified bases (Table 1). All variations of ASLLys,3 were derived from the B\u00e9nas et al. (30) structure. While this study was being conducted, the crystal structure of E.coli ASLLys,, which contains t6A37, with the 30S ribosomal subunit and mRNA was solved to 3.0 \u212b resolution (PDB code 1XMQ) (19). In E.coli ASLLys,, the ureido ring of t6A37 stacks with A38 stabilizing anticodon\u2013codon interactions. To ensure adequate sampling of relevant structures, an additional system, wild-type 2, was derived by grafting the E.coli ASLLys, anticodon loop containing an ureido ring in t6A onto the B\u00e9nas ASLLys,3 stem and applying the appropriate full-human ASLLys,3 modifications.",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 360,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 528,
+                    "end": 530,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 732,
+                    "end": 734,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Initial structures ::: METHODS",
+            "ref_spans": [
+                {
+                    "start": 455,
+                    "end": 462,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "All MD simulations were performed according to the same protocol. Trajectories were propagated with the Cornell et al. force field (33), as implemented in the SANDER module of the program AMBER 6.0 (34). ASLs were solvated by a 10 \u212b rectangular box of TIP3P water (35) and Na+ ions were added to neutralize the system. Simulations were performed under periodic boundary conditions, employing the particle mesh Ewald (36) formalism to account for long range electrostatics.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 134,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 199,
+                    "end": 201,
+                    "mention": "34",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 265,
+                    "end": 267,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 417,
+                    "end": 419,
+                    "mention": "36",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "Molecular dynamics simulations ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "MD trajectories were propagated with a 2.0 fs time step, employing the SHAKE algorithm (37) on all hydrogen atoms, with a nonbonded cutoff of 9.0 \u212b. The pairlist was updated every 25 steps. Constant pressure (1 atm) and temperature (300 K) were maintained according to the Berendsen coupling algorithm (38). The equilibration protocol of Cheatham was followed (39) similar to previous simulations of nucleic acids (40\u201345). Simulations were allowed to equilibrate under production-run conditions for at least 2.0 ns before collection of statistics over 4.0 ns.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 90,
+                    "mention": "37",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 303,
+                    "end": 305,
+                    "mention": "38",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 361,
+                    "end": 363,
+                    "mention": "39",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 415,
+                    "end": 417,
+                    "mention": "40",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 418,
+                    "end": 420,
+                    "mention": "45",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "Molecular dynamics simulations ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Parameters for nonstandard bases were derived to be consistent with the Cornell et al. force field (33) and specific parameters are available in Supplementary Data. Atom types, force constants and equilibrium values were assigned by analogy to the Cornell et al. nucleic acid, threonine side chain (t6) or methionine (ms2) force-field parameters (33), or the General Amber Force Field (46) for sulfur-related parameters. Partial atomic charges were derived from Hartree\u2013Fock (47)/6-31G* (48\u201350) electrostatic potential charges fitted with a two-step restrained electrostatic potential procedure (51). Electronic structure calculations were performed with Gaussian 03M, revision B.04 (52).",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 102,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 347,
+                    "end": 349,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 386,
+                    "end": 388,
+                    "mention": "46",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 476,
+                    "end": 478,
+                    "mention": "47",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 488,
+                    "end": 490,
+                    "mention": "48",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 491,
+                    "end": 493,
+                    "mention": "50",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 596,
+                    "end": 598,
+                    "mention": "51",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 684,
+                    "end": 686,
+                    "mention": "52",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Force-field parameters ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Quantum mechanical calculations employing the modified Perdew-Wang 1-parameter model for kinetics (MPW1K) (53,54) and the 6-31+G (d,p) basis set (55,56) were used to determine the rotational barrier around the C10-N11 amide bond involved in ureido ring formation.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 109,
+                    "mention": "53",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 110,
+                    "end": 112,
+                    "mention": "54",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 146,
+                    "end": 148,
+                    "mention": "55",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 149,
+                    "end": 151,
+                    "mention": "56",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "section": "Ms2t6A rotational barrier ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Trajectories were analyzed using the CARNAL and PTRAJ modules of AMBER 6.0 (34). All statistics were collected on 1 ps snapshots over 4.0 ns of data. Helical parameters were measured using the 3DNA program (57). Trajectories and structures were visualized using VMD (58) and UCSF chimera (59). Criteria for hydrogen bonding was a 3.5 \u212b distance between heavy atoms and a heavy atom-H-heavy atom angle of 180\u00b0 \u00b1 60\u00b0. Solvent accessible surface area (SASA) was calculated as a Connolly surface (60), as implemented in the MM-PBSA module of AMBER 8.0 (61). When determining if bases were parallel, the angle between normal vectors to the plane of the respective bases was used. Planes were defined using three points; N1, N3 and C5 for pyrimidines and N3, C6 and C8 for purines and the normal vectors were defined to point in the 3\u2032 direction.",
+            "cite_spans": [
+                {
+                    "start": 76,
+                    "end": 78,
+                    "mention": "34",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 207,
+                    "end": 209,
+                    "mention": "57",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 267,
+                    "end": 269,
+                    "mention": "58",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 289,
+                    "end": 291,
+                    "mention": "59",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 493,
+                    "end": 495,
+                    "mention": "60",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 549,
+                    "end": 551,
+                    "mention": "61",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "section": "Data analysis ::: METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Trajectory stability was based upon steady fluctuations around constant values for root mean square deviation (r.m.s.d.) values from the average (Figure 2) and starting structures (Supplementary Data) as well as monitoring of helical parameters of the double-stranded region such as local twist, x-displacement from the helical axis and base pair inclination (Supplementary Data).",
+            "cite_spans": [],
+            "section": "Trajectories ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 154,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Overall, the helical portion of all ASL structures exhibited classic A-form geometry (62) with x-displacement values ranging from \u22124.5 \u00b1 0.6 to \u22125.3 \u00b1 0.9 \u212b and base pair rise parameters of 2.5 \u00b1 0.3 to 2.8 \u00b1 0.3 \u212b. The majority of structural analysis occurred in the loop region of the ASLs.",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 88,
+                    "mention": "62",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "section": "Trajectories ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "The wild-type simulation was unusually stable with an average r.m.s.d. from the starting structure of only 1.8 \u00b1 0.3 \u212b. To ensure that the wild-type simulation was indeed naturally stable and that periodic effects or lack of sampling time did not influence the results, data for two additional simulations were collected (N. E. McCrate, unpublished data). In the first simulation, the water box surrounding the RNA was increased to 15 \u212b beyond the solute. In the other simulation, with 10 \u212b of water added beyond the solute, data were collected for 40 ns. Both additional simulations retained the structure observed in the reported wild-type simulation.",
+            "cite_spans": [],
+            "section": "Trajectories ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "All simulations contained a hydrogen bond between C32 O2 or N3 and the A38 exocyclic amine to varying extents of the simulation but averaging 74% occupancy. Simulations containing no modified bases or only \u03c839, exhibited an additional hydrogen bond between the exocyclic amine of A37 and the O2 of U33 56 and 62% of the simulations time, respectively. Addition of either mcm5s2U34 and/or ms2t6A37 decreased the A37\u2013U33 interaction to <4% of the simulation time.",
+            "cite_spans": [],
+            "section": "Presence of mcm5s2U34 and/or ms2t6A37 widens the loop region ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "The side chain of mcm5s2U34 did not form hydrogen bonds often with other parts of the ASL. The only detectable hydrogen bond observed occurred between the mcm5 carbonyl oxygen and the hydroxyl of ms2t6A37 in the wild-type simulation and the simulation containing both mcm5s2U34 and ms2t6A37 for <20% of the simulation time.",
+            "cite_spans": [],
+            "section": "Presence of mcm5s2U34 and/or ms2t6A37 widens the loop region ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "In the models presented herein there seems to be no correlation between presence of a U33 NH3 hydrogen bond to U36 O2P and any one conformation. Simulations containing mcm5s2U34 seem to lose a U33 NH3 hydrogen bond with U36 O2P (<3%) while simulations lacking a modification at position 34 close to form this hydrogen bond >90% of the simulation time. The exceptions to this trend are both wild-type simulations, which contain this hydrogen bond 100 and 91% for wild-type and wild-type 2 simulations, respectively.",
+            "cite_spans": [],
+            "section": "Presence of mcm5s2U34 and/or ms2t6A37 widens the loop region ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "In the fully modified ASL structure including mcm5s2U34, ms2t6A37 and \u03c839 (wild-type ASLLys,3), the structure retained a stair-stepped conformation, in which the uridines (Figure 3) are offset and nearly parallel to each other, observed previously in the X-ray crystal structures of free human tRNALys,3 (30) and when E.coli t6A ASLLys, pairs with its cognate mRNA codon in the context of the ribosome (19).",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 307,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 403,
+                    "end": 405,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Characterization of the anticodon stair-step ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 180,
+                    "mention": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "To characterize the stair-stepped conformation, the relative positions of the anticodon bases to each other were determined. To analyze the positions of the anticodon bases relative to each other, the distances between the center of mass (COM) of anticodon bases' aromatic rings were measured. The distance vectors were transformed into a relative coordinate system utilizing a rotation matrix and decomposed into x (dx), y (dy) and z (dz) components, to describe the relative positions of the bases. By analogy, the dx, dy and dz components describe the height width and length of \u2018the stair\u2019. From visual inspection, the wild-type simulation was determined to exhibit the prototypical stair-stepped conformation. To determine whether the geometry of the anticodon for each model matched that of the wild-type, dx, dy and dz between each set of rings (U34\u2013U35 and U35\u2013U36) were classified as \u2018stair stepped\u2019 if the values for both pairs of rings fell within 4 SDs of the average values calculated for the wild-type model and the angle between the normal vectors of the planes of the bases was 0 \u00b1 45\u00b0 (63) (Table 1).",
+            "cite_spans": [
+                {
+                    "start": 1103,
+                    "end": 1105,
+                    "mention": "63",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "section": "Characterization of the anticodon stair-step ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 1108,
+                    "end": 1115,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "To aid in data analysis, snapshots of each simulation were assessed for presence of a stair-stepped conformation. Based upon the criteria outlined above, the percent occupancies of stair-stepped interactions for positions 34\u201336 were determined (Table 2). Simulations that contained an ms2t6 modification at position 37 exhibited the stair-stepped anticodon configuration 75\u2013100% of the simulation time, while those ASLs lacking base modifications at position 37 were not stair-stepped for most, if not all, of the simulation. In the wild-type 2 model, in which the anticodon appears to be stair-stepped, the U36 base is positioned closer to the N9 of ms2t6A37 than is observed in the other models. As a result of this difference in position, the wild-type 2 simulation is classified as having a less stair-stepped codon (46%) than the other models because it is stair-stepped in a slightly different conformation.",
+            "cite_spans": [],
+            "section": "Characterization of the anticodon stair-step ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 245,
+                    "end": 252,
+                    "mention": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "When ms2t6A37 is substituted with A37, U36 rotates around the glycosidic bond and is exposed to solvent. This was observed in all simulations lacking ms2t6 modifications at position 37. Quantification of U36 solvent exposure through the SASA of the U36 base indicates that the presence of the ms2t6 modification at position 37 reduces the SASA of U36 (Table 2). Relatively smaller U36 SASA values correspond to the stair-stepped conformation, while larger SASA values correspond to U36 unstacking. In addition, mcm5s2U at position 34 appears to slightly lower the SASA of U36 as all models lacking mcm5s2 modifications have slightly higher U36 SASA than their modified counterparts (10\u201330 \u212b2, Table 1).",
+            "cite_spans": [],
+            "section": "Characterization of the anticodon stair-step ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 352,
+                    "end": 359,
+                    "mention": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 693,
+                    "end": 700,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "From visual inspection of the wild-type simulations, it seemed that bases 36\u201338 were interacting, perhaps by base\u2013base stacking interactions. All simulations were examined to determine the extent of base\u2013base stacking in the anticodon loop. A stacking interaction was defined to occur when the distance measured from the COM between two aromatic rings was <4 \u212b and the angle between the normal vectors of planes formed by the bases was \u00b120\u00b0, as determined appropriate by previous studies (63,64).",
+            "cite_spans": [
+                {
+                    "start": 489,
+                    "end": 491,
+                    "mention": "63",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 492,
+                    "end": 494,
+                    "mention": "64",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "section": "Base stacking analysis in the anticodon loop ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "Based on the stacking criteria outlined above, the percent occupancy of stacking interactions for positions 36\u201338 was determined (Table 2). In all simulations containing ms2t6A37, for a portion of the simulation (3\u201334%), U36 was in close proximity to the A37 5-membered ring. The stacking data indicate that the presence of ms2t6A37 may slightly enhance base\u2013base stacking between U36 and position 37.",
+            "cite_spans": [],
+            "section": "Base stacking analysis in the anticodon loop ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 137,
+                    "mention": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "Modification of A37 encourages the base to remain intercalated between A38 and U36. In general, A37, modified or unmodified, hydrogen bonds with functional groups in the anticodon loop. Simulations containing ms2t6A37 tended to interact across the loop with base and sugar atoms in residues 32\u201335 for relatively short lifetimes. For instance, in the wild-type trajectory, the hydroxyl group from t6 was hydrogen bonded for most of the simulation time to some group in the tRNA. It preferred to interact with sugar oxygens in residue 33 but also hydrogen bonded with base oxygens in U34 and U35 carbonyls. When ms2t6 modifications were removed, the A37 disrupted the U36\u2013U35 interaction and formed new h-bonds through N6 with bases in closer proximity, such as residues U35, U36 and A38. In the absence of ms2t6, the ASL rearranges to provide new hydrogen-bonding partners for the truncated N6 position of A37.",
+            "cite_spans": [],
+            "section": "Ms2t6A side chains ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "In the context of the ribosome, E.coli t6A37 contains an ureido ring which stacks with the 6-membered ring of A38 (19). The crystal structure of t6A alone contains an ureido ring (65). In the fully refined tRNALys3 X-ray structure (PDB code 1FIR), ms2t6A37 seems to adopt a conformation without an ureido ring although initial attempts were to try to have a clearer electron density showing an ureido ring-like conformation [P. B\u00e9nas, personal communication and figures in Ref. (30)]. Quantum mechanical calculations on N9-methylated ms2t6A at the MPW1K/6-31+G (d,p) level of theory indicate that the barrier to rotation around the C10-N11 bond to form an ureido ring is \u223c9.0 kcal/mol at room temperature.",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 117,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 180,
+                    "end": 182,
+                    "mention": "65",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 479,
+                    "end": 481,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "Ms2t6A side chains ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "When \u03c839 is present, a water bridge forms between A38 O2P, \u03c839 NH3 and \u03c839 O1P. Although the full water bridge is only present for \u223c30% of the production run (detailed tables in Supplementary Data), the component hydrogen bonds between \u03c839 NH3-water-A38 O2P and \u03c839 NH3-water-\u03c839 O1P are present for larger percentages of the production run, typically 50\u201380%. The waters involved in the water bridge are short lived with the bulk of the bridging interaction being attributable to water molecules having lifetimes at or below 40 ps and nearly all residence lifetimes being attributable to waters with lifetimes \u2264120 ps.",
+            "cite_spans": [],
+            "section": "Pseudouridine stabilization ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "MD simulations with the Cornell et al. force field (33) and TIP3P (35) water have been shown to identify long-lived, structural water molecules in other systems (41,44). The water molecule that coordinates with \u03c839 is present most of the time but is not long lived. Pseudouridine has been shown to stabilize tRNA structure through a water-mediated hydrogen-bonding network (67). The crystal structure of yeast tRNAPhe, which contains a \u03c855, has a water molecule bridging the N1-H position to the neighboring phosphate oxygens of T54 and \u03c855 (68). Additionally, a long-lived water molecule coordinated to \u03c8 has been found in tRNAAsp through MDs simulations (41). This water-mediated hydrogen bond with \u03c8 is believed to restrict \u03c8 motion and stabilize A\u2013\u03c8 base pairs (41,69,70), which are most prevalently found at positions 31\u201339 (14).",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 54,
+                    "mention": "33",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 67,
+                    "end": 69,
+                    "mention": "35",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 162,
+                    "end": 164,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 165,
+                    "end": 167,
+                    "mention": "44",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 374,
+                    "end": 376,
+                    "mention": "67",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 542,
+                    "end": 544,
+                    "mention": "68",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 657,
+                    "end": 659,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 766,
+                    "end": 768,
+                    "mention": "41",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 769,
+                    "end": 771,
+                    "mention": "69",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 772,
+                    "end": 774,
+                    "mention": "70",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 830,
+                    "end": 832,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Pseudouridine and water ::: DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Overall the wild-type simulation retained the stair-stepped conformation with dx, dy and dz values all similar to that found in the X-ray crystal structure of human tRNALys,3 (30) and E.coli t6A-ASL bound in the 30S ribosome (19). Modifications at position 37 stabilize the anticodon conformation. From this data it appears that the presence of ms2t6A37 encourages retention of a highly ordered stair-stepped conformation.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 178,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 226,
+                    "end": 228,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Canonical tRNA ::: DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Base modifications at position 37 seem to stabilize U36 participation in the stair-stepped conformation. U36 is the first base of the anticodon and is required for proper reading of the cognate codon base. The ms2t6A37 base is required for proper positioning of U36 to recognize its cognate codon base. Uridine with its hydrophilic carbonyls and N3, in general, is predisposed to an extra-helical position resulting in an increase in solvent exposure as noted in a systematic study of RNAs containing a single-base bulge (71). The highly ordered stair-stepped conformation of the anticodon bases seems to be important to codon recognition as originally hypothesized (31) and observed in crystal structures of tRNAs alone (72), interacting with other tRNAs through crystal packing effects (30,73\u201375), and in the context of the ribosome (19,76).",
+            "cite_spans": [
+                {
+                    "start": 522,
+                    "end": 524,
+                    "mention": "71",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 667,
+                    "end": 669,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 722,
+                    "end": 724,
+                    "mention": "72",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 789,
+                    "end": 791,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 792,
+                    "end": 794,
+                    "mention": "73",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 795,
+                    "end": 797,
+                    "mention": "75",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 836,
+                    "end": 838,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 839,
+                    "end": 841,
+                    "mention": "76",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "section": "Canonical tRNA ::: DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Base\u2013base stacking data indicate that modifications on A37 may position the base to better interact with U36. However, this stacking interaction is not long lived in simulations. In order to have favorable base\u2013base stacking interactions, the interaction of two hydrophobic bases must be enthalpically favorable (77,78). In this case, the negative electron densities of the aromatic bases may repel each other and electrostatic interactions, in which positive portions of the base above are interacting with the negative electron density of the base below, may predominate. This favorable electrostatic interaction has been observed in simple systems, such as benzene and water. In these benzene\u2013water pairs, the partially positive hydrogens of the water molecules are interacting with the negative \u03c0-cloud of the benzene ring (79). It may be more favorable for a canonical anticodon to be stair-stepped because the positive portions of bases are aligned to interact with the negative \u03c0-cloud of the neighboring, lower base. When A37 is modified, it can partake in hydrogen bonds across the anticodon loop, effectively holding it up above U36. When modifications are removed, the base no longer has enthalpically favorable hydrogen-bonding interactions unless U36 rotates into solution, leaving unmodified A37 to favorably interact with U35 through electrostatic interactions and hydrogen bond with closer bases through its truncated 6-amino group.",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 315,
+                    "mention": "77",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 316,
+                    "end": 318,
+                    "mention": "78",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 828,
+                    "end": 830,
+                    "mention": "79",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "section": "Canonical tRNA ::: DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "The bulky ms2t6 modification containing hydrogen bond donors and acceptors may act sterically to restrict A37 movement while discouraging the displacement of U36 through weak stacking interactions and stabilizing the position of A37 through hydrogen bond contacts across the loop. In the wild-type 2 simulation, where the bulk of the t6A substituent's hydrogen bond donors and acceptors are solvent exposed, U36 exhibits markedly increased conformational freedom. This behavior suggests a delicate balance of forces, of which cross-strand hydrogen bonding is a portion, preventing the displacement of U36 (Figure 4).",
+            "cite_spans": [],
+            "section": "Conformation of ms2t6A ::: DISCUSSION",
+            "ref_spans": [
+                {
+                    "start": 606,
+                    "end": 614,
+                    "mention": "Figure 4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "NMR studies indicate that the SCH3 of ms2t6A weakens the ureido hydrogen-bonding interaction as compared to t6A (29). Taken together with quantum calculations indicating facile interconversion at room temperature between an ureido ring conformation and a non-ureido ring structure, the conformation around C10-N11 may change based upon the context of the ribosome. In the E.coli 30S ribosomal subunit, primarily responsible for decoding (80), A1493, A1492 and G530 have been found to recognize the first two base pairs of the anticodon\u2013codon complex in the minor groove (76), triggering a closure of the small subunit around the tRNA (81). In this system, the ureido ring allows greater stacking interactions with A38 (19), possibly giving U36 more flexibility to adjust to the codon. The prokaryotic and eukaryotic ribosomes contain conserved regions of rRNA around the decoding site (82) and mRNA crosslinks to A1493 and A1492 corresponding residues in human 18S subunits (83). However, human tRNALys,3 may rotate the t6 moiety around the C10-N11 bond allowing the t6 side chain to hydrogen bond across the loop, thereby stabilizing U36 for correct positioning in the ribosome in a canonical fashion. Accuracy in tRNA\u2013mRNA recognition is both dependent upon a kinetic proofreading mechanism and the stability of the cognate codon\u2013anticodon complex (84). The role of modified bases in stablizing codon\u2013anticodon complexes as opposed to destabilizing the loop conformation for an induced-fit in the ribosome seems to be base and system dependent (4).",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 115,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 438,
+                    "end": 440,
+                    "mention": "80",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 571,
+                    "end": 573,
+                    "mention": "76",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 635,
+                    "end": 637,
+                    "mention": "81",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 719,
+                    "end": 721,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 886,
+                    "end": 888,
+                    "mention": "82",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 975,
+                    "end": 977,
+                    "mention": "83",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 1351,
+                    "end": 1353,
+                    "mention": "84",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 1547,
+                    "end": 1548,
+                    "mention": "4",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "section": "Conformation of ms2t6A ::: DISCUSSION",
+            "ref_spans": []
+        },
+        {
+            "text": "Supplementary Data are available at NAR Online.",
+            "cite_spans": [],
+            "section": "SUPPLEMENTARY DATA",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: The role of ms2t6A37\n",
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table 2: Base\u2013base stacking interactions\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: Secondary structure of human tRNALys,3 ASL. Chemical structures of modified bases found in ASLLys,3.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Plots of r.m.s.d. from the average structures. For each simulation, the average structure was calculated solely for the production run. The r.m.s.d. values have an arbitrary zero.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: Stair-stepped conformation. (A) Stair-stepped conformation of the anticodon bases from the side (left) and from above (right) with dx, dy and dz parameters shown. (B) Snapshot of the wild-type simulation showing ms2t6A37 hydrogen bonding across the loop (left) and a snapshot of the ASLLys,3 \u03c839 simulation when U36 is rotated into solution (right).",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4: Conformations of ms2t6A. (A) with an ureido ring (B) without an ureido ring as calculated at the MPW1K/6-31+G (d,p) level of theory.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Structures of posttranscriptionally modified nucleosides from RNA",
+            "authors": [
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Limbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Crain",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.C.",
+                    "middle": [],
+                    "last": "Pomerantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "McCloskey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Biochimie",
+            "volume": "77",
+            "issn": "",
+            "pages": "135-138",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Universally conserved interactions between the ribosome and the anticodon stem\u2013loop of A site tRNA important for translocation",
+            "authors": [
+                {
+                    "first": "S.S.",
+                    "middle": [],
+                    "last": "Phelps",
+                    "suffix": ""
+                },
+                {
+                    "first": "O.",
+                    "middle": [],
+                    "last": "Jeinic",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Mol. Cell",
+            "volume": "10",
+            "issn": "",
+            "pages": "799-807",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Modified nucleotides in tRNALys and tRNAVal are important for translocation",
+            "authors": [
+                {
+                    "first": "S.S.",
+                    "middle": [],
+                    "last": "Phelps",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Mol. Biol.",
+            "volume": "338",
+            "issn": "",
+            "pages": "439-444",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "The modification of the wobble base tRNAGlu modulates the translation rate of glutamic acid codons in vivo",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Kruger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.G.",
+                    "middle": [],
+                    "last": "Hagervall",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Mol. Biol.",
+            "volume": "284",
+            "issn": "",
+            "pages": "621-631",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Expression of a coronavirus ribosomal frameshift signal in Escherichia coli: influence of tRNA anticodon modification on frameshifting",
+            "authors": [
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Brierley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.R.",
+                    "middle": [],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.J.",
+                    "middle": [],
+                    "last": "Bloys",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.G.",
+                    "middle": [],
+                    "last": "Hagervall",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Mol. Biol.",
+            "volume": "270",
+            "issn": "",
+            "pages": "360-373",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Compilation of tRNA sequences and sequences of tRNA genes",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Sprinzl",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.S.",
+                    "middle": [],
+                    "last": "Vassilenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res.",
+            "volume": "33",
+            "issn": "",
+            "pages": "D139-D149",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Biosynthesis and function of modified nucleosides",
+            "authors": [
+                {
+                    "first": "G.R.",
+                    "middle": [],
+                    "last": "Bjork",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "tRNA: Structure, Biosynthesis, and Function",
+            "volume": "",
+            "issn": "",
+            "pages": "165-206",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "The importance of being modified: roles of modified nucleosides and Mg2+ in RNA structure and function",
+            "authors": [
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Prog. Nucleic Acid Res. Mol. Biol.",
+            "volume": "53",
+            "issn": "",
+            "pages": "79-129",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "An RNA model system for investigation of pseudouridine stabilization of the codon\u2013anticodon interaction in tRNALys, tRNAHis and tRNATyr",
+            "authors": [
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.A.",
+                    "middle": [],
+                    "last": "Veltri",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Biomol. Struct. Dyn.",
+            "volume": "15",
+            "issn": "",
+            "pages": "1121-1132",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Stabilization of the anticodon stem\u2013loop of tRNALys,3 by an A+\u2013C base pair and by pseudouridine",
+            "authors": [
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Durant",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol.",
+            "volume": "285",
+            "issn": "",
+            "pages": "115-131",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "The role of modifications in codon discrimination by tRNAUUULys",
+            "authors": [
+                {
+                    "first": "F.V.",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature Struct. Mol. Biol",
+            "volume": "11",
+            "issn": "",
+            "pages": "1186-1191",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Appendix 1: chemical structures and classification of posttranscriptionally modified nucleosides in RNA",
+            "authors": [
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Motorin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Grosjean",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Modification and Editing of RNA",
+            "volume": "",
+            "issn": "",
+            "pages": "534-549",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "5-Methylcytidine is required for cooperative binding of magnesium(2+) and a conformational transition at the anticodon stem\u2013loop of yeast phenylalanine tRNA",
+            "authors": [
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Sierzputowska-Gracz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Everett",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Biochemistry",
+            "volume": "32",
+            "issn": "",
+            "pages": "10249-10253",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Highly conserved modified nucleosides influence Mg2+-dependent tRNA folding",
+            "authors": [
+                {
+                    "first": "K.N.",
+                    "middle": [],
+                    "last": "Nobles",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.S.",
+                    "middle": [],
+                    "last": "Yarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.H.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res.",
+            "volume": "30",
+            "issn": "",
+            "pages": "4751-1760",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Metal ion stabilization of the U-turn of the A37 N6-dimethylallyl-modified anticodon stem\u2013loop of Escherichia coli tRNAPhe",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Cabello-Villegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Tworowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.P.",
+                    "middle": [],
+                    "last": "Nikonowicz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biochemistry",
+            "volume": "43",
+            "issn": "",
+            "pages": "55-66",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Identification of 2-hydroxyl groups required for interaction of a tRNA anticodon stem\u2013loop region with the ribosome",
+            "authors": [
+                {
+                    "first": "U.",
+                    "middle": [],
+                    "last": "Von Ahsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.F.",
+                    "middle": [],
+                    "last": "Noller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "RNA",
+            "volume": "3",
+            "issn": "",
+            "pages": "49-56",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Codon reading and translational error",
+            "authors": [
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Lustig",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Elias",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Axberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Samuelsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Tittawella",
+                    "suffix": ""
+                },
+                {
+                    "first": "U.",
+                    "middle": [],
+                    "last": "Lagerkvist",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Biol. Chem.",
+            "volume": "256",
+            "issn": "",
+            "pages": "2635-2643",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Accurate translation of the genetic code depends on tRNA modified nucleosides",
+            "authors": [
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Yarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Townsend",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Czestkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Sochacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Miskiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Biol. Chem.",
+            "volume": "227",
+            "issn": "",
+            "pages": "16391-16395",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "The effects of pseudouridine and pH on the structure and dynamics of the anticodon stem\u2013loop of tRNALys,3",
+            "authors": [
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Durant",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Symp. Ser.",
+            "volume": "36",
+            "issn": "",
+            "pages": "56-57",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "Functional anticodon architecture of human tRNALys3 includes disruption of intraloop hydrogen bonding by the naturally occurring amino acid modification, t6A",
+            "authors": [
+                {
+                    "first": "J.W.",
+                    "middle": [],
+                    "last": "Stuart",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Gdaniec",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Marszalek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Sochacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biochemistry",
+            "volume": "39",
+            "issn": "",
+            "pages": "13396-13404",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Hypermodified nucleosides in the anticodon of tRNALys stabilize a canonical U-turn structure",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Sundaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Durant",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biochemistry",
+            "volume": "39",
+            "issn": "",
+            "pages": "12575-12584",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "Structural effects of hypermodified nucleosides in the Escherichia coli and human tRNALys anticodon loop: the effect of nucleosides s2U, mcm5U, mcm5s2U, mnm5s2U, t6A, and ms2t6A",
+            "authors": [
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Durant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.C.",
+                    "middle": [],
+                    "last": "Baji",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Sundaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.K.",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biochemistry",
+            "volume": "44",
+            "issn": "",
+            "pages": "8078-8089",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "Modified nucleosides and codon recognition",
+            "authors": [
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Yokoyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "tRNA: Structure, Biosynthesis and Function",
+            "volume": "",
+            "issn": "",
+            "pages": "207-223",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "The crystal structure of HIV reverse-transcription primer tRNALys,3 shows a canonical anticodon loop",
+            "authors": [
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "B\u00e9nas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Bec",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Keith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Marquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Ehresmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Ehresmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Dumas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "RNA",
+            "volume": "6",
+            "issn": "",
+            "pages": "1347-1355",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "Conformation of the anticodon loop in tRNA",
+            "authors": [
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Fuller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Hodgson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Nature",
+            "volume": "215",
+            "issn": "",
+            "pages": "817-821",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Grosjean",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Benne",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Modification and Editing of RNA",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "A second generation force field for the simulation of proteins, nucleic acids, and organic molecules",
+            "authors": [
+                {
+                    "first": "W.D.",
+                    "middle": [],
+                    "last": "Cornell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Cieplak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.I.",
+                    "middle": [],
+                    "last": "Bayly",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.R.",
+                    "middle": [],
+                    "last": "Gould",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Merz",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.C.",
+                    "middle": [],
+                    "last": "Spellmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.W.",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Kollman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "117",
+            "issn": "",
+            "pages": "5179-5197",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Pearlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.W.",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.E.",
+                    "middle": [],
+                    "last": "Cheatham",
+                    "suffix": "III"
+                },
+                {
+                    "first": "W.S.",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.L.",
+                    "middle": [],
+                    "last": "Simmerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.A.",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Mertz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.V.",
+                    "middle": [],
+                    "last": "Stanton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.L.",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "Comparison of simple potential functions for simulating liquid water",
+            "authors": [
+                {
+                    "first": "W.L.",
+                    "middle": [],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Chandrasekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Madura",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J. Chem. Phys.",
+            "volume": "79",
+            "issn": "",
+            "pages": "926-935",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "The effect of long-range electrostatic interactions in simulations of macromolecular crystals: a comparison of the Ewald and truncated list methods",
+            "authors": [
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.A.",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.G.",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Chem. Phys.",
+            "volume": "99",
+            "issn": "",
+            "pages": "8345-8348",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "Numerical integration of the Cartesian equations of motion of a systems with constraints: molecular dynamics of n-alkanes",
+            "authors": [
+                {
+                    "first": "J.P.",
+                    "middle": [],
+                    "last": "Ryckaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Ciccotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.J.C.",
+                    "middle": [],
+                    "last": "Berendsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "J. Comput. Phys.",
+            "volume": "23",
+            "issn": "",
+            "pages": "327-341",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Molecular dynamics with coupling to an external bath",
+            "authors": [
+                {
+                    "first": "H.J.C.",
+                    "middle": [],
+                    "last": "Berendsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.P.M.",
+                    "middle": [],
+                    "last": "Postma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.F.",
+                    "middle": [],
+                    "last": "van Gunsteren",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "A. DiNola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.R.",
+                    "middle": [],
+                    "last": "Haak",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Comput. Phys.",
+            "volume": "81",
+            "issn": "",
+            "pages": "3684-3690",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "Molecular dynamics simulations highlight the structural differences among DNA:DNA, RNA:RNA, and DNA:RNA hybrid duplexes",
+            "authors": [
+                {
+                    "first": "T.E.",
+                    "middle": [],
+                    "last": "Cheatham",
+                    "suffix": "III"
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Kollman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "119",
+            "issn": "",
+            "pages": "4805-4825",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "Decoding the genome: a modified view",
+            "authors": [
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "223-238",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "Symmetric K+ and Mg2+ ion-binding sites in the 5S rRNA loop E inferred from molecular dynamics simulations",
+            "authors": [
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Auffinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Bielecki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Mol. Biol.",
+            "volume": "335",
+            "issn": "",
+            "pages": "555-571",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "RNA hydration: three nanoseconds of multiple molecular dynamics simulations of the solvated tRANAsp anticodon hairpin",
+            "authors": [
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Auffinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Mol. Biol.",
+            "volume": "269",
+            "issn": "",
+            "pages": "326-341",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "Molecular dynamics simulations of the 136 unique tetranucleotide sequences of DNA oligonucleotides. II: sequence context effects on the dynamical structures of the 10 unique dinucleotide steps",
+            "authors": [
+                {
+                    "first": "S.B.",
+                    "middle": [],
+                    "last": "Dixit",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.L.",
+                    "middle": [],
+                    "last": "Beveridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.E.",
+                    "middle": [],
+                    "last": "Cheatham",
+                    "suffix": "III"
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Giudice",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Lankas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Lavery",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.H.",
+                    "middle": [],
+                    "last": "Maddocks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Osman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Sklenar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biophys. J.",
+            "volume": "89",
+            "issn": "",
+            "pages": "3721-3740",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "Structural and evolutionary classification of G/U wobble basepairs in the ribosome",
+            "authors": [
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Mokdad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.V.",
+                    "middle": [],
+                    "last": "Krasovska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Sponer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.B.",
+                    "middle": [],
+                    "last": "Leontis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "1326-1341",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "Wild-type RNA microhelixAla and 3:70 variants: molecular dynamics analysis of local helical structure and tightly bound water",
+            "authors": [
+                {
+                    "first": "M.C.",
+                    "middle": [],
+                    "last": "Nagan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.S.",
+                    "middle": [],
+                    "last": "Kerimo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Musier-Forsyth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.J.",
+                    "middle": [],
+                    "last": "Cramer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "121",
+            "issn": "",
+            "pages": "7310-7317",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "Molecular dynamics simulations of sarcin\u2013ricin rRNA motif",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Spackova",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Sponer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nucleic Acids Res.",
+            "volume": "34",
+            "issn": "",
+            "pages": "697-708",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "Development and testing of a general amber force field",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.M.",
+                    "middle": [],
+                    "last": "Wolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.W.",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Kollman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Case",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Comput. Chem.",
+            "volume": "25",
+            "issn": "",
+            "pages": "1157-1174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "W.J.",
+                    "middle": [],
+                    "last": "Hehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Radom",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.v.R.",
+                    "middle": [],
+                    "last": "Schleyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Ab Initio Molecular Orbital Theory.",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "Self-consistent molecular-orbital methods. IX. An extended Gaussian-type basis for molecular-orbital studies of organic molecules",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Ditchfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.J.",
+                    "middle": [],
+                    "last": "Hehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "J. Chem. Phys.",
+            "volume": "54",
+            "issn": "",
+            "pages": "724-728",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "The effects of d-functions on molecular orbital energies for hydrocarbons",
+            "authors": [
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Hariharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "Chem. Phys. Lett.",
+            "volume": "66",
+            "issn": "",
+            "pages": "217-219",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "Modification at position 9 with 1-methyladenosine is crucial for structure and function of nematode mitochondrial tRNAs lacking the entire T-arm",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Sakurai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Ohtsuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nucleic Acids Res.",
+            "volume": "33",
+            "issn": "",
+            "pages": "1653-1661",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "Self-consistent molecular orbital methods. XII. Further extensions of Gaussian-type basis sets for use in molecular orbital studies of organic molecules",
+            "authors": [
+                {
+                    "first": "W.J.",
+                    "middle": [],
+                    "last": "Hehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Ditchfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "56",
+            "issn": "",
+            "pages": "2257-2261",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "A well-behaved electrostatic potential based method using charge restraints for determining atom-centered charges: the RESP model",
+            "authors": [
+                {
+                    "first": "C.I.",
+                    "middle": [],
+                    "last": "Bayly",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Cieplak",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.D.",
+                    "middle": [],
+                    "last": "Cornell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Kollman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Phys. Chem.",
+            "volume": "97",
+            "issn": "",
+            "pages": "10269-10280",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "M.J.",
+                    "middle": [],
+                    "last": "Frisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.W.",
+                    "middle": [],
+                    "last": "Trucks",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.B.",
+                    "middle": [],
+                    "last": "Schlegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.E.",
+                    "middle": [],
+                    "last": "Scuseria",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.A.",
+                    "middle": [],
+                    "last": "Robb",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.R.",
+                    "middle": [],
+                    "last": "Cheeseman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.J.A.",
+                    "middle": [],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Vreven",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.N.",
+                    "middle": [],
+                    "last": "Kudin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.C.",
+                    "middle": [],
+                    "last": "Burant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "Adiabatic connection for kinetics",
+            "authors": [
+                {
+                    "first": "B.J.",
+                    "middle": [],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.L.",
+                    "middle": [],
+                    "last": "Fast",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.G.",
+                    "middle": [],
+                    "last": "Truhlar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Phys. Chem. A",
+            "volume": "104",
+            "issn": "",
+            "pages": "4811-4815",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "Effectiveness of diffuse basis functions for calculating relative energies by density functional theory",
+            "authors": [
+                {
+                    "first": "B.J.",
+                    "middle": [],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.G.",
+                    "middle": [],
+                    "last": "Truhlar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Phys. Chem. A",
+            "volume": "107",
+            "issn": "",
+            "pages": "1384-1388",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "Influence of polarization functions on MO hydrogenation energies",
+            "authors": [
+                {
+                    "first": "P.C.",
+                    "middle": [],
+                    "last": "Hariharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1973,
+            "venue": "Theor. Chim. Acta",
+            "volume": "28",
+            "issn": "",
+            "pages": "213-222",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "Self-consistent molecular orbital methods. XXIII. A polarization-type basis set for second-row elements",
+            "authors": [
+                {
+                    "first": "M.M.",
+                    "middle": [],
+                    "last": "Francl",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.J.",
+                    "middle": [],
+                    "last": "Pietro",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.J.",
+                    "middle": [],
+                    "last": "Hehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.S.",
+                    "middle": [],
+                    "last": "Binkley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.S.",
+                    "middle": [],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.J.",
+                    "middle": [],
+                    "last": "DeFrees",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Pople",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "J. Chem. Phys.",
+            "volume": "77",
+            "issn": "",
+            "pages": "3654-3665",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF52": {
+            "title": "3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures",
+            "authors": [
+                {
+                    "first": "X.",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.K.",
+                    "middle": [],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nucleic Acids Res.",
+            "volume": "31",
+            "issn": "",
+            "pages": "5108-5121",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF53": {
+            "title": "VMD: visual molecular dynamics",
+            "authors": [
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Dalke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Schulten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Mol. Graph",
+            "volume": "14",
+            "issn": "",
+            "pages": "33-38",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF54": {
+            "title": "UCSF Chimera\u2014a visualization system for exploratory research and analysis",
+            "authors": [
+                {
+                    "first": "E.F.",
+                    "middle": [],
+                    "last": "Pettersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.D.",
+                    "middle": [],
+                    "last": "Goddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.C.",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.S.",
+                    "middle": [],
+                    "last": "Couch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "Greenblatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.C.",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.E.",
+                    "middle": [],
+                    "last": "Ferrin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Comput. Chem.",
+            "volume": "25",
+            "issn": "",
+            "pages": "1605-1612",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF55": {
+            "title": "A minimalist glutamyl-tRNA synthetase dedicated to aminoacylation of the tRNAAsp QUC anticodon",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Blaise",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.D.",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Keith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Cambillau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Lapointe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Giege",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Kern",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "2768-2775",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF56": {
+            "title": "Analytical molecular surface calculation",
+            "authors": [
+                {
+                    "first": "M.L.",
+                    "middle": [],
+                    "last": "Connolly",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J. Appl. Cryst.",
+            "volume": "16",
+            "issn": "",
+            "pages": "548-558",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF57": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.A.",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.E.",
+                    "middle": [],
+                    "last": "Cheatham",
+                    "suffix": "III"
+                },
+                {
+                    "first": "C.L.",
+                    "middle": [],
+                    "last": "Simmerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.E.",
+                    "middle": [],
+                    "last": "Duke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Merz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Pearlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF58": {
+            "title": "Base and base pair morphologies, helical parameters, and definitions",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Lavery",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Zakrzewska",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Oxford Handbook of Nucleic Acid Structure",
+            "volume": "",
+            "issn": "",
+            "pages": "39-76",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF59": {
+            "title": "Spatial configuration of ordered polynucleotide chains. 3. Polycyclonucleotides",
+            "authors": [
+                {
+                    "first": "W.K.",
+                    "middle": [],
+                    "last": "Olson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.D.",
+                    "middle": [],
+                    "last": "Dasika",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "98",
+            "issn": "",
+            "pages": "5371-5380",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF60": {
+            "title": "Importance of discriminator base stacking interactions: molecular dynamics analysis of A73 microhelixAla variants",
+            "authors": [
+                {
+                    "first": "M.C.",
+                    "middle": [],
+                    "last": "Nagan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Beuning",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Musier-Forsyth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.J.",
+                    "middle": [],
+                    "last": "Cramer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nucleic Acids Res.",
+            "volume": "28",
+            "issn": "",
+            "pages": "2527-2534",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF61": {
+            "title": "Modified nucleosides and conformation of anticodon loops: crystal structure of t6A and g6A",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Parthasarathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.M.",
+                    "middle": [],
+                    "last": "Ohrt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.B.",
+                    "middle": [],
+                    "last": "Chheda",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Biochemistry",
+            "volume": "16",
+            "issn": "",
+            "pages": "4999-5008",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF62": {
+            "title": "Solution conformations of unmodified and A37N6-dimethylallyl modified anticodon stem\u2013loops of Escherichia coli tRNAPhe",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Cabello-Villegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.E.",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.P.",
+                    "middle": [],
+                    "last": "Nikonowicz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Mol. Biol.",
+            "volume": "319",
+            "issn": "",
+            "pages": "1015-1034",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF63": {
+            "title": "Effects of pseudouridylation",
+            "authors": [
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Auffinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Modification and Editing of RNA",
+            "volume": "",
+            "issn": "",
+            "pages": "103-112",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF64": {
+            "title": "Hydration of transfer RNA molecules: a crystallographic study",
+            "authors": [
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Dumas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Moras",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Biochimie",
+            "volume": "70",
+            "issn": "",
+            "pages": "145-165",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF65": {
+            "title": "15N-labeled Escherichia coli tRNAfMet, tRNAGlu, tRNATyr, and tRNAPhe",
+            "authors": [
+                {
+                    "first": "R.H.",
+                    "middle": [],
+                    "last": "Griffey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Yamaizumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Bax",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Hawkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.D.",
+                    "middle": [],
+                    "last": "Poulter",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J. Biol. Chem.",
+            "volume": "260",
+            "issn": "",
+            "pages": "9734-9741",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF66": {
+            "title": "Modified nucleotides of tRNA3lys modulate primer/template loop\u2013loop interaction in the initiation complex of HIV-1 reverse transcription",
+            "authors": [
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Isel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Marquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Keith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Ehresmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Ehresmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Biol. Chem.",
+            "volume": "268",
+            "issn": "",
+            "pages": "25269-25272",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF67": {
+            "title": "1H-15N NMR studies of Escherichia coli tRNAPhe from hisT mutants: a structural role for pseudouridine",
+            "authors": [
+                {
+                    "first": "D.R.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.D.",
+                    "middle": [],
+                    "last": "Poulter",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Biochemistry",
+            "volume": "30",
+            "issn": "",
+            "pages": "4223-4231",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF68": {
+            "title": "Conformational analysis of single-base bulges in A-form DNA and RNA using a hierarchical approach and energetic evaluation with a continuum solvent model",
+            "authors": [
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Zacharias",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Skelnar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol.",
+            "volume": "289",
+            "issn": "",
+            "pages": "261-275",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF69": {
+            "title": "A structure of yeast phenylalanine transfer RNA at 2.5 \u212b resolution",
+            "authors": [
+                {
+                    "first": "J.E.",
+                    "middle": [],
+                    "last": "Ladner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Jack",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Robertus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.S.",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Rhodes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.F.C.",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Klug",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "72",
+            "issn": "",
+            "pages": "4414-4418",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF70": {
+            "title": "Crystallographic refinement of yeast aspartic acid transfer RNA",
+            "authors": [
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Dumas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Moras",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J. Mol. Biol.",
+            "volume": "194",
+            "issn": "",
+            "pages": "119-145",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF71": {
+            "title": "Anticodon-anticodon interaction induces conformational changes in tRNA: yeast tRNAAsp, a model for tRNA\u2013mRNA recognition",
+            "authors": [
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Moras",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.C.",
+                    "middle": [],
+                    "last": "Dock",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Dumas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Westhof",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Romby",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.P.",
+                    "middle": [],
+                    "last": "Ebel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Giege",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "83",
+            "issn": "",
+            "pages": "932-936",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF72": {
+            "title": "The 3 \u212b crystal structure of yeast initiator tRNA: functional implications in initiator/elongator discrimination",
+            "authors": [
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Basavappa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.B.",
+                    "middle": [],
+                    "last": "Sigler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "EMBO J.",
+            "volume": "10",
+            "issn": "",
+            "pages": "2105-3111",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF73": {
+            "title": "Recognition of cognate transfer RNA by the 30S ribosomal unit",
+            "authors": [
+                {
+                    "first": "J.M.",
+                    "middle": [],
+                    "last": "Ogle",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.E.",
+                    "middle": [],
+                    "last": "Brodersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.M.",
+                    "middle": [],
+                    "last": "Clemons",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.J.",
+                    "middle": [],
+                    "last": "Tarry",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.P.",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Science",
+            "volume": "292",
+            "issn": "",
+            "pages": "897-902",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF74": {
+            "title": "Factors contributing to aromatic stacking in water: evaluation in the context of DNA",
+            "authors": [
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Guckian",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.X.-F.",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.C.",
+                    "middle": [],
+                    "last": "Chaudhuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.T.",
+                    "middle": [],
+                    "last": "Tahmassebi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.T.",
+                    "middle": [],
+                    "last": "Kool",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Am. Chem. Soc.",
+            "volume": "122",
+            "issn": "",
+            "pages": "2213-2222",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF75": {
+            "title": "Replacing the nucleobases in DNA with designer molecules",
+            "authors": [
+                {
+                    "first": "E.T.",
+                    "middle": [],
+                    "last": "Kool",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Acc. Chem. Res.",
+            "volume": "35",
+            "issn": "",
+            "pages": "936-943",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF76": {
+            "title": "Theoretical characterization of the structures and vibrational spectra of benzene-(H2O)n (n = 1\u20133) clusters",
+            "authors": [
+                {
+                    "first": "S.Y.",
+                    "middle": [],
+                    "last": "Fredericks",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.D.",
+                    "middle": [],
+                    "last": "Jorda",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.S.",
+                    "middle": [],
+                    "last": "Zwier",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Phys. Chem.",
+            "volume": "100",
+            "issn": "",
+            "pages": "7810-7821",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF77": {
+            "title": "Single atom modification (O\u2192S) of tRNA confers ribosome binding",
+            "authors": [
+                {
+                    "first": "S.S.",
+                    "middle": [],
+                    "last": "Ashraf",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Sochacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Cain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "RNA",
+            "volume": "5",
+            "issn": "",
+            "pages": "188-194",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF78": {
+            "title": "Functional insights from the structure of the 30S ribosomal subunit and its interactions with antibiotics",
+            "authors": [
+                {
+                    "first": "A.P.",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.M.",
+                    "middle": [],
+                    "last": "Clemons",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "D.E.",
+                    "middle": [],
+                    "last": "Brodersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.J.",
+                    "middle": [],
+                    "last": "Morgan-Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.T.",
+                    "middle": [],
+                    "last": "Wimberly",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nature",
+            "volume": "407",
+            "issn": "",
+            "pages": "340-348",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF79": {
+            "title": "Selection of tRNA by the ribosome requires a transition from an open to a closed form",
+            "authors": [
+                {
+                    "first": "J.M.",
+                    "middle": [],
+                    "last": "Ogle",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.V.",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.J.",
+                    "middle": [],
+                    "last": "IV, Tarry",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Cell",
+            "volume": "111",
+            "issn": "",
+            "pages": "721-732",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF80": {
+            "title": "Structure of the 80S ribosome from Saccharomyces cerevisiae\u2013tRNA\u2013ribosome and subunit\u2013subunit interactions",
+            "authors": [
+                {
+                    "first": "C.M.T.",
+                    "middle": [],
+                    "last": "Spahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Beckmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Eswar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Penczek",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Blobel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Cell",
+            "volume": "107",
+            "issn": "",
+            "pages": "373-386",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF81": {
+            "title": "Variable and conserved elements of human ribosomes surrounding the mRNA at the decoding and upstream sites",
+            "authors": [
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Graifer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Molotkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Styazhkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Demeshkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Bulygin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Eremina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Laletina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Ven'Yaminova",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.",
+                    "middle": [],
+                    "last": "Karpova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res.",
+            "volume": "32",
+            "issn": "",
+            "pages": "3282-3293",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF82": {
+            "title": "Ribosome fidelity: tRNA discrimination, proofreading and induced fit",
+            "authors": [
+                {
+                    "first": "M.V.",
+                    "middle": [],
+                    "last": "Rodnina",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Wintermeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "TIBS",
+            "volume": "26",
+            "issn": "",
+            "pages": "124-130",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF83": {
+            "title": "Modified nucleoside dependent Watson\u2013Crick and wobble codon binding by tRNAUUULys species",
+            "authors": [
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Yarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Marszalek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Sochacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Malkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Guenther",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Miskiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.F.",
+                    "middle": [],
+                    "last": "Agris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biochemistry",
+            "volume": "39",
+            "issn": "",
+            "pages": "13390-13395",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

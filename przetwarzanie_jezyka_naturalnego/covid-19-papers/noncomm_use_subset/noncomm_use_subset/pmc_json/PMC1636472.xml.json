@@ -1,0 +1,2032 @@
+{
+    "paper_id": "PMC1636472",
+    "metadata": {
+        "title": "A novel endonuclease IV post-PCR genotyping system",
+        "authors": [
+            {
+                "first": "Igor",
+                "middle": [
+                    "V."
+                ],
+                "last": "Kutyavin",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Dave",
+                "middle": [],
+                "last": "Milesi",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Yevgeniy",
+                "middle": [],
+                "last": "Belousov",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Mikhail",
+                "middle": [],
+                "last": "Podyminogin",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Alexei",
+                "middle": [],
+                "last": "Vorobiev",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Vladimir",
+                "middle": [],
+                "last": "Gorn",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Eugeny",
+                "middle": [
+                    "A."
+                ],
+                "last": "Lukhtanov",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Nicolaas",
+                "middle": [
+                    "M.",
+                    "J."
+                ],
+                "last": "Vermeulen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Walt",
+                "middle": [],
+                "last": "Mahoney",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Nucleic acid assays utilizing cleavage enzymes to generate a fluorescent signal from dual-dye-labeled oligonucleotide probes have been extensively used in diagnostics (1\u20133). In these assays, the ability of fluorescent dyes to transfer energy absorbed from light to nearby molecules forms the basis of homogeneous nucleic acid based assays (1,4,5). In the unhybridized state the fluorophore and quencher are within close proximity, which allows the quencher to absorb energy from the fluorophore to affect quenching. The use of fluorogenic probes in a 5\u2032-nuclease polymerase assay, where the probe is enzymatically cleaved to release the fluorophore (2), is well known. The signal amplification reaction utilizes invasive cleavage with structure-specific 5\u2032-nucleases (6). The method requires annealing of two oligonucleotides, called the upstream oligonucleotide and the probe, to a target sequence, which results in the formation of a unique substrate for the 5\u2032-nuclease. In the DNAzyme-PCR strategy the primer contains a target-specific sequence and harbors the antisense sequence of a 10\u201323 DNAzyme. During amplification, amplicons are produced containing active sense copies of DNAzymes that cleave a reporter substrate included in the reaction mixture (7). A target nucleic acid sequence can be amplified exponentially in vitro under isothermal conditions by using three enzymatic activities essential to retroviral replication: reverse transcriptase, RNase H (RNA cleavage) and a DNA-dependent RNA polymerase (8). Cycling probe technology represents a simple method for the detection of DNA target sequences, utilizing a chimeric DNA\u2013RNA\u2013DNA probe which is cleaved by RNase H when hybridized with its complementary target (9).",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 169,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 170,
+                    "end": 171,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 340,
+                    "end": 341,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 342,
+                    "end": 343,
+                    "mention": "4",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 344,
+                    "end": 345,
+                    "mention": "5",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 650,
+                    "end": 651,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 768,
+                    "end": 769,
+                    "mention": "6",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1259,
+                    "end": 1260,
+                    "mention": "7",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1517,
+                    "end": 1518,
+                    "mention": "8",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1730,
+                    "end": 1731,
+                    "mention": "9",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Apurinic/apyrimidinic (AP) sites in DNA arise via spontaneous or mutagen-induced hydrolysis of the N-glycosylic bond, or through the repair activity of DNA glycosylases (10). If left unrepaired, AP sites are potentially lethal or mutagenic (11). To cope with the deleterious consequences of AP sites, organisms possess AP endonucleases that initiate the repair of these DNA lesions (10). Class II AP endonucleases initiate repair by catalyzing the hydrolysis of the 5\u2032-phosphodiester of an abasic site to generate a 3\u2032-OH group and a 5\u2032-abasic phosphate residue (10). The substrate specificity of human apurinic endonuclease on synthetic substrate analogs has been reported previously (12).",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 172,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 241,
+                    "end": 243,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 383,
+                    "end": 385,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 563,
+                    "end": 565,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 686,
+                    "end": 688,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Here we describe a novel endonuclease IV (Endo IV) assay substrate (Figure 1C) that mimics the abasic lesions that normally occur in double-stranded DNA (Figure 1A and B). The first lesion (Figure 1A) is a typical abasic (apurinic or apyrimidinic site generated by spontaneous or enzymatic loss of a nucleic acid base. The second lesion (Figure 1B) is an atypical abasic site appearing as a result of inherent instability of the 3\u2032-phosphodiester bond in abasic deoxyribose in lesion 1 or its cleavage by a Class I AP endonuclease. As shown by the arrow, AP endonucleases cleave the phosphodiester linkage at the abasic sites. In the novel Endo IV assay a short probe with a fluorophore linked through a phosphate at the 3\u2032 end and a short enhancer oligonucleotide generate an artificial, lesion 2 type Endo IV substrate. This arrangement allows the specific and efficient cleavage of the phosphodiester bond of the probe by Endo IV and release of fluorescent dye (Figure 1C). The addition of a quencher at the 5\u2032 end of the probe allows quenching of the fluorescence in the uncleaved probe. The specific cleavage of the phosphate bond and the generation of fluorescence is the basis of the new assay.",
+            "cite_spans": [],
+            "section": "INTRODUCTION",
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 77,
+                    "mention": "Figure 1C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 154,
+                    "end": 169,
+                    "mention": "Figure 1A and B",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 190,
+                    "end": 199,
+                    "mention": "Figure 1A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 338,
+                    "end": 347,
+                    "mention": "Figure 1B",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 965,
+                    "end": 974,
+                    "mention": "Figure 1C",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In this study we used endonuclease IV from Escherichia coli (Endo IV). The enzyme functions as a Class II AP endonuclease and as a 3\u2032 terminal phosphodiesterase (13,14). Endo IV is enzymatically similar to exonuclease III, the major AP endonuclease of E.coli, but it differs from the latter enzyme mainly in lacking the associated exonuclease activity (14). It was also found that E.coli Endo IV is fairly heat stable to \u223c70\u00b0C (15,16).",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 164,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 165,
+                    "end": 167,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 353,
+                    "end": 355,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 428,
+                    "end": 430,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 431,
+                    "end": 433,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "INTRODUCTION",
+            "ref_spans": []
+        },
+        {
+            "text": "Full characterization for all the compounds described below can be found in the Supplementary Data.",
+            "cite_spans": [],
+            "section": "Reagents ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "A total of 102 unrelated Centre Etude Polymorphism Humaine DNA samples were obtained from the Coriell Institute of Medical Research () after specifying that the DNA samples should be used for research purpose only. The list of templates used is available at .",
+            "cite_spans": [],
+            "section": "Nucleic acid templates ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "For the synthesis of the fluorophore-modified controlled pore glass(CPG) supports, please see the Supplementary Data.",
+            "cite_spans": [],
+            "section": "Synthesis of fluorophore-modified controlled pore glass supports ::: MATERIALS AND METHODS",
+            "ref_spans": []
+        },
+        {
+            "text": "Fluorogenic probes were synthesized on fluorophore-linker-based CPG supports (Scheme 1) using standard 3\u2032-DNA-phosphoramidites. An Eclipse Dark Quencher was introduced at the 5\u2032 end using the corresponding phosphoramidite (). Probes were purified by reverse-phase high-performance liquid chromatography (HPLC), dried and re-dissolved in 1\u00d7 TE buffer. A nearest-neighbor model was applied to calculate extinction coefficient (\u025b260) of oligonucleotides (17). A260 measurements were made in PBS (pH 7.2) at ambient temperature and assumed to be a random coil DNA structure in solution. For each Eclipse Quencher, fluorophore 1 (FL1), fluorophore 2 (FL2) or fluorophore 3 (FL3) substitution an \u025b260 correction of +6600, +18 500, or +25 100 or 28 600 M\u22121 cm\u22121 was used, respectively.",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 454,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Synthesis of oligonucleotide conjugates ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 86,
+                    "mention": "Scheme 1",
+                    "ref_id": "FIGREF9"
+                }
+            ]
+        },
+        {
+            "text": "3\u2032-Hydroxyprolinol modified probe precursor was synthesized using a modified CPG support (18), and 3\u2032-DNA-phosphoramidites and Eclipse Quencher phosphoramidite on a 0.2 \u03bcmol scale. The probe was purified by reverse-phase HPLC using a gradient of acetonitrile in 0.1 M triethylammonium bicarbonate buffer (pH 8\u20139) followed by drying in a SpeedVac evaporator. The probe precursor was re-dissolved in 50 \u03bcl of dry DMSO and treated with 10 \u03bcmol of pentafluorophenyl N-FMOC-6-aminohexanoate (19) for 10 h. The FMOC-aminohexanoyl modified probe was isolated by reverse-phase HPLC and deprotected by treatment with concentrated ammonium hydroxide for 1 h at room temperature. The deprotected oligonucleotide was further purified by reverse-phase HPLC using the triethylammonium bicarbonate buffer as described above, dried and re-dissolved in 50 \u03bcl of dry DMSO. To this solution, 10 \u03bcmol compound 8c (Scheme 2) and 1 \u03bcl triethylamine were added. After being kept at room temperature for 10 h the reaction was combined with 1 ml of 2% solution of NaClO4 in acetone. The precipitated crude conjugate was further purified by reverse-phase HPLC, dried and re-constituted in 1\u00d7 TE buffer. An additional molar absorbance (\u025b260) of 28 500 M\u22121 cm\u22121 was used in the probe concentration calculation to correct for the presence of the dye.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 92,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 487,
+                    "end": 489,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Preparation of labeled probes with aminohexanoyl-extended hydroxyprolinol linker (FI 4, Table 1) ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 894,
+                    "end": 902,
+                    "mention": "Scheme 2",
+                    "ref_id": "FIGREF10"
+                }
+            ]
+        },
+        {
+            "text": "The synthesis of special CPG supports for the preparation of required oligonucleotide probes are shown in Schemes 1\u20133.",
+            "cite_spans": [],
+            "section": "Synthesis of the dye-modified CPG supports ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 115,
+                    "mention": "Schemes 1",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 116,
+                    "end": 117,
+                    "mention": "3",
+                    "ref_id": "FIGREF11"
+                }
+            ]
+        },
+        {
+            "text": "Methyl 3-(3-chloro-2,4-dihydroxyphenyl) propanoate (4a) (Scheme 1) was synthesized starting from 3-chloro-2,4-dimethoxybenzaldehyde (1) (20), which was converted to substituted cinnamic acid 2 by Knoevenagel condensation. Intermediate 2 was hydrogenated in the presence of Pd/C to yield substituted phenyl propionic acid 3, which was first demethylated with HBr/HOAc and then converted to the methyl ester 4a.",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 139,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Synthesis of the dye-modified CPG supports ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 57,
+                    "end": 65,
+                    "mention": "Scheme 1",
+                    "ref_id": "FIGREF9"
+                }
+            ]
+        },
+        {
+            "text": "Synthesis of the pentafluorophenyl ester dye intermediates 11 required to synthesize the dye-modified CPG supports 12 is shown in Scheme 2. Compounds 4a and b were reacted with substituted phthalic anhydrides in the presence of AlCl3 to give the benzophenones 5, which were reacted with the resorcinol analogs 6 (a\u2013c) in trifluoroacetic acid/methanesulfonic acid to yield the carboxyethyl substituted dyes 7. Treatment of compounds 7 with trifluoroacetic anhydride generated lactones 8, which were first reacted with the DMT-protected hydroxyprolinol 9 (21) and then with trimethylacetic anhydride to afford the protected dyes 10. Reaction of intermediates 10 first with succinic anhydride and then with pentafluorophenyl trifluoroacetate, yielded the PFP esters 11.",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 556,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Synthesis of the dye-modified CPG supports ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 138,
+                    "mention": "Scheme 2",
+                    "ref_id": "FIGREF10"
+                }
+            ]
+        },
+        {
+            "text": "The reaction of the PFP ester 11 with the long chain aminoalkyl CPG (LCAA-CPG) yielded the desired CPG supports 12 as shown in Scheme 1.",
+            "cite_spans": [],
+            "section": "Synthesis of the dye-modified CPG supports ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 127,
+                    "end": 135,
+                    "mention": "Scheme 1",
+                    "ref_id": "FIGREF9"
+                }
+            ]
+        },
+        {
+            "text": "Endo IV cleavage activity was measured in real-time as shown in Figure 2. The model system in Figure 3A was used to determine optimum E.coli Endo IV (Trevigen, Gaithersburg, MD) concentration, magnesium concentration and pH; the latter two were determined to be at 20 mM Tris buffer, pH 8.6. Results are shown in the Supplementary Data.",
+            "cite_spans": [],
+            "section": "Optimization of Endo IV enzyme activity ::: MATERIALS AND METHODS",
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 72,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 94,
+                    "end": 103,
+                    "mention": "Figure 3A",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "PCR was conducted in 384-well plates on MJ Research PTC-200 Peltier Thermal Cycler (Waltman, MA). Fifty cycles of three-step PCR profile (95\u00b0C for 5 s, 58\u00b0C for 30 s, 72\u00b0C for 30 s) were run after an initial 2 min denaturation step at 95\u00b0C. Each 5 \u03bcl PCR contained 2.5 \u03bcl JumpStart Taq ReadyMix (Sigma, MI) and 5\u201310 ng lyophilized human genomic DNA from Coriell Biorepository (Camdem, NJ). Primer concentrations were 0.1 and 1.0 \u03bcM for forward and reverse primers, respectively. A Biomek\u00ae 2000 Laboratory Automation Station (Beckman Coulter, USA) was used to set up PCRs.",
+            "cite_spans": [],
+            "section": "PCR ::: ENDO IV ASSAY",
+            "ref_spans": []
+        },
+        {
+            "text": "The Endo IV Master Mixture was prepared by mixing appropriate volumes of 5\u00d7 Endo IV reaction buffer [100 mM Tris\u2013HCl (pH 8.5), 25 mM MgCl2, 5\u00d7 E.coli Endo IV enzyme solution, 50% glycerol, 50 mM Tris\u2013HCl (pH 7.5), 0.1 M NaCl, 1 mM DTT, 0.1% Triton X-100, 0.02 U E.coli Endo IV enzyme and 20\u00d7 of Endo IV Probes/Enhancer Master Mixture], containing each probe and enhancer at 20 \u03bcM concentration.",
+            "cite_spans": [],
+            "section": "PCR ::: ENDO IV ASSAY",
+            "ref_spans": []
+        },
+        {
+            "text": "The endo IV reaction was prepared by adding 5 \u03bcl Endo IV Master Mixture to 5 \u03bcl PCR mixture. Reaction was incubated at 50\u00b0C for 50\u201360 min. Fluorescent detection was performed on ABI 7700 or 7900 in the two channels typically used to detect FAM (for FL1) and VIC (for FL2, FL3 and FL4) utilizing the ABI software for Allelic Discrimination. Alternatively, the fluorescence could also be detected in a LightCycler\u00ae LC24 Real-Time PCR System. All assays unless otherwise indicated were performed at least in triplicate.",
+            "cite_spans": [],
+            "section": "Post-PCR Endo IV reaction ::: ENDO IV ASSAY",
+            "ref_spans": []
+        },
+        {
+            "text": "Thermodynamic parameters of duplex formation were derived by the van't Hoff analysis methods. The shape of each melting curve was fitted to the two-state model with linear base lines (22) using a nonlinear least-square program (23). Unless otherwise stated, Tm of DNA duplexes were measured at a concentration of 5 \u00d7 10\u22127 M in 1\u00d7 PCR buffer containing 10 mM Tris\u2013HCl (pH 8.5), 5 mM MgCl2 and 40 mM NaCl, as described earlier (23).",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 186,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 228,
+                    "end": 230,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 426,
+                    "end": 428,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Tm determination ::: ENDO IV ASSAY",
+            "ref_spans": []
+        },
+        {
+            "text": "The MGB Eclipse\u00ae Design Software 3.0 () was used to design the primers for PCR. It was also used to calculate the Tm of the enhancer and probe.",
+            "cite_spans": [],
+            "section": "Primers, enhancer and probe design ::: ENDO IV ASSAY",
+            "ref_spans": []
+        },
+        {
+            "text": "An example of the new Endo IV-based assay is shown in Figure 2. A probe and an enhancer are hybridized to a complementary synthetic target with a one base gap between them.",
+            "cite_spans": [],
+            "section": "Endo IV assay ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 54,
+                    "end": 62,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "The signal is substantially diminished in the absence of the enhancer. A rigid hydroxyprolinol linker (Figure 3B) between the oligonucleotide and fluorophore FL1, critical for sensitivity and specificity, was used in this experiment. The results in Figure 2 illustrate the importance of all components used in the assay. The cleavage of the fluorophore is highly target dependent and its rate is amplified in the presence of the enhancer oligonucleotide. Very low non-target-dependent cleavage is an important feature of the Endo IV assay.",
+            "cite_spans": [],
+            "section": "Endo IV assay ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 103,
+                    "end": 112,
+                    "mention": "Figure 3B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 249,
+                    "end": 257,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Effects of pH and cations on E.coli Endo IV activity was determined using the probe, enhancer and target (Figure 3A). It was shown that Endo IV cleavage of the probe has a relatively flat pH optimum in the range between pH 8.5 and 9.5. For compatibility with post-PCR Endo IV amplification the assay buffer with pH 8.6 was chosen, similar to that of the PCR master mixture. Inclusion of the divalent magnesium cation in the buffer ranging from 0 to 20 mM, resulted in more than 2-fold increase in cleavage rate, the optimum range was \u223c5\u20138 mM. A concentration of 5 mM was chosen for the Endo IV assay. It was determined that the monovalent cations, such as Li, Na, K and Rb, inhibit Endo IV cleavage activity for the concentrations studied in the range from 0 to 100 mM. An inhibition of \u223c30% was observed at 20 mM monovalent cation concentration, which increased to \u223c60\u201370% at 100 mM concentration. The optimum probe concentration was determined to be \u223c600 nM, please see Supplementary Figures 1\u20133.",
+            "cite_spans": [],
+            "section": "Optimization of Endo IV enzyme activity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 115,
+                    "mention": "Figure 3A",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Figure 3A shows a model Endo IV assay that requires a target complementary to an enhancer and a probe labeled at the 5\u2032 end with an Eclipse Dark Quencher and a fluorescent dye at the 3\u2032 end. As shown, the probe (calculated Tm = 46.7\u00b0C) and enhancer (calculated Tm = 50.2\u00b0C) are separated by one base to mimic a natural abasic site. Four probes with different fluorescent dyes and linkers (Figure 3B) were evaluated for their performance in the new assay. Fluorophores FL1, FL2 and FL3 of the probes I, II and III (with similar quantum yields) contained a hydroxyprolinol linker between the 3\u2032-phosphate of the probe sequence and the core of the dyes. Fluorophore FL4 of probe IV was analogous to FL3 of probe III, with an additional aminocaproic spacer introduced between the hydroxylprolinol moiety and the dye; the purpose of this spacer was to distance the fluorophore from the cleavage site.",
+            "cite_spans": [],
+            "section": "Optimization of fluorophore and linker structures ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 0,
+                    "end": 9,
+                    "mention": "Figure 3A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 389,
+                    "end": 398,
+                    "mention": "Figure 3B",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "The probe specificity was evaluated by comparing the cleavage rates in the presence and absence of target. Target-dependent (specific) and target-independent (non-specific) cleavage rates of the probe were measured as the percent target cleaved per minute. The results are summarized in Table 1. Probes I\u2013III demonstrated similar specific cleavage. A 2- to 3-fold decrease in the rate of non-specific cleavage for probes II and III versus probe I was observed. These low, non-specific cleavage rates translate into high-specific to non-specific cleavage ratios. It appears that chloro- or chloro/methyl substitutions in the fluorophores of probes II and III, respectively, are beneficial for the reduction of non-specific cleavage. One possible explanation for this reduction may be an effect of increased hydrophobicity of FL2 and FL3 on enzyme activity. In the case of probe IV, with the extended hydroxyprolinol linker, the rate of specific cleavage almost doubled. However, the corresponding increase in the rate of non-specific cleavage was \u223c20 times higher than that observed in probe III, substantially compromising the ratio of specific to non-specific cleavage rates. Once again, this result implies the existence of inhibiting interactions between Endo IV enzymatic activity and fluorophore which can be adjusted by moving the fluorophore away from the active center.",
+            "cite_spans": [],
+            "section": "Optimization of fluorophore and linker structures ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 294,
+                    "mention": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The rigid hydroxyprolinol linker with low non-specific cleavage rates utilized in probes I\u2013III was identified as the linker of choice in the Endo IV assays.",
+            "cite_spans": [],
+            "section": "Optimization of fluorophore and linker structures ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "The use of a flexible, straight chain linker (C6) instead of hydroxyprolinol-based linker increased the rates of non-specific cleavage to even higher degree than the extended hydroxyprolinol linker and reduced the specific to non-specific ratios to an unacceptable level (data not shown).",
+            "cite_spans": [],
+            "section": "Optimization of fluorophore and linker structures ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "It appears that both the structure of the sterically constrained hydroxyprolinol linker and proximity of the bulky dye moiety to the cleavage site moderate cleavability of the 3\u2032-terminal phosphodiester bond and practically eliminate non-template-dependent cleavage.",
+            "cite_spans": [],
+            "section": "Optimization of fluorophore and linker structures ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "Figure 4A shows the target, probe and the enhancer aligned with the target to indicate different gaps. The Tm of the enhancer is typically chosen to be at least 5\u00b0C higher than that of the probe. The cleavage rates in the presence of enhancer are shown with 1\u20135 base gaps (Figure 4B). As expected, based on the natural abasic substrate requirement shown in Figure 1B, a one base gap gave the highest cleavage rate. The probe in the absence of enhancer showed a cleavage rate nearly equivalent to that of a 4 base gap in the presence of enhancer. As shown in Figure 4C, the maximum cleavage rate is achieved at a concentration of enhancer greater than \u223c80 nM. In practice, the concentration of the enhancer is typically at least equivalent or larger than that of the probe. Some cleavage is observed with no enhancer present.",
+            "cite_spans": [],
+            "section": "Enhancer optimization ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 0,
+                    "end": 9,
+                    "mention": "Figure 4A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 273,
+                    "end": 282,
+                    "mention": "Figure 4B",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 357,
+                    "end": 366,
+                    "mention": "Figure 1B",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 558,
+                    "end": 567,
+                    "mention": "Figure 4C",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "Figure 5 shows how the cleavage rate of probes with different Tms changes with temperature. Probe lengths ranging from a 6mer to a 14mer were investigated and are shown in Figure 5 with calculated Tms of between 14 and 60\u00b0C. All the probes showed a bell-shaped relationship for cleavage rate with temperature. As expected, the cleavage rate for all probes increased with increased temperature. A relatively sharp cleavage rate optimum was observed for the probes a, b and c with calculated Tms of 60, 48 and 42, respectively. It appears that the best probe cleavage occurs close to the calculated Tm or slightly above it. Performing the assay at a temperature slightly higher than the Tm (Figure 5) showed not only optimum activity but also appears to allow probe cleavage cycling, an important feature of this assay.",
+            "cite_spans": [],
+            "section": "Probe Tm optimization ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 0,
+                    "end": 8,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 172,
+                    "end": 180,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 689,
+                    "end": 697,
+                    "mention": "Figure 5",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "The ability of the Endo IV assay to detect different target concentrations is shown in Figure 6. It was observed that in the case of 125 nM target concentration, the probe-based fluorescence plateaued in \u223c1 h, while in the presence of 25 nM target a fluorescence plateau was reached in \u223c3 h. The limit of detection of this assay is 0.04 nM, clearly distinguishable from the stable background (Figure 6). This stable background, a characteristic feature of the assay, is maintained over a period of 15 h. This property is also observed in the assay with other nucleic acid targets.",
+            "cite_spans": [],
+            "section": "Determination of assay sensitivity ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 95,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 393,
+                    "end": 401,
+                    "mention": "Figure 6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "The ability of the Endo IV assay to discriminate mismatches at different positions of a 14mer probe is illustrated in Figure 7. Mismatches were introduced in the probe one at a time, from positions 1 to 8. The Endo IV assay shows excellent specificity for the different mismatches from base 1 to base 6 with large match/mismatch signal ratios. As shown in Figure 7, the mismatch signal is often about the same as that of the NTC or slightly higher. The exceptions are the difficult 4-G/T- and 8-T/G-mismatches (24) where match/mismatch ratios of \u223c16 and 7 were observed, respectively. These ratios are quite adequate to differentiate matched and mismatched sequences. It appears (data not shown) that the discrimination in positions 1 and 2 is largely determined by substrate requirements while discrimination in other positions is determined by thermodynamic considerations. Experiments with a large number of assays have also indicated that, with 10mer to 12mer probes, satisfactory discrimination is observed with the mismatch position in all except the last three bases at the 5\u2032 end.",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 513,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "Mismatch discrimination ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 126,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 356,
+                    "end": 364,
+                    "mention": "Figure 7",
+                    "ref_id": "FIGREF6"
+                }
+            ]
+        },
+        {
+            "text": "The exquisite specificity of the Endo IV assay appears to be the result of at least two factors. The first is the strict intrinsic substrate specificity requirement of the Endo IV enzyme which appears to require the rigid prolinol linker (Figure 3B, n = 0) used in the probes I\u2013III. Second, the use of short probes (10mer to 12mer) gives the Endo IV a distinct advantage over most other assays where probes are typically much longer (1,2,6,25).",
+            "cite_spans": [
+                {
+                    "start": 434,
+                    "end": 435,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 436,
+                    "end": 437,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 438,
+                    "end": 439,
+                    "mention": "6",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 440,
+                    "end": 442,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Mismatch discrimination ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 239,
+                    "end": 248,
+                    "mention": "Figure 3B",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "The application of the Endo IV cleavage as a post-PCR detection system is shown in Figures 8 and 9. Following an asymmetric PCR using primers to produce predominantly single-stranded amplicon, two allele-specific probes, an enhancer and Endo IV enzyme are added to the amplification mixture and incubated isothermally for about an hour. The cleaved fluorescence from the two allele-specific probes, each labeled with a different fluorescent dye, is then plotted in a scatter diagram as shown in Figures 8 and 9 for the genotyping analysis of two single nucleotide polymorphisms (SNPs) which are of immediate importance to in cancer (). The scatter diagrams of two polymorphisms, namely agouti signal molecular epidemiology studies protein (ASIP-01) and adenomatous polyposis coli (APC-03) () are shown in Figures 8 and 9, respectively. In both cases, a probe specific to the wild-type allele is labeled with FL1 and a probe specific for the mutant allele labeled with FL3 is used.",
+            "cite_spans": [],
+            "section": "Post-PCR Endo IV genotyping ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 92,
+                    "mention": "Figures 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 97,
+                    "end": 98,
+                    "mention": "9",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 495,
+                    "end": 504,
+                    "mention": "Figures 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 509,
+                    "end": 510,
+                    "mention": "9",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 805,
+                    "end": 814,
+                    "mention": "Figures 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 819,
+                    "end": 820,
+                    "mention": "9",
+                    "ref_id": "FIGREF8"
+                }
+            ]
+        },
+        {
+            "text": "The probe sets, designed to analyze ASIP-01 and APC-03 polymorphisms, were used to assay 102 unrelated human DNA samples obtained from the Coriell Institute. In the case of the ASIP-01 target the mismatch was situated two bases from the 3\u2032 end of the probe, while in the case of APC-03, the mismatch was six bases from the 3\u2032 end of the probe.",
+            "cite_spans": [],
+            "section": "Post-PCR Endo IV genotyping ::: RESULTS",
+            "ref_spans": []
+        },
+        {
+            "text": "From our experience, the spacing of the allele clusters in Figures 8 and 9 are comparable or better than those scatter plots observed in other methods (2,26,27). The exquisite specificity achieved with the Endo IV enzyme, combined with the shorter probes used and the high signal accumulation, gives this assay an advantage over other SNP assays. In comparison with other signal accumulating assays (2), the Endo IV assay has similar levels of high signal accumulation, but uses shorter probes with higher specificity than those assays. In the case of hybridization-based assays (5,25), the Endo IV assay has not only a signal accumulation advantage, but also uses shorter probes with a specificity advantage. In addition, the shorter probes allow much more flexibility in assay design compared to other methods with longer probes.",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 153,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 154,
+                    "end": 156,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 157,
+                    "end": 159,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 400,
+                    "end": 401,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 580,
+                    "end": 581,
+                    "mention": "5",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Post-PCR Endo IV genotyping ::: RESULTS",
+            "ref_spans": [
+                {
+                    "start": 59,
+                    "end": 68,
+                    "mention": "Figures 8",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 73,
+                    "end": 74,
+                    "mention": "9",
+                    "ref_id": "FIGREF8"
+                }
+            ]
+        },
+        {
+            "text": "We disclosed a novel nucleic acid signal detection system based on the cleavage of a phosphodiester linkage in a dual-dye-labeled oligonucleotide probe by the Endo IV enzyme from E.coli. The parameters influencing the activity of the Endo IV enzyme were optimized. This optimized Endo IV detection assay requires, in addition to an oligonucleotide probe substrate, a fluorophore attached through a relatively rigid linker to the oligonucleotide and a helper oligonucleotide. The rigid linker conveys the exquisite specificity of Endo IV cleavage of the phosphodiester linkage in the probe and shows high-specific/non-specific rate ratios. The synthesis of fluorophore analogs coupled to a rigid linker and solid support, used in the synthesis of labeled oligonucleotides, was also disclosed. Excellent mismatch discrimination is observed from positions 1 to 6 in a 12mer probe. The ability to put the mismatch in any one of positions 1\u20136, allows for flexibility in probe design for genotyping assays where sequence and secondary structural constraints are considered. This method allows the use of probes shorter than those typically used in other methods (28) contributing to the improved mismatch discrimination.",
+            "cite_spans": [
+                {
+                    "start": 1157,
+                    "end": 1159,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "CONCLUSIONS",
+            "ref_spans": []
+        },
+        {
+            "text": "The combination of the Endo IV assay with a PCR as a post-amplification detection system has been demonstrated. Post-PCR Endo IV genotyping shows excellent spacing of scatter plot endpoint signals of no template controls, wild-type, mutant and heterozygous samples allowing clear allele differentiation. In contrast, other endpoint genotyping methods may suffer from overlapping endpoint signals due to PCR efficiency issues (25,29). This Endo IV post-PCR genotyping has been successfully used in an industry setting for >5000 genotype assays.",
+            "cite_spans": [
+                {
+                    "start": 426,
+                    "end": 428,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 429,
+                    "end": 431,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "CONCLUSIONS",
+            "ref_spans": []
+        },
+        {
+            "text": "Supplementary Data are available at NAR online.",
+            "cite_spans": [],
+            "section": "SUPPLEMENTARY DATA",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: Effects of dyes and linkers on the rates and ratios of specific and non-specific cleavage\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: (A) First double strand DNA lesion where \u2018a\u2019 represents an abasic 2\u2032-deoxyribose residue and \u2018p\u2019 is a phosphate group. (B) Second DNA lesion, formed by spontaneous or enzymatic cleavage of the phosphodiester bond between the 3\u2032-hydroxyl group of the 2\u2032-deoxyribose (abasic site) and the nearest nucleotide of the DNA strand. \u2018s\u2019 represents several products of 2\u2032-deoxyribose degradation. (C) Artificial abasic lesion generated by the novel probe and enhancer. Arrows indicated the specific cleavage by AP endonuclease.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Monitoring of fluorescence by the Endo IV cleavage reaction was performed in 5 mM MgCl2, 20 mM Tris\u2013HCl (pH 8.5). The three component substrate complex used in these experiments is shown. FL1 is a fluorescein derivative and Q is the Eclipse\u00ae Dark Quencher, structures of which are shown in Figure 3B and D, respectively. The reaction mixture contained Endo IV at 0.04 U/\u03bcl concentration, probe and enhancer at 150 nM, and the target at 5 nM. The experiment was performed on LightCycler.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: (A) Endonuclease IV model assay showing a target sequence, a 16mer enhancer (calculated Tm 50\u00b0C) and a 10mer Endo IV probe (calculated Tm 46.7\u00b0C). Q is Eclipse Dark Quencher and the Dyes are compounds from FL1 to FL4. (B) Dyes with hydroxyprolinol (n = 0) and extended (n = 1) hydroxyprolinol linkers. (C) Natural abasic substrate. (D) Eclipse Dark Quencher attached to the 5\u2032 end of the probe. X shows the connection to the oligonucleotide probe. Y shows the connection to the single-stranded DNA.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4: (A) Endo IV assay investigating a gap of 0\u20135 bases between the probe and primer. (B) Shows the cleavage rate dependence on the gap between the probe and primer in reference to the cleavage rate when no enhancer is present. (C) Shows the cleavage rate in the presence of different concentrations of a 16mer enhancer. Experiments were performed in quintiplicate.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5: The effect of temperature on the cleavage rate of probes with different length and calculated Tm. The numbers in parentheses are the determined Tms. \u2018nd\u2019 is not determined. The target and enhancers sequences are, respectively, 5\u2032-AGTCACAGTCGGTGCCAATGTGGCGGGCAAGGACCGAGTCG-3\u2032 and 3\u2032-CAGCCACGGTTACACCG-5\u2032.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6: Dependence of rates of fluorescence generation on target concentration. Probe, enhancer and target sequences are shown in Figure 3. The concentration of reagents were 150 nM probe, 150 nM enhancer, 0.2 U/\u03bcl enzyme, 5 mM MgCl2 in 20 mM Tris\u2013HCl buffer, pH 8.5. The reaction was performed at 45\u00b0C.",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 7: The comparison of the change in relative signal fluorescence of match and different mismatches at different positions in a 14mer probe in an Endo IV assay run at 60\u00b0C. The probe sequence of the matched probe and target sequence are, respectively, 5\u2032-Q-ACTCGGTCCTTGCC-FL-3\u2032 and 5\u2032-AGTCACAGTCGGTGCCAATGTGGCGGGCAAGGACCGAGTCG-3\u2032. All the complementary sequences indicating the different mismatches are shown in the Supplementary Data. NTC is the no template control.",
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 8: A scatter plot of the genotyping of an agouti signal protein (ASIP-01) mutation. The probe sequences for the wild-type and mutant alleles are, respectively, 5\u2032-Q-ACCTTCATTCCC-FL1-3\u2032 and 5\u2032-Q-GACCTTCATTCTC-FL3-3\u2032. The mismatch is underlined. NT is no template control and Q is the Eclipse Quencher. The primer sequences are TCCAGTGCCCCTCATATTTTCC and CTCCTGTCAACAGTAACAAACTTC.",
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Figure 9: A scatter plot of the genotyping of an adenomatous polyposis coli (APC-03) mutation. The probe sequences for the wild-type and mutant alleles are, respectively, 5\u2032-Q-TACTTTCTGTGGC-FL1-3\u2032 and 5\u2032-Q-CTTTTCCGTGGC-FL3-3\u2032. The mismatch is underlined. NT is no template control and Q is the Eclipse Dark Quencher. Primer sequences are AGCACTCAGGCTGGATGAACAA and GTTCAGAGGGTCCAGGTTCTT.",
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Scheme 1: Synthesis of methyl 3-(3-chloro-2,4-dihydroxyphenyl)propanoate (4a) required for the preparation of PFP esters 11(a and c).",
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Scheme 2: Synthesis of the pentafluorophenyl esters 11(a\u2013c) required for the preparation of dye-modified CPG supports.",
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Scheme 3: Synthesis of the dye-modified CPG supports 12(a\u2013c).",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Detection of specific polymerase chain reaction product by utilizing the 5\u2032\u21923\u2032 exonuclease activity of Thermus aquaticus",
+            "authors": [
+                {
+                    "first": "P.M.",
+                    "middle": [],
+                    "last": "Holland",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.D.",
+                    "middle": [],
+                    "last": "Abramson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.H.",
+                    "middle": [],
+                    "last": "Gelfand",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Proc. Natl Acad. Sci., USA",
+            "volume": "88",
+            "issn": "",
+            "pages": "7276-7280",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Repair of oxidative damage to DNA: enzymology and biology",
+            "authors": [
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Demple",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Annu. Rev. Biochem.",
+            "volume": "63",
+            "issn": "",
+            "pages": "915-948",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Mutagenesis by apurinic/apyrimidinic sites",
+            "authors": [
+                {
+                    "first": "L.A.",
+                    "middle": [],
+                    "last": "Loeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.D.",
+                    "middle": [],
+                    "last": "Preston",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Annu. Rev. Genet.",
+            "volume": "20",
+            "issn": "",
+            "pages": "201-230",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Incision activity of human apurinic endonuclease (Ape) at abasic site analogs in DNA",
+            "authors": [
+                {
+                    "first": "D.M.",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": "III"
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Takeshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.P.",
+                    "middle": [],
+                    "last": "Grollman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Demple",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Biol. Chem.",
+            "volume": "270",
+            "issn": "",
+            "pages": "16002-16007",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Abasic site repair in higher eukaryotes",
+            "authors": [
+                {
+                    "first": "P.R.",
+                    "middle": [],
+                    "last": "Strauss",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.E.",
+                    "middle": [],
+                    "last": "O'Regan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "DNA Damage and Repair",
+            "volume": "Vol. III",
+            "issn": "",
+            "pages": "43-86",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Homogeneous Escherichia coli endonuclease IV. Characterization of an enzyme that recognizes oxidative damage in DNA",
+            "authors": [
+                {
+                    "first": "J.D.",
+                    "middle": [],
+                    "last": "Levin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.W.",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.",
+                    "middle": [],
+                    "last": "Dempe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Biol. Chem.",
+            "volume": "263",
+            "issn": "",
+            "pages": "8066-8071",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "A new endonuclease from Escherichia coli acting at apurinic sites in DNA",
+            "authors": [
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Ljungquist",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "J. Biol. Chem.",
+            "volume": "252",
+            "issn": "",
+            "pages": "2808-2814",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Purification and characterization of Thermotoga maritima endonuclease IV, a thermostable apurinic/apyrimidinic endonuclease and 3\u2032-repair diesterase",
+            "authors": [
+                {
+                    "first": "B.J.",
+                    "middle": [],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Sandigursky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Tainer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.A.",
+                    "middle": [],
+                    "last": "Franklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.P.",
+                    "middle": [],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Bacteriol.",
+            "volume": "181",
+            "issn": "",
+            "pages": "2834-2839",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Oligonucleotide interaction III. Circular dicroism studies of the conformation of deoxyoligonucleotides",
+            "authors": [
+                {
+                    "first": "C.R.",
+                    "middle": [],
+                    "last": "Cantor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.M.",
+                    "middle": [],
+                    "last": "Warshow",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.",
+                    "middle": [],
+                    "last": "Shapiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Biopolymers",
+            "volume": "9",
+            "issn": "",
+            "pages": "1059-1077",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Oligomeric aminodiol-containing compounds, libraries thereof, and process of preparing the same",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Herbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "The synthesis of polyamide\u2013oligonucleotide conjugate molecules",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Haralambidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.",
+                    "middle": [],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.W.",
+                    "middle": [],
+                    "last": "Tregear",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Nucleic Acids Res.",
+            "volume": "18",
+            "issn": "",
+            "pages": "493-499",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Allelic discrimination using fluorogenic probes and the 5\u2032 nuclease assay",
+            "authors": [
+                {
+                    "first": "K.J.",
+                    "middle": [],
+                    "last": "Livak",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Gen. Anal.",
+            "volume": "14",
+            "issn": "",
+            "pages": "143-149",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Substituted 5,6-dihydrofuro[3,2-f]-1,2-benzisoxazole-6-carboxylic acids: high-ceiling diuretics with uricosuric activity",
+            "authors": [
+                {
+                    "first": "J.J.",
+                    "middle": [],
+                    "last": "Plattner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.K.L.",
+                    "middle": [],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.A.",
+                    "middle": [],
+                    "last": "Parks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.J.",
+                    "middle": [],
+                    "last": "Pariza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.R.",
+                    "middle": [],
+                    "last": "Crowley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.G.",
+                    "middle": [],
+                    "last": "Pernet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.R.",
+                    "middle": [],
+                    "last": "Bunnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.W.",
+                    "middle": [],
+                    "last": "Dodge",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Med. Chem.",
+            "volume": "27",
+            "issn": "",
+            "pages": "1016-1026",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Synthesis of N-substituted hydroxyprolinol phosphoramidites for the preparation of combinatorial libraries",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Hebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.W.",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.L.",
+                    "middle": [],
+                    "last": "DeBaets",
+                    "suffix": ""
+                },
+                {
+                    "first": "O.L.",
+                    "middle": [],
+                    "last": "Acevedo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Tetrahedron Lett.",
+            "volume": "35",
+            "issn": "",
+            "pages": "9509-9512",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Thermodynamic parameters for an expanded nearest-neighbor model for formation of RNA duplexes with Watson\u2013Crick base pairs",
+            "authors": [
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "SantaLucia",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "M.E.",
+                    "middle": [],
+                    "last": "Burkard",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.",
+                    "middle": [],
+                    "last": "Kierzek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.J.",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.",
+                    "middle": [],
+                    "last": "Jiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.H.",
+                    "middle": [],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Biochemistry",
+            "volume": "37",
+            "issn": "",
+            "pages": "14719-14735",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Thermodynamic and spectral properties of DNA miniduplexes with the terminal G:A mispairs and 3\u2032 or 5\u2032 dangling bases",
+            "authors": [
+                {
+                    "first": "S.G.",
+                    "middle": [],
+                    "last": "Lohkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.V.",
+                    "middle": [],
+                    "last": "Pyshnyi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "FEBS Lett.",
+            "volume": "420",
+            "issn": "",
+            "pages": "134-138",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Nearest-neighbor thermodynamics and NMR of DNA sequences with internal A.A, C.C, G.G, and T.T mismatches",
+            "authors": [
+                {
+                    "first": "N.",
+                    "middle": [],
+                    "last": "Peyret",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.A.",
+                    "middle": [],
+                    "last": "Seneviratne",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.T.",
+                    "middle": [],
+                    "last": "Allawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "SantaLucia",
+                    "suffix": "Jr"
+                }
+            ],
+            "year": 1999,
+            "venue": "Biochemistry",
+            "volume": "38",
+            "issn": "",
+            "pages": "3468-3477",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Minor groove binder-conjugated DNA probes for quantitative DNA detection by hybridization-triggered fluorescence",
+            "authors": [
+                {
+                    "first": "I.A.",
+                    "middle": [],
+                    "last": "Afonina",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.W.",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "E.",
+                    "middle": [],
+                    "last": "Lusby",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.G.",
+                    "middle": [],
+                    "last": "Shishkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.S.",
+                    "middle": [],
+                    "last": "Belousov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Biotechniques",
+            "volume": "32",
+            "issn": "",
+            "pages": "940-944",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "An integrated system for high throughput TaqMan based SNP genotyping",
+            "authors": [
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Hampe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Wollstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.J.",
+                    "middle": [],
+                    "last": "Frevel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Will",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Manaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Schreiber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Bioinformatics",
+            "volume": "17",
+            "issn": "",
+            "pages": "654-655",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "Genotyping single-nucleotide polymorphisms by the invader assay with dual-color fluorescence polarization detection",
+            "authors": [
+                {
+                    "first": "T.M.",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.M.",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.P.",
+                    "middle": [],
+                    "last": "Neri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-Y.",
+                    "middle": [],
+                    "last": "Kwo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Clin. Chem.",
+            "volume": "47",
+            "issn": "",
+            "pages": "373-377",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Development and comparison of the real-time amplification based methods\u2014NASBA-Beacon, RT\u2013PCR Taqman and RT\u2013PCR hybridization probe assays\u2014for the qualitative detection of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Chantratita",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Pongtanapisit",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Piroj",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.",
+                    "middle": [],
+                    "last": "Srichunrasmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Seesuai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Southeast Asian J. Trop. Med. Public Health",
+            "volume": "35",
+            "issn": "",
+            "pages": "623-629",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "Single nucleotide detection with MGB Eclipse\u2122 assays",
+            "authors": [
+                {
+                    "first": "I.A.",
+                    "middle": [],
+                    "last": "Afonina",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.S.",
+                    "middle": [],
+                    "last": "Belousov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Kutyavin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.",
+                    "middle": [],
+                    "last": "Walburger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Gorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.",
+                    "middle": [],
+                    "last": "Shishkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.",
+                    "middle": [],
+                    "last": "Adams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Clin. Ligand Assay",
+            "volume": "25",
+            "issn": "",
+            "pages": "268-275",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "Molecular diagnostics of infectious diseases",
+            "authors": [
+                {
+                    "first": "Y.-W.",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.W.",
+                    "middle": [],
+                    "last": "Procop",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.H.",
+                    "middle": [],
+                    "last": "Persing",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Clin. Chem.",
+            "volume": "43",
+            "issn": "",
+            "pages": "2021-2038",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "Oligonucleotides with fluorescent dyes at opposite ends provide a quenched probe system useful for detecting PCR product and nucleic acid hybridization",
+            "authors": [
+                {
+                    "first": "K.J.",
+                    "middle": [],
+                    "last": "Livak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.J.",
+                    "middle": [],
+                    "last": "Flood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.",
+                    "middle": [],
+                    "last": "Marmaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.",
+                    "middle": [],
+                    "last": "Giusti",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.",
+                    "middle": [],
+                    "last": "Deetz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "PCR Methods Appl.",
+            "volume": "4",
+            "issn": "",
+            "pages": "357-362",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "Efficiencies of fluorescence resonance energy transfer and contact-mediated quenching in oligonucleotide probes",
+            "authors": [
+                {
+                    "first": "S.A.",
+                    "middle": [],
+                    "last": "Marras",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.R.",
+                    "middle": [],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.",
+                    "middle": [],
+                    "last": "Tyagi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res.",
+            "volume": "30",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "Polymorphism identification and quantitative detection of genomic DNA by invasive cleavage of oligonucleotide probes",
+            "authors": [
+                {
+                    "first": "V.",
+                    "middle": [],
+                    "last": "Lyamichev",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.L.",
+                    "middle": [],
+                    "last": "Mast",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.G.",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.R.",
+                    "middle": [],
+                    "last": "Prudent",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.W.",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.",
+                    "middle": [],
+                    "last": "Takova",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.W.",
+                    "middle": [],
+                    "last": "Kwiatkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.J.",
+                    "middle": [],
+                    "last": "Sander",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.",
+                    "middle": [],
+                    "last": "de Arruda",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.A.",
+                    "middle": [],
+                    "last": "Arco",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nat. Biotechnol.",
+            "volume": "17",
+            "issn": "",
+            "pages": "292-296",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "DzyNA-PCR: use of DNAzymes to detect and quantify nucleic acid sequences in a real-time fluorescent format",
+            "authors": [
+                {
+                    "first": "A.V.",
+                    "middle": [],
+                    "last": "Todd",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.J.",
+                    "middle": [],
+                    "last": "Fuery",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.L.",
+                    "middle": [],
+                    "last": "Impey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.L.",
+                    "middle": [],
+                    "last": "Applegate",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.A.",
+                    "middle": [],
+                    "last": "Haughton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Clin. Chem.",
+            "volume": "46",
+            "issn": "",
+            "pages": "625-630",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "Isothermal, in vitro amplification of nucleic acids by a multienzyme reaction modeled after retroviral replication",
+            "authors": [
+                {
+                    "first": "J.C.",
+                    "middle": [],
+                    "last": "Guatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.M.",
+                    "middle": [],
+                    "last": "Whitfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.Y.",
+                    "middle": [],
+                    "last": "Kwoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.J.",
+                    "middle": [],
+                    "last": "Barringer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.D.",
+                    "middle": [],
+                    "last": "Richman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.R.",
+                    "middle": [],
+                    "last": "Gingeras",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "87",
+            "issn": "",
+            "pages": "1874-1878",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "Spermine-mediated improvement of cycling probe reaction",
+            "authors": [
+                {
+                    "first": "Z.",
+                    "middle": [],
+                    "last": "Modrusan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.",
+                    "middle": [],
+                    "last": "Bekkaoui",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.",
+                    "middle": [],
+                    "last": "Duck",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Mol. Cell Probes",
+            "volume": "12",
+            "issn": "",
+            "pages": "107-116",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: logika_slajdy.aux
+The style file: apalike.bst
+Database file #1: biblio.bib
+You've used 2 entries,
+            1935 wiz_defined-function locations,
+            486 strings with 4189 characters,
+and the built_in function-call counts, 1005 in all, are:
+= -- 87
+> -- 58
+< -- 1
++ -- 23
+- -- 19
+* -- 81
+:= -- 175
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 17
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 41
+empty$ -- 68
+format.name$ -- 21
+if$ -- 202
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 9
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 48
+swap$ -- 9
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 7
+width$ -- 0
+write$ -- 28
